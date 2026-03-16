@@ -29,6 +29,45 @@ export interface Issue {
 
 export const ISSUES: Issue[] = [
   {
+    id: "2026-03-16-noon",
+    issueNumber: 2,
+    date: "March 16, 2026",
+    time: "Noon CT",
+    btcPrice: "$73,731",
+    btcChange: "1.28%",
+    btcUp: true,
+    ethPrice: "$2,294",
+    ethChange: "5.33%",
+    ethUp: true,
+    sections: [
+      {
+        icon: "₿",
+        title: "Bitcoin",
+        signals: [
+          { rating: 4, headline: "Strategy acquires 22,337 BTC for $1.57B — total now 761,068 BTC", detail: "Largest single purchase in weeks. Community confirmed: 'biggest Strategy week yet, nearly 5x 4-week average.'", source: "r/CryptoCurrency score=262/44" },
+          { rating: 4, headline: "BlackRock leads $600M institutional BTC inflow surge today", detail: "Spot BTC ETFs logged $767M inflow last week — first 5-day inflow streak of 2026. Three consecutive weeks of net inflows.", source: "Exa / CryptoPotato Mar 16" },
+          { rating: 3, headline: "Metaplanet secures $255M, targets $531M total raise to buy more BTC", detail: "Japanese firm accelerating Bitcoin strategy. Joining global sovereign/corporate accumulation wave.", source: "Exa / IFT Mar 16" },
+          { rating: 3, headline: "J.P. Morgan reportedly allowing BTC and ETH as collateral", detail: "Major TradFi institution accepting crypto as collateral — institutional adoption signal.", source: "r/CryptoCurrency score=10/6" },
+          { rating: 3, headline: "VanEck: Up to 13 governments are mining Bitcoin", detail: "Nation-state mining quietly accelerating. BTC set for best week since September 2025.", source: "r/Bitcoin score=110/8" },
+          { rating: 2, headline: "Ray Dalio: Study 500 years of history — Bitcoin weathers storms", detail: "Macro legend implicitly bullish. 79% of BTC long-term holders retaining supply as exchange reserves decline.", source: "r/Bitcoin score=357/66" },
+          { rating: 2, headline: "BTC battles macro nerves near $73K — bulls must reclaim higher levels", detail: "Six-week high but market warns of new macro lows unless momentum holds above $73,726 MVRV level.", source: "You.com / Coindesk Mar 16" },
+        ],
+      },
+      {
+        icon: "Ξ",
+        title: "Ethereum",
+        signals: [
+          { rating: 4, headline: "BlackRock Ethereum Staking ETF (ETHB) launches — institutional demand surges", detail: "ETH tops $2,000 on ETHB launch. $107M AUM on day one. Yield-paying staked ETH ETF signals next wave of institutional products.", source: "Exa / Bitcoin.com Mar 16" },
+          { rating: 4, headline: "Erik Voorhees (ShapeShift) scoops 33,544 ETH worth $71M", detail: "Major whale buy. ETF inflows accelerating alongside founder accumulation.", source: "You.com / Decrypt Mar 16" },
+          { rating: 3, headline: "ETH staking hits record 37.8M ETH staked", detail: "New all-time high for staked ETH. Ethereum Foundation sells 5K ETH amid price squeeze — monitor for Foundation overhang.", source: "Exa / Ad-Hoc-News Mar 15" },
+          { rating: 3, headline: "Vitalik Buterin backs new update to simplify Ethereum node software", detail: "Simplification effort could lower barrier to solo staking and decentralize the validator set.", source: "Exa / CryptoBreaking Mar 15" },
+          { rating: 2, headline: "ETH up 5.33% today — surging on ETHB + whale buys", detail: "Key breakout above $2,200 in focus. Capital rotating back into ETH after 20% recent drawdown.", source: "COMPOSIO_SEARCH_FINANCE live" },
+          { rating: 2, headline: "Solana transfers $650B in stablecoins — liquidity drain from Ethereum continues", detail: "Structural ETH competitive pressure persisting even as ETH rallies. Watch L2 bridge inflows.", source: "Exa / AMBCrypto Mar 9 (carry-forward)", isCarryForward: true },
+        ],
+      },
+    ],
+  },
+  {
     id: "001",
     issueNumber: 1,
     date: "March 14, 2026",
@@ -40,52 +79,6 @@ export const ISSUES: Issue[] = [
     ethChange: "0.82%",
     ethUp: false,
     sections: [
-      {
-        icon: "🦞",
-        title: "OpenClaw & Niche AI — Weekend Breakout",
-        signals: [
-          { rating: 4, headline: "Baidu sponsors OpenClaw on GitHub", detail: "First major Chinese tech company to officially fund the ecosystem. \"Finally going to start flexing.\"", source: "Twitter · 26K impr · ❤102" },
-          { rating: 4, headline: "OpenClaw on humanoid robots and drones", detail: "@minchoi: \"AI can now see, understand space, and move through the physical world.\"", source: "Twitter · 34K impr · ❤207 RT38" },
-          { rating: 2, headline: "ByteDance exec gifted Mac Mini for OpenClaw", detail: "8TB storage; Chinese community asking about dedicated OpenClaw home appliance GUI form factor.", source: "Twitter · 56K impr · ❤269" },
-          { rating: 2, headline: "Alibaba also riding China OpenClaw wave", detail: "Big Tech wave accelerating.", source: "SiliconRepublic via Exa" },
-          { rating: 2, headline: "Memori Labs launches OpenClaw persistent memory plugin", detail: "Directly addresses the openclaw-mem0 crash bug. Production memory layer now available.", source: "PRWeb Mar 13 via Exa" },
-          { rating: 2, headline: "PR #44974: global env overrides · PR #45444: /btw command · PR #45373: Chrome DevTools MCP preset", detail: "Four new PRs in 48h.", source: "GitHub" },
-          { rating: 1, headline: "NOISE: Polymarket \"$50→$435K with OpenClaw\" posts confirmed as engagement-bait", detail: "Multiple accounts, identical format.", isNoise: true },
-        ],
-      },
-      {
-        icon: "🤖",
-        title: "Zero-Human Company & AI Agents",
-        signals: [
-          { rating: 3, headline: "Brian Roemmele: 2048-employee ZHC via MicroFish swarm", detail: "MicroFish@Home: run up to 1 million agents on your old computer. Karpathy autoresearch integration.", source: "Twitter · 110K impr · ❤294 BM329 — highest ZHC impression count in series" },
-          { rating: 3, headline: "Fed: AI is making it harder to land entry-level jobs", detail: "Federal Reserve data cited.", source: "You.com FRESH 7am CT" },
-          { rating: 3, headline: "Meta seeking massive layoffs amid AI costs", detail: "Headcount reduction to fund AI infrastructure build-out.", source: "SeekingAlpha FRESH 6:34am CT" },
-          { rating: 2, headline: "SWE-agent 2.0 — open-source autonomous AI software engineer", source: "yuv.ai Mar 13 via Exa" },
-          { rating: 2, headline: "PlugMem (Microsoft Research) — transforms raw agent interactions into reusable persistent knowledge", detail: "New top AI Exa score 0.5840.", source: "Microsoft Research via Exa" },
-        ],
-      },
-      {
-        icon: "₿",
-        title: "Bitcoin",
-        signals: [
-          { rating: 3, headline: "BTC ETF 5-day consecutive inflow streak — first of 2026", detail: "$180M Friday alone, $1.9B cumulative. Institutional demand confirmed." },
-          { rating: 3, headline: "Saylor: Strategy launching global quantum upgrade effort for Bitcoin", detail: "Long-term security infrastructure play.", source: "Twitter FRESH 6:35am CT" },
-          { rating: 3, headline: "Luxembourg allocates 1% sovereign wealth fund to BTC", detail: "Nation-state accumulation joining the trend.", source: "Twitter FRESH 7:33am CT" },
-          { rating: 2, headline: "@alicharts MVRV signal: clearing $73,726 opens path to $95,894", source: "Twitter · ❤130 RT19 IMPR7K" },
-          { rating: 1, headline: "Bear case (TedPillows): BTC down 60%+ every mid-term election year", detail: "\"33% down in 2026 still on table.\"", source: "Twitter · ❤143 IMPR5K" },
-        ],
-      },
-      {
-        icon: "Ξ",
-        title: "Ethereum",
-        signals: [
-          { rating: 3, headline: "ETH rejected from $2,150 again", detail: "Next crucial support $2,000; failure retraces entire pump.", source: "TedPillows · ❤208 RT20 IMPR13,792 — top ETH signal" },
-          { rating: 2, headline: "ETH ETF inflow $26.7M yesterday — BlackRock bought $32.4M", detail: "ETHB hits $107M AUM on launch day. \"More exotic ETF structures likely coming.\"", source: "Twitter · ❤262 RT39 IMPR12,623" },
-          { rating: 2, headline: "Grayscale staked 57,600 ETH (~$121M)", detail: "Institutional staking accelerating post-ETHB launch.", source: "Twitter FRESH" },
-          { rating: 1, headline: "WiseCrypto fundamentals: RWA $1.2B→$15.2B, whale holdings +29%, exchange supply -23%", detail: "On-chain bull case building quietly.", source: "Twitter · IMPR12K" },
-          { rating: 1, headline: "Carry-forward: Ethereum Foundation Mandate published Mar 13 — first formal governance document for EF. Culper Research ETH short still open.", isCarryForward: true },
-        ],
-      },
-    ],
-  },
+     ],
+    },
 ];
