@@ -29,6 +29,45 @@ export interface Issue {
 
 export const ISSUES: Issue[] = [
   {
+    id: "2026-03-17-noon",
+    issueNumber: 5,
+    date: "March 17, 2026",
+    time: "Noon CT",
+    btcPrice: "$74,162",
+    btcChange: "0.93%",
+    btcUp: false,
+    ethPrice: "$2,328",
+    ethChange: "0.99%",
+    ethUp: false,
+    sections: [
+      {
+        icon: "₿",
+        title: "Bitcoin",
+        signals: [
+          { rating: 4, headline: "BTC ETF inflow streak hits 6 days — $1.1B in 3 days, biggest week since January", detail: "Bitcoin spot ETFs now logging their longest consecutive inflow streak since October 2025. BlackRock, Fidelity leading $1.1B in 3-day haul. Institutional demand structurally driving this recovery, not retail speculation.", source: "Exa / crypto.news / ainvest Mar 17" },
+          { rating: 4, headline: "Square enables Bitcoin payments by default for most US sellers starting March 30", detail: "Major merchant payments infrastructure shift: Square (Block) activating BTC payments for the majority of US seller base. Mainstream commercial Bitcoin utility expanding beyond investment to everyday transaction layer.", source: "r/Bitcoin score=10 · 1.6h" },
+          { rating: 3, headline: "Australian Senate bill to integrate Bitcoin into financial system gains traction — score 219 on Reddit", detail: "Legislative momentum building: Australian Senate panel endorsement now the #2 top BTC post of the day. Joins US Strategic Reserve, El Salvador curriculum, 13 nation-state mining governments.", source: "r/Bitcoin score=219 · 6.6h" },
+          { rating: 3, headline: "50+ public companies now hold ~1.2M BTC — from near-zero in 2017", detail: "Landmark corporate accumulation milestone confirmed. Strategy (761K BTC), Metaplanet, and growing roster cementing corporate treasury adoption as structural demand floor.", source: "r/Bitcoin score=10 · 3.3h" },
+          { rating: 3, headline: "Metaplanet moves 4,986 BTC worth $368M to new wallets amid 12% stock slide", detail: "Japanese BTC treasury company shuffling holdings — likely internal wallet reorganization not selling. Stock down 12% on treasury shift headlines, but BTC position intact. Watch for next purchase announcement.", source: "r/CryptoCurrency score=23 · 2.4h" },
+          { rating: 2, headline: "BTC recovering to $74,162 (+0.6% from 8am) — bears still watch $73,726 MVRV support", detail: "Price stabilizing mid-session after morning dip to $73,705. Volume on old coins 'incredibly silent' as market tests $74K range. Clean consolidation zone before next directional move.", source: "COMPOSIO_SEARCH_FINANCE live / r/Bitcoin score=130" },
+          { rating: 2, headline: "Crypto ATM fraud losses surge 33% in 2025 as AI-powered scams accelerate — CertiK", detail: "Risk signal for retail: AI-enabled scams becoming most dangerous Bitcoin onramp threat. CertiK data shows institutional-grade attacks now targeting crypto ATM users. Not macro bearish but security friction rising.", source: "r/CryptoCurrency score=13 · 1.8h" },
+        ],
+      },
+      {
+        icon: "Ξ",
+        title: "Ethereum",
+        signals: [
+          { rating: 4, headline: "Ethereum surges 8% to $2,361 — high-volume breakout could push ETH to $2,600+", detail: "FXLeaders Mar 17: ETH broke key resistance on strong volume. Analysts now targeting $2,600+ as next zone. BlackRock ETHB momentum + Pectra upgrade proximity + reduced EF sell pressure forming a bullish triple catalyst.", source: "Exa / FXLeaders Mar 17" },
+          { rating: 4, headline: "Ethereum price: road to $2,800 cleared after key resistance breakout", detail: "FXEmpire analysis: ETH cleared the critical $2,200 pivot. Next technical resistance $2,400 then $2,800. 20% rally scenario now the primary analyst case — not the bull case.", source: "Exa / FXEmpire Mar 16" },
+          { rating: 3, headline: "ETH Squeeze Dashboard trending on r/ethereum — supply dynamics in focus", detail: "Community tracking ETH staking supply squeeze: 37.8M ETH locked in staking (all-time high) creating structural supply constraint. Dashboard showing squeeze intensity building.", source: "r/ethereum score=27 · 22h" },
+          { rating: 3, headline: "Ethereum price signals major breakout — 20% rally coming next?", detail: "Coinpedia Mar 16: multiple technical indicators aligned for continuation. ETHB inflows, staking ATH, and Vitalik's node simplification proposal all adding medium-term bullish weight.", source: "Exa / Coinpedia Mar 16" },
+          { rating: 2, headline: "PayPal officially enables stablecoin access in 70 countries", detail: "Ethereum-based PYUSD and broader stablecoin ecosystem expanding globally. PayPal's 70-country rollout signals mainstream financial infrastructure adopting ETH-layer stablecoins — bullish for ETH as settlement layer.", source: "r/CryptoCurrency score=15 · 3.5h" },
+          { rating: 1, headline: "Carry-forward: ETHB $107M AUM (day 2), Culper Research short open, EF sell pressure watch. $2,400 breakout level key for next leg confirmation.", isCarryForward: true },
+        ],
+      },
+    ],
+  },
+  {
     id: "2026-03-17-8am",
     issueNumber: 4,
     date: "March 17, 2026",
