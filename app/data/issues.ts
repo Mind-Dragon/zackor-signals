@@ -29,6 +29,44 @@ export interface Issue {
 
 export const ISSUES: Issue[] = [
   {
+    id: "2026-03-17-8am",
+    issueNumber: 4,
+    date: "March 17, 2026",
+    time: "8am CT",
+    btcPrice: "$73,705",
+    btcChange: "1.54%",
+    btcUp: false,
+    ethPrice: "$2,317",
+    ethChange: "1.47%",
+    ethUp: false,
+    sections: [
+      {
+        icon: "₿",
+        title: "Bitcoin",
+        signals: [
+          { rating: 4, headline: "BTC hit $75K then pulls back to $73,705 — healthy consolidation after 8-session run", detail: "After touching $75,000 for first time since late 2025, BTC retreats -1.54% this morning. Bollinger Bands setting up for 'powerful move' per CoinTelegraph analysis. Healthy consolidation after best weekly performance since September 2025.", source: "CoinTelegraph / CoinGecko Mar 17" },
+          { rating: 4, headline: "Crypto fund inflows hit $1.06B as Iran crisis fuels Bitcoin safe-haven demand", detail: "Geopolitical risk from Iran/Middle East driving capital into crypto as safe haven. One of the highest single-week inflow weeks in 2026. Structurally bullish — fear driving demand rather than just speculation.", source: "r/CryptoCurrency score=19 / Mar 17" },
+          { rating: 3, headline: "Australian Senate panel endorses bill to integrate Bitcoin into financial system", detail: "Australia moves toward formal legislative integration of Bitcoin. Joins growing list of governments (US Strategic Reserve, El Salvador) formalizing BTC's role in financial infrastructure.", source: "r/Bitcoin score=82 · 2.6h" },
+          { rating: 3, headline: "El Salvador: first country to teach Bitcoin to ALL students 7 years and older", detail: "Mandatory national Bitcoin education for 7+ year olds. Sovereign-level BTC adoption going from monetary policy to curriculum — long-term cultural entrenchment signal.", source: "@CryptoNewsHntrs / Twitter · Mar 17" },
+          { rating: 3, headline: "Saylor signals continued Bitcoin accumulation — 'Stretch the Orange Dots'", detail: "Michael Saylor (Strategy) publicly signaling continued BTC buys. Strategy's total holdings still at 761,068 BTC. Institutional buyer-of-last-resort narrative intact through consolidation.", source: "@CryptosR_Us (303K) 299L/53RT · Mar 17" },
+          { rating: 2, headline: "Bitcoin bulls risk getting trapped at 6-week highs — CoinTelegraph warns", detail: "Technical analysts flag potential bull trap setup after $75K rejection. Key support at $72K–$73K. A close below $73,726 MVRV level signals increased downside risk.", source: "CoinTelegraph / YouSearch · Mar 17" },
+          { rating: 2, headline: "Motley Fool: Bold prediction — Bitcoin hits $100K again by end of 2026", detail: "Mainstream financial media making $100K year-end targets again. Implies 35%+ upside from current levels. Prediction markets showing 11% odds currently — significant asymmetry if institutional demand holds.", source: "Motley Fool / YouSearch · Mar 17" },
+        ],
+      },
+      {
+        icon: "Ξ",
+        title: "Ethereum",
+        signals: [
+          { rating: 4, headline: "ETH holds above $2,250 after +12% surge yesterday — Motley Fool: 'trend could continue'", detail: "ETH up 12% in 24h on Mar 16, now consolidating at $2,317. Momentum from BlackRock ETHB ($107M AUM), whale accumulation, and staking ATH still in effect. Analysts watching $2,400 resistance zone closely.", source: "Motley Fool / TechBullion / YouSearch · Mar 17" },
+          { rating: 3, headline: "$ETH almost tapped $2,400 resistance — next key level in focus", detail: "TedPillows (280K followers): ETH approaching the $2,400 resistance zone he's been calling. Break above would signal next leg toward the $2,400–$2,650 CME gap fill target. Watch for momentum confirmation.", source: "@TedPillows (280K) 270L/28RT · Mar 17" },
+          { rating: 3, headline: "Crypto rally: what to expect from BTC, ETH, SOL, XRP this week", detail: "SeekingAlpha analysis: market entering week 2 of recovery rally. ETH outperforming broader market. Key catalysts: ETHB ETF daily inflows, Pectra upgrade timeline, and reduced EF sell pressure.", source: "SeekingAlpha / YouSearch · Mar 17" },
+          { rating: 2, headline: "Kiyosaki tells 2.8M followers: ETH reaches $X within a year of global financial crash", detail: "Robert Kiyosaki continues warning of financial collapse while flagging crypto as the escape hatch. Mainstream fear-based crypto promotion reaching massive retail audience at a critical accumulation window.", source: "@SAMALTCOIN_ETH / Twitter 53L · Mar 17" },
+          { rating: 1, headline: "Carry-forward: ETHB staking ETF at $107M AUM (day 2), Culper Research short still open, EF Mandate governance live. Watch daily ETHB inflows and $2,400 breakout level.", isCarryForward: true },
+        ],
+      },
+    ],
+  },
+  {
     id: "2026-03-16-6pm",
     issueNumber: 3,
     date: "March 16, 2026",
