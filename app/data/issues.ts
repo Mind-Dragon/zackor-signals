@@ -29,6 +29,46 @@ export interface Issue {
 
 export const ISSUES: Issue[] = [
   {
+    id: "2026-03-17-6pm",
+    issueNumber: 6,
+    date: "March 17, 2026",
+    time: "6pm CT",
+    btcPrice: "$74,272",
+    btcChange: "0.78%",
+    btcUp: false,
+    ethPrice: "$2,328",
+    ethChange: "0.98%",
+    ethUp: false,
+    sections: [
+      {
+        icon: "₿",
+        title: "Bitcoin",
+        signals: [
+          { rating: 5, headline: "SEC and CFTC unveil new crypto guidance — most digital assets are NOT securities", detail: "Landmark regulatory clarification from both agencies simultaneously. This removes the Howey test ambiguity hanging over most crypto assets and gives exchanges, ETF issuers, and institutional custodians the legal certainty they needed. Reddit r/CryptoCurrency score=68, 2.3h old — fast-rising.", source: "r/CryptoCurrency score=68 · 2.3h" },
+          { rating: 5, headline: "Mastercard to acquire crypto startup BVNK for up to $1.8B — largest stablecoin deal to date", detail: "Mastercard paying up to $1.8B for BVNK, the institutional stablecoin payments layer. This is the biggest crypto M&A in stablecoin infrastructure and confirms Visa-rival commitment to blockchain settlement rails. Massive signal for ETH-based USDC/USDT volume.", source: "r/CryptoCurrency score=58 · 5.4h" },
+          { rating: 4, headline: "BTC ETF 6-day consecutive inflow streak — longest since October, biggest week since January", detail: "US spot Bitcoin ETFs now recording their longest inflow run in 5 months. BTC rebounded 12%+ from monthly lows with $1.1B in 3-day flows. Institutional demand structurally intact even as spot price consolidates.", source: "Exa / CoinCentral / ainvest · Mar 17" },
+          { rating: 4, headline: "Square activates Bitcoin payments by default for most US sellers starting March 30", detail: "Block's Square merchant network (millions of US sellers) now defaults to accepting BTC. Most significant mainstream commercial adoption step since PayPal 2020. Combines with PayPal's 70-country stablecoin rollout for macro-level financial infrastructure shift.", source: "r/Bitcoin score=91 · 7.6h" },
+          { rating: 3, headline: "UK man reports wife used CCTV footage to steal $176M in Bitcoin — custody security spotlight", detail: "Bizarre but high-signal story: $176M BTC theft via domestic CCTV surveillance. Reinforces self-custody security importance as holdings scale. Top post r/CryptoCurrency today (score=146). Not macro-moving but highlights custody risk narrative.", source: "r/CryptoCurrency score=146 · 7.6h" },
+          { rating: 3, headline: "Australian Senate Bitcoin integration bill + corporate 1.2M BTC milestone — regulatory tailwinds building", detail: "Australia endorsement gaining momentum (score climbed to 299 by 6pm). Pairs with 50+ public companies now holding ~1.2M BTC. Nation-state and corporate adoption converging on dual-vector demand floor.", source: "r/Bitcoin score=299 · 12.6h" },
+          { rating: 2, headline: "BTC closes 6pm session at $74,272 — consolidating near Monday highs above $75K", detail: "Day's range roughly $73,700–$75,100. Volume on old coins remained low throughout session. No major liquidation cascades. Clean technical consolidation ahead of Wednesday open.", source: "COMPOSIO_SEARCH_FINANCE live" },
+        ],
+      },
+      {
+        icon: "Ξ",
+        title: "Ethereum",
+        signals: [
+          { rating: 5, headline: "Ethereum rallies to 6-week price peak on strong ETF demand and BitMine's massive accumulation", detail: "ETH hit a 6-week high today. BitMine's large ETH accumulation + ETHB ETF demand surge combining for structural supply squeeze. Bloomberg confirms ETH is now the #2 institutional target behind BTC.", source: "Exa / Bloomberg · Mar 17" },
+          { rating: 4, headline: "ETH $2,400 break incoming? TradingView analysis flags upside run intensifying", detail: "TradingView Mar 17: upside momentum building with $2,400 as key next level. A clean close above $2,400 would signal continuation toward the $2,600–$2,800 target zone flagged by FXLeaders and FXEmpire this morning.", source: "Exa / TradingView · Mar 17" },
+          { rating: 4, headline: "Majors post 11% weekly gains as Bitcoin tests $75K — ETH leading altcoin recovery", detail: "ETH up 11%+ on the week, outpacing BTC on a % basis. ADA and other majors following. ETH reclaiming $2,250 as new support. Bull run target analysis pointing to $2,800–$3,200 range.", source: "Exa / NBTC News / coinpedia · Mar 17" },
+          { rating: 3, headline: "Motley Fool asks 'Is it too late to buy ETH in 2026?' — mainstream media legitimacy signal", detail: "Mainstream investment media now actively covering ETH as a buy-thesis asset, not just a speculation vehicle. This signals the narrative transition from risk-asset to institutional-grade digital commodity is accelerating.", source: "Exa / Motley Fool · Mar 17" },
+          { rating: 3, headline: "Mastercard BVNK acquisition bullish for ETH settlement layer and USDC/USDT volume", detail: "BVNK operates primarily on Ethereum-compatible rails. Mastercard's $1.8B commitment means ETH-based stablecoin settlement volume will accelerate as a global payment infrastructure layer.", source: "r/CryptoCurrency score=58 · 5.4h" },
+          { rating: 2, headline: "FCR (Fast Confirmation Rule) proposal gaining attention on r/ethereum — L1 scalability roadmap", detail: "Ethereum research community discussing Fast Confirmation Rule for faster transaction finality at L1. Part of ongoing Pectra + post-Pectra roadmap. Long-term bullish for ETH as smart contract settlement layer.", source: "r/ethereum score=8 · 9.4h" },
+          { rating: 1, headline: "Carry-forward: Culper Research short still open. ETHB AUM building. $2,400 close = key confirmation for next leg.", isCarryForward: true },
+        ],
+      },
+    ],
+  },
+  {
     id: "2026-03-17-noon",
     issueNumber: 5,
     date: "March 17, 2026",
