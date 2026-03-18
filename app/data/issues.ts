@@ -29,6 +29,45 @@ export interface Issue {
 
 export const ISSUES: Issue[] = [
   {
+    id: "2026-03-18-noon",
+    issueNumber: 8,
+    date: "March 18, 2026",
+    time: "Noon CT",
+    btcPrice: "$71,351",
+    btcChange: "3.50%",
+    btcUp: false,
+    ethPrice: "$2,182",
+    ethChange: "5.88%",
+    ethUp: false,
+    sections: [
+      {
+        icon: "₿",
+        title: "Bitcoin",
+        signals: [
+          { rating: 4, headline: "Bitcoin ETF collateral approved + inflows surge + MicroStrategy buy — triple institutional catalyst this morning", detail: "Exa Mar 18: Bitcoin ETF collateral approved for use (new) alongside continued inflow surge. MicroStrategy made another large BTC purchase. Combined institutional signal: ETF inflows have now been positive for 7+ consecutive days, ETF collateral approval unlocks new institutional use cases (pledging BTC ETF shares as collateral at custodians). Fortune confirms current BTC price at $71,351 down from morning's $72,385.", source: "Exa: Bitcoin ETF News Collateral Approved + Inflows Surge + MicroStrategy Mar 18" },
+          { rating: 4, headline: "BTC correlation with tech stocks flipped NEGATIVE since US–Iran War — macro decoupling signal", detail: "You.com: Bitcoin correlation with tech stocks turned negative since the outbreak of the US–Iran war. This is the clearest on-record demonstration of BTC behaving as an uncorrelated macro hedge distinct from equities. Bloomberg 'Bitcoin Outperforms During War' (r/Bitcoin score=41) pairs with this — BTC now diverging from Nasdaq during geopolitical stress events.", source: "You.com BTC scan + r/Bitcoin score=41 · Bloomberg Crypto" },
+          { rating: 4, headline: "Crypto weekly ETF inflows hit $1.06B — Bitcoin dominates institutional flows", detail: "You.com + Exa: Crypto ETF weekly inflows reached $1.06B with Bitcoin dominating. Self-directed investors still driving demand (Morgan Stanley data via FinanceFeeds). $79K BTC price would make all spot ETF holders whole again (Times News Network, Exa). 6-day inflow streak confirmed from 8am data, now extended.", source: "You.com / Exa Mar 18 · FinanceFeeds Morgan Stanley" },
+          { rating: 4, headline: "SEC formally declares 18 crypto assets as digital commodities — community reaction surging (r/CC score now 304→1726)", detail: "The SEC's 18-asset commodity declaration continues to drive top engagement on r/CryptoCurrency. Score climbed from 241 (8am) to 304+ with separate SBF thread dominating at score=1726. Long-term: institutional custodians can now offer BTC as collateral (ETF collateral approval above), regulated spot ETF expansion now clearer. UK also moved to ban crypto donations in politics (score=62, 7.9h) — regulatory noise globally.", source: "r/CryptoCurrency score=304/1726 + Reuters + r/ethereum score=25" },
+          { rating: 3, headline: "Nigel Farage increases stake in Stack BTC — UK political figure adds to BTC treasury position", detail: "r/Bitcoin score=21, 6.2h: Nigel Farage (UK political leader) increased his stake in Stack BTC, the Bitcoin treasury company. Political-class adoption signal in the UK even as UK proposes crypto donation bans. BTC power law reaffirmed in morning analysis thread (r/Bitcoin score=74).", source: "r/Bitcoin score=21 · 6.2h" },
+          { rating: 3, headline: "Bitrefill hacked — Lazarus Group (North Korea) suspected", detail: "r/CryptoCurrency score=11, 5.5h: Bitrefill (crypto gift card/bill pay service) suffered a hack, suspected to be Lazarus Group (North Korean state-sponsored). On-chain security signal — Lazarus continues to target crypto infrastructure. Routine OPSEC alert for anyone using centralized crypto payment services.", source: "r/CryptoCurrency score=11 · 5.5h" },
+          { rating: 2, headline: "BTC noon update: $71,351 (-3.5%) — accelerating pullback from $72,385 morning open", detail: "BTC continued sliding through the morning session, now at $71,351 (-3.5% daily). Exchange inflows spiked as BTC rally halted at $75K (Exa). $71,500 support (identified at 8am) briefly broken — next support: $70,000 psychological. Bitcoin Optech Newsletter #396 podcast recap circulating (r/Bitcoin score=12) — healthy ecosystem maintenance signal.", source: "COMPOSIO_SEARCH_FINANCE live · noon CT" },
+        ],
+      },
+      {
+        icon: "Ξ",
+        title: "Ethereum",
+        signals: [
+          { rating: 4, headline: "Ethereum staking at 30% of total supply — float tightening structurally, Vitalik pushes '1-click staking' after Foundation stakes 72K ETH", detail: "Exa Mar 17-18: ETH staking has reached 30% of total supply (Investing.com). EF staked 72,000 ETH total (bigger than yesterday's 5K OTC sale reveal — the full staking context). Vitalik now pushing for '1-click' Ethereum staking UX improvement post-Foundation move. 30% staking = 30% of circulating ETH locked, tightening available float dramatically. Structurally bullish for price recovery.", source: "Exa: Ethereum Staking 30% Supply Investing.com Mar 17 + Vitalik 1-click Mar 17" },
+          { rating: 4, headline: "BlackRock ETHB live — earns monthly rewards via staked Ethereum ETF (confirmed launch details)", detail: "Exa Mar 17: BlackRock ETHB officially described as 'earn monthly rewards with staked Ethereum ETF.' First US institutional product paying staking yield to ETF holders. This changes the ETH investment thesis for traditional finance: ETH is now a yielding asset within regulated ETF wrappers, not just price exposure.", source: "Exa: BlackRock Launches ETHB Earn Monthly Rewards Mar 17" },
+          { rating: 4, headline: "Ethereum ETF now live + FOMC outlook key catalyst — price at $2,182, ETH sitting on structural support", detail: "Exa Mar 18: 'Ethereum Price March 2026: ETH at $2,327 [now $2,182], ETF Live, FOMC Outlook.' FOMC meeting in view — rate decision could be a major catalyst. ETH deepened to -5.9% today vs BTC's -3.5%. $2,000 psychological support is the next major floor if $2,150 breaks.", source: "Exa: Ethereum Price March 2026 ETF Live FOMC Mar 18" },
+          { rating: 3, headline: "$800M ETH sell-off vs $2,300 rally — liquidity battle ongoing", detail: "Exa Mar 17: 'ETH's $800M Sell-Off vs. $2,300 Rally: The Liquidity Battle' — analysis of the tug-of-war between large sellers and institutional buyers. Today's -5.9% decline suggests sellers won the morning session. But 30% staking supply lock + BlackRock ETHB launch + Grayscale 57K ETH staked = structural buyers building at scale.", source: "Exa: ETH $800M Sell-Off vs $2,300 Rally Mar 17" },
+          { rating: 3, headline: "SEC crypto securities clarity = Ethereum gets commodity momentum — regulatory path clearing for DeFi", detail: "SEC's 18-asset commodity declaration (r/CC score=304, r/ethereum score=25) and the joint SEC/CFTC guidance issued yesterday both move ETH toward commodity classification (post-Merge PoS). DeFi legal uncertainty reduced. ETH-based utility token ecosystem gets regulatory green light alongside BTC. Long-term institutional DeFi deployment now has clearer legal basis.", source: "r/CryptoCurrency score=304 + r/ethereum score=25 + Reuters" },
+          { rating: 2, headline: "ETH noon update: $2,182 (-5.9%) — deeper pullback than BTC; $2,150 support critical", detail: "ETH dropped to $2,182, underperforming BTC (-3.5% vs -5.9%). $2,250 support identified at 8am failed by noon. Next critical level: $2,150 (previous consolidation zone) then $2,000 psychological. FOMC outlook is the macro catalyst to watch for recovery trigger. Citi lowered 12-month ETH forecast on crypto bill impasse — short-term headwind.", source: "COMPOSIO_SEARCH_FINANCE live · noon CT" },
+        ],
+      },
+    ],
+  },
+  {
     id: "2026-03-18-8am",
     issueNumber: 7,
     date: "March 18, 2026",
