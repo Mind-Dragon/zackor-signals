@@ -29,6 +29,45 @@ export interface Issue {
 
 export const ISSUES: Issue[] = [
   {
+    id: "2026-03-18-6pm",
+    issueNumber: 9,
+    date: "March 18, 2026",
+    time: "6pm CT",
+    btcPrice: "$71,155",
+    btcChange: "3.76%",
+    btcUp: false,
+    ethPrice: "$2,193",
+    ethChange: "5.42%",
+    ethUp: false,
+    sections: [
+      {
+        icon: "₿",
+        title: "Bitcoin",
+        signals: [
+          { rating: 4, headline: "$820B wiped from US stock market today — $120B from crypto — macro risk-off dominates closing session", detail: "r/CryptoCurrency score=180, 1.7h: The single biggest story of the day's close. $820 billion was erased from the US stock market today alongside $120 billion from total crypto market cap. This is a broad macro deleveraging event — equities and crypto selling in tandem at close. Yet BTC's correlation with tech stocks flipped NEGATIVE earlier today (You.com), meaning the equity crash has dragged crypto despite the decoupling thesis. Watch whether BTC holds $70K tonight as a key psychological floor.", source: "r/CryptoCurrency score=180 · 1.7h" },
+          { rating: 4, headline: "Fed holds rates — BTC chasing $72K immediately post-announcement; Bitcoin back to $71K", detail: "You.com: 'Bitcoin Chases $72K After Fed Decides To Hold Rates: Is BTC Selling Over?' — the FOMC held rates as expected, triggering an initial BTC bounce toward $72K. However the stock market selloff (-$820B) reasserted downward pressure. Fed 'Higher for Longer' reality priced in (Exa: Wall Street braces). Current price $71,155 — down from the $72K chase high but stabilizing. Net read: Fed catalyst delivered short-term relief, but macro risk-off environment capped the move.", source: "You.com + Exa: FOMC Decision Wall Street Higher for Longer Mar 18" },
+          { rating: 4, headline: "Institutional Bitcoin demand at highest level since October 2025 — Bitwise holds firm through downturn", detail: "r/Bitcoin score=177, 5.3h: Institutional demand for Bitcoin has risen to its highest level since October 2025 — confirmed across custodians and ETF data. Bitwise: institutional investors held firm through bitcoin's downturn (Exa: Infomarine/Bitwise Mar 18). ETF collateral approved + 7-day inflow streak + $1.06B weekly ETF inflows (carry-forward from noon). BTC ETF inflows: 7 consecutive days net positive (Chinese + Korean crypto media confirmed via Exa). Advisor demand stays resilient even as retail sentiment dips (Morgan Stanley, FinanceFeeds).", source: "r/Bitcoin score=177 · 5.3h + Exa Bitwise Mar 18" },
+          { rating: 3, headline: "Tim Scott expects stablecoin yield compromise proposal by week's end — crypto legislation unblocking", detail: "Exa Mar 18: Tim Scott expects a stablecoin yield compromise proposal by end of this week to break the stalled crypto bill impasse. This is the key legislative catalyst the market has been waiting on. A stablecoin framework would accelerate institutional DeFi adoption and give ETH's utility token ecosystem firm legal footing. Breakthrough deal expected imminently.", source: "Exa: Tim Scott stablecoin compromise Mar 18" },
+          { rating: 3, headline: "Bhutan continues selling Bitcoin stash — national reserve falls to 4,400 BTC", detail: "You.com: Bhutan continues to sell its sovereign Bitcoin holdings, with reserves now fallen to 4,400 BTC. Bhutan accumulated via state-run BTC mining; this represents sovereign-level profit-taking at $71K prices — a macro signal that nation-state holders are trimming at current levels. Not a panic sell, but worth tracking alongside Trezor phishing letter campaign (r/Bitcoin score=45, 3.8h).", source: "You.com BTC scan + r/Bitcoin score=45 phishing alert" },
+          { rating: 3, headline: "Bitcoin power law cycle analysis goes viral — r/Bitcoin score=208 in 10 hours", detail: "r/Bitcoin score=208, 10.8h: Bitcoin power law 'as real as the 4-year cycle' — detailed analysis thread going viral. Long-term cycle conviction holding even during -3.76% day. Complements Bloomberg 'Bitcoin Outperforms During War' carry-forward (score=45) and 'Institutional demand at highest since Oct 2025' (score=177). Community sentiment: this is a buying opportunity on the power law chart, not a trend break.", source: "r/Bitcoin score=208 · 10.8h" },
+          { rating: 2, headline: "BTC 6pm close: $71,155 (-3.76%) — worst close of the week; $70K psychological support critical overnight", detail: "BTC ended the day at $71,155 — the deepest daily close of the week (-3.76% vs noon's -3.5%). The Fed hold provided a brief $72K bounce but risk-off macro ($820B equity wipe) reasserted pressure. A Trezor phishing letter was mailed to a user's home address (r/Bitcoin score=45) — hardware wallet OPSEC alert active. Watch $70,000 overnight as the must-hold floor. $79K rally still needed for all spot ETF holders to be whole.", source: "COMPOSIO_SEARCH_FINANCE 6pm CT" },
+        ],
+      },
+      {
+        icon: "Ξ",
+        title: "Ethereum",
+        signals: [
+          { rating: 4, headline: "FOMC holds rates — ETH targets higher levels post-announcement; stablecoin bill compromise expected this week", detail: "Exa Mar 18: 'Ether price breakout: ETH surges above resistance, targets higher levels' (IG AU). 'ETH tests $2,400 resistance as breakout strength builds' (Exa Mar 18). The FOMC hold removes the yield competition pressure on ETH's staking returns. Tim Scott's stablecoin compromise bill (expected by week's end) would directly enable ETH DeFi expansion. BlackRock ETHB staking yield narrative gets stronger as the risk-free rate stays flat.", source: "Exa: ETH price breakout + resistance test Mar 18 + Tim Scott bill" },
+          { rating: 4, headline: "ETH staking + BlackRock ETHB + 30% supply locked — structural floor building as price tests $2,150", detail: "Carry-forward from day's earlier scans: ETH staking at 30% of total supply (Investing.com), EF staked 72,000 ETH total, BlackRock ETHB paying monthly staking rewards, Vitalik pushing 1-click staking UX. With the FOMC hold confirmed, ETHB's monthly yield becomes even more attractive versus risk-free rates. The structural supply sink (30% locked) persists regardless of short-term price action. $2,150 remains the critical support — currently holding at $2,193.", source: "Exa Mar 17-18 carry-forward · structural floor analysis" },
+          { rating: 4, headline: "SEC crypto commodity classification + Tim Scott stablecoin bill = dual regulatory tailwinds for ETH DeFi", detail: "SEC declared 18 digital assets as commodities (r/CC score=356, now at all-time high for this thread). R/ethereum SEC thread at score=28 (up from 25 at noon). Tim Scott stablecoin yield compromise coming by week's end (Exa). S&P Dow Jones + Tradexyz launching first official S&P500 perpetual on Hyperliquid (r/CC score=15) — TradFi perpetual derivatives on crypto infrastructure signals institutional legitimacy. ETH-based DeFi infrastructure is the direct beneficiary.", source: "r/CryptoCurrency score=356 + r/ethereum score=28 + Exa Tim Scott + r/CC score=15" },
+          { rating: 3, headline: "Polymarket opens 'The Situation Room' — prediction market degen venue signals crypto consumer culture expanding", detail: "r/CryptoCurrency score=20, 1.0h: Polymarket launched 'The Situation Room' — described as 'basically a sports bar for degens.' Prediction markets are becoming mainstream consumer crypto products. Polymarket runs on Polygon (Ethereum L2) — this is Ethereum ecosystem adoption at the consumer entertainment layer. High engagement signal for ETH L2 activity.", source: "r/CryptoCurrency score=20 · 1.0h" },
+          { rating: 3, headline: "$2.24M wallet hacked via Trezor exploit — $60M Trezor crack claim active threat", detail: "r/CryptoCurrency score=18, 1.9h: 'Hacker Breaks Into a $2.24 Million Wallet and Now Claims a $60 Million Trezor Crack.' Separate from the phishing letter (r/Bitcoin score=45) — this is a claimed hardware wallet vulnerability. Active security threat for any Ethereum holder using Trezor. If the $60M crack claim is real, this is a major hardware wallet security event. Use passphrase protection on all Trezor devices immediately.", source: "r/CryptoCurrency score=18 · 1.9h" },
+          { rating: 2, headline: "ETH 6pm: $2,193 (-5.42%) — holding above $2,150; FOMC catalyst delivered, stablecoin bill the next trigger", detail: "ETH closed at $2,193 — slightly higher than noon's $2,182, showing modest recovery off lows. The FOMC hold was the main positive catalyst today. $2,150 support held. The stablecoin bill compromise (Tim Scott, expected this week) is the next legislation catalyst. $2,400 resistance identified by Exa analysts as the first recovery target. FOMC 'Higher for Longer' confirmed but priced in.", source: "COMPOSIO_SEARCH_FINANCE 6pm CT" },
+        ],
+      },
+    ],
+  },
+  {
     id: "2026-03-18-noon",
     issueNumber: 8,
     date: "March 18, 2026",
