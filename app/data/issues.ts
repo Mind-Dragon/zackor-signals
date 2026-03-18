@@ -29,6 +29,45 @@ export interface Issue {
 
 export const ISSUES: Issue[] = [
   {
+    id: "2026-03-18-8am",
+    issueNumber: 7,
+    date: "March 18, 2026",
+    time: "8am CT",
+    btcPrice: "$72,385",
+    btcChange: "2.10%",
+    btcUp: false,
+    ethPrice: "$2,239",
+    ethChange: "3.43%",
+    ethUp: false,
+    sections: [
+      {
+        icon: "₿",
+        title: "Bitcoin",
+        signals: [
+          { rating: 5, headline: "SEC formally declares 18 crypto assets as digital commodities — NOT securities (first-ever definitions)", detail: "r/CryptoCurrency score=241, 11h. The SEC issued its first-ever formal definitions distinguishing crypto securities from digital commodities. 18 named assets now have regulatory certainty. This is the follow-through from yesterday's joint SEC/CFTC guidance. Bloomberg notes SEC policy is now 'adding weight to the digital commodity argument for utility-driven assets.' Institutional clearing path now open for BTC spot trading infrastructure.", source: "r/CryptoCurrency score=241 + r/ethereum score=23 + @AlgooshPortal" },
+          { rating: 4, headline: "Netherlands farm uses Bitcoin mining to stabilize greenhouse temperatures — agricultural BTC utility live", detail: "r/Bitcoin score=556, 10.1h — top post on r/Bitcoin this morning. Dutch farm uses waste heat from BTC mining for climate control. Real-world productive use beyond pure PoW narrative. Signals BTC mining as infrastructure utility layer, not just block reward speculation.", source: "r/Bitcoin score=556 · 10.1h" },
+          { rating: 4, headline: "Bhutan moves $72M in BTC — total transfers exceed $110M as sovereign hodlers stay active", detail: "Bhutan quietly moved $72M in Bitcoin overnight, total now $110M+. Sovereign treasury activity remains active even as price pulls back to $72,385. Nation-state accumulation story intact alongside MicroStrategy/Metaplanet corporate stack.", source: "@Btcexpertindia (Twitter) · 8am scan" },
+          { rating: 4, headline: "U.S. banks partner with zkSync to launch Cari Network — tokenized deposits + blockchain payments", detail: "@TheDailyBitcoin score=49: US banks partnering with zkSync (Ethereum L2) to launch Cari Network — tokenized bank deposits on blockchain. First major US bank blockchain payment network. Confirms bank-level adoption of ETH ecosystem infrastructure alongside Mastercard BVNK.", source: "@TheDailyBitcoin Twitter · 8am" },
+          { rating: 3, headline: "Bloomberg: Bitcoin outperforms during war — macro safe-haven narrative gaining institutional coverage", detail: "Bloomberg Crypto Mar 17 feature: BTC outperforms traditional assets during geopolitical conflict. r/Bitcoin score=37. Reinforces institutional thesis that BTC is becoming uncorrelated macro hedge alongside gold. Citi lowered 12-month price forecast on crypto bill impasse — short-term headwind but long-term fundamentals cited as intact.", source: "r/Bitcoin score=37 + Motley Fool + Citi" },
+          { rating: 3, headline: "Binance hits 300M registered users — largest crypto exchange milestone ever", detail: "@CryptoNewsHntrs score=26 blockchain: Binance first crypto company to reach 300M registered users. Structural user base for crypto onboarding now dwarfs most traditional brokerages. Macro adoption signal as prices pull back.", source: "@CryptoNewsHntrs Twitter blockchain" },
+          { rating: 2, headline: "BTC opens 8am at $72,385 (-2.1%) — overnight pullback from $74K, still above key $72K support", detail: "BTC opened down 2.1% from yesterday's 6pm $74,272 close. Day range to watch: $71,500 support (local low Mar 14) vs $73,800 resistance. ETF streak still intact but profit-taking pressure visible. Clean support test in progress.", source: "COMPOSIO_SEARCH_FINANCE live · 8am CT" },
+        ],
+      },
+      {
+        icon: "Ξ",
+        title: "Ethereum",
+        signals: [
+          { rating: 5, headline: "Ethereum Foundation sells 5,000 ETH ($10.38M) to BitMine via OTC — supply dynamics and Ethereum Foundation mandate published", detail: "@cryptodotnews eng=42 + @cryptothedoggy eng=30: Ethereum Foundation executed a $10.38M OTC sale of 5,000 ETH directly to BitMine (the institutional accumulator). Simultaneously, EF published new mandate formalizing commitment to censorship resistance and privacy. Supply absorbed by institutional buyer = no market dump. EF mandate = governance clarity.", source: "@cryptodognews + @cryptothedoggy Twitter · 8am" },
+          { rating: 5, headline: "BlackRock launches iShares Staked Ethereum Trust ($ETHB) — institutional staking product live", detail: "@thecoinzonecom eng=28: BlackRock's $ETHB will stake its ETH holdings — first major US asset manager to offer staked ETH exposure. Grayscale Ethereum Mini Trust separately staked 57,600 ETH ($121.6M) overnight. Dual institutional staking events in one morning = structural supply sink at scale.", source: "@thecoinzonecom + @CryptoNewsHntrs Twitter · 8am" },
+          { rating: 4, headline: "Grayscale stakes 57,600 ETH ($121.6M) — institutional ETH staking volume surging", detail: "Grayscale's Ethereum Mini Trust staked 57,600 ETH worth $121.6M overnight. Combined with BlackRock $ETHB launch, institutional ETH staking volume today exceeds $130M. ETH in staking contracts is supply removed from market — bullish structural.", source: "@CryptoNewsHntrs Twitter · 8am" },
+          { rating: 4, headline: "Vitalik promotes node software simplification update — Ethereum L1 decentralization roadmap advancing", detail: "@CryptoCortexTR: Vitalik Buterin actively promoting an update to simplify Ethereum node software, lowering hardware requirements for solo validators. Pairs with FCR (Fast Confirmation Rule) proposal gaining traction on r/ethereum (score=12). Both signal post-Pectra L1 health improvements.", source: "@CryptoCortexTR Twitter + r/ethereum score=12" },
+          { rating: 3, headline: "SEC securities clarity = Ethereum-based utility tokens get regulatory green light alongside BTC commodities", detail: "The SEC's 18-asset digital commodity list + formal securities definitions creates a dual-track regulatory framework. ETH (post-Merge PoS) broadly expected to benefit from 'commodity' classification momentum. Clears DeFi legal uncertainty for institutional ETH-native products.", source: "r/CryptoCurrency score=241 + r/ethereum score=23" },
+          { rating: 2, headline: "ETH opens 8am at $2,239 (-3.4%) — deeper pullback than BTC; $2,250 support now being tested", detail: "ETH dropped 3.4% overnight, deeper than BTC's 2.1%. $2,250 support zone (confirmed yesterday) now under test. Pectra upgrade proximity + dual institutional staking events = structural support. $2,400 target unchanged, but needs $2,250 to hold as floor.", source: "COMPOSIO_SEARCH_FINANCE live · 8am CT" },
+        ],
+      },
+    ],
+  },
+  {
     id: "2026-03-17-6pm",
     issueNumber: 6,
     date: "March 17, 2026",
