@@ -29,6 +29,56 @@ export interface Issue {
 
 export const ISSUES: Issue[] = [
   {
+    id: "2026-03-19-8am",
+    issueNumber: 10,
+    date: "March 19, 2026",
+    time: "8am CT",
+    btcPrice: "$69,295",
+    btcChange: "2.74%",
+    btcUp: false,
+    ethPrice: "$2,133",
+    ethChange: "3.19%",
+    ethUp: false,
+    sections: [
+      {
+        icon: "₿",
+        title: "Bitcoin",
+        signals: [
+          { rating: 4, headline: "Michael Saylor: \'Bitcoin is the ultimate hedge against chaos\' — 2,849 likes, 358 RTs as BTC breaks below $70K", detail: "Top engagement signal of the scan. Saylor posting into macro chaos as BTC drops below $70K for the first time this week. @saylor, Twitter." },
+          { rating: 4, headline: "Strive acquires 317 BTC for $23M at ~$72,555 avg cost — now among top institutional BTC holders", detail: "Matt Cole / Strive (Eric Trump-backed firm) confirms purchase. As of 3/18/2026. @ColeMacro, Twitter." },
+          { rating: 4, headline: "Bitcoin ETF 6-day inflow streak: $2.1B institutional surge with $361M single-day inflow", detail: "\'Institutional conviction is back\' — longest inflow streak since October. BlackRock, Fidelity leading. TradingView/Fensory/ainvest, Mar 17–18." },
+          { rating: 3, headline: "BTC breaks below $70K — $820B wiped from US stocks, $120B from crypto amid macro selloff", detail: "Iran strike on Qatar gas hub risks global financial depression per top Reddit post. Macro risk-off event driving coordinated selloff. r/CryptoCurrency score=1139." },
+          { rating: 3, headline: "Institutional demand for Bitcoin at highest level since October 2025", detail: "On-chain accumulation data confirms institutional re-entry at current levels. r/Bitcoin score=399." },
+          { rating: 3, headline: "Iran strike on Qatar gas hub sparks macro fear — global financial depression risk flagged", detail: "Geopolitical shock driving broad risk-off across equities and crypto. r/CryptoCurrency score=376." },
+          { rating: 2, headline: "Hacker claims $60M Trezor crack after breaking into $2.24M wallet", detail: "Hardware wallet security alert. r/CryptoCurrency score=197. Carry-forward: verify severity before acting on cold storage." }
+        ]
+      },
+      {
+        icon: "Ξ",
+        title: "Ethereum",
+        signals: [
+          { rating: 4, headline: "Grayscale Ethereum Mini Trust stakes 57,600 ETH worth $121.6M in single move", detail: "Largest institutional ETH staking event this scan period. @CryptoNewsHntrs, Twitter." },
+          { rating: 4, headline: "US formally classifies ETH as a digital commodity — ETH price drops on news", detail: "Regulatory clarity cuts both ways: commodity classification removes securities overhang but triggered sell-the-news reaction. @cryptonewsfocus, Twitter." },
+          { rating: 3, headline: "Ethereum Foundation deploys 3,400 ETH into Morpho + sells 5,000 ETH to BitMine for $10.2M", detail: "Foundation actively redeploying treasury into DeFi and institutional sales. @investing_gurus / @ForceUna, Twitter." },
+          { rating: 3, headline: "SEC approves Nasdaq tokenized securities trading — blockchain rails for equities advancing", detail: "r/CryptoCurrency score=31. SEC Chair Paul Atkins: \'all US markets will be on-chain within two years.\'" },
+          { rating: 3, headline: "Ethereum developers push one-click staking to simplify validator operations", detail: "Staking UX overhaul proposal gaining dev consensus. Targets non-technical users. @unhedgedx, Twitter." },
+          { rating: 2, headline: "Vitalik pushes node simplification update — \'most important Ethereum roadmap item right now\'", detail: "Proposal to reduce node software complexity for user-friendly self-hosting. @CryptoCortexTR, Twitter." },
+          { rating: 2, headline: "Ethereum whale accumulation drives 14% rally signal amid macro pullback risks", detail: "Large wallet accumulation detected despite broader market decline. @ForceUna, Twitter." }
+        ]
+      },
+      {
+        icon: "🔗",
+        title: "Blockchain & Crypto",
+        signals: [
+          { rating: 4, headline: "CFTC + SEC harmonize crypto rules; Mastercard bets $1.8B on stablecoins; Nasdaq acquires Kraken", detail: "Triple regulatory/institutional headline week. @PeteyK DYOR Ep.65 roundup, Twitter score=77." },
+          { rating: 3, headline: "SEC Chair Atkins: all US markets will be on-chain within two years", detail: "DC Blockchain Summit keynote statement. @kriptoworldcom / @JaeJenny29905, Twitter." },
+          { rating: 3, headline: "Kraken delays $800M IPO plans amid bear market conditions", detail: "Exchange citing market conditions. r/CryptoCurrency score=54." },
+          { rating: 2, headline: "FTX set to repay creditors $2.2 billion this month", detail: "Creditor repayment process underway. r/CryptoCurrency score=16." }
+        ]
+      }
+    ]
+  },
+  {
     id: "2026-03-18-6pm",
     issueNumber: 9,
     date: "March 18, 2026",
