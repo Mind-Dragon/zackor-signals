@@ -29,6 +29,103 @@ export interface Issue {
 
 export const ISSUES: Issue[] = [
   {
+    id: "2026-03-19-6pm",
+    issueNumber: 12,
+    date: "March 19, 2026",
+    time: "6pm CT",
+    btcPrice: "$70,219",
+    ethPrice: "$2,140",
+    btcChange: "1.1%",
+    ethChange: "1.2%",
+    btcUp: true,
+    ethUp: true,
+    sections: [
+      {
+        icon: "₿",
+        title: "Bitcoin",
+        signals: [
+        {
+          rating: 4,
+          headline: "BTC afternoon bounce: $69,370 low → $70,219 (+1.1%) — $70K psychological floor reclaimed by close",
+          detail: "After breaching $70K at noon and touching $69,370 this morning (9:45am ET per Fortune), Bitcoin staged a +1.1% afternoon recovery to $70,219 at 6pm CT. The $70K floor held as a magnet — short-covering + dip buyers absorbed the Iran/oil macro selloff. Close above $70K is constructive heading into Friday."
+        },
+        {
+          rating: 4,
+          headline: "Strive surpasses Tesla in Bitcoin holdings — 13,628 BTC vs Tesla's 11,509 BTC — corporate treasury arms race",
+          detail: "Bitcoin treasury company Strive disclosed holdings of 13,628 BTC, pulling ahead of Tesla (11,509 BTC) to become a top-10 public treasury holder. This is the first time a dedicated Bitcoin treasury firm has passed Tesla — a milestone in the institutional BTC accumulation race. Strive is Texas-based and grew its position aggressively in Q1 2026."
+        },
+        {
+          rating: 4,
+          headline: "Bitcoin quantum resistance moves from proposal to live infrastructure — BTQ BIP 360 first working implementation",
+          detail: "BTQ deployed the first working BIP 360 implementation on Bitcoin Quantum (r/Bitcoin score=140, r/CryptoCurrency score=39 — both trending). This moves quantum-resistant Bitcoin from theoretical proposal to live testnet infrastructure. With quantum computing timelines accelerating, BIP 360 infrastructure deployment is a long-term protocol resilience milestone the market has largely not priced."
+        },
+        {
+          rating: 3,
+          headline: "Morgan Stanley Bitcoin ETF ticker revealed: 'MSBT' on NYSE — launch imminent after amended S-1",
+          detail: "Morgan Stanley's Bitcoin ETF will trade as 'MSBT' on the NYSE (Exa, CoinCentral Mar 19). The ticker reveal follows the amended S-1 filing — a sign the launch is nearing. With 126 crypto ETFs under concurrent SEC review, MSBT's entry would be the most significant new BTC distribution channel since BlackRock's IBIT."
+        },
+        {
+          rating: 3,
+          headline: "$15B Prince Group crypto seizure — US plans swirling around largest crypto seizure in history",
+          detail: "Questions are swirling around US government plans for the record $15B Prince Group crypto seizure (r/CryptoCurrency score=47, 6.8h). This is the largest crypto seizure in history. How the US disposes of these assets — auction, Treasury hold, or strategic reserve contribution — could have significant market impact on BTC supply dynamics."
+        },
+        {
+          rating: 3,
+          headline: "Bitcoin ETF inflow streak broken — $164M outflows Wednesday end multi-day run; weekly high still $763M",
+          detail: "Spot Bitcoin ETFs logged $164M in net redemptions Wednesday, ending a multi-day inflow streak (CoinDesk). Despite the single-day outflow, the weekly high of $763M represents the strongest 7-day inflow of 2026. The streak break is a short-term negative signal but doesn't invalidate the broader institutional accumulation trend."
+        },
+        {
+          rating: 3,
+          headline: "Fed holds 3.50-3.75%, raises 2026 inflation forecast to 2.7% — dot plot stays at 1 cut; BTC macro headwind remains",
+          detail: "The Fed held rates steady at 3.50-3.75% and raised its 2026 inflation forecast to 2.7% (news, 7h ago). The dot plot stayed at 1 cut — hawkish hold. Iran/oil geopolitics + elevated inflation forecasts = the macro headwind that drove this morning's BTC selloff. The 1 cut outlook caps BTC upside until macro resolves."
+        },
+        {
+          rating: 2,
+          headline: "Fed Basel risk weighting proposal — BTC currently classified as 'toxic asset'; revision could change bank calculus",
+          detail: "The Fed released a Basel risk weighting revision proposal today (r/Bitcoin score=38). Bitcoin is currently treated as a 'toxic asset' under Basel standards, requiring banks to hold expensive capital buffers against BTC exposure. A reclassification would structurally lower the cost for banks to hold BTC — a long-term structural demand catalyst."
+        },
+        ],
+      },
+      {
+        icon: "Ξ",
+        title: "Ethereum",
+        signals: [
+        {
+          rating: 4,
+          headline: "Ethereum Foundation deploys $7.8M ETH into DeFi — largest single-day EF DeFi deployment, setting the tone",
+          detail: "The Ethereum Foundation deployed $7.8 million in ETH into DeFi today (news, 6h ago). This is on top of the 3,400 ETH Morpho deployment from earlier this week. The EF is actively using its treasury to bootstrap DeFi yields — a signal to institutions that on-chain yields are legitimate. Staking yields are the main bridge connecting TradFi and DeFi."
+        },
+        {
+          rating: 4,
+          headline: "BlackRock + institutions staking ETH — supply squeeze 'just getting started' as ETHB yield machines lock supply",
+          detail: "Multiple Exa sources (Mar 18-19) confirm: BlackRock and other institutions staking ETH through ETHB are creating a supply squeeze that is just beginning. ETHB monthly yield distribution means institutional ETH is locked in staking — not available for selling. With 37M ETH already staked (30% supply), the institutional staking layer adds a second locking mechanism on top."
+        },
+        {
+          rating: 3,
+          headline: "ETH recovers to $2,140 (+1.2% from noon) — bouncing with BTC; $315M ETF inflows show bid remains",
+          detail: "ETH recovered from the noon low of $2,114 to $2,140 at 6pm CT (+1.2%). ETH ETF inflows hit $315M in a recent session, raising the question 'Is the tide turning?' (Exa Mar 18). Whale $111M ETH purchase at $2,185 (from earlier today) is now underwater — but at a smaller margin. $2,100 held as support through the session."
+        },
+        {
+          rating: 3,
+          headline: "One-click institutional staking — developers targeting frictionless ETH staking; nearly 1M validators active",
+          detail: "Ethereum developers are targeting one-click staking for institutions — removing the technical friction that has kept TradFi from direct ETH staking (CoinDesk, 13h ago). Nearly 1 million validators are now active and ~30% of all ETH is staked. Combined with ETHB's arrival, this UX simplification could unlock the next wave of institutional staking capital."
+        },
+        {
+          rating: 3,
+          headline: "ETH outperforms BTC on 1D basis (-2.9% vs -1.4%) — but ETH/BTC narrative holds: geopolitical hedge + yield",
+          detail: "ETH fell -2.88% on the day vs BTC -1.43% — ETH underperformed BTC on raw 1D change. But the structural ETH/BTC narrative (staking yield as geopolitical hedge) continues: ETH's absolute performance vs its ATH ratio has been recovering. The $7.8M EF DeFi deployment + ETHB staking squeeze + $315M ETF inflows = three simultaneous demand drivers."
+        },
+        {
+          rating: 2,
+          headline: "ETH 6pm: $2,140 (-2.9% 1D) — three-body problem persists; $2,100 support held all session",
+          detail: "ETH closes the 6pm session at $2,140. The three-body problem continues: staking supply sink (37M ETH locked), L2 fee compression to mainnet (-90% YoY), BlackRock ETHB demand. $2,100 held as support all session. ETH RSI cycle-bottom signal still in play. Key level to watch: reclaim $2,200 to signal resumption."
+        },
+        ],
+      },
+    ],
+  },
+
+  {
     id: "2026-03-19-noon",
     issueNumber: 11,
     date: "March 19, 2026",
