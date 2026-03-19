@@ -29,6 +29,98 @@ export interface Issue {
 
 export const ISSUES: Issue[] = [
   {
+    id: "2026-03-19-noon",
+    issueNumber: 11,
+    date: "March 19, 2026",
+    time: "Noon CT",
+    btcPrice: "$69,465",
+    ethPrice: "$2,114",
+    btcChange: "2.4%",
+    ethChange: "3.6%",
+    btcUp: false,
+    ethUp: false,
+    sections: [
+      {
+        icon: "₿",
+        title: "Bitcoin",
+        signals: [
+        {
+          rating: 4,
+          headline: "BTC breaks below $70K as Iran war + oil spike triggers macro risk-off — Fed hold fails to hold price",
+          detail: "Bitcoin dropped below $70,000 today as rising oil prices (Iran-related tensions) overwhelmed the Fed's rate hold. BTC-USD now at $69,465 (-2.4% from 6pm yesterday, -3.5% 24h). 'Hold onto dry powder while prices swing' (analyst, CoinDesk). The Fed paused as expected, but 'higher for longer' + geopolitical risk-off = double pressure. $70K psychological floor decisively breached at noon."
+        },
+        {
+          rating: 4,
+          headline: "Morgan Stanley files amended Bitcoin ETF S-1 — 126 crypto ETFs under SEC review simultaneously",
+          detail: "Morgan Stanley advanced its Bitcoin ETF plans with an amended S-1 filing (CoinCentral, Exa Mar 19). 126 crypto ETF applications are now under simultaneous SEC review. This is the largest institutional ETF pipeline in crypto history. Morgan Stanley entry would add a major wealth management distribution channel to Bitcoin's institutional demand stack."
+        },
+        {
+          rating: 3,
+          headline: "Bitcoin ETF flows conflicted: $164M outflows today vs $763M weekly inflow high — net week still strong",
+          detail: "Today's session saw $164M ETF outflows as BTC dipped below $71K (Exa Mar 19). But the weekly inflow high hit $763M — the strongest week of 2026. Crypto ETFs collectively added $12B in AUM since US-Iran tensions began (CoinCentral). Short-term profit-taking vs long-term institutional accumulation divergence."
+        },
+        {
+          rating: 3,
+          headline: "Bhutan executed masterclass OTC liquidation: $72M Bitcoin moved to Binance without moving price",
+          detail: "Bhutan moved $72M in Bitcoin to Binance via OTC desk without registering any price impact (You.com). National reserve now at 4,400 BTC. Sovereign-level profit-taking at the $70K level using institutional OTC infrastructure — zero market disruption. The playbook for how nation-states exit crypto positions."
+        },
+        {
+          rating: 3,
+          headline: "Ancient Bitcoin whale offloads $100M+ as price slips — decade-dormant holders reactivating",
+          detail: "A long-dormant Bitcoin holder who accumulated BTC over a decade ago resurfaced to offload tens of millions (CoinDesk news). Simultaneously, Citigroup cut price targets for BTC and most crypto stocks. Ancient whale reactivation + sell-side institutional trimming = two separate but aligned bearish data points at the $69-70K level."
+        },
+        {
+          rating: 3,
+          headline: "Fed proposes Basel risk weighting revisions — could reduce capital requirements for BTC at banks",
+          detail: "The Federal Reserve will release a proposal for revisions to Basel risk weighting standards (r/Bitcoin, score=11, 1.3h). If bank capital requirements for holding Bitcoin are reduced, it directly lowers the cost for banks to hold BTC on balance sheet — a structural long-term bullish catalyst separate from price action."
+        },
+        {
+          rating: 2,
+          headline: "BTC noon: $69,465 (-2.4% from 6pm) — $70K support broken; $65K-68K next support zone in focus",
+          detail: "BTC failed to hold $70K at noon. The Fed hold catalyst was fully absorbed by 6pm yesterday; today's Iran/oil macro + whale offloading + ETF outflows drove the breach. Next technical support: $65,000-$68,000 range. Quantum-resistant Bitcoin (BTQ BIP 360 implementation) deployed on testnet — long-term protocol resilience signal (r/Bitcoin, 51, 1.5h)."
+        },
+        ],
+      },
+      {
+        icon: "Ξ",
+        title: "Ethereum",
+        signals: [
+        {
+          rating: 4,
+          headline: "Ethereum outperforming Bitcoin in Iran/war macro — ETH/BTC ratio strengthening as geopolitical hedge",
+          detail: "ETH is outperforming BTC during the Iran-US-Israel geopolitical crisis — unexpected, as ETH typically underperforms in risk-off (CoinDesk). ETH at $2,114 vs BTC at $69,465. ETH/BTC ratio holding. Explanation: ETH's yield (staking) + DeFi productivity creates a 'digital economy' narrative distinct from pure BTC store-of-value during geopolitical stress."
+        },
+        {
+          rating: 4,
+          headline: "BlackRock ETHB staking ETF 'rewrites rules of what a crypto fund can be' — direct yield from ETH staking",
+          detail: "BlackRock's staked Ethereum ETF (ETHB) is described as a rule-rewriting product (Exa Mar 19 x2). Monthly staking yield distribution creates a yield instrument on top of crypto exposure — a new asset class. Combined with 30% of ETH supply staked, 37M ETH locked, this represents the structural demand floor Ethereum bulls have been building toward."
+        },
+        {
+          rating: 4,
+          headline: "Bitmine launches $250M Ethereum treasury strategy — stock surges 1,000% in single day",
+          detail: "BitMine Immersion revealed a $250 million Ethereum corporate treasury investment, with Tom Lee backing (news). Stock surged +1,000% in a single day. This is the ETH equivalent of MicroStrategy's BTC treasury play — a publicly traded company making a massive levered ETH bet. Corporate ETH treasury strategy is now live."
+        },
+        {
+          rating: 3,
+          headline: "Ethereum Foundation deploys 3,400 ETH to Morpho DeFi vaults — DeFi TVL crosses $100B milestone",
+          detail: "EF added 3,400 ETH to Morpho Vaults V2 (Exa, multiple confirmations Mar 18-19). DeFi Total Value Locked crossed $100 billion again after months of contraction (Exa Mar 18). The EF's active DeFi deployment signals conviction in on-chain treasury management and directly grows TVL in Ethereum's core ecosystem."
+        },
+        {
+          rating: 3,
+          headline: "Vitalik Buterin releases fast confirmation rule update — sub-second UX for institutional stakers",
+          detail: "Vitalik shared a fast confirmation rule update for Ethereum (Exa Mar 18) — targeting near-instant transaction confirmation for institutions. Combined with the 'one-click staking' push for institutions (Exa Mar 19, CoinDesk), Ethereum is actively reducing UX friction at the exact moment institutional capital is entering via ETHB."
+        },
+        {
+          rating: 2,
+          headline: "ETH noon: $2,114 (-3.6% from 6pm) — $2,100 support testing; three-body problem (staking/L2 fees/ETHB) in play",
+          detail: "ETH at $2,114 — testing the $2,100 support level. The 'three-body problem': 37M ETH staked (supply sink), L2 fees to mainnet down 90% YoY (revenue pressure), BlackRock ETHB (new demand). Whale bought $111M at $2,185 yesterday. ETH RSI flashed a cycle-bottom signal seen only twice before. $2,100 is the critical floor heading into this afternoon."
+        },
+        ],
+      },
+    ],
+  },
+
+  {
     id: "2026-03-19-8am",
     issueNumber: 10,
     date: "March 19, 2026",
