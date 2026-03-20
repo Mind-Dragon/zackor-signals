@@ -29,6 +29,92 @@ export interface Issue {
 
 export const ISSUES: Issue[] = [
   {
+    id: "2026-03-20-6pm",
+    issueNumber: 15,
+    date: "March 20, 2026",
+    time: "6pm CT",
+    btcPrice: "$70,796",
+    btcChange: "1.3%",
+    btcUp: true,
+    ethPrice: "$2,156",
+    ethChange: "0.9%",
+    ethUp: true,
+    sections: [
+      {
+        icon: "₿",
+        title: "Bitcoin",
+        signals: [
+          {
+            rating: 4,
+            headline: "BTC recovers to $70,796 (+1.3%) — ETF outflow day ends with price resilience as $70K reclaimed",
+            detail: "BTC closed the day at $70,796, reclaiming $70K after the noon dip to $69,658. Net day change +1.3% despite $323M ETF outflows reported earlier. The recovery signals strong underlying bid — likely driven by MicroStrategy's $1.57B weekly purchase and spot ETF collateral-use approval absorbing sell pressure."
+          },
+          {
+            rating: 4,
+            headline: "Bitcoin ETF trading volumes smash records — 4 highest volumes ever all in past month",
+            detail: "Exa: Bitcoin ETFs hit record trading volumes with all 4 highest single-day volume records set within the past 30 days. This is a structural liquidity signal — even on outflow days, ETF volume is historically elevated, indicating institutional repositioning rather than exit. Spot ETF market depth deepening."
+          },
+          {
+            rating: 4,
+            headline: "Morgan Stanley MSBT amended SEC filing — Coinbase custody confirmed, BNY Mellon administration",
+            detail: "Morgan Stanley pushed closer to its spot Bitcoin ETF with an amended SEC registration. Updated details confirm Coinbase as custodian and BNY Mellon as administrator. Morgan Stanley becomes first major U.S. bank (not via affiliated fund) attempting its own spot BTC ETF. Approval timeline unknown but filing infrastructure is complete."
+          },
+          {
+            rating: 4,
+            headline: "Crypto Clarity Act back in play — Senate stablecoin yield breakthrough unlocks path forward",
+            detail: "r/CryptoCurrency (54↑): Senators agreed on stablecoin yield provisions, clearing the Crypto Clarity Act to potentially move forward. This is a major regulatory unlock — stablecoin yield was the final sticking point. If passed, the CLARITY Act would establish a comprehensive framework for crypto asset classification in the US."
+          },
+          {
+            rating: 3,
+            headline: "SEC Chair Atkins building 'framework' for Bitcoin as commodity — bridge while Congress advances CLARITY",
+            detail: "r/Bitcoin (167↑): SEC Chair Atkins confirmed the agency is building a formal framework for Bitcoin and other crypto assets, describing it as a bridge while Congress advances legislation. Aligns with March 17 SEC/CFTC commodity classification. Regulatory clarity narrative accelerating on both executive and legislative fronts simultaneously."
+          },
+          {
+            rating: 3,
+            headline: "Trust Wallet $7M hack exposed after internal dispute — Chinese firm implicated",
+            detail: "r/CryptoCurrency (17↑): $7M Trust Wallet hack details emerged via an internal dispute at the Chinese firm behind the breach. Self-custody wallet security remains a persistent risk vector. Signals continued importance of hardware wallets and multi-sig setups for large holders."
+          },
+          {
+            rating: 2,
+            headline: "Opera embraces crypto for personal income payments — Web2 browser expanding crypto rails",
+            detail: "r/CryptoCurrency (17↑): Opera browser moving to support crypto for income payments. Alongside Stripe's crypto business services launch (noon scan), Web2 infrastructure is accelerating its crypto payment integration."
+          }
+        ]
+      },
+      {
+        icon: "Ξ",
+        title: "Ethereum",
+        signals: [
+          {
+            rating: 4,
+            headline: "ETH recovers to $2,156 (+0.9%) — $2,100 support held all day despite $140M purchase failing to rally",
+            detail: "ETH closed 6pm at $2,156, recovering from the noon $2,134 reading. Crucially, $2,100 held as support despite YS reporting a $140M ETH purchase 'failing to rally' — suggesting significant sell-side pressure being absorbed. The $2.5B liquidation zone remains just below current levels."
+          },
+          {
+            rating: 4,
+            headline: "ETH bull whale's $1.5B position moves to a loss amid record whale accumulation — divergence signal",
+            detail: "Exa (Mar 20): ETH's largest bull whale saw its $1.5B position slip into the red as ETH struggles to break above $2,200. Simultaneously, record whale accumulation is occurring — multiple whales adding $111M+ while the largest holder is underwater. Classic accumulation-at-loss vs. capitulation divergence. Long-term bullish if whale holds."
+          },
+          {
+            rating: 4,
+            headline: "ETH whale: $167M total accumulation analyzed — 'hidden bull case' with 56% below ATH + staking surge",
+            detail: "Exa analysis: Total ETH whale accumulation reaches $167M across multiple addresses. ETH is 56% below its ATH — the deepest discount since the 2022 bear market. Staking participation surging (37M ETH staked). Three-way compression: discount depth + staking lock-up + ETF institutional demand = potential spring mechanism."
+          },
+          {
+            rating: 3,
+            headline: "Whale who sold all ETH a year ago is buying back — returning accumulator signal",
+            detail: "Exa: A notable whale who sold his entire ETH position a year ago has started buying ETH again at current levels. Known returning accumulators at key discount levels are historically strong contrarian signals. Context: ETH 56% below ATH at $2,156."
+          },
+          {
+            rating: 3,
+            headline: "Vitalik Buterin: 'Crypto dies if users focus only on speculation' — utility-first narrative at peak",
+            detail: "r/CryptoCurrency (213↑ — trending all day, topped at 1007 comments by 6pm): Vitalik's post gained massive traction throughout the day. The message: ETH's survival requires real utility adoption over speculation. Timely given ETH underperformance vs. BTC YTD — narrative pivot to utility is the ETH bull thesis."
+          }
+        ]
+      }
+    ]
+  },
+  {
     id: "2026-03-20-noon",
     issueNumber: 14,
     date: "March 20, 2026",
