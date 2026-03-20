@@ -29,6 +29,92 @@ export interface Issue {
 
 export const ISSUES: Issue[] = [
   {
+    id: "2026-03-20-8am",
+    issueNumber: 13,
+    date: "March 20, 2026",
+    time: "8am CT",
+    btcPrice: "$70,335",
+    btcChange: "0.6%",
+    btcUp: true,
+    ethPrice: "$2,140",
+    ethChange: "0.1%",
+    ethUp: true,
+    sections: [
+      {
+        icon: "₿",
+        title: "Bitcoin",
+        signals: [
+          {
+            rating: 4,
+            headline: "BTC holds $70,335 — consolidating above $70K floor as long-term selling pressure eases",
+            detail: "Bitcoin steady at $70,335 (+0.6%) at 8am CT. VanEck report: long-term holder selling is slowing — 'potentially constructive' signal. BTC/Gold ratio RSI rebounding from oversold, MACD nearing bullish crossover per analysts. The $70K floor has held through multiple macro headwinds including Fed rate hold and Iran/oil volatility."
+          },
+          {
+            rating: 4,
+            headline: "Bitcoin spot ETFs record $90.2M net outflow Mar 19 — BlackRock clients led selling; weekly still $763M net in",
+            detail: "Single-day outflow breaks multi-day inflow streak. BlackRock client redemptions drove the selling. Context: this is one day vs. a strong weekly picture ($763M net inflow). Short-term institutional hedging vs. long-term structural bid divergence continues. Watch for inflow resumption today."
+          },
+          {
+            rating: 4,
+            headline: "Strategy buys $1.57B in Bitcoin last week — 761,068 BTC total; STRC preferred equity to accelerate purchases",
+            detail: "MicroStrategy/Strategy's largest-ever weekly purchase: 22,337 BTC at avg ~$70,337. STRC perpetual preferred equity vehicle announced to accelerate BTC accumulation toward BlackRock's $55B BTC stockpile. Saylor is systematically building a position that rivals sovereign wealth funds."
+          },
+          {
+            rating: 4,
+            headline: "BTQ BIP 360: first working quantum-resistant Bitcoin deployed on testnet — infrastructure milestone",
+            detail: "BTQ deployed the first working BIP 360 implementation on Bitcoin Quantum testnet. r/CryptoCurrency (195↑) and r/Bitcoin (224↑) both trending. This moves quantum-resistant Bitcoin from theoretical proposal to live testnet infrastructure. With quantum computing timelines accelerating, BIP 360 is a long-term protocol resilience milestone."
+          },
+          {
+            rating: 4,
+            headline: "Strive surpasses Tesla in BTC holdings (13,628 vs 11,509) — enters top 10 public treasury holders",
+            detail: "First dedicated Bitcoin treasury firm to pass Tesla. Corporate treasury arms race: Strive, American Bitcoin (ABTC/Trump family, ~$500M), Strategy, and others all racing to accumulate. Strive adds 317 BTC in latest filing per r/CryptoCurrency (19↑)."
+          },
+          {
+            rating: 3,
+            headline: "SEC Chair Atkins sets up formal 'framework' for Bitcoin as commodity — regulatory clarity milestone",
+            detail: "First SEC chair to explicitly treat Bitcoin as commodity publicly. r/Bitcoin (129↑): Atkins confirming SEC is establishing formal classification framework. Landmark regulatory clarity milestone that reduces legal uncertainty for institutional holders and ETF products."
+          },
+          {
+            rating: 3,
+            headline: "Fed Basel revision proposal: BTC reclassification away from 'toxic asset' — structural bank catalyst",
+            detail: "r/Bitcoin (52↑): Federal Reserve releasing proposal for revised Basel risk weighting standards. Reclassification would lower capital requirements for banks holding BTC — enabling banks to hold more BTC at lower cost. Structural long-term catalyst if passed."
+          },
+          {
+            rating: 3,
+            headline: "Wall St 2026 BTC targets converging: Citi $189K bull case, Bernstein $150K, JPM ~$170K",
+            detail: "Multiple major banks publishing formal BTC price targets for 2026. DDC Enterprise adds 200 BTC lifting treasury to 2,383 BTC. Institutional consensus formation accelerating as price consolidates above $70K. BTC Machine Learning price prediction for Apr 1 also circulating."
+          }
+        ]
+      },
+      {
+        icon: "Ξ",
+        title: "Ethereum",
+        signals: [
+          {
+            rating: 4,
+            headline: "Tom Lee: '$62K ETH if priced as payment rail' — NY Post + BlackRock institutional thesis goes mainstream",
+            detail: "NY Post covers BlackRock bringing ETH exposure + yield to institutions. Tom Lee thesis: 'Ethereum is real money, real yield.' @WOLF_Bitcoin_ (107L/11RT): '$62K ETH if Ethereum priced as payment rail.' This is the largest mainstream ETH validation narrative this cycle — TradFi media is now covering the ETH yield thesis."
+          },
+          {
+            rating: 4,
+            headline: "Morgan Stanley files S-1 for spot Bitcoin ETF ($MSBT) — $1.9T manager enters BTC distribution; ETH ETF flows $315M",
+            detail: "Coinbase as custodian, BNY Mellon as administrator. Morgan Stanley's entry as spot BTC ETF issuer is the biggest new distribution channel since IBIT. ETH ETF net inflows $315M on Mar 19. Institutional bid confirmed across both BTC and ETH."
+          },
+          {
+            rating: 3,
+            headline: "ETH RSI cycle-bottom signal active — Tom Lee reiterates 3 bullish drivers; $2,100 support held",
+            detail: "$2,140 at 8am CT. $2,100 support held all session. CCN: RSI signal seen only twice in ETH history — both prior times preceded significant rallies. FXStreet: BTC, ETH, XRP all positioned for further gains. $2,200 is key reclaim level for next leg."
+          },
+          {
+            rating: 2,
+            headline: "Trust Wallet $7M hack exposed via internal dispute — custody security concerns resurface",
+            detail: "r/CryptoCurrency (11↑): $7M Trust Wallet hack revealed by internal whistleblower at Chinese firm. DeFi custody risk narrative returns. Reminder to use hardware wallets for significant ETH/DeFi positions."
+          }
+        ]
+      }
+    ]
+  },
+  {
     id: "2026-03-19-6pm",
     issueNumber: 12,
     date: "March 19, 2026",
