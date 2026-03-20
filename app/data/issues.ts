@@ -29,6 +29,97 @@ export interface Issue {
 
 export const ISSUES: Issue[] = [
   {
+    id: "2026-03-20-noon",
+    issueNumber: 14,
+    date: "March 20, 2026",
+    time: "Noon CT",
+    btcPrice: "$69,658",
+    btcChange: "0.4%",
+    btcUp: false,
+    ethPrice: "$2,134",
+    ethChange: "0.1%",
+    ethUp: false,
+    sections: [
+      {
+        icon: "₿",
+        title: "Bitcoin",
+        signals: [
+          {
+            rating: 4,
+            headline: "BTC ETF outflows escalate: $163.5M–$323M today — largest single-day selling since ETF launch",
+            detail: "Multiple sources (AMBCrypto, ainvest) confirm BTC ETF outflows between $163.5M and $323M on Mar 20 — a significant escalation from yesterday's $90.2M outflow. Despite outflows, $2.8B in fresh accumulation is reported concurrently. BTC holds $69,658 (−0.4%) — $70K lost as key support. Watch $68,500 as next level."
+          },
+          {
+            rating: 4,
+            headline: "Morgan Stanley confirms 'MSBT' ticker — files final revised SEC application for first bank-led Bitcoin ETF",
+            detail: "Morgan Stanley advances its spot Bitcoin ETF with confirmed MSBT ticker and $1M seed plan filing. First big U.S. bank filing a bank-led (not affiliate-led) Bitcoin ETF. $1.9T manager. Coinbase custodian, BNY Mellon administrator. Approval could meaningfully boost BTC demand via new distribution channel."
+          },
+          {
+            rating: 4,
+            headline: "Bitcoin ETF collateral approved + inflows surging alongside MicroStrategy's $1.57B purchase — institutional accumulation vs. outflow divergence",
+            detail: "ETF collateral use is now formally approved — a structural upgrade enabling institutional use of BTC as collateral in broader financial products. MicroStrategy's $1.57B weekly purchase continues to underpin the long-term bid even as short-term ETF outflows spike."
+          },
+          {
+            rating: 3,
+            headline: "North Carolina introduces bill to put Bitcoin in the state treasury reserve",
+            detail: "r/Bitcoin (66↑): North Carolina moving to become one of the first states to officially hold Bitcoin as part of its treasury reserves. State-level strategic reserve adoption is accelerating — joining Arizona, Texas, and other states with similar proposals."
+          },
+          {
+            rating: 3,
+            headline: "SEC Chair Atkins commodity framework article trending — 'best possible outcome for BTC holders'",
+            detail: "r/CryptoCurrency (40↑): Detailed explainer on what the March 17 SEC/CFTC joint BTC commodity classification means legally. Article framing: 'best possible outcome for BTC holders.' Regulatory clarity narrative continuing to build."
+          },
+          {
+            rating: 3,
+            headline: "Stripe launches payment services for crypto businesses — BTC/crypto payment rails expanding",
+            detail: "r/Bitcoin (20↑): Stripe entering crypto business payments. Major Web2 payment processor now servicing crypto-native companies. Fiat-crypto bridge infrastructure expanding alongside institutional accumulation."
+          },
+          {
+            rating: 2,
+            headline: "BTC hashrate: Bitlease founder argues falling hashrates aren't a threat — security narrative holds",
+            detail: "r/CryptoCurrency (24↑): Nima Beni (Bitlease) explains why falling hashrates don't endanger Bitcoin's security — different security model than most assume. Background signal for institutional risk assessors."
+          }
+        ]
+      },
+      {
+        icon: "Ξ",
+        title: "Ethereum",
+        signals: [
+          {
+            rating: 4,
+            headline: "ETH whale accumulates $111M during post-Fed dip — largest single-address buy this week",
+            detail: "Exa (Mar 19): Ethereum whale accumulated $111M in ETH during the post-Fed price dip. A second whale sold $111M then bought back — net neutral. Interpreted as large-address conviction buying at $2,100 support. On-chain demand absorbing ETF + market sell pressure."
+          },
+          {
+            rating: 4,
+            headline: "ETH $2.5B long liquidation risk if price dips below $2,100 — critical support level confirmed",
+            detail: "CoinTelegraph: $2.5B in long positions face liquidation if ETH breaks below $2,100. ETH currently $2,134 — dangerously close. $2,100 is the make-or-break level for a potential long squeeze. BlackRock ETHB ETF pulled $155M in flows despite the risk."
+          },
+          {
+            rating: 4,
+            headline: "BlackRock's staked Ethereum ETF (ETHB) rewrites crypto fund rules — $155M inflows; Grayscale adds $44.6M staked",
+            detail: "BlackRock ETHB bringing yield (staking) directly into an ETF structure for the first time. Grayscale doubles down adding $44.6M staked ETH. Ethereum's 'Three-Body Problem': 37M ETH staked + L2 fees down 90% + ETF institutional demand all compressing supply simultaneously."
+          },
+          {
+            rating: 3,
+            headline: "Vitalik Buterin: 'Crypto dies if users focus only on speculation' — utility narrative push",
+            detail: "r/CryptoCurrency (107↑): Vitalik warning that speculation-first culture is existential risk for crypto. He's pushing for real utility use cases to dominate. Context: ETH's utility narrative (staking yield, L2 scalability) is the bull case against pure speculation pressure."
+          },
+          {
+            rating: 3,
+            headline: "Ethereum: 'Three-Body Problem' — 37M ETH staked, L2 fees −90%, BlackRock demand = supply squeeze",
+            detail: "Phemex analysis: Three simultaneous forces — 37M ETH locked in staking reducing liquid supply, L2 transaction fee collapse (−90%) reducing ETH burn, but BlackRock ETHB ETF pulling institutional demand. Net supply pressure could be bullish as liquidity tightens."
+          },
+          {
+            rating: 2,
+            headline: "ETH new block explorer built by community dev — no-code visual smart contract builder",
+            detail: "r/ethereum (13↑): Community developer building no-code visual smart contract builder for Solidity, helping non-developers deploy on ETH. Ecosystem builder signal."
+          }
+        ]
+      }
+    ]
+  },
+  {
     id: "2026-03-20-8am",
     issueNumber: 13,
     date: "March 20, 2026",
