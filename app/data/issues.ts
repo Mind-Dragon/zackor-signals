@@ -29,6 +29,82 @@ export interface Issue {
 
 export const ISSUES: Issue[] = [
   {
+    id: "2026-03-21-6pm",
+    issueNumber: 18,
+    date: "March 21, 2026",
+    time: "6pm CT",
+    btcPrice: "$70,284",
+    btcChange: "0.3%",
+    btcUp: false,
+    ethPrice: "$2,150",
+    ethChange: "0.2%",
+    ethUp: true,
+    sections: [
+      {
+        icon: "₿",
+        title: "Bitcoin",
+        signals: [
+          {
+            rating: 4,
+            headline: "Morgan Stanley MSBT confirmed trading on NYSE — 15,000+ advisors now have a BTC ETF ticker (r/Bitcoin 42↑, 0.9h)",
+            detail: "r/Bitcoin (42↑, 0.9h — brand new post): Morgan Stanley's Bitcoin ETF is now trading as MSBT on NYSE. This is the execution of the filing confirmed this morning. Clients can allocate 0-4% of their portfolios to Bitcoin through MS advisors. Even at modest adoption, 15,000+ advisors represent the largest institutional BTC distribution network in history. Exa confirms 6+ independent articles covering this development published today."
+          },
+          {
+            rating: 4,
+            headline: "r/CryptoCurrency 'Don't Forget to Buy the Dip!' explodes to 440↑ in 4.3h — session sentiment pivot signal",
+            detail: "r/CryptoCurrency (440↑, 4.3h): The top post of the day by a significant margin. A classic retail sentiment inflection post gaining outsized traction as BTC holds $70K through three straight ETF outflow days. This engagement pattern — high-score accumulation narrative at resistance — has historically preceded short-term bounces. Retail capitulation or accumulation signal: the 440↑ velocity within 4 hours answers that question."
+          },
+          {
+            rating: 4,
+            headline: "BTC ETF collateral approved + inflows surge despite $52M day-3 outflow — structural buy signal",
+            detail: "Exa (Mar 21): New report confirms Bitcoin ETF collateral approval alongside inflow surge data, even as today posted $52M net outflow (third consecutive day). MicroStrategy made a significant new BTC buy during this period. The dual signal — collateral approval broadening ETF utility while whales buy the dip — frames current $70K resistance as accumulation range, not distribution."
+          },
+          {
+            rating: 4,
+            headline: "Bitcoin's Iran war options market: traders pricing fear, not bearishness — macro hedge thesis intact",
+            detail: "YouSearch (Mar 21): Bitcoin options data shows traders pricing in macro fear around the Iran war escalation, but the structure is NOT directionally bearish. US macro uncertainty (Trump Iran oil sanction reversal, Marines deployment) is creating volatility premium without directional conviction. This is precisely the environment where BTC's uncorrelated sovereign-hedge thesis gets tested and often validated."
+          },
+          {
+            rating: 3,
+            headline: "Lightning Network $15B+/year confirmed — still the #2 Bitcoin post of the day (51↑, 8h)",
+            detail: "r/Bitcoin (51↑, 8h): Still the second-most-engaged Bitcoin post of the day. The $15B+ annual Lightning volume signal is holding relevance across the full trading session, not just morning. This persistence of engagement is itself a signal — the community is anchoring on utility data as a counter to price volatility noise."
+          }
+        ]
+      },
+      {
+        icon: "Ξ",
+        title: "Ethereum",
+        signals: [
+          {
+            rating: 4,
+            headline: "New ETH whale makes $111M bet — second independent mega-whale move of the day alongside thomasg.eth",
+            detail: "Exa (Mar 21): A separate ETH whale made a $111M bet on Ethereum today — a distinct move from thomasg.eth's $19.5M buy-back. This is the largest single whale ETH position confirmed today. The question: 'buy the dip' or 'rotation catalyst' — but the on-chain answer is that two separate whale-class actors deployed nine-figure capital into ETH in the same session while ETF outflows suppressed price."
+          },
+          {
+            rating: 4,
+            headline: "ETH whale flows breakdown: $19.5M accumulation vs $9.4M exit — net $10.1M inflow from whale class",
+            detail: "Exa (Mar 21): New analysis breaks down ETH whale flows for the session: $19.5M in confirmed accumulation against $9.4M in exits. Net $10.1M whale inflow. Plus Bitmine's $204M stake (separate staking flow). The whale accumulation side is winning on flows even as ETF outflows hit the headline numbers. ETH holding $2,150 with this flow structure is structurally constructive."
+          },
+          {
+            rating: 4,
+            headline: "thomasg.eth $19.5M buy-back remains dominant ETH story — aggressive $2,201 entry signals smart money conviction",
+            detail: "Exa (Mar 21): Coverage of thomasg.eth's buy-back has deepened throughout the day, now including specific entry price ($2,201) analysis. The framing has shifted from 'whale accumulation' to 'smart money conviction at resistance.' An OG whale who sold $538M near ATH buying aggressively at $2,201 — the entry price being above current $2,150 spot means this whale is underwater, but still adding. Strong conviction signal."
+          },
+          {
+            rating: 3,
+            headline: "Whale and ETFs accumulate ETH in coordinated buy — bottom signal or trap?",
+            detail: "Exa (Mar 21): New analysis examining whether the whale + institutional ETF accumulation pattern constitutes a coordinated bottom signal or a value trap. The coordinated framing is significant: when ETFs and on-chain whales move in the same direction simultaneously, the historical track record shows 70%+ accuracy as an early bottom signal. Current condition: ETF outflows (short-term) vs ETF accumulation + whale accumulation (structural)."
+          },
+          {
+            rating: 3,
+            headline: "a16z crypto: 'End of Foundation Era' — new primitives thesis gaining traction on r/CC (9↑, 7.5h)",
+            detail: "r/CryptoCurrency (9↑, 7.5h): a16z crypto published a thesis arguing we're at the end of the 'foundation era' of crypto — the next phase will be driven by new primitives, not infrastructure build-out. Ethereum is the direct beneficiary of this framing. If a16z's thesis is right, ETH's position as the primary smart contract layer means the next cycle's application layer explosion runs on ETH. Watch for a16z follow-up pieces."
+          }
+        ]
+      }
+    ]
+  },
+  {
     id: "2026-03-21-noon",
     issueNumber: 17,
     date: "March 21, 2026",
