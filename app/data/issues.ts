@@ -29,6 +29,87 @@ export interface Issue {
 
 export const ISSUES: Issue[] = [
   {
+    id: "2026-03-21-noon",
+    issueNumber: 17,
+    date: "March 21, 2026",
+    time: "Noon CT",
+    btcPrice: "$70,321",
+    btcChange: "0.3%",
+    btcUp: false,
+    ethPrice: "$2,148",
+    ethChange: "0.1%",
+    ethUp: true,
+    sections: [
+      {
+        icon: "₿",
+        title: "Bitcoin",
+        signals: [
+          {
+            rating: 4,
+            headline: "Morgan Stanley MSBT poised to attract $160B in new crypto money — could usurp BlackRock as top BTC ETF",
+            detail: "Exa (Mar 21): New analysis projects Morgan Stanley's MSBT ETF could attract $160B in new money, potentially surpassing BlackRock's IBIT as the dominant spot BTC ETF. Morgan Stanley filed its second S-1 amendment, setting the stage for spot ETF launch. If MSBT gets approved, 15,000+ MS financial advisors become BTC distribution — the largest retail-institutional distribution network in any ETF ever."
+          },
+          {
+            rating: 4,
+            headline: "BTC spot ETF sees $52M net outflow on March 21 — third consecutive outflow day, yet price holds $70K",
+            detail: "Exa (Mar 21): US spot BTC ETFs saw $52M in net outflows today, marking the third consecutive day of net negative flows. Despite this, BTC is holding above $70K. The price resilience under sustained ETF selling confirms strong underlying bid. Outflow streak = institutional repositioning window, not exit. BTC 4 record trading volume days in 30 days remains the structural signal."
+          },
+          {
+            rating: 4,
+            headline: "Bitcoin's Iran war pattern held 3 weeks — now being tested (r/CC 14↑)",
+            detail: "r/CryptoCurrency (14↑, 5.9h): BTC has tracked a consistent pattern relative to Iran geopolitical escalation for three weeks. That pattern is now being stress-tested as tensions evolve. Combined with UK bond panic (r/CC 40↑, 9.6h): two simultaneous geopolitical/macro catalysts for BTC as uncorrelated sovereign asset. Britain's bond stress alone is making the case that many traditional safe havens have failed."
+          },
+          {
+            rating: 4,
+            headline: "Astrophysicist $350K–$700K BTC model now top r/Bitcoin post today (117↑, 6.4h)",
+            detail: "r/Bitcoin (117↑): Stephen Perrenn's physics-based BTC cycle model, targeting $350K–$700K without retail FOMO, is now the top Bitcoin Reddit post of the day. Gaining traction from this morning's 42↑ to 117↑ in under 6 hours — accelerating engagement indicates this cycle thesis is resonating with the BTC holder base. Model uses stock-to-flow + adoption curve, independent of sentiment."
+          },
+          {
+            rating: 3,
+            headline: "Lightning Network moving $15B+/year — payment layer utility signal emerging",
+            detail: "r/Bitcoin (18↑, 2.0h): Latest data suggests Lightning Network is processing over $15B annually. This is a utility signal for BTC as a payments layer, not just a store of value. Context: at a time when speculation vs. utility debates dominate crypto Twitter, BTC's payment rails showing real volume is a meaningful counter-narrative to 'digital gold only' framing."
+          },
+          {
+            rating: 3,
+            headline: "14-year dormant BTC wallet (2,100 BTC) wake-up story still driving traffic — dormant whale narrative persists",
+            detail: "YouSearch (Mar 21): The 2,100 BTC dormant wallet story from this morning's scan continues generating major coverage throughout the day. $148M in Bitcoin that was untouched since 2012 reactivating at $70K resistance is a story the market hasn't fully processed yet."
+          }
+        ]
+      },
+      {
+        icon: "Ξ",
+        title: "Ethereum",
+        signals: [
+          {
+            rating: 4,
+            headline: "Bitmine stakes $204M in ETH — institutional staking as yield strategy signal",
+            detail: "Exa (Mar 21): Bitmine announced a $204M ETH stake position. This is a flow analysis signal: institutional players are not just holding ETH, they're staking it for yield. $204M in new staking adds to the 37M ETH already staked (record). Combined with thomasg.eth's $19.5M buy-back — two separate institutional accumulation + staking signals on the same day."
+          },
+          {
+            rating: 4,
+            headline: "Ethereum's $2,130 test: ETF outflows vs. whale accumulation — the battle for the floor",
+            detail: "Exa (Mar 21): ETH is at $2,148, testing the $2,130 support zone. The tension: ETF institutional outflows (BlackRock -$26M yesterday) vs. whale accumulation (thomasg.eth $19.5M, Bitmine $204M staked, $167M broader accumulation). When ETF selling exhausts, the whale-driven bid takes over. $2,130 holding = compression building for a breakout."
+          },
+          {
+            rating: 4,
+            headline: "thomasg.eth's $19.5M ETH buy-back continues to dominate coverage — now confirmed across 5 sources",
+            detail: "Exa: 5 separate articles published today covering the thomasg.eth $19.5M ETH stack rebuild. This is the most-covered single ETH signal of the day. Original signal: this whale sold $538M near the ATH. Now accumulating at 56% discount. Multiple sources confirm on-chain identity. High signal confidence: independently verified across TradingView, CoinSpectator, and dedicated ETH analysis sites."
+          },
+          {
+            rating: 3,
+            headline: "Hyperliquid whale positions: $3.65B active with 0.99 long/short ratio — near-perfect balance at ETH $2,130",
+            detail: "Exa (ChainCatcher, Mar 21): Hyperliquid whales are holding $3.65B in open positions with a long/short ratio of 0.99 — essentially 50/50 between bulls and bears. At ETH $2,130 support, this near-perfectly balanced book means a directional break either way triggers rapid cascade liquidations. $2.5B long liquidation risk below $2,100 remains active."
+          },
+          {
+            rating: 3,
+            headline: "Hong Kong crypto scam: retiree loses HK$6.6M in multi-stage fraud — regulatory risk signal",
+            detail: "r/CryptoCurrency (25↑, 4.4h): Major Hong Kong crypto fraud case published. Multi-stage scam targeting a retiree for HK$6.6M (~$845K USD). This type of high-profile fraud story in a major Asian financial hub generates regulatory attention. Context: Hong Kong is one of the most active crypto licensing jurisdictions in Asia right now."
+          }
+        ]
+      }
+    ]
+  },
+  {
     id: "2026-03-21-8am",
     issueNumber: 16,
     date: "March 21, 2026",
