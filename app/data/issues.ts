@@ -29,6 +29,97 @@ export interface Issue {
 
 export const ISSUES: Issue[] = [
   {
+    id: "2026-03-21-8am",
+    issueNumber: 16,
+    date: "March 21, 2026",
+    time: "8am CT",
+    btcPrice: "$70,734",
+    btcChange: "0.3%",
+    btcUp: true,
+    ethPrice: "$2,157",
+    ethChange: "0.5%",
+    ethUp: true,
+    sections: [
+      {
+        icon: "₿",
+        title: "Bitcoin",
+        signals: [
+          {
+            rating: 4,
+            headline: "BTC holds $70,734 (+0.3%) — price stalling at $70K resistance as SPY/QQQ ETFs also see record outflows",
+            detail: "BTC flat-to-up overnight at $70,734. YouSearch: 'Bitcoin Stalls at $70K as SPY, QQQ ETFs Post Record Outflows' — BTC price action is mirroring broader ETF redemption pressure, not crypto-specific selling. Twenty One Capital transferred 392 BTC ($27.6M) to Bitfinex overnight. Mining difficulty dropped 7.7% (Twitter) — hashrate contraction signal."
+          },
+          {
+            rating: 4,
+            headline: "Bitcoin wallet with 2,100 BTC wakes up after 14 years — dormant whale reactivation signal",
+            detail: "YouSearch (Mar 21): A Bitcoin wallet holding 2,100 BTC (~$148M at current prices) became active for the first time in 14 years. Dormant whale reactivations at $70K are historically significant — they indicate either long-term holders taking profit OR repositioning. 2,100 BTC = exactly 10% of the 21M supply cap, making this symbolically notable."
+          },
+          {
+            rating: 4,
+            headline: "North Carolina introduces bill to hold Bitcoin in state reserves — joins growing state-level BTC adoption wave",
+            detail: "r/Bitcoin (144↑): North Carolina introduced legislation to hold Bitcoin in state reserves. Joins a growing list of US states pursuing strategic BTC holdings post-federal strategic reserve executive order. State-level BTC adoption is the next layer of the institutional adoption stack after ETFs and corporate treasuries."
+          },
+          {
+            rating: 4,
+            headline: "Morgan Stanley MSBT filing continues gaining traction — Strategy CEO calls it a 'Monster Bitcoin' bet",
+            detail: "Exa (Mar 20-21): Morgan Stanley's amended MSBT ETF filing is dominating institutional conversation. Strategy CEO described it as a 'Monster Bitcoin' bet. ETF collateral approval + record BTC ETF volume (4 all-time highs in 30 days) + MSBT = three institutional catalysts converging. First bank-led spot BTC ETF would open distribution to Morgan Stanley's 15,000+ financial advisors."
+          },
+          {
+            rating: 4,
+            headline: "Astrophysicist model: BTC $350K–$700K in this cycle 'without FOMO' — institutional cycle thesis gaining mainstream",
+            detail: "r/Bitcoin (42↑): Physicist Stephen Perrenn's model predicts BTC reaches $350K–$700K in current cycle based on stock-to-flow + adoption curve analysis, without needing retail FOMO. Context: Jan 2017 BTC broke previous ATH, cycle bottom 23 months later. Twitter: @MaxCrypto (474pts) posting historical cycle analysis gaining major traction."
+          },
+          {
+            rating: 3,
+            headline: "Britain's bond panic making the case for Bitcoin — BTC as sovereign credit hedge gaining narrative momentum",
+            detail: "r/CryptoCurrency (16↑): UK bond market turbulence is generating fresh 'Bitcoin as sovereign hedge' narratives. Iran's $7.8B crypto shadow economy also in spotlight (r/Bitcoin 33↑) — geopolitical demand for censorship-resistant assets visibly rising."
+          },
+          {
+            rating: 3,
+            headline: "BTC trading 30% above realized price — supply in loss matches two previous accumulation zones",
+            detail: "r/CryptoCurrency (78↑): On-chain data shows BTC trading 30% above its realized price. The current supply-in-loss reading matches exactly two prior macro accumulation zones — historically both preceded major upward moves. Suggests current price is within a historically favorable accumulation band."
+          }
+        ]
+      },
+      {
+        icon: "Ξ",
+        title: "Ethereum",
+        signals: [
+          {
+            rating: 4,
+            headline: "ETH holds $2,157 (+0.5%) — OG whale thomasg.eth rebuilding $19.5M ETH stack after selling $538M a year ago",
+            detail: "Twitter @arkham (1230pts — top signal of entire scan): thomasg.eth, who once held $538M in ETH and sold near the top, is now actively buying back, rebuilding his position with $19.5M this week alone. This is the same 'returning whale' signal flagged in yesterday's Exa data — now confirmed on-chain with identity. Arkham's post went massively viral (502 likes, 59 RTs)."
+          },
+          {
+            rating: 4,
+            headline: "ETH active addresses surged 121% — from 381K to 841K in 24h",
+            detail: "Twitter @alicharts (291pts): Ethereum active addresses jumped 121% overnight, from 381,202 to 841,404. This is a significant on-chain activity spike — either a major airdrop/event drove user activity or organic network demand is surging. Address surge of this magnitude typically precedes price moves within 48-72h."
+          },
+          {
+            rating: 4,
+            headline: "ETH ETF saw $42M outflow yesterday — BlackRock alone sold $26M in Ethereum ETF",
+            detail: "Twitter @TedPillows (487pts): ETH ETF had $42M in outflows yesterday. BlackRock specifically redeemed $26M. This is the institutional sell pressure that explains why $2,100-$2,200 has been a ceiling despite whale accumulation. ETF outflows + whale buys = classic institutional vs. smart-money divergence."
+          },
+          {
+            rating: 3,
+            headline: "S&P 500 on Hyperliquid goes viral — TradFi rails on DeFi infrastructure is the top crypto Reddit post today",
+            detail: "r/CryptoCurrency (411↑ — top post): S&P 500 exposure via Hyperliquid perpetuals is capturing mainstream attention. Signal: DeFi is absorbing TradFi instruments, not competing with them. This is the real ETH utility narrative in action — Hyperliquid runs on Ethereum-adjacent infrastructure."
+          },
+          {
+            rating: 3,
+            headline: "Vitalik's speculation warning carries into Saturday — still top-2 post on r/CryptoCurrency (306↑)",
+            detail: "r/CryptoCurrency (306↑): Vitalik's 'crypto dies without utility' message from Friday is still the second most-upvoted post on r/CryptoCurrency today. 24+ hours of sustained traction = lasting narrative shift. ETH's L2 + DeFi + staking ecosystem IS the utility answer."
+          },
+          {
+            rating: 2,
+            headline: "Solana Foundation president: 'crypto gaming is dead' — attention shifting to DeFi infra and real yield",
+            detail: "r/CryptoCurrency (131↑): Solana Foundation president publicly declared crypto gaming dead. Combined with Vitalik's utility push and Hyperliquid TradFi moment — the narrative is clearly rotating from speculative/gaming to real financial infrastructure."
+          }
+        ]
+      }
+    ]
+  },
+  {
     id: "2026-03-20-6pm",
     issueNumber: 15,
     date: "March 20, 2026",
