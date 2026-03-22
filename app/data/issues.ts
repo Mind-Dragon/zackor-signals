@@ -29,6 +29,87 @@ export interface Issue {
 
 export const ISSUES: Issue[] = [
   {
+    id: "2026-03-22-8am",
+    issueNumber: 19,
+    date: "March 22, 2026",
+    time: "8am CT",
+    btcPrice: "$68,695",
+    btcChange: "0.1%",
+    btcUp: false,
+    ethPrice: "$2,082",
+    ethChange: "0.3%",
+    ethUp: true,
+    sections: [
+      {
+        icon: "₿",
+        title: "Bitcoin",
+        signals: [
+          {
+            rating: 4,
+            headline: "BTC drops below $68K after Trump 'final warning' to Iran — geopolitical floor test in progress (r/CC 364↑)",
+            detail: "r/CryptoCurrency (364↑, 10h): Trump issued a 'final warning' to Iran overnight, triggering BTC to drop below $68K. This is the most direct test of BTC's Iran war pattern since the conflict began — previously BTC held and recovered. Price at $68,695 currently. The critical question: does the geopolitical shock trigger a sell-off or does BTC absorb it as a sovereign hedge (as it has for the prior three weeks)? This is the signal to watch today."
+          },
+          {
+            rating: 4,
+            headline: "Bitcoin mining difficulty drops 7.8% — largest miner exodus in 2026 as AI compute wins the hash war",
+            detail: "r/CryptoCurrency (154↑, 9.5h): Bitcoin mining difficulty fell 7.8% — one of the largest drops in recent years. Miners are exiting Bitcoin mining in favor of AI compute infrastructure. This is structurally bullish for remaining miners (improved economics) and for BTC holders (reduced sell pressure from miner liquidations). The AI pivot of mining capital is accelerating, not reversing."
+          },
+          {
+            rating: 4,
+            headline: "Strategy CEO: MSBT could attract $160B — triple BlackRock's $54B, 'monster' BTC demand incoming",
+            detail: "Exa (Mar 22): Strategy's CEO (Michael Saylor) stated that Morgan Stanley's MSBT could attract up to $160B in flows, potentially making it three times larger than BlackRock's IBIT. Strategy itself now holds $54B in Bitcoin (Twitter/CWAlerts). The 'monster Bitcoin' framing is gaining mainstream traction as MSBT goes live on NYSE with 15,000+ advisor distribution network."
+          },
+          {
+            rating: 4,
+            headline: "SEC + CFTC drop landmark crypto framework — market response 'exposes deeper institutional challenges'",
+            detail: "Exa (Mar 22): The SEC and CFTC jointly released a landmark crypto regulatory framework on Sunday morning. Analyst framing: 'puts the final nail in the Gensler era' (r/CC 24↑). The CLARITY Act gaining support adds legislative momentum. NC lawmakers proposing a state Bitcoin reserve (r/CC 14↑) signals state-level institutional adoption accelerating alongside federal clarity."
+          },
+          {
+            rating: 3,
+            headline: "JPMorgan sets $266K BTC target — institutional demand thesis strengthening as correlation with S&P 500 rises",
+            detail: "Exa (Mar 22): JPMorgan published a $266K BTC price target based on institutional demand acceleration. Simultaneously, a separate analysis flags Bitcoin's rising S&P 500 correlation as a potential risk (YouSearch: 'triggers 50% crash setup'). The divergence between the bull case ($266K institutional target) and bear case (correlation risk) is the central BTC tension this week."
+          },
+          {
+            rating: 3,
+            headline: "Dormant 2011 Bitcoin wallet activates — 11,000x profit realization, 14-year HODLer exits",
+            detail: "Twitter/defiaddanews: A Bitcoin wallet dormant since 2011 reactivated, realizing 11,000x profit. This type of OG HODLer exit is a market structure event — supply that has been locked for 14 years entering circulation. Historical pattern: these events have minimal price impact individually but signal that long-term holders are finding the current price worth exiting."
+          }
+        ]
+      },
+      {
+        icon: "Ξ",
+        title: "Ethereum",
+        signals: [
+          {
+            rating: 4,
+            headline: "thomasg.eth still stacking Sunday AM — Arkham on-chain confirmation continues (Twitter 300 engagement score)",
+            detail: "Twitter @BSCNews (L:120 RT:16 R:12 = score 300): Arkham intelligence confirming thomasg.eth (the OG Ethereum whale who sold $538M near ATH) is actively continuing to accumulate ETH this morning. The buy-back initiated at $2,201 (underwater) is being extended. This is now a multi-day conviction accumulation pattern, not a one-time trade. ETH at $2,082 means the whale is ~5.4% underwater and adding."
+          },
+          {
+            rating: 4,
+            headline: "ETH Elliott Wave analysis: 'Has Ethereum started the next downtrend?' — $2,082 is the critical decision point (Twitter 124 score)",
+            detail: "Twitter @Morecryptoonl (L:54 RT:2 R:10 = score 124): Elliott Wave analysis asking whether ETH has entered the next downtrend structure at current levels. This is the #2 ETH engagement post of the morning. ETH at $2,082 is below thomasg.eth's buy entry of $2,201 — creating a tension between technical downtrend signals and smart money on-chain accumulation. Resolution of this tension defines the next 30-day move."
+          },
+          {
+            rating: 4,
+            headline: "Ethereum eyes 25% rally as richest ETH whales return to 'profitable state' — whale P&L reset incoming",
+            detail: "YouSearch/Twitter (Mar 22): Analysis showing the richest ETH whale cohort is approaching their breakeven price level, which historically precedes redistribution and price appreciation. Combined with YouSearch 'ETH demand grows + $4K 2026 target' coverage and the 7 largest public ETH treasury firms now holding (Twitter/CWAlerts), the on-chain structure suggests a potential 25% upside scenario if macro stabilizes."
+          },
+          {
+            rating: 3,
+            headline: "Bitmain sitting on 42-45% unrealized loss — bought ETH at $3,800-$4,000, now at $2,082",
+            detail: "Twitter @prievofficial: Bitmain (largest Bitcoin mining hardware company) holds significant ETH bought at $3,800-$4,000, currently sitting 42-45% underwater at $2,082. This is a macro overhang — Bitmain may face pressure to sell if ETH price stays depressed. However, it also signals that large institutional players are holding (not capitulating) despite deep losses."
+          },
+          {
+            rating: 3,
+            headline: "Resolv USR stablecoin crashes 80% after security failure — DeFi risk signal at ETH resistance",
+            detail: "r/CryptoCurrency (10↑, 1.9h): Resolv USR, an ETH-based stablecoin, crashed 80% following a security failure this morning. This is a live DeFi risk event occurring during ETH's most critical price support test. While not directly affecting ETH price, stablecoin security failures at resistance levels have historically added selling pressure as DeFi users de-risk. Monitor for contagion."
+          }
+        ]
+      }
+    ]
+  },
+  {
     id: "2026-03-21-6pm",
     issueNumber: 18,
     date: "March 21, 2026",
