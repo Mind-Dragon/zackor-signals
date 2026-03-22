@@ -29,6 +29,37 @@ export interface Issue {
 
 export const ISSUES: Issue[] = [
   {
+    id: '2026-03-22-6pm',
+    issueNumber: 21,
+    date: 'March 22, 2026',
+    time: '6pm CT',
+    btcPrice: '$68,299',
+    btcChange: '0.64%',
+    btcUp: false,
+    ethPrice: '$2,061',
+    ethChange: '0.77%',
+    ethUp: false,
+    sections: [
+      { icon: '₿', title: 'Bitcoin', signals: [
+    { rating: 4, headline: 'BTC dips below $68K on Trump Iran ultimatum', detail: 'Bitcoin dropped sharply after Trump issued a 48-hour ultimatum threatening military action on Iran\'s nuclear facilities, triggering a broader risk-off sell-off across crypto markets. BTC briefly touched $67.8K before stabilizing near $68.3K.' },
+    { rating: 4, headline: 'Morgan Stanley MSBT Bitcoin ETF cleared to list on NYSE', detail: 'Morgan Stanley\'s spot Bitcoin ETF is set to trade as \'MSBT\' on the NYSE. Analysts estimate the bank\'s wealth management network could funnel $160B in assets, potentially tripling BlackRock\'s IBIT scale — a structural bull catalyst once macro clears.' },
+    { rating: 3, headline: 'BlackRock scooped up ~$200M in Bitcoin this week', detail: 'Despite market volatility and ETF outflow concerns, BlackRock continued accumulating BTC through IBIT. Whale buying during extreme fear conditions historically sets up contrarian breakout trades.' },
+    { rating: 3, headline: 'Bitcoin mining difficulty drops 7.8% as miners pivot to AI', detail: 'Hash rate declined as mining operators accelerate transitions to AI compute infrastructure. Lower difficulty reduces sell pressure from miners and has historically preceded price stabilization periods.' },
+    { rating: 2, headline: 'SEC & CFTC release landmark crypto regulatory framework', detail: 'Joint guidance classifies major cryptocurrencies including BTC and ETH as digital commodities under a new bifurcated framework. The market initially reacted negatively, exposing deeper institutional uncertainty around implementation timelines.' },
+    { rating: 2, headline: 'BTC trading 30% above realized price — supply-in-loss near lows', detail: 'On-chain data shows Bitcoin is trading significantly above its cost basis, with supply in loss near historic lows. This supply dynamic reduces forced-sell pressure even during drawdowns.' }
+      ] },
+      { icon: 'Ξ', title: 'Ethereum', signals: [
+    { rating: 4, headline: 'ETH drops 4% to $2,050 amid geopolitical tensions; Glamsterdam upgrade in focus', detail: 'Ethereum fell to $2,050 as Iran conflict fears hit risk assets broadly. Despite price weakness, the upcoming Glamsterdam upgrade (targeting agentic economy scaling) and CLARITY Act progress provide structural upside catalysts.' },
+    { rating: 3, headline: 'Resolv Labs pauses protocol after $23M exploit causes USR stablecoin depeg', detail: 'A smart contract exploit drained $23M from Resolv Labs, forcing a protocol pause and triggering a USR stablecoin depeg. DeFi security concerns elevated following the incident, adding downward pressure to ETH.' },
+    { rating: 3, headline: 'Ethereum introduces one-click institutional staking', detail: 'New validator tooling simplifies staking participation for institutional players, lowering the barrier to ETH yield strategies. This could meaningfully expand the staking supply base as institutions seek on-chain yield alternatives.' },
+    { rating: 3, headline: 'ETH whales return to profitable state — 25% rally thesis building', detail: 'Top ETH whale cohorts have returned to profitable positions, historically a precursor to accumulation cycles. A $19.5M ETH purchase by a single whale this week signals conviction among large holders despite the macro headwinds.' },
+    { rating: 2, headline: 'Ethereum eyes settlement layer role for all AI activities', detail: 'Vitalik Buterin and core developers are positioning Ethereum as the universal settlement layer for AI agent transactions, a thesis gaining traction as autonomous agents require trustless payment rails.' },
+    { rating: 2, headline: 'Fusaka upgrade reduces fees, but triggers surge in address poisoning scams', detail: 'Lower transaction costs post-Fusaka are driving more activity, but also enabling a wave of address poisoning attacks. Users cautioned to verify full addresses before confirming any transaction.' }
+      ] }
+    ]
+  },
+
+  {
     id: "2026-03-22-noon",
     issueNumber: 20,
     date: "March 22, 2026",
