@@ -29,6 +29,87 @@ export interface Issue {
 
 export const ISSUES: Issue[] = [
   {
+    id: "2026-03-22-noon",
+    issueNumber: 20,
+    date: "March 22, 2026",
+    time: "Noon CT",
+    btcPrice: "$68,834",
+    btcChange: "0.1%",
+    btcUp: true,
+    ethPrice: "$2,083",
+    ethChange: "0.3%",
+    ethUp: true,
+    sections: [
+      {
+        icon: "₿",
+        title: "Bitcoin",
+        signals: [
+          {
+            rating: 4,
+            headline: "Satoshi statue unveiled in El Zonte, El Salvador — where the Bitcoin experiment began (r/Bitcoin 541↑, 3.1h)",
+            detail: "r/Bitcoin (541↑, 3.1h): A permanent statue of Satoshi Nakamoto now stands in El Zonte — the village where Bitcoin Beach began and where El Salvador's Bitcoin experiment first took root. This is the #1 Bitcoin community signal of the noon scan. Cultural and symbolic milestones of this type historically mark macro sentiment inflection points — the community is leaning into the narrative of BTC as permanent, sovereign money rather than a speculative trade."
+          },
+          {
+            rating: 4,
+            headline: "Trump escalates: 48-hour ultimatum on Iran power plants — geopolitical risk ratchets up from 'final warning' to deadline",
+            detail: "Exa (Mar 22): Trump upgraded from this morning's 'final warning' to Iran to a specific 48-hour ultimatum targeting Iran's power plant infrastructure. This is a material escalation from the 8am signal. BTC has recovered to $68,834 (+0.14%) from the sub-$68K dip — suggesting the market is currently absorbing the geopolitical risk rather than selling it. The 48-hour clock runs through Monday noon CT. If Iran does not comply, the next escalation window is Monday 12pm–2pm CT. Monitor closely."
+          },
+          {
+            rating: 4,
+            headline: "CFTC clarifies crypto-as-collateral rules + JPMorgan accepts BTC and ETH as institutional collateral — two parallel regulatory approvals",
+            detail: "Exa (Mar 22): The CFTC published staff clarification on acceptable use of crypto (BTC and ETH) as collateral in derivatives markets. Simultaneously, JPMorgan has begun accepting Bitcoin and Ethereum as institutional collateral (Exa/Crowdfund Insider, Mar 21). Two independent collateral legitimization events in 24 hours. This is the plumbing of institutional finance being updated to treat crypto as a first-class asset — a structural demand driver that operates below the price chart."
+          },
+          {
+            rating: 4,
+            headline: "Community consensus: 'Under $70K is an amazing opportunity' — r/Bitcoin conviction buy sentiment at 74↑ after Iran dip",
+            detail: "r/Bitcoin (74↑, 3.2h): Following the Iran-driven dip below $68K this morning, r/Bitcoin's most-engaged new post frames the current price level as a once-in-cycle buying opportunity. BTC has since recovered to $68,834. The community sentiment shift from fear to conviction buying within hours of a geopolitical dip is a pattern consistent with prior BTC recoveries from external shock events. Contrast with MicroStrategy's $8.8B paper loss analysis (Exa) — institutional holders absorbing unrealized losses rather than capitulating."
+          },
+          {
+            rating: 3,
+            headline: "Tether expands Bitcoin integration to enhance USDT usability — BTC liquidity and utility deepening",
+            detail: "Exa (Mar 22): Tether announced expansion of its Bitcoin integration to make USDT more usable within the Bitcoin ecosystem. This follows Tether Gold (XAUT) gaining institutional and retail traction via yield and dividend innovations (Exa Mar 22). Tether's growing Bitcoin-alignment is structurally significant: USDT is the dominant stablecoin and its deeper Bitcoin integration creates new liquidity channels for BTC-denominated commerce."
+          },
+          {
+            rating: 3,
+            headline: "Coinbase launches 24/7 stock perps for non-US traders — crypto-native equity access expands BTC platform narrative (r/CC 16↑)",
+            detail: "r/CryptoCurrency (16↑, 5.5h): Coinbase launched perpetual contracts on US stocks, available 24/7 to non-US traders. While not directly a BTC price signal, this reinforces the Coinbase platform narrative: crypto rails absorbing traditional financial products. Each new product category on crypto infrastructure validates the long-term thesis that BTC and crypto networks are the financial operating system of the next decade."
+          }
+        ]
+      },
+      {
+        icon: "Ξ",
+        title: "Ethereum",
+        signals: [
+          {
+            rating: 4,
+            headline: "Ethereum cuts bridge times by 98% — technical milestone hits r/ethereum at noon (12↑, 2.6h)",
+            detail: "r/ethereum (12↑, 2.6h): Ethereum has achieved a 98% reduction in cross-chain bridge times. This is the #1 r/ethereum post of the day. Bridge speed is one of the core UX friction points for ETH-based DeFi and L2 adoption — a 98% improvement is not incremental, it's a category change. If ETH bridges are now near-instant, the L2 ecosystem's composability and user experience improves dramatically, removing a major objection to ETH vs. Solana or other faster chains."
+          },
+          {
+            rating: 4,
+            headline: "$111M whale ETH bet + $19.5M stack rebuild + coordinated whale/ETF accumulation — three independent confirmation signals",
+            detail: "Exa (Mar 21-22): Three separate whale accumulation stories converging: (1) An anonymous whale placed a $111M ETH bet — framed as 'buy the dip signal or rotation catalyst.' (2) An ETH OG whale rebuilt a $19.5M ETH stack. (3) Coordinated whale + ETF buying framed as 'smart money bottom signal.' This aligns with the thomasg.eth accumulation flagged this morning. The pattern across multiple independent large holders suggests institutional-scale conviction at $2,083, not retail speculation."
+          },
+          {
+            rating: 4,
+            headline: "JPMorgan accepting ETH as institutional collateral + ETH staking ETF driving new inflows — two institutional on-ramps confirmed",
+            detail: "Exa (Mar 21-22): JPMorgan is now accepting Ethereum as institutional collateral for derivatives (same announcement covers both BTC and ETH). Additionally, an Ethereum staking ETF is driving new inflows even as BlackRock saw $140M in combined BTC/ETH ETF outflows. The staking ETF signal is particularly significant — it means institutional money is not just holding ETH but earning yield on it, which changes the holding proposition from speculative to income-generating."
+          },
+          {
+            rating: 3,
+            headline: "ETH whale profitability approaching breakeven — 'flow-based signal for the next leg up' (Exa Mar 22)",
+            detail: "Exa (Mar 22): Analysis showing ETH whale cohort profitability approaching neutral — a level that historically precedes redistribution and appreciation. Combined with the $2,083 price level and multiple whale accumulation signals, this creates the technical setup for a squeeze: whales near breakeven + institutional collateral demand + bridge improvements = potential catalyst stack for a move above the 8am Elliott Wave decision level."
+          },
+          {
+            rating: 3,
+            headline: "Ethereum at $2,083: Iran 48-hour ultimatum is the primary risk — ETH has held ground despite BTC geopolitical pressure",
+            detail: "ETH holding $2,083 (+0.27%) at noon while BTC recovers from its Iran dip demonstrates ETH's relative stability against geopolitical macro shocks. The risk is a sharper BTC selloff if the Iran deadline hits Monday with no resolution — ETH typically correlates downward with BTC in acute risk-off events. The 48-hour window (through Monday noon CT) is the primary near-term risk parameter for ETH holders, not the technical picture."
+          }
+        ]
+      }
+    ]
+  },
+  {
     id: "2026-03-22-8am",
     issueNumber: 19,
     date: "March 22, 2026",
