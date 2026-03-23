@@ -29,6 +29,32 @@ export interface Issue {
 
 export const ISSUES: Issue[] = [
   {
+    id: '2026-03-23-6pm',
+    issueNumber: 24,
+    date: 'March 23, 2026',
+    time: '6PM CT',
+    btcPrice: '$70,769',
+    btcChange: '4.31%',
+    btcUp: true,
+    ethPrice: '$2,151',
+    ethChange: '4.78%',
+    ethUp: true,
+    sections: [
+      { icon: '₿', title: 'Bitcoin', signals: [
+    { rating: 4, headline: 'BTC recovers to $71K — Trump postpones Iran escalation, risk-on mood returns', detail: 'Bitcoin climbed back above $71,000 by 6pm CT as Trump delayed planned strikes against Iranian infrastructure, reversing the weekend\'s risk-off pressure. Macro-driven move: BTC fell below $68K on Friday on Trump\'s \'final warning\' before surging ~4% today. Reddit r/Bitcoin: \'Under $70K Is Such An Amazing Opportunity\' (score: 348). The Iran geo-risk premium appears to be fading with each postponement.' },
+    { rating: 4, headline: 'Strategy buys 1,031 BTC for $76.6M — total holdings reach 762,099 BTC', detail: 'Michael Saylor\'s Strategy renewed its $42B BTC acquisition plan and disclosed purchasing 1,031 BTC for $76.6M via common stock sales. Total holdings now 762,099 BTC. Notably, the pace has slowed from record weeks earlier in Q1 — Strategy bought $2B+ in a single week at peak. H100 Group simultaneously signed an LOI to acquire Europe\'s largest bitcoin treasury at 3,500 BTC.' },
+    { rating: 3, headline: 'Bitcoin spot volumes hit 2023 lows — rally lacks spot market conviction', detail: 'Despite the price recovery, Bitcoin spot trading volume dropped to levels not seen since 2023, per CoinTelegraph. Analysts flagging the disconnect: derivative open interest is healthy but spot buying isn\'t confirming the move. BlackRock registered outflows from both its BTC and ETH products to start the week — a mixed institutional signal.' },
+    { rating: 3, headline: 'Bitcoin miners dumping BTC as hashrate pressure intensifies', detail: 'Bitcoin miners are offloading BTC inventory, per TechBullion. AI competition for cheap power continues to squeeze mining economics. The combination of lower miner revenue and hashrate pressure historically signals short-term supply headwinds — though lower difficulty (down 7.8% last adjustment) eventually becomes a tailwind.' },
+    { rating: 2, headline: 'Wall Street analyst targets $500K Bitcoin on institutional adoption curve', detail: 'A Motley Fool-covered Wall Street analyst laid out the case for $500K BTC, citing the institutional absorption rate via spot ETFs (600+ institutions) and Strategy-style corporate treasury adoption. Long-horizon forecast, not short-term — included as sentiment context.' }
+      ] },
+      { icon: 'Ξ', title: 'Ethereum', signals: [
+    { rating: 4, headline: 'Hacker mints $80M in fake stablecoins and swaps for ETH — DeFi exploit confirmed', detail: 'A significant DeFi exploit was confirmed: a hacker minted approximately $80M in counterfeit stablecoins and converted them to ETH via on-chain swaps. Reddit r/CryptoCurrency post reached score 314. Exact protocol not specified in initial reports — exploit mechanism under investigation. ETH price impact absorbed within hours, consistent with market resilience at $2,150+ levels.' },
+    { rating: 3, headline: 'BitMine accumulates 4.66M ETH — institutional thesis strengthening', detail: 'BitMine\'s ETH holdings reached 4.66 million ETH, representing a major corporate treasury position in Ethereum. Analyst Lee reiterated the institutional accumulation thesis for ETH in a note cited by FXStreet. ETH ETF flows remain positive despite the broader BTC-ETH institutional divergence noted at noon.' },
+    { rating: 2, headline: 'Ethereum price forecasts: multiple analysts target $2,300 as next resistance', detail: 'Several analysts published ETH price forecasts for 2026, with $2,300 as the near-term target and longer-range targets between $3,500–$5,000 for year-end. ETH is up 4.78% today, outperforming BTC on the session — unusual given BTC typically leads macro-driven recoveries. ETH/BTC ratio ticking up marginally.' }
+      ] },
+    ],
+  },
+  {
     id: '2026-03-23-noon',
     issueNumber: 23,
     date: 'March 23, 2026',
