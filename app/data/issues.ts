@@ -29,6 +29,36 @@ export interface Issue {
 
 export const ISSUES: Issue[] = [
   {
+    id: '2026-03-23-noon',
+    issueNumber: 23,
+    date: 'March 23, 2026',
+    time: 'Noon CT',
+    btcPrice: '$70,552',
+    btcChange: '3.99%',
+    btcUp: true,
+    ethPrice: '$2,129',
+    ethChange: '3.72%',
+    ethUp: true,
+    sections: [
+      { icon: '₿', title: 'Bitcoin', signals: [
+    { rating: 4, headline: 'BTC surges 5% to $71K — Trump postpones Iran airstrikes', detail: 'Bitcoin surged 5% to $71,000 after Trump postponed planned strikes on Iranian power plants, reversing Friday\'s risk-off sell-off. Community reaction on r/Bitcoin: 238 upvotes on \'Bitcoin Just jumped 3k in a couple minutes..\' — $70K floor described as \'surviving a perfect storm of macro chaos.\'' },
+    { rating: 4, headline: 'NYSE removes options limits on 11 Bitcoin and Ether ETFs — institutional hedging unlocked', detail: 'NYSE scrapped the position caps that had been limiting options activity on Bitcoin and Ether ETFs. This removes a key friction point for institutional hedging and derivatives strategies. Multiple outlets confirmed on Mar 23. ETF inflows logged a 6th consecutive day of net positive flows — the longest 2026 streak.' },
+    { rating: 4, headline: 'Strategy adds 1,031 BTC for $76.6M using MSTR stock sales — total 762,099 BTC', detail: 'Michael Saylor\'s Strategy bought another 1,031 BTC for $76.6M, funded through MSTR stock sales. Total holdings now 762,099 BTC. Saylor hinting at additional buys. Crypto fund inflows overall dropped to $230M after FOMC hawkish pause — institutional flows bifurcating between BTC accumulators and cautious funds.' },
+    { rating: 3, headline: 'Bitcoin mining difficulty drops 7.8% — largest drop since the AI pivot', detail: 'Bitcoin\'s mining difficulty fell 7.8% as miner exodus accelerates amid AI pipeline competition for cheap power. The hashrate pressure was amplified by the Iran-related macro scare last week. Lower difficulty historically precedes stronger price action as block rewards concentrate.' },
+    { rating: 3, headline: 'Over 600 financial institutions disclose billions in US spot Bitcoin ETF holdings', detail: '13F disclosures confirmed 600+ financial institutions now hold US spot Bitcoin ETFs. Crypto ETF weekly data shows Bitcoin ETFs hoarding cash while Ethereum leads returns — a divergence flagged by multiple analysts as a rotation signal.' },
+    { rating: 2, headline: 'SEC-CFTC classify 18 crypto tokens as digital commodities — XRP included', detail: 'The SEC and CFTC jointly classified 18 crypto tokens as digital commodities in the new March 2026 regulatory framework. XRP included but still fell 13% on the week — clarity isn\'t immediately bullish. Analyst: \'final nail in the Gensler era.\' Bitcoin as inflation hedge narrative strengthening as gold experiences worst recent weeks.' }
+      ] },
+      { icon: 'Ξ', title: 'Ethereum', signals: [
+    { rating: 4, headline: 'ETH whales back in profit — historically marks cycle reversals', detail: 'Ethereum whales returned to profitable positions for the first time since Oct 2025. Analysis shows this transition has historically marked cycle inflection points. ETH drew fresh buyers at the $2,200 level with whale convergence confirmed on-chain. ETH up 12%+ today per Composio data.' },
+    { rating: 4, headline: 'Bitmine (BMNR) stakes $215M in ETH — staked ETF thesis accelerating', detail: 'Tom Lee\'s Bitmine expanded its ETH position to $215M total staked. BlackRock ETHB (staked ETH ETF) drawing institutional interest. The 7 largest publicly traded Ethereum treasury firms now collectively represent billions in ETH exposure — institutional staked ETH is the emerging 2026 narrative.' },
+    { rating: 3, headline: 'Ethereum targeting settlement layer for all AI transactions', detail: 'New research piece: \'Inside Ethereum network\'s efforts to become settlement layer for all AI transactions\' (Mar 22). Ethereum gas limit upgrades underway alongside the Glamsterdam upgrade. ETH liquidity crunch flagged — ETF outflows vs gas limit upgrades creating near-term tension.' },
+    { rating: 3, headline: 'Ethereum indicator signals potential price surge by summer — $4K target circulating', detail: 'On-chain indicator historically linked to ETH price surges triggered. Multiple analyst price targets converging around $4,000 for 2026. ETH L2 fragmentation debate continues (r/ethereum, 19 upvotes) — scaling tension unresolved but Glamsterdam upgrade timeline holding.' },
+    { rating: 2, headline: 'Gold stablecoins hit $100M — Mastercard issues $1.8B crypto-linked card', detail: 'Gold-backed stablecoins crossed $100M TVL as traditional finance bridges to crypto. Mastercard issued a $1.8B crypto-linked card product. Ethereum remains the dominant settlement infrastructure for both. Ethereum\'s 98% bridge time reduction (from 8am) adds UX momentum.' }
+      ] }
+    ]
+  },
+
+  {
     id: '2026-03-23-8am',
     issueNumber: 22,
     date: 'March 23, 2026',
