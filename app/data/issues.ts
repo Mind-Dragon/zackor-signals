@@ -29,6 +29,36 @@ export interface Issue {
 
 export const ISSUES: Issue[] = [
   {
+    id: '2026-03-23-8am',
+    issueNumber: 22,
+    date: 'March 23, 2026',
+    time: '8am CT',
+    btcPrice: '$70,266',
+    btcChange: '3.57%',
+    btcUp: true,
+    ethPrice: '$2,140',
+    ethChange: '4.26%',
+    ethUp: true,
+    sections: [
+      { icon: '₿', title: 'Bitcoin', signals: [
+    { rating: 4, headline: 'BTC surges from $68K to $71K — Trump delays Iran strikes', detail: 'Bitcoin jumped sharply after Trump postponed planned airstrikes on Iranian power plants, reversing the risk-off sell-off from Sunday. BTC moved $3K in minutes (per r/Bitcoin/CryptoCurrency); now holding above $70K. Reddit community flagged the move in real-time.' },
+    { rating: 4, headline: 'Strategy buys 1,031 BTC for $76.6M — total now 762,090 BTC', detail: 'Michael Saylor\'s Strategy (MSTR) added another 1,031 BTC at $76.6M, bringing total holdings to 762,090 BTC. Capital B also acquired 44 BTC for €2.7M at €61,763/BTC. Corporate treasury accumulation accelerating into the dip.' },
+    { rating: 4, headline: 'Bitcoin ETFs log longest weekly inflow streak of 2026 — 6th straight day', detail: 'US spot Bitcoin ETFs recorded their 6th consecutive day of inflows, marking the longest streak of 2026. Over 600 financial institutions disclosed billions invested in US spot BTC ETFs. Gold ETFs simultaneously lost 2.7% of AUM while BTC ETFs surged — capital rotation signal.' },
+    { rating: 3, headline: 'Morgan Stanley Monster Bitcoin: $160B flow could triple BlackRock IBIT', detail: 'Strategy CEO cites Morgan Stanley\'s MSBT ETF as a potential $160B flow event that could triple the scale of BlackRock\'s IBIT. NYSE removed cap limiting crypto options — removes institutional hedging friction. Morgan Stanley MSBT officially confirmed.' },
+    { rating: 3, headline: 'Sweden H100 Group plans to surpass 3,500 BTC — acquires two Bitcoin treasury companies', detail: 'Swedish Bitcoin treasury company H100 Group announced plans to acquire two Bitcoin treasury companies to grow holdings past 3,500 BTC — the latest in a wave of Scandinavian corporate BTC accumulation.' },
+    { rating: 2, headline: 'SEC classifies BTC/ETH as digital commodities — Fidelity urges SEC to integrate crypto into stock trading', detail: 'The SEC\'s new commodity classification for BTC and ETH is being called a win by r/Bitcoin. Fidelity separately urged the SEC to integrate crypto into stock trading systems, signaling growing institutional pressure for unified market structure.' }
+      ] },
+      { icon: 'Ξ', title: 'Ethereum', signals: [
+    { rating: 4, headline: 'Bitmine (BMNR) buys 65,341 ETH ($138M) — Tom Lee-backed firm holds 3.9% of all Ethereum', detail: 'Tom Lee\'s Bitmine (ticker BMNR) added 65,341 ETH worth $138M last week, bringing total ETH holdings to ~3.9% of circulating supply. ETH bounced from $2,050 back to $2,140 on the news. An Ethereum OG also sold $31M in ETH after a decade-long hold — mixed signals at this price level.' },
+    { rating: 4, headline: '$80M in fake stablecoins minted and converted to 9,100 ETH', detail: 'A significant on-chain exploit saw $80M in fraudulent stablecoins minted and then converted into 9,100 ETH. The incident highlights ongoing DeFi security vulnerabilities and adds to the Resolv Labs $23M exploit from last week.' },
+    { rating: 3, headline: 'Ethereum cuts bridge times by 98% — L2 fragmentation debate intensifies', detail: 'A new bridging improvement cuts cross-chain transaction times by 98%, directly addressing one of ETH\'s most cited UX pain points. Simultaneously, r/ethereum debated whether L2 fragmentation is getting worse — a structural tension the Glamsterdam upgrade is designed to address.' },
+    { rating: 3, headline: 'Elon Musk\'s X Money Beta live — Bitcoin on X moves closer', detail: 'X Money Beta launched, bringing payments infrastructure into X. Bitcoin integration is the next obvious step and community reaction on r/CryptoCurrency confirmed this as a near-term catalyst. Crypto.com also cut 12% of staff citing AI efficiencies.' },
+    { rating: 2, headline: 'Ethereum record flow vs price stagnation — capital movement analysis', detail: 'ETH is seeing record capital inflows but the price has lagged BTC\'s bounce. Analysts point to the ETH daily Supertrend still acting as resistance since Oct 2025. Whales returning to profitable positions and the upcoming Glamsterdam upgrade remain the key upside catalysts.' }
+      ] }
+    ]
+  },
+
+  {
     id: '2026-03-22-6pm',
     issueNumber: 21,
     date: 'March 22, 2026',
