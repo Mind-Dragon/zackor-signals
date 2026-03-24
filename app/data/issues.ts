@@ -27,7 +27,7 @@ export interface Issue {
   sections: IssueSection[];
 }
 
-export const ISSUES: Issue[
+export const ISSUES: Issue[] = [
   {
     id: '2026-03-24-8am',
     issueNumber: 25,
@@ -69,7 +69,7 @@ export const ISSUES: Issue[
     { rating: 2, headline: 'ICML 2026 Review Discussion — community deliberation on paper quality and reviewer standards', detail: 'The ICML 2026 review discussion thread (r/MachineLearning, score: 68, 44 comments) reflects ongoing community tension between paper acceptance rates, reviewer expertise, and publication standards at the field\'s top venue. Useful background signal for AI research community health and where the frontier is being debated.' },
   ] },
       { icon: '🦞', title: 'OpenClaw & Niche', signals: [
-    { rating: 5, headline: 'OpenClaw lands in WeChat — Tencent adds AI agent to China\'s most popular app (1.3B users)', detail: 'Tencent has integrated OpenClaw into WeChat, giving 1.3 billion active users direct access to AI agents via China\'s dominant social platform (Exa/news, Mar 24). This is potentially the largest single-distribution event in OpenClaw\'s history — WeChat miniprogram integration means users can invoke agents without any installation. Combined with the earlier Crypto.com, BNB Chain, and AWS Lightsail integrations, OpenClaw\'s infrastructure footprint has now reached every major tech ecosystem globally.' },
+    { rating: 4, headline: 'OpenClaw lands in WeChat — Tencent adds AI agent to China\'s most popular app (1.3B users)', detail: 'Tencent has integrated OpenClaw into WeChat, giving 1.3 billion active users direct access to AI agents via China\'s dominant social platform (Exa/news, Mar 24). This is potentially the largest single-distribution event in OpenClaw\'s history — WeChat miniprogram integration means users can invoke agents without any installation. Combined with the earlier Crypto.com, BNB Chain, and AWS Lightsail integrations, OpenClaw\'s infrastructure footprint has now reached every major tech ecosystem globally.' },
     { rating: 4, headline: 'OpenClaw v2026.3.22 — 48-hour agent sessions, security fixes, and MoltBook integration improvements', detail: 'OpenClaw shipped version 2026.3.22 with several notable changes: agent sessions now persist for 48 hours (up from 30 minutes), multiple security fixes, and improved MoltBook integration. The 48-hour session window is significant for ZHC use cases — agents can now run long autonomous tasks (research, content pipelines, monitoring) without manual session restarts (Exa, Mar 23).' },
     { rating: 4, headline: 'NousResearch hermes-paperclip-adapter — Hermes Agent now connects to Paperclip ZHC platform', detail: 'The NousResearch/hermes-paperclip-adapter repository enables Hermes Agent to integrate with Paperclip, the zero-human company orchestration platform. This is a significant inter-ecosystem bridge: Hermes brings open-source model capability, Paperclip brings ZHC infrastructure (org charts, budgets, agent templates). The adapter was highlighted by @grok in a reply to @NousResearch and @Teknium (@grok, 21 score). First documented connection between the Hermes hackathon ecosystem and Paperclip ZHC infrastructure.' },
     { rating: 4, headline: 'DeerFlow hits #1 on GitHub — ByteDance open-source super-agent reaching viral adoption', detail: '@agenticgirl reports DeerFlow reached #1 trending on GitHub. ByteDance\'s open-source super-agent (researches, writes code, creates files, launches sub-agents) continues its adoption explosion since the 2,676 BM bookmark in the Mar 5 scan. Reaching #1 on GitHub trending is a significant mainstream developer discovery moment for the ZHC tool stack.' },
@@ -78,7 +78,7 @@ export const ISSUES: Issue[
     { rating: 2, headline: 'openbrain-native MCP plugin extension for OpenClaw — PR #5251 opens new native extension pathway', detail: 'A pull request (feat(extensions): add openbrain-native MCP plugin extension, PR #5251) was opened on the OpenClaw repository adding a native integration pathway for the openbrain MCP. This represents ongoing community growth of the MCP ecosystem directly within OpenClaw core rather than as third-party skills.' },
   ] },
     ],
-  },] = [
+  },
   {
     id: '2026-03-23-6pm',
     issueNumber: 24,
