@@ -10,9 +10,24 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: { id: string } }): Promise<Metadata> {
   const issue = ISSUES.find(i => i.id === params.id);
   if (!issue) return {};
+  const url = `https://zackor.news/issues/${issue.id}`;
   return {
     title: `Issue #${issue.issueNumber} — Zackor Signals`,
     description: `Zackor Signals Issue #${issue.issueNumber} · ${issue.date} · BTC ${issue.btcPrice} · ETH ${issue.ethPrice}`,
+    openGraph: {
+      title: `Zackor Signals — Issue #${issue.issueNumber}`,
+      description: `${issue.date} · BTC ${issue.btcPrice} · ETH ${issue.ethPrice} · AI Crypto Intelligence`,
+      url,
+      type: "article",
+      siteName: "Zackor Signals",
+    },
+    twitter: {
+      card: "summary_large_image",
+      site: "@mindragon",
+      creator: "@mindragon",
+      title: `Zackor Signals — Issue #${issue.issueNumber}`,
+      description: `${issue.date} · BTC ${issue.btcPrice} · ETH ${issue.ethPrice} · AI Crypto Intelligence`,
+    },
   };
 }
 
@@ -22,15 +37,29 @@ function BoltRating({ rating, isNoise }: { rating: number; isNoise?: boolean }) 
   return <span className={`${color} text-xs shrink-0`}>{"⚡".repeat(rating)}</span>;
 }
 
+const SOCIAL = {
+  twitter: "https://x.com/mindragon",
+  linkedin: "https://www.linkedin.com/in/jeffersonnunn/",
+};
+
 export default function IssuePage({ params }: { params: { id: string } }) {
   const issue = ISSUES.find(i => i.id === params.id);
   if (!issue) notFound();
+
+  const issueUrl = `https://zackor.news/issues/${issue.id}`;
+  const tweetText = `Zackor Signals — Issue #${issue.issueNumber} · ${issue.date} · BTC ${issue.btcPrice} · ETH ${issue.ethPrice} · AI Crypto Intelligence`;
+  const twitterShareUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(tweetText)}&url=${encodeURIComponent(issueUrl)}`;
+  const linkedinShareUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(issueUrl)}`;
 
   return (
     <div className="min-h-screen bg-[#0d0d0f]">
       <nav className="border-b border-[#222235] px-6 py-4 flex items-center justify-between max-w-3xl mx-auto">
         <Link href="/" className="text-lg font-bold"><span className="text-[#7c6aff]">Zackor</span> Signals</Link>
-        <Link href="/issues" className="text-sm text-[#8888aa] hover:text-[#e8e8ea] transition">← Archive</Link>
+        <div className="flex items-center gap-4">
+          <a href={SOCIAL.twitter} target="_blank" rel="noopener noreferrer" className="text-sm text-[#8888aa] hover:text-[#e8e8ea] transition">𝕏</a>
+          <a href={SOCIAL.linkedin} target="_blank" rel="noopener noreferrer" className="text-sm text-[#8888aa] hover:text-[#e8e8ea] transition">in</a>
+          <Link href="/issues" className="text-sm text-[#8888aa] hover:text-[#e8e8ea] transition">← Archive</Link>
+        </div>
       </nav>
 
       <div className="max-w-3xl mx-auto px-6 py-10">
@@ -78,10 +107,38 @@ export default function IssuePage({ params }: { params: { id: string } }) {
           ))}
         </div>
 
+        {/* Share Bar */}
+        <div className="rounded-xl border border-[#222235] bg-[#111118] p-4 mb-6 flex items-center justify-between">
+          <span className="text-sm text-[#8888aa]">Share this issue</span>
+          <div className="flex gap-3">
+            <a
+              href={twitterShareUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-lg border border-[#7c6aff]/40 bg-[#7c6aff]/10 px-4 py-1.5 text-sm text-[#7c6aff] hover:bg-[#7c6aff]/20 transition"
+            >
+              𝕏 Share on X
+            </a>
+            <a
+              href={linkedinShareUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-lg border border-[#7c6aff]/40 bg-[#7c6aff]/10 px-4 py-1.5 text-sm text-[#7c6aff] hover:bg-[#7c6aff]/20 transition"
+            >
+              Share on LinkedIn
+            </a>
+          </div>
+        </div>
+
         {/* Footer */}
         <div className="text-center text-xs text-[#404050] border-t border-[#222235] pt-6">
-          <p className="font-semibold text-[#5a4baa]">Zackor · AI Signal Intelligence</p>
+          <p className="font-semibold text-[#5a4baa]">Zackor · AI Signal Intelligence · <a href="https://zackor.news" className="hover:underline">zackor.news</a></p>
           <p className="mt-1">Issue #{issue.issueNumber} · {issue.date}</p>
+          <div className="flex items-center justify-center gap-4 mt-2">
+            <a href={SOCIAL.twitter} target="_blank" rel="noopener noreferrer" className="text-[#6655bb] hover:underline">𝕏 Twitter</a>
+            <span>·</span>
+            <a href={SOCIAL.linkedin} target="_blank" rel="noopener noreferrer" className="text-[#6655bb] hover:underline">LinkedIn</a>
+          </div>
           <p className="mt-2">
             <a href="mailto:zackor@agentmail.to?subject=Unsubscribe" className="text-[#6655bb] hover:underline">Unsubscribe</a>
             {" · "}
