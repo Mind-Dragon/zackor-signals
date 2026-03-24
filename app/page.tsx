@@ -2,6 +2,12 @@ import Link from "next/link";
 import SubscribeForm from "./components/subscribe-form";
 import { ISSUES } from "./data/issues";
 
+const SOCIAL = {
+  twitter: "https://x.com/mindragon",
+  linkedin: "https://www.linkedin.com/in/jeffersonnunn/",
+  website: "https://zackor.news",
+};
+
 export default function Home() {
   const latestIssue = ISSUES[0];
   const topSignals = latestIssue?.sections.flatMap(s => s.signals).filter(s => !s.isNoise && s.rating >= 3).slice(0, 4) ?? [];
@@ -11,7 +17,11 @@ export default function Home() {
       {/* NAV */}
       <nav className="border-b border-[#222235] px-6 py-4 flex items-center justify-between max-w-5xl mx-auto">
         <span className="text-xl font-bold"><span className="text-[#7c6aff]">Zackor</span> Signals</span>
-        <Link href="/issues" className="text-sm text-[#8888aa] hover:text-[#e8e8ea] transition">Issues Archive →</Link>
+        <div className="flex items-center gap-4">
+          <a href={SOCIAL.twitter} target="_blank" rel="noopener noreferrer" className="text-sm text-[#8888aa] hover:text-[#e8e8ea] transition">𝕏</a>
+          <a href={SOCIAL.linkedin} target="_blank" rel="noopener noreferrer" className="text-sm text-[#8888aa] hover:text-[#e8e8ea] transition">in</a>
+          <Link href="/issues" className="text-sm text-[#8888aa] hover:text-[#e8e8ea] transition">Issues Archive →</Link>
+        </div>
       </nav>
 
       {/* HERO */}
@@ -77,8 +87,19 @@ export default function Home() {
 
       {/* FOOTER */}
       <footer className="border-t border-[#222235] px-6 py-8 text-center text-sm text-[#555566]">
-        <p><span className="text-[#5a4baa] font-semibold">Zackor</span> · AI Signal Intelligence · <a href="mailto:zackor@agentmail.to" className="hover:text-[#8888aa] transition">zackor@agentmail.to</a></p>
-        <p className="mt-1"><a href="mailto:zackor@agentmail.to?subject=Unsubscribe" className="hover:text-[#8888aa] transition">Unsubscribe</a> · <a href="mailto:zackor@agentmail.to?subject=Feedback" className="hover:text-[#8888aa] transition">Send feedback</a></p>
+        <p><span className="text-[#5a4baa] font-semibold">Zackor</span> · AI Signal Intelligence · <a href={SOCIAL.website} className="hover:text-[#8888aa] transition">zackor.news</a></p>
+        <div className="flex items-center justify-center gap-4 mt-3">
+          <a href={SOCIAL.twitter} target="_blank" rel="noopener noreferrer" className="hover:text-[#8888aa] transition">𝕏 Twitter</a>
+          <span>·</span>
+          <a href={SOCIAL.linkedin} target="_blank" rel="noopener noreferrer" className="hover:text-[#8888aa] transition">LinkedIn</a>
+          <span>·</span>
+          <a href="mailto:zackor@agentmail.to" className="hover:text-[#8888aa] transition">zackor@agentmail.to</a>
+        </div>
+        <p className="mt-3">
+          <a href="mailto:zackor@agentmail.to?subject=Unsubscribe" className="hover:text-[#8888aa] transition">Unsubscribe</a>
+          {" · "}
+          <a href="mailto:zackor@agentmail.to?subject=Feedback" className="hover:text-[#8888aa] transition">Send feedback</a>
+        </p>
       </footer>
     </div>
   );
