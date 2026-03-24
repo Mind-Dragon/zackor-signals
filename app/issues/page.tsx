@@ -7,15 +7,24 @@ export const metadata: Metadata = {
   description: "Browse all Zackor Signals newsletter issues. AI, crypto, and market intelligence — twice daily.",
 };
 
+const SOCIAL = {
+  twitter: "https://x.com/mindragon",
+  linkedin: "https://www.linkedin.com/in/jeffersonnunn/",
+};
+
 export default function IssuesPage() {
   return (
-    <div className="min-h-screen bg-[#0d0d0f]">
-      <nav className="border-b border-[#222235] px-6 py-4 flex items-center justify-between max-w-5xl mx-auto">
+    <div className="min-h-screen bg-[#0d0d0f] flex flex-col">
+      <nav className="border-b border-[#222235] px-6 py-4 flex items-center justify-between max-w-5xl mx-auto w-full">
         <Link href="/" className="text-xl font-bold"><span className="text-[#7c6aff]">Zackor</span> Signals</Link>
-        <span className="text-sm text-[#8888aa]">Issues Archive</span>
+        <div className="flex items-center gap-4">
+          <a href={SOCIAL.twitter} target="_blank" rel="noopener noreferrer" className="text-sm text-[#8888aa] hover:text-[#e8e8ea] transition">𝕏</a>
+          <a href={SOCIAL.linkedin} target="_blank" rel="noopener noreferrer" className="text-sm text-[#8888aa] hover:text-[#e8e8ea] transition">in</a>
+          <span className="text-sm text-[#8888aa]">Issues Archive</span>
+        </div>
       </nav>
 
-      <div className="max-w-3xl mx-auto px-6 py-12">
+      <div className="max-w-3xl mx-auto px-6 py-12 flex-1 w-full">
         <h1 className="text-3xl font-bold text-white mb-2">Issues Archive</h1>
         <p className="text-[#8888aa] mb-10">All signal reports, newest first.</p>
 
@@ -25,7 +34,7 @@ export default function IssuesPage() {
           </div>
         ) : (
           <div className="space-y-4">
-            {[...ISSUES].reverse().map(issue => {
+            {[...ISSUES].map(issue => {
               const topSignals = issue.sections.flatMap(s => s.signals).filter(s => !s.isNoise && s.rating >= 3).slice(0, 4);
               return (
                 <div key={issue.id} className="rounded-xl border border-[#222235] bg-[#111118] p-6">
@@ -56,6 +65,16 @@ export default function IssuesPage() {
           </div>
         )}
       </div>
+
+      {/* FOOTER */}
+      <footer className="border-t border-[#222235] px-6 py-6 text-center text-xs text-[#555566] max-w-5xl mx-auto w-full">
+        <p><span className="text-[#5a4baa] font-semibold">Zackor</span> · AI Signal Intelligence · <a href="https://zackor.news" className="hover:text-[#8888aa] transition">zackor.news</a></p>
+        <div className="flex items-center justify-center gap-4 mt-2">
+          <a href={SOCIAL.twitter} target="_blank" rel="noopener noreferrer" className="hover:text-[#8888aa] transition">𝕏 Twitter</a>
+          <span>·</span>
+          <a href={SOCIAL.linkedin} target="_blank" rel="noopener noreferrer" className="hover:text-[#8888aa] transition">LinkedIn</a>
+        </div>
+      </footer>
     </div>
   );
 }
