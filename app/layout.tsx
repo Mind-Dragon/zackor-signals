@@ -7,10 +7,20 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 export const metadata: Metadata = {
   title: "Zackor Signals — AI Crypto Intelligence",
   description: "AI-powered crypto and market intelligence newsletter. Twice-daily signal reports with impact ratings. Noise filtered.",
+  metadataBase: new URL("https://zackor.news"),
   openGraph: {
     title: "Zackor Signals",
     description: "AI · Crypto · Market Intelligence — twice daily, 8am & noon CT",
     type: "website",
+    url: "https://zackor.news",
+    siteName: "Zackor Signals",
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@mindragon",
+    creator: "@mindragon",
+    title: "Zackor Signals — AI Crypto Intelligence",
+    description: "AI · Crypto · Market Intelligence — twice daily, 8am & noon CT",
   },
 };
 
