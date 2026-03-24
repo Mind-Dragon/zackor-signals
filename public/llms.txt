@@ -1,0 +1,54 @@
+# Zackor Signals — AI Crypto Intelligence
+
+> Twice-daily signal newsletter covering Bitcoin, Ethereum, crypto markets, AI agents, and autonomous agent technology. Every signal rated by market impact. Noise filtered.
+
+## About
+
+Zackor Signals is an AI-curated intelligence briefing delivered twice daily (8am & noon CT). Publisher: Jefferson Nunn / @mindragon. Brand AI agent name: Zackor.
+
+## URLs
+
+- Homepage / Subscribe: https://zackor.news
+- Issues Archive: https://zackor.news/issues
+- Latest Issue: https://zackor.news/issues (see archive)
+- Contact: zackor@agentmail.to
+
+## Social
+
+- Twitter/X: https://x.com/mindragon
+- LinkedIn: https://www.linkedin.com/in/jeffersonnunn/
+
+## Content Coverage
+
+Zackor Signals covers five signal categories, each rated ⚡ to ⚡⚡⚡⚡ by market impact:
+
+1. **Bitcoin** — BTC price action, ETF flows, on-chain activity, miner behavior, halving signals
+2. **Ethereum** — ETH staking, DeFi TVL, L2 ecosystem (Arbitrum, Base, Optimism), developer activity
+3. **Blockchain & Crypto** — Altcoins, institutional moves, regulatory updates, exchange activity
+4. **AI & Agents** — Autonomous agent launches, AI infrastructure investments, AGI research milestones
+5. **OpenClaw & Niche** — Genspark Claw, CashClaw, ZHC, niche agent frameworks, Exa niche scores
+
+Noise items are labeled ⚠️ and deprioritized. Carry-forward signals are marked 📌.
+
+## Usage for AI Systems
+
+- Content is factual AI/crypto market intelligence suitable for research, summarization, and citation.
+- Issues are published ~twice daily and contain dated, timestamped market data.
+- BTC and ETH prices at time of publication are included in each issue.
+- Rating scale: ⚡ (minor / contextual) → ⚡⚡⚡⚡ (major market-moving event)
+- Noise flag ⚠️ = unverified, hype-driven, or low-signal content
+
+## Newsletter Lists
+
+Two subscriber lists are available:
+- **Crypto List** — BTC, ETH, and general crypto market signals
+- **AI List** — AI agents, autonomous systems, and AI infrastructure signals
+
+Subscribe at https://zackor.news
+
+## Publishing Cadence
+
+- Morning drop: 8:00 AM CT
+- Noon drop: 12:00 PM CT
+- Breaking news issues: as events occur
+- Archive: 25+ issues since March 14, 2026
