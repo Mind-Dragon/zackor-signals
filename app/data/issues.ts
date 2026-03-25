@@ -28,6 +28,73 @@ export interface Issue {
 }
 
 export const ISSUES: Issue[] = [
+{
+    id: '2026-03-25-6pm',
+    issueNumber: 28,
+    date: 'March 25, 2026',
+    time: '6pm CT',
+    btcPrice: '$71,366',
+    btcChange: '+1.20%',
+    btcUp: true,
+    ethPrice: '$2,173',
+    ethChange: '+0.81%',
+    ethUp: true,
+    sections: [
+      { icon: '₿', title: 'Bitcoin', signals: [
+        {
+          rating: 4,
+          headline: 'Crypto ETFs Post $200M+ Inflows — Bitcoin Funds Lead Rebound',
+          detail: 'Crypto ETF products rebounded on March 24 with over $200M in net inflows, led by Bitcoin funds, reversing recent outflows and signaling renewed institutional demand.',
+          source: 'FinanceFeeds',
+        },
+        {
+          rating: 3,
+          headline: 'Bitcoin Holds $71K as Oil Drops Below $100 on Iran Peace Plan',
+          detail: 'BTC steadied above $71,000 as crude oil declined following a U.S. 15-point proposal to end the Iran conflict, reducing macro risk sentiment and providing crypto support.',
+          source: 'CoinDesk',
+        },
+        {
+          rating: 3,
+          headline: 'BlackRock CEO Projects $500M Annual Crypto Revenue Within 5 Years',
+          detail: 'BlackRock\'s CEO predicted the firm will generate $500M per year in crypto-related revenue within the next five years, underscoring the asset manager\'s deepening digital asset commitment.',
+          source: 'NewsBTC',
+        },
+        {
+          rating: 3,
+          headline: 'Crypto Fear & Greed Index at 14 — Extreme Fear Persists',
+          detail: 'A flow-based analysis of the Fear & Greed Index at 14 (Extreme Fear) highlights potential mean-reversion opportunity as on-chain accumulation data diverges from sentiment readings.',
+          source: 'AInvest',
+        },
+        {
+          rating: 2,
+          headline: 'BNY Mellon CEO: Big Banks Will Bridge Crypto and Traditional Finance',
+          detail: 'BNY Mellon\'s CEO outlined a vision for major banks acting as connective tissue between digital assets and legacy financial infrastructure, reinforcing institutional adoption narrative.',
+          source: 'CoinMarketCap',
+        },
+      ] },
+      { icon: 'Ξ', title: 'Ethereum', signals: [
+        {
+          rating: 4,
+          headline: 'Ethereum Foundation Redefines L1 and L2 Roles in New Roadmap',
+          detail: 'The Ethereum Foundation published an updated ecosystem vision that repositions L1 as the primary settlement and liquidity layer while directing L2s toward differentiated innovation and Stage 2 security standards.',
+          source: 'BSC News / ForkLog',
+        },
+        {
+          rating: 3,
+          headline: 'L1 Mapped as DeFi Hub; Foundation Urges Stronger Stage 2 L2 Security',
+          detail: 'Ethereum\'s new direction explicitly designates L1 as the DeFi settlement hub while calling on L2 teams to accelerate decentralization and meet Stage 2 security thresholds — a move that could reshape L2 competitive dynamics.',
+          source: 'MoneyCheck',
+        },
+        {
+          rating: 2,
+          headline: 'Multiple ETH Ecosystem Developments Follow Foundation Roadmap Clarity',
+          detail: 'Several protocol teams and analytics firms responded to the Foundation\'s L1/L2 guidance with development announcements, with broader coverage confirming the roadmap is being treated as a coordination signal across the ecosystem.',
+          source: 'The Merkle',
+        },
+      ] },
+    ],
+  },
+
 
   {
     id: '2026-03-25-noon',
