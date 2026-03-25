@@ -29,6 +29,49 @@ export interface Issue {
 
 export const ISSUES: Issue[] = [
   {
+    id: '2026-03-25-8am',
+    issueNumber: 26,
+    date: 'March 25, 2026',
+    time: '8AM CT',
+    btcPrice: '$71,417',
+    btcChange: '0.06%',
+    btcUp: true,
+    ethPrice: '$2,179',
+    ethChange: '0.74%',
+    ethUp: true,
+    sections: [
+      { icon: '₿', title: 'Bitcoin', signals: [
+    { rating: 4, headline: 'Morgan Stanley files Bitcoin ETF during worst week of war — $5.5T asset manager enters the race', detail: 'Morgan Stanley filed paperwork for a spot Bitcoin ETF during the single most volatile week of the U.S.-Iran conflict. The filing signals that one of the world\'s largest asset managers views current prices as entry-level for institutional clients — a $5.5T stamp of legitimacy regardless of macro noise.' },
+    { rating: 4, headline: 'Bitcoin ETFs snap 3-day outflow streak with $167M net inflow — institutional demand stabilizing', detail: 'After three consecutive days of ETF outflows driven by Iran war fear, Bitcoin spot ETFs recorded $167M in net inflows on March 24. The reversal confirms that the dip-buying reflex among institutions remains intact. Bitcoin\'s ETF inflow streak is back on track.' },
+    { rating: 4, headline: 'Bitcoin becomes real-time geopolitical risk indicator — diverges positively from gold during Iran tensions', detail: 'Mainstream analysis confirms what traders already know: Bitcoin is now the leading real-time indicator for geopolitical risk pricing. As gold and silver crashed during Iran escalation, BTC diverged positively. The safe-haven narrative has shifted — Bitcoin is where macro fear gets priced.' },
+    { rating: 3, headline: 'CFTC launches Innovation Task Force for Bitcoin, Crypto, AI, and prediction markets — regulatory pivot', detail: 'The CFTC announced a new Innovation Task Force focused on Bitcoin, crypto derivatives, AI, and prediction markets. This signals a regulatory posture shift from enforcement-first to engagement-first — aligning with the White House\'s pro-crypto direction and reducing regulatory tail risk.' },
+    { rating: 2, headline: 'Whale burns $1.2M BTC sending to Satoshi\'s dead wallet — supply permanently removed', detail: 'A whale sent $1.2M worth of Bitcoin to Satoshi\'s provably unspendable genesis wallet. Regardless of intent, it represents permanent supply removal — a recurring micro-deflationary event reinforcing Bitcoin\'s scarcity narrative.' },
+  ] },
+      { icon: 'Ξ', title: 'Ethereum', signals: [
+    { rating: 3, headline: 'Aave V4 governance proposal greenlit — major DeFi protocol upgrade approved by community', detail: 'Aave V4 passed its latest governance proposal. The upgrade includes improvements to the liquidity layer and risk parameters. Aave TVL remains near all-time highs — this vote confirms the DAO is aligned and ready to ship.' },
+    { rating: 3, headline: 'Cryptos broadly rise on Iran peace plan news — Ethereum recovers to $2,179 as risk appetite returns', detail: 'Reports of renewed U.S.-Iran diplomatic engagement triggered a broad crypto market recovery. Ethereum rebounded from $2,163 to $2,179 as risk appetite returned — recovering faster than equities on the same news.' },
+    { rating: 2, headline: 'Public App expands retirement accounts to include crypto trading — ETH on-ramp in tax-advantaged accounts', detail: 'Public App expanded its retirement account products to include cryptocurrency trading with Ethereum among supported assets. Another mainstream on-ramp for ETH exposure in tax-advantaged accounts — incremental but directionally significant.' },
+  ] },
+      { icon: '🔗', title: 'Blockchain & Crypto', signals: [
+    { rating: 4, headline: 'Crypto scams hit $9.3B as fake wallet apps target Ledger and Trezor users — critical security alert', detail: 'A new report reveals crypto scams have reached $9.3B in annual losses, with fake Ledger and Trezor wallet apps as the primary vector. Users are tricked into entering seed phrases into fraudulent apps. Never enter your seed phrase digitally — hardware wallets only protect you if you use the genuine app.' },
+    { rating: 3, headline: 'Monero displacing Bitcoin on underground internet — privacy coin takes illicit market share', detail: 'Analysis shows Monero has effectively displaced Bitcoin as the underground internet\'s currency of choice. Bitcoin\'s traceability via chain analysis pushed actors to XMR. Paradoxically, this strengthens Bitcoin\'s compliance posture with institutions.' },
+    { rating: 3, headline: 'Bitcoin mining expands to Dubuque County, Iowa — U.S. Midwest buildout continues', detail: 'A mining company announced expansion to Dubuque County, Iowa. This follows miners targeting Midwestern states with surplus power and favorable local policy. The U.S. is solidifying its position as dominant global hash rate geography.' },
+  ] },
+      { icon: '🤖', title: 'AI & Agents', signals: [
+    { rating: 3, headline: 'Ternary neural networks show path to efficient AI — (+1, 0, -1) weight quantization gains traction', detail: 'Research on ternary neural networks demonstrates models can retain capability while dramatically reducing compute and memory. The AI efficiency race is advancing beyond scaling — better hardware utilization means lower inference costs and faster edge deployment.' },
+    { rating: 3, headline: 'KALAVAI breakthrough: specialist model fusion works when divergence ≥ 3.3 — gain = 0.82 × divergence − 2.72', detail: 'KALAVAI research establishes when specialist model fusion improves performance: gain = 0.82 × divergence − 2.72. When model divergence exceeds 3.3, fusion reliably outperforms individual specialists. Gives multi-agent designers a concrete threshold for combining models.' },
+    { rating: 2, headline: 'ICML 2026 review quality debate — community questions bar and process fairness as research volume explodes', detail: 'Widespread ML community discussion about ICML 2026 review quality and whether Policy A or B correctly calibrates scores. Signals growing pains as AI research volume explodes beyond traditional conference capacity.' },
+  ] },
+      { icon: '🦞', title: 'OpenClaw & Niche', signals: [
+    { rating: 4, headline: 'OpenClaw v2026.3.23 — ClawHub launch, 30+ security patches, major performance overhaul', detail: 'OpenClaw released v2026.3.23 introducing ClawHub (agent marketplace), 30+ security patches, and a major performance overhaul. Most security-hardened release to date. Combined with yesterday\'s WeChat integration (1.3B users), OpenClaw is shipping at aggressive pace across security and distribution simultaneously.' },
+    { rating: 4, headline: 'Zero Trust for AI Agents — identity, access control, and behavioral protection framework published', detail: 'A comprehensive Zero Trust framework for agentic AI systems was published covering identity verification, access control, and behavioral monitoring. As agents gain real-world tool access, Zero Trust becomes the critical security primitive. Sets the baseline for enterprise agent deployments.' },
+    { rating: 3, headline: 'ClawPen deploys OpenClaw, NousResearch Hermes, and DeerFlow with local data isolation', detail: 'ClawPen announced support for OpenClaw, NousResearch Hermes, and DeerFlow with private data staying on user computers. In a week where agent data privacy frameworks are being published, ClawPen positions as the privacy-first deployment layer for the ZHC ecosystem.' },
+    { rating: 3, headline: 'Zalos raises $3.6M for AI finance agents — ZHC ecosystem gaining venture capital attention', detail: 'Zalos, an AI finance agent startup, raised $3.6M in early-stage funding. Signals growing VC interest in the Zero Human Company paradigm — specifically in financial services automation. First major ZHC-adjacent funding announcement of 2026.' },
+    { rating: 3, headline: 'Zeron Agent Development Kit — new enterprise ZHC platform surfaces from Exa scan', detail: 'Zeron ADK, a new agent development platform, surfaced in Exa monitoring. Positioned as enterprise-grade ZHC toolkit, it joins growing ADK competition in agentic middleware. ZHC infrastructure layer is fragmenting rapidly — platform consolidation expected next.' },
+  ] },
+    ]
+  },
+  {
     id: '2026-03-24-8am',
     issueNumber: 25,
     date: 'March 24, 2026',
