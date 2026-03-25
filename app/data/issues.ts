@@ -28,6 +28,180 @@ export interface Issue {
 }
 
 export const ISSUES: Issue[] = [
+
+{
+    id: '2026-03-25-6pm',
+    issueNumber: 28,
+    date: 'March 25, 2026',
+    time: '6PM CT',
+    btcPrice: '$71,366',
+    btcChange: '1.20%',
+    btcUp: true,
+    ethPrice: '$2,173',
+    ethChange: '0.81%',
+    ethUp: true,
+    sections: [
+      {
+        title: 'Bitcoin',
+        signals: [
+          {
+            rating: 4,
+            headline: 'Crypto ETFs Post $200M+ Inflows — Bitcoin Funds Lead Rebound',
+            detail: 'Crypto ETF products rebounded on March 24 with over $200M in net inflows, led by Bitcoin funds, reversing recent outflows and signaling renewed institutional demand. The inflow reversal arrives as BTC holds above $71K and on-chain accumulation data continues to diverge positively from sentiment readings.',
+            source: 'FinanceFeeds',
+            tags: ['BTC', 'ETF', 'institutional', 'inflows']
+          },
+          {
+            rating: 3,
+            headline: 'Bitcoin Holds $71K as Oil Drops Below $100 on Iran Peace Plan',
+            detail: 'BTC steadied above $71,000 as crude oil declined following a U.S. 15-point proposal to end the Iran conflict, reducing macro risk sentiment and providing crypto support. The correlation between oil prices and Bitcoin risk premium has been the dominant macro driver of this correction cycle — a sustained oil decline removes the primary headwind.',
+            source: 'CoinDesk',
+            tags: ['BTC', 'macro', 'Iran', 'oil', 'geopolitical']
+          },
+          {
+            rating: 3,
+            headline: 'BlackRock CEO Projects $500M Annual Crypto Revenue Within 5 Years',
+            detail: "BlackRock's CEO predicted the firm will generate $500M per year in crypto-related revenue within the next five years, underscoring the asset manager's deepening digital asset commitment. The projection, from the world's largest asset manager with $11T AUM, represents a formal long-term institutional bet on crypto market infrastructure.",
+            source: 'NewsBTC',
+            tags: ['BTC', 'BlackRock', 'institutional', 'ETF', 'revenue']
+          },
+          {
+            rating: 3,
+            headline: 'Crypto Fear and Greed Index at 14 — Extreme Fear Persists as Accumulation Diverges',
+            detail: 'A flow-based analysis of the Fear and Greed Index at 14 (Extreme Fear) highlights a potential mean-reversion opportunity as on-chain accumulation data diverges sharply from sentiment readings. Historically, extreme fear readings coinciding with exchange outflows and institutional inflows have marked short-term bottoms in prior Bitcoin cycles.',
+            source: 'AInvest',
+            tags: ['BTC', 'sentiment', 'fear-greed', 'on-chain', 'contrarian']
+          },
+          {
+            rating: 2,
+            headline: 'BNY Mellon CEO: Big Banks Will Bridge Crypto and Traditional Finance',
+            detail: "BNY Mellon's CEO outlined a vision for major banks acting as connective tissue between digital assets and legacy financial infrastructure, reinforcing the institutional adoption narrative. The statement from the world's oldest bank and largest custodian signals that traditional finance views crypto integration as inevitable rather than optional.",
+            source: 'CoinMarketCap',
+            tags: ['BTC', 'BNY Mellon', 'institutional', 'banking', 'adoption']
+          }
+        ]
+      },
+      {
+        title: 'Ethereum',
+        signals: [
+          {
+            rating: 4,
+            headline: 'Ethereum Foundation Redefines L1 and L2 Roles in New Roadmap',
+            detail: 'The Ethereum Foundation published an updated ecosystem vision that repositions L1 as the primary settlement and liquidity layer while directing L2s toward differentiated innovation and Stage 2 security standards. The roadmap clarification resolves months of uncertainty about the long-term division of labor between Ethereum mainnet and its scaling ecosystem.',
+            source: 'BSC News / ForkLog',
+            tags: ['ETH', 'L1', 'L2', 'roadmap', 'Foundation', 'scaling']
+          },
+          {
+            rating: 3,
+            headline: 'L1 Mapped as DeFi Hub — Foundation Urges Stronger Stage 2 L2 Security',
+            detail: "Ethereum's new direction explicitly designates L1 as the DeFi settlement hub while calling on L2 teams to accelerate decentralization and meet Stage 2 security thresholds. The push for Stage 2 decentralization could reshape competitive dynamics among L2s, as teams with centralized sequencers face pressure to upgrade or risk losing ecosystem positioning.",
+            source: 'MoneyCheck',
+            tags: ['ETH', 'DeFi', 'L2', 'security', 'decentralization']
+          },
+          {
+            rating: 2,
+            headline: 'Protocol Teams Respond to Foundation Roadmap — Ecosystem Treats Guidance as Coordination Signal',
+            detail: "Several protocol teams and analytics firms responded to the Foundation's L1/L2 guidance with development announcements, with broader coverage confirming the roadmap is being treated as a coordination signal across the ecosystem. The speed of ecosystem response suggests the Foundation's authority as a soft coordination layer remains intact despite years of debate about its role.",
+            source: 'The Merkle',
+            tags: ['ETH', 'roadmap', 'ecosystem', 'L2', 'protocol']
+          }
+        ]
+      },
+      {
+        title: 'Blockchain and Crypto',
+        signals: [
+          {
+            rating: 4,
+            headline: 'Crypto Scams Hit $9.3 Billion — Fake Ledger and Trezor Apps Target Hardware Wallet Users',
+            detail: "A new report revealed crypto scams reached $9.3 billion in total losses in 2025, with fake hardware wallet apps mimicking Ledger and Trezor interfaces emerging as the most sophisticated new attack vector. The scam apps appear legitimate in app stores and convince users to enter seed phrases for 'firmware updates', specifically targeting the most security-conscious crypto user segment.",
+            source: 'r/CryptoCurrency',
+            tags: ['security', 'scam', 'Ledger', 'Trezor', 'wallet', 'social-engineering']
+          },
+          {
+            rating: 3,
+            headline: 'Macron Speaks at Blockchain Summit — France Pivots From Crypto Skeptic to Industry Courter',
+            detail: "French President Emmanuel Macron addressed a major blockchain conference on Wednesday, marking a sharp reversal from France's longstanding official framing of crypto as 'unproductive wealth.' The appearance signals European sovereign governments are now competing for crypto industry presence and investment as the sector's political weight grows ahead of the 2027 elections.",
+            source: 'r/Bitcoin',
+            tags: ['regulation', 'France', 'Macron', 'Europe', 'policy', 'government']
+          },
+          {
+            rating: 3,
+            headline: 'Ripple Taps Singapore Sandbox to Test RLUSD Stablecoin in Trade Finance',
+            detail: "Ripple entered the Monetary Authority of Singapore's regulatory sandbox to test its RLUSD stablecoin for trade finance applications, targeting the $18.5 trillion global trade finance market. The pilot involves real institutional counterparties settling cross-border transactions using RLUSD on the XRP Ledger, with Singapore's sandbox approach continuing to attract builders seeking pre-commercial regulatory clarity.",
+            source: 'r/CryptoCurrency',
+            tags: ['Ripple', 'RLUSD', 'stablecoin', 'Singapore', 'trade-finance', 'XRP']
+          },
+          {
+            rating: 3,
+            headline: 'Crypto Market Cap Gains $52 Billion in 24 Hours as Fear Begins to Fade',
+            detail: 'The total cryptocurrency market capitalization added $52 billion on Wednesday as fear of further capitulation subsided and institutional buyers stepped in across large-cap assets. Bitcoin and Ethereum led the recovery with altcoins following with amplified gains, representing the first clean 24-hour positive session after three weeks of Iran-driven volatility.',
+            source: 'Finbold',
+            tags: ['market', 'recovery', 'market-cap', 'momentum']
+          }
+        ]
+      },
+      {
+        title: 'AI and Agents',
+        signals: [
+          {
+            rating: 4,
+            headline: "BlackRock Head of Digital Assets: AI Agents May Prefer Bitcoin as Settlement Layer",
+            detail: "Robert Mitchnick, BlackRock's Head of Digital Assets, stated that autonomous AI agents are likely to gravitate toward Bitcoin as their preferred settlement layer due to its decentralization, censorship resistance, and programmable payment properties. The statement from the world's largest asset manager adds significant institutional weight to the Bitcoin-as-AI-money thesis building in crypto-native circles throughout 2026.",
+            source: 'Cryptonews.net',
+            tags: ['AI', 'agents', 'BTC', 'BlackRock', 'institutional', 'payments']
+          },
+          {
+            rating: 4,
+            headline: 'ERC-8183: The Standard Letting AI Agents Hire, Pay, and Settle On-Chain Without Humans',
+            detail: 'ERC-8183, built by Virtuals Protocol, allows AI agents to autonomously hire other agents, issue payments, and settle completed work entirely on-chain without any human intermediary. The standard creates a machine-native labor market on Ethereum and represents one of the most consequential infrastructure developments in the AI-crypto intersection in 2026.',
+            source: 'Phemex',
+            tags: ['AI', 'agents', 'ETH', 'ERC-8183', 'Virtuals', 'autonomous', 'payments']
+          },
+          {
+            rating: 3,
+            headline: 'TRM Labs Launches AI Agent for Natural Language On-Chain Analysis',
+            detail: 'TRM Labs launched a new AI agent that allows analysts to query blockchain data using natural language rather than SQL or API calls. The agent can identify wallet clusters, trace fund flows, and flag suspicious transactions in response to plain-English queries, signaling that AI-native interfaces are replacing traditional dashboards for blockchain compliance and intelligence work.',
+            source: 'MEXC / Bitcoin World',
+            tags: ['AI', 'TRM Labs', 'on-chain', 'analytics', 'compliance', 'natural-language']
+          },
+          {
+            rating: 2,
+            headline: "LeCun's $1B Seed Round Sparks Debate: Have Autoregressive LLMs Hit a Fundamental Wall?",
+            detail: "The ML research community debated whether Yann LeCun's reported $1 billion seed round for his post-LLM architecture startup signals that the current generation of autoregressive large language models has reached fundamental limits. LeCun has long argued that next-token prediction is insufficient for general intelligence, and institutional funding at this scale suggests the debate is shifting from academic to commercial urgency.",
+            source: 'r/MachineLearning',
+            tags: ['AI', 'LeCun', 'LLM', 'architecture', 'research', 'funding']
+          }
+        ]
+      },
+      {
+        title: 'OpenClaw and Niche',
+        signals: [
+          {
+            rating: 4,
+            headline: 'OpenClaw v2026.3.22 Ships 48-Hour Agent Sessions, Security Fixes, and MoltBot Cleanup',
+            detail: 'The latest OpenClaw release extends agent session duration to 48 hours, enabling longer autonomous task chains without mid-run interruption. The release also includes security patches and a final cleanup of the legacy MoltBot agent layer. Extended session length makes OpenClaw substantially more viable for complex multi-step workflows that previously required human re-authentication every few hours.',
+            source: 'Exa / OpenClaw',
+            tags: ['OpenClaw', 'agents', 'MoltBot', 'session', 'release', 'security']
+          },
+          {
+            rating: 4,
+            headline: 'Nvidia CEO Jensen Huang: OpenClaw Is As Important As HTML, Linux, and ChatGPT',
+            detail: "Jensen Huang publicly stated that OpenClaw represents a paradigm shift in computing comparable to the introduction of HTML, Linux, and ChatGPT. The endorsement from the CEO of the company providing GPU infrastructure for most AI workloads positions OpenClaw not as a developer tool but as foundational internet infrastructure — a framing that carries significant weight for enterprise and government adoption.",
+            source: 'Exa / Economic Times',
+            tags: ['OpenClaw', 'Jensen Huang', 'Nvidia', 'agentic', 'infrastructure', 'endorsement']
+          },
+          {
+            rating: 3,
+            headline: 'Anthropic Launches Claude Code Channels as Direct OpenClaw Competitor',
+            detail: "Anthropic shipped Claude Code Channels, allowing developers to message Claude for code editing and multi-agent orchestration workflows in a direct challenge to OpenClaw's agent-computer interaction model. With both Anthropic and multiple other labs shipping OpenClaw-inspired interfaces, the agentic layer above LLMs is becoming one of the most contested battlegrounds in AI infrastructure.",
+            source: 'Exa / Anthropic',
+            tags: ['OpenClaw', 'Anthropic', 'Claude', 'agentic', 'competition']
+          }
+        ]
+      }
+    ]
+  },
+
 {
     id: '2026-03-25-6pm',
     issueNumber: 28,
