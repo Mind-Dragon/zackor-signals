@@ -29,6 +29,50 @@ export interface Issue {
 
 export const ISSUES: Issue[] = [
 
+{
+    id: '2026-03-26-6pm',
+    issueNumber: 31,
+    date: 'March 26, 2026',
+    time: '6PM CT',
+    btcPrice: '$68,811',
+    btcChange: '3.51%',
+    btcUp: false,
+    ethPrice: '$2,064',
+    ethChange: '4.80%',
+    ethUp: false,
+    sections: [
+      { icon: '₿', title: 'Bitcoin', signals: [
+        { rating: 4, headline: 'Morgan Stanley MSBT Bitcoin ETF launch imminent — first bank-backed BTC fund nears listing', detail: 'Morgan Stanley set the MSBT ticker and seeded $1M in capital as the $5.5T asset manager finalizes its spot Bitcoin ETF. MSBT will give 15,000+ financial advisors direct BTC exposure — the first major US bank to bring a branded Bitcoin fund to market. Multiple reports cite launch as imminent pending final SEC clearance.', source: 'CryptoSlate / DL News' },
+        { rating: 4, headline: 'Bitcoin ETFs post $2.5B in March inflows — 5-day streak ends four months of outflows', detail: 'US spot Bitcoin ETFs recorded a fifth consecutive day of net inflows Thursday, with the March total reaching $1.53 billion — the first positive month since November. Institutions are buying the dip as gold funds simultaneously bleed capital, supporting a BTC-over-gold rotation thesis.', source: 'U.Today / Reddit r/CryptoCurrency' },
+        { rating: 3, headline: 'MARA sells 15,133 BTC ($1.1B) to restructure debt — largest public miner sell of 2026', detail: 'MARA Holdings liquidated 15,133 BTC between March 4 and March 25 to fund sweeping debt restructuring. The sale removes significant overhead supply and marks the largest single miner BTC liquidation of 2026. Miner deleveraging at scale has historically preceded BTC price floors.', source: 'CryptoNews' },
+        { rating: 4, headline: 'Michael Saylor: crypto next phase is digital credit — BTC as base layer for structured finance', detail: 'Strategy founder Michael Saylor told Forbes the next phase of crypto is financial engineering: BTC-backed credit instruments competing with bonds and structured finance. Saylor argues Bitcoin will become collateral for a new class of digital credit products, extending its role beyond a reserve asset into yield-bearing instruments.', source: 'Forbes' },
+        { rating: 3, headline: 'BTC falls to $68.8K as war fears and oil prices weigh on rally despite TradFi return', detail: 'Bitcoin dropped 3.5% Thursday as Middle East tensions and record oil prices offset institutional buying. TradFi buyers remain active near the $70K floor but geopolitical risk premium caps upside. Analysts cite the $68K-$70K range as the critical accumulation zone before the next leg higher.', source: 'CoinTelegraph' },
+      ] },
+      { icon: 'Ξ', title: 'Ethereum', signals: [
+        { rating: 4, headline: 'BlackRock staked ETH ETF hits $212M AUM — institutional demand for yield-bearing ETH accelerating', detail: 'The BlackRock spot Ethereum ETF with native staking accumulated $212M in assets since launch. The product lets institutions hold ETH while earning staking yield — a first for a major US-regulated fund. The milestone signals growing institutional appetite for productive crypto assets beyond simple spot exposure.', source: 'TechBullion' },
+        { rating: 3, headline: 'Ethereum post-quantum upgrade approaching — EF hardening protocol against quantum computing threats', detail: 'The Ethereum Foundation is preparing protocol-level changes to harden ETH against potential quantum computing attacks. The upgrade is part of the EF roadmap signaling proactive security investment as quantum hardware timelines compress. EF also raised the max bug bounty payout to $1M.', source: 'TechBullion / Reddit r/ethereum' },
+        { rating: 3, headline: 'Solana overtakes Ethereum on DEX volume — $50B traded on SOL in March 2026', detail: 'Solana DEX volume surged to nearly $50 billion in March 2026, surpassing Ethereum ecosystem DEX activity for the month. The shift reflects continued user and liquidity migration to faster and cheaper chains. ETH proponents argue L2 activity is excluded from comparisons.', source: 'Finbold' },
+        { rating: 2, headline: 'DoJ seeks Roman Storm retrial — Tornado Cash developer faces renewed prosecution push', detail: 'The US Department of Justice is seeking a retrial for Roman Storm, the Tornado Cash developer whose case ended without conviction in 2025. The move signals continued DoJ enforcement stance on privacy protocols, creating regulatory overhang for Ethereum DeFi infrastructure.', source: 'Reddit r/ethereum' },
+      ] },
+      { icon: '⛓', title: 'Blockchain & Crypto', signals: [
+        { rating: 4, headline: 'Capital rotation confirmed: Bitcoin ETFs pull $2.5B as gold funds bleed in March 2026', detail: 'March 2026 marks the clearest institutional capital rotation signal of the year: Bitcoin ETFs absorbed $2.5B in net inflows while gold ETFs recorded simultaneous outflows. US institutions are actively substituting BTC for gold as a macro hedge, validating the digital gold thesis in real fund flows.', source: 'Reddit r/CryptoCurrency' },
+        { rating: 3, headline: 'Next Bitcoin halving debate: March 2028 reward cut to 1.5625 BTC reshapes miner economics', detail: 'Discussions are intensifying around the next halving around March 2028, which cuts the block reward from 3.125 to 1.5625 BTC. With MARA and other miners already deleveraging, supply reduction timelines are shaping miner strategy today. Analysts debate whether halvings still drive price cycles given ETF-dominated demand.', source: 'Reddit r/Bitcoin' },
+        { rating: 3, headline: 'Ripple RLUSD advances in Singapore MAS sandbox — stablecoin pilot expanding across Asia', detail: 'Ripple RLUSD stablecoin is advancing through the Monetary Authority of Singapore regulatory sandbox with an expanding cross-border payments pilot. Singapore remains a key stablecoin jurisdiction and progress signals growing institutional acceptance of regulated stablecoins in Asia Pacific.', source: 'Exa research' },
+      ] },
+      { icon: '🤖', title: 'AI & Agents', signals: [
+        { rating: 4, headline: 'Yann LeCun raises $1B seed — market bets autoregressive LLMs have hit a reasoning ceiling', detail: 'Bloomberg reports Yann LeCun new AI startup raised a $1 billion seed round. Reddit r/MachineLearning debate (240+ upvotes) centers on whether this validates LeCun argument that autoregressive LLMs have fundamentally hit a ceiling for formal reasoning. LeCun has backed non-autoregressive architectures. The raise brings institutional capital to the thesis.', source: 'Bloomberg / Reddit r/MachineLearning' },
+        { rating: 3, headline: 'MIT releases Flow Matching and Diffusion course 2026 — free open curriculum for next-gen generative AI', detail: 'MIT professors Peter Holderrieth and Ezra Erives released their 2026 course on flow matching and diffusion models, covering the full modern stack. Free and open access. Reddit r/MachineLearning rated it among the top public AI resources of 2026 with 180+ upvotes — the fastest-growing area of AI research has a definitive curriculum now.', source: 'MIT / Reddit r/MachineLearning' },
+        { rating: 3, headline: 'Michael Saylor envisions AI agents as underwriters for BTC-backed digital credit products', detail: 'In his Forbes digital credit interview, Saylor specifically referenced AI agents as the infrastructure layer to automate underwriting and management of BTC-backed credit instruments. The vision connects the autonomous agent economy directly to Bitcoin financial infrastructure — a convergence of the two most disruptive asset classes.', source: 'Forbes' },
+      ] },
+      { icon: '🦞', title: 'OpenClaw & Niche', signals: [
+        { rating: 4, headline: 'OpenClaw hits 329K GitHub stars — China leads global adoption with $275K in state subsidies', detail: 'OpenClaw surpassed 329,000 GitHub stars with China emerging as the dominant adopter. Chinese tech companies receive $275K in state subsidies to integrate OpenClaw into enterprise workflows. Baidu and Tencent model variants now lead global OpenClaw deployments. OAX Foundation published a deep dive on the project rise.', source: 'Exa / OAX Foundation' },
+        { rating: 3, headline: 'OpenClaw becomes top GitHub project by stars in 60 days — fastest rise in platform history', detail: 'OpenClaw reached number one on GitHub by star count in just 60 days from launch — the fastest any project has achieved this milestone in GitHub history. The result signals a structural shift: open-source, local-first, no-code AI agent pipelines are winning developer mindshare at unprecedented speed.', source: 'lowtouch.ai' },
+        { rating: 3, headline: 'Solana $50B March DEX dominance highlights chain-specific winner dynamics in multi-chain era', detail: 'Solana $50B March DEX volume leadership demonstrates that chain-specific platforms can dominate individual verticals even as multi-chain ecosystems fragment. ZHC and niche monitoring projects use DEX volume as a leading indicator of developer and user activity migration across chains.', source: 'Finbold' },
+      ] },
+    ],
+  },
+
+
   {
     id: '2026-03-26-noon',
     issueNumber: 30,
