@@ -93,7 +93,7 @@ export const ISSUES: Issue[] = [
         },
         {
           rating: 3,
-          headline: 'Morgan Stanley Filed BTC ETF During War's Worst Week — A $5.5T Signal',
+          headline: 'Morgan Stanley Filed BTC ETF During War\'s Worst Week — A $5.5T Signal',
           detail: 'Morgan Stanley filed for a spot Bitcoin ETF with Coinbase as custodian and BNY Mellon as administrator during the worst week of the Iran war. Analysts call it a $5.5 trillion signal that crypto is permanent.',
           source: 'Cryptopolitan',
         },
