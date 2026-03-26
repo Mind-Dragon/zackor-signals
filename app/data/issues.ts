@@ -30,6 +30,105 @@ export interface Issue {
 export const ISSUES: Issue[] = [
 
 {
+    id: '2026-03-26-8am',
+    issueNumber: 29,
+    date: 'March 26, 2026',
+    time: '8am CT',
+    btcPrice: '$69,415',
+    btcChange: '-2.68%',
+    btcUp: false,
+    ethPrice: '$2,073',
+    ethChange: '-4.38%',
+    ethUp: false,
+    sections: [
+      { icon: '₿', title: 'Bitcoin', signals: [
+        {
+          rating: 4,
+          headline: 'MARA Holdings Dumps 15,000 BTC ($1B) — "Selling the Bottom" Amid Iran Uncertainty',
+          detail: 'Marathon Digital Holdings sold over 15,000 BTC worth approximately $1 billion, sparking debate about whether major miners are capitulating. Iran ceasefire negotiations remain stalled, weighing on BTC which fell -2.68% to $69,415.',
+          source: 'BlockNews / CoinDesk',
+        },
+        {
+          rating: 3,
+          headline: 'Bitcoin ETF Inflows Reverse 2026 Outflow Trend — $167M Net Inflow',
+          detail: 'Bitcoin spot ETFs recorded $167M in net inflows on March 24, snapping a 3-day outflow streak and signaling renewed institutional demand despite macro headwinds from ongoing Iran conflict.',
+          source: 'Multiple / Exa',
+        },
+        {
+          rating: 3,
+          headline: 'Morgan Stanley Filed BTC ETF During War's Worst Week — A $5.5T Signal',
+          detail: 'Morgan Stanley filed for a spot Bitcoin ETF with Coinbase as custodian and BNY Mellon as administrator during the worst week of the Iran war. Analysts call it a $5.5 trillion signal that crypto is permanent.',
+          source: 'Cryptopolitan',
+        },
+        {
+          rating: 3,
+          headline: 'Bhutan Sold $120M in Bitcoin This Month',
+          detail: 'The Kingdom of Bhutan has liquidated $120M in BTC this month through its government sovereign fund. Sovereign wealth activity is increasing on both buy and sell sides as geopolitical stress intensifies.',
+          source: 'Reddit r/CryptoCurrency',
+        },
+        {
+          rating: 2,
+          headline: 'Bear Case Grows: Analysts Debate Bitcoin Below $50K as Iran Risk Mounts',
+          detail: 'With Iran ceasefire demands rejected and macro uncertainty rising, analysts are openly debating a potential BTC correction below $50K. Morgan Stanley custody warnings circulating on Reddit.',
+          source: 'Coinpedia / Reddit r/Bitcoin',
+        },
+      ] },
+      { icon: 'Ξ', title: 'Ethereum', signals: [
+        {
+          rating: 4,
+          headline: 'Ethereum Price Eyes $3,000 as Whales Accumulate 900,000 ETH',
+          detail: 'On-chain data shows large wallets accumulating 900,000 ETH ahead of the $3,000 resistance level, suggesting institutional smart money is positioning for a breakout despite current price weakness at $2,073.',
+          source: 'BeInCrypto',
+        },
+        {
+          rating: 4,
+          headline: 'Tom Lee: "Mini Crypto Winter Near End" — Bitmine Makes Biggest ETH Buy of 2026',
+          detail: 'BMNR shares surged after Bitmine (now holding 4.53M ETH) made its largest single ETH purchase of the year. Tom Lee says the "mini crypto winter" is approaching its end.',
+          source: 'MSN / CryptoRank',
+        },
+        {
+          rating: 3,
+          headline: 'Whale "0xA177" Buys $100M+ ETH in Two Transactions',
+          detail: 'An unmarked wallet bought over $100 million in Ethereum across two transactions on March 25, reinforcing the institutional accumulation narrative even as ETH fell -4.38% on the day.',
+          source: 'CryptoBasic',
+        },
+        {
+          rating: 2,
+          headline: 'ETH ETF Outflows Continue: BlackRock Sold $33.4M ETH Yesterday',
+          detail: 'Ethereum spot ETFs recorded $8.5M net outflow on March 25. BlackRock alone sold $33.4M worth of ETH, pressuring price to $2,073. Key support at $2,000 remains critical.',
+          source: 'Twitter / ETF Data',
+        },
+        {
+          rating: 2,
+          headline: 'Early Ethereum Investors Moving Holdings — 5% Price Drop',
+          detail: 'Long-dormant early ETH wallets are moving holdings to exchanges, adding near-term sell pressure. Elliott Wave analysis suggests "one final push before pullback" from current levels.',
+          source: 'MarketForces Africa / Twitter',
+        },
+      ] },
+      { icon: '🌐', title: 'Blockchain & Macro', signals: [
+        {
+          rating: 3,
+          headline: 'Tether Finally Gets Big Four Audit After "Years of Harsh Treatment"',
+          detail: 'Tether secured an audit from a Big Four accounting firm, a major credibility milestone for USDT and the broader crypto market. Community reaction is broadly positive.',
+          source: 'Reddit r/CryptoCurrency',
+        },
+        {
+          rating: 2,
+          headline: 'Iran Ceasefire Talks Stall — Markets Brace for Impact',
+          detail: "Iran's ceasefire demands signal no deal is imminent, rattling crypto and equity markets. BTC -2.68%, ETH -4.38% on session. Iran risk remains the dominant macro overhang.",
+          source: 'Reddit r/CryptoCurrency',
+        },
+        {
+          rating: 2,
+          headline: 'Circle Falls, Bitcoin ETFs Surge — Institutional Divergence Deepens',
+          detail: "Circle's valuation fell while Bitcoin ETF inflows surged, highlighting a growing divergence between centralized crypto infrastructure and spot market institutional demand.",
+          source: 'Investing News Network',
+        },
+      ] },
+    ],
+  },
+
+{
     id: '2026-03-25-6pm',
     issueNumber: 28,
     date: 'March 25, 2026',
