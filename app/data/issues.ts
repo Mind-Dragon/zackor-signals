@@ -29,6 +29,43 @@ export interface Issue {
 
 export const ISSUES: Issue[] = [
 
+  {
+    id: '2026-03-26-noon',
+    issueNumber: 30,
+    date: 'March 26, 2026',
+    time: 'Noon CT',
+    btcPrice: '$68,907',
+    btcChange: '3.38%',
+    btcUp: false,
+    ethPrice: '$2,061',
+    ethChange: '4.92%',
+    ethUp: false,
+    sections: [
+      { icon: '₿', title: 'Bitcoin', signals: [
+    { rating: 4, headline: 'Coinbase partners with Fannie Mae to enable crypto-backed mortgages — Bitcoin as collateral for home loans', detail: 'Reuters confirmed Thursday that Coinbase is working with Fannie Mae to allow token-backed down payments in the US housing market. Bitcoin holders can now potentially use BTC as collateral to secure a mortgage without selling their position. This is the broadest institutional integration of crypto into traditional finance infrastructure in history and fundamentally expands Bitcoin\'s utility as a reserve asset.',
+      source: 'Reuters',  },
+    { rating: 4, headline: 'MARA Holdings sells $1.1B in Bitcoin to buy back convertible debt — miner deleveraging accelerates', detail: 'MARA Holdings (MARA) executed a $1.1 billion Bitcoin sale and used proceeds to retire convertible notes, driving MARA stock sharply higher. The move signals aggressive balance sheet cleanup by one of the largest Bitcoin miners during the current pullback. Miner deleveraging at scale historically front-runs a BTC price floor as forced selling pressure exhausts.',
+      source: 'Decrypt / CoinDesk',  },
+    { rating: 3, headline: 'Bitcoin \'in later stages of bear market\' — analyst says buy window is closing fast near $68K', detail: 'An analyst report Thursday argues Bitcoin has entered the final phase of its current correction, with $68K flagged as a key accumulation zone before the next leg. The thesis: miner capitulation (MARA), ETF outflows reversing, and Fannie Mae integration all point to a macro floor forming. The window to accumulate below $70K may be short.',
+      source: 'MSN / The Economic Times',  },
+    { rating: 3, headline: 'Bitcoin drops below $69K as peace deal hopes falter — war risk premium returns to market', detail: 'Bitcoin gave up $69,000 intraday as diplomatic progress on the Iran situation stalled. The same geopolitical narrative that drove Wednesday\'s rally reversed sharply. BTC is now testing its 50-day moving average as a support floor. A close below $68K would technically confirm a retest of the $65K range.',
+      source: 'Yahoo Finance UK / FXStreet',  },
+    { rating: 2, headline: 'Bitcoin ETFs record net inflow surge as Circle IPO price pressure creates rotation opportunity', detail: 'Bitcoin spot ETFs recorded a notable inflow surge Thursday even as BTC price fell, with Circle\'s IPO stumbling creating a rotation out of altcoin adjacent plays into pure BTC exposure. The divergence between ETF inflows and spot price weakness is a classically bullish setup.',
+      source: 'Investing News Network',  }
+  ] },
+      { icon: 'Ξ', title: 'Ethereum', signals: [
+    { rating: 4, headline: 'Ethereum whales return to profitable state — top analyst projects 25% rally from current levels', detail: 'An MSN/market analysis report Thursday notes the richest Ethereum wallets have flipped back to net profitable after weeks underwater. Historically, whale profitability recovery has preceded significant ETH rallies. The analyst projects a 25% move from the $2,050 range if resistance at $2,200 clears on volume. This is the strongest accumulation signal ETH has shown in the current cycle.',
+      source: 'MSN',  },
+    { rating: 3, headline: 'Ethereum faces critical $3,000 ceiling — analysts identify key resistance zones before next breakout', detail: 'Multiple analysts flagged Thursday that ETH\'s path to $3,000 runs through a series of resistance levels at $2,200, $2,500, and $2,800. CryptoRank and Cryptonews.net both published technical breakdowns showing ETH may be reversing course from its recent lows — but confirmation requires a clean close above $2,200 first.',
+      source: 'Cryptonews.net / CryptoRank',  },
+    { rating: 3, headline: 'Bitmine\'s $11 billion Ethereum bet draws institutional attention — BMNR stock analysis raises buy case', detail: 'MarketWise published a deep-dive on Bitmine Immersion Technologies (BMNR), which holds $11B in Ethereum making it the largest public ETH holder. The piece argues BMNR is structurally undervalued relative to its ETH treasury and MAVAN staking platform yield. Institutional interest in ETH-native treasury companies is rising as staking yields compound.',
+      source: 'MarketWise',  },
+    { rating: 2, headline: 'Bitcoin.com Checkout adds ETH and ERC-20 token support — payment utility expansion for Ethereum', detail: 'Bitcoin.com\'s merchant checkout product added full Ethereum and ERC-20 token support Thursday, expanding its payment rails beyond Bitcoin. The integration puts ETH alongside BTC at the point of sale for Bitcoin.com\'s merchant network — a meaningful, if incremental, adoption signal for Ethereum\'s payment utility.',
+      source: 'r/ethereum',  }
+  ] },
+    ],
+  },
+
 {
     id: '2026-03-26-8am',
     issueNumber: 29,
