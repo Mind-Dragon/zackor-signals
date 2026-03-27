@@ -30,6 +30,178 @@ export interface Issue {
 export const ISSUES: Issue[] = [
 
 {
+    id: '2026-03-27-6pm',
+    issueNumber: 34,
+    date: 'March 27, 2026',
+    time: '6PM CT',
+    btcPrice: '$66,009',
+    btcChange: '-4.04%',
+    btcUp: false,
+    ethPrice: '$1,984',
+    ethChange: '-3.63%',
+    ethUp: false,
+    sections: [
+      {
+        icon: 'btc',
+        title: 'Bitcoin',
+        signals: [
+          {
+            rating: 4,
+            headline: 'BTC ETFs bleed $171M as Ukraine drone strikes on Russian oil ports trigger macro selloff',
+            detail: 'Crypto ETFs under heavy pressure: BTC ETFs post $171M outflows as Ukraine strikes reduce Russian oil capacity 40%, rattling global risk assets.',
+            source: 'Bitcoin.com News / Benzinga',
+          },
+          {
+            rating: 4,
+            headline: 'Morgan Stanley MSBT Bitcoin ETF receives NYSE Arca listing notice',
+            detail: 'Morgan Stanley spot BTC ETF ticker MSBT listed on NYSE Arca. Community notes it will funnel more capital into BTC than competing products given Morgan Stanley market reach.',
+            source: 'Bitcoin.com News / r/Bitcoin 362+',
+          },
+          {
+            rating: 4,
+            headline: '$820B wiped from US stocks, $120B from crypto in single session',
+            detail: 'Broad risk-off as macro headwinds dominate. Crypto correlates tightly with equities. Iran peace talks stall; geopolitical risk premium rises sharply.',
+            source: 'r/CryptoCurrency 1788+',
+          },
+          {
+            rating: 2,
+            headline: 'Gold-to-Bitcoin ETF rotation in 2026 massively underreported by mainstream media',
+            detail: 'Community analysis shows institutional rotation from gold ETFs to Bitcoin ETFs accelerating. Capital flows signal long-term repositioning despite short-term price pressure.',
+            source: 'r/CryptoCurrency',
+          },
+          {
+            rating: 2,
+            headline: 'GameStop chose convertible bonds over Bitcoin — signals conservative treasury approach',
+            detail: 'GameStop opted for bond issuance over direct BTC purchase, frustrating Bitcoin maximalists and signaling a cautious treasury strategy despite crypto-friendly posturing.',
+            source: 'r/Superstonk 1415+',
+          },
+        ],
+      },
+      {
+        icon: 'eth',
+        title: 'Ethereum',
+        signals: [
+          {
+            rating: 4,
+            headline: 'Galaxy Digital withdraws $114M ETH from exchanges in single transfer',
+            detail: 'Galaxy Digital transferred $114M in ETH off exchanges, sparking speculation about long-term custody strategy and potential staking deployment at scale.',
+            source: 'CryptoRank / BitcoinWorld',
+          },
+          {
+            rating: 3,
+            headline: 'ECB signals regulatory scrutiny of DeFi governance tokens — Aave, MakerDAO, Uniswap in scope',
+            detail: 'European Central Bank (March 2026) signals scrutiny of DeFi/DAO governance tokens as regulatory oversight expands to decentralized protocols across the eurozone.',
+            source: 'CryptoRank',
+          },
+          {
+            rating: 2,
+            headline: 'ETH tracks BTC with 65% correlation through macro selloff',
+            detail: 'Ethereum price movement closely mirrors Bitcoin during today\'s selloff. XRP also drops 2.5% as SEC ETF deadline approaches with window closing for regulatory approval.',
+            source: 'Rolling Out',
+          },
+          {
+            rating: 3,
+            headline: 'Wars prove permissionless markets matter — Ethereum community rallies on censorship resistance thesis',
+            detail: 'Conflict escalation renews discourse on why non-custodial permissionless finance matters. ETH community highlights seizure-resistance as core value in current geopolitical climate.',
+            source: 'r/ethereum 36+',
+          },
+        ],
+      },
+      {
+        icon: 'chain',
+        title: 'Blockchain & Crypto',
+        signals: [
+          {
+            rating: 4,
+            headline: 'BlackRock deposits $180M in crypto to Coinbase — unprecedented institutional confidence',
+            detail: 'BlackRock strategic deposit signals deepening custody relationship with Coinbase. Analysts view move as IBIT operational infrastructure expansion amid ETF growth.',
+            source: 'CryptoRank / BitcoinWorld',
+          },
+          {
+            rating: 3,
+            headline: 'Ondo Finance and CC close institutional deals as spot markets bleed',
+            detail: 'While BTC/ETH slide on macro, tokenized asset platform Ondo and CC secure new institutional partnerships. Real-world asset tokenization advances regardless of market conditions.',
+            source: 'CoinDesk',
+          },
+          {
+            rating: 2,
+            headline: 'Sudoswap token surges 225% on DAO rage quit proposal to distribute treasury assets',
+            detail: 'Forgotten DeFi protocol Sudoswap spikes 225% after community proposal to distribute remaining treasury assets to holders via a DAO rage quit mechanism.',
+            source: 'DL News',
+          },
+          {
+            rating: 2,
+            headline: 'Institutional blockchain investment hit $31.5B in 2025 per PitchBook data',
+            detail: 'Despite current price pressure, underlying institutional commitment to blockchain infrastructure accelerates. $31.5B invested in 2025 confirms structural long-term trend.',
+            source: 'MEXC / PitchBook',
+          },
+        ],
+      },
+      {
+        icon: 'ai',
+        title: 'AI & Agents',
+        signals: [
+          {
+            rating: 4,
+            headline: 'Karpathy AI research agent runs 700 experiments in 2 days — autonomous science emerges',
+            detail: 'Andrej Karpathy demonstrated an autonomous AI research agent that ran 700 distinct experiments in 48 hours, offering concrete evidence of self-directed scientific discovery at scale.',
+            source: 'r/artificial 251+',
+          },
+          {
+            rating: 4,
+            headline: 'Sora shutdown signals what private AI companies will do approaching AGI threshold',
+            detail: 'OpenAI quietly shuttered Sora, raising alarms: when a private company achieves transformative AI capability, product decisions become existential policy with no public accountability.',
+            source: 'r/singularity 547+',
+          },
+          {
+            rating: 3,
+            headline: 'ARC-AGI-3: AI matches humans only with extended tool use — action-count chart published',
+            detail: 'New data from the ARC-AGI website shows AI performance scales with number of actions taken, confirming current models need agentic scaffolding to reach human benchmark parity.',
+            source: 'r/singularity 521+',
+          },
+          {
+            rating: 3,
+            headline: 'Figure.AI CEO teases Hark — new AI lab targeting sensing, interaction, physical intelligence',
+            detail: 'Brett Adcock teases Hark as an advanced AI lab focused on AI capable of sophisticated environmental sensing and human interaction, signaling expansion beyond humanoid robotics.',
+            source: 'r/singularity 117+',
+          },
+        ],
+      },
+      {
+        icon: 'niche',
+        title: 'OpenClaw & Niche',
+        signals: [
+          {
+            rating: 4,
+            headline: 'Alibaba commits to continuously open-sourcing Qwen and Wan models',
+            detail: 'Alibaba officially confirms ongoing open releases of Qwen (LLM) and Wan (multimodal/video) models. Major commitment to open AI infrastructure from Chinese Big Tech at 1,181 upvotes.',
+            source: 'r/LocalLLaMA 1181+',
+          },
+          {
+            rating: 3,
+            headline: 'Cursor confirms Kimi K2.5 is the best open-source model for coding',
+            detail: 'Cursor coding assistant benchmarks confirm Kimi K2.5 outperforms competing open-source models. Community consensus shifting toward Chinese AI stack at 475 upvotes.',
+            source: 'r/LocalLLaMA 475+',
+          },
+          {
+            rating: 3,
+            headline: 'VibeVoice 9B tops 31-model STT benchmark for medical audio at 8.34% WER',
+            detail: 'New open-source leader in speech-to-text for medical audio. VibeVoice 9B achieves 8.34% word error rate, beating all 30 competing models including commercial alternatives.',
+            source: 'r/LocalLLaMA 52+',
+          },
+          {
+            rating: 2,
+            headline: 'Ternary neural networks gaining momentum as path to efficient edge AI deployment',
+            detail: 'Research on +1/0/-1 weight quantization shows meaningful efficiency gains. Community debate building on whether ternary networks are the practical road to edge AI inference.',
+            source: 'r/MachineLearning 37+',
+          },
+        ],
+      },
+    ],
+  },
+
+
+{
     id: '2026-03-27-noon',
     issueNumber: 33,
     date: 'March 27, 2026',
