@@ -24,6 +24,172 @@ export interface AIIssue {
 export const AI_ISSUES: AIIssue[] = [
 
 {
+    id: 'ai-2026-03-27-6pm',
+    issueNumber: 4,
+    date: 'March 27, 2026',
+    time: '6PM CT',
+    sections: [
+      {
+        icon: 'model',
+        title: 'Foundation Models',
+        signals: [
+          {
+            rating: 4,
+            headline: 'Sora shutdown signals how private AI companies will act when approaching AGI',
+            detail: 'OpenAI quietly shuttered Sora, raising community alarms about what happens when private companies achieve transformative AI — product decisions become existential policy with no public accountability.',
+            source: 'r/singularity 547+',
+          },
+          {
+            rating: 4,
+            headline: 'ARC-AGI-3: AI only matches humans with extended tool use — action-count performance chart released',
+            detail: 'Official ARC-AGI-3 data confirms AI performance scales directly with actions taken. Current frontier models need agentic scaffolding and multi-step tool use to approach human benchmark parity.',
+            source: 'r/singularity 521+',
+          },
+          {
+            rating: 3,
+            headline: 'OpenAI Spud and Claude beast mode tackle ARC-AGI-3 — agentic scaffolding closes the gap',
+            detail: 'New test runs show OpenAI Spud and Claude in extended agentic mode making meaningful progress on ARC-AGI-3. Stirs governments and raises questions about near-term capability jumps.',
+            source: 'r/singularity 68+',
+          },
+          {
+            rating: 3,
+            headline: 'DeepMind new AI model described as changing science forever — community coverage spikes',
+            detail: 'DeepMind published results on a new AI system with broad scientific application potential. Community reaction strong at 62 upvotes with comparisons to AlphaFold-level impact.',
+            source: 'r/singularity 62+',
+          },
+          {
+            rating: 2,
+            headline: 'LoCoMo benchmark audit: 6.4% of answer key wrong, judge accepts 63% of intentional errors',
+            detail: 'Independent audit of LoCoMo benchmark reveals systemic evaluation flaws. If 6.4% of ground truth is wrong and the LLM judge accepts most errors, benchmark results are unreliable.',
+            source: 'r/MachineLearning 45+',
+          },
+        ],
+      },
+      {
+        icon: 'agent',
+        title: 'Agents & Automation',
+        signals: [
+          {
+            rating: 4,
+            headline: 'Karpathy AI research agent runs 700 experiments in 2 days — autonomous science at scale',
+            detail: 'Andrej Karpathy shared results from an autonomous AI research agent that self-directed 700 distinct experiments in 48 hours, showing what AI-driven scientific discovery looks like in practice.',
+            source: 'r/artificial 251+',
+          },
+          {
+            rating: 3,
+            headline: 'Figure.AI CEO teases Hark — advanced AI lab for sensing, interaction, and physical intelligence',
+            detail: 'Brett Adcock teases Hark as a new AI lab focused on developing systems capable of sophisticated sensing and human interaction, signaling a broader ambition beyond physical humanoid robots.',
+            source: 'r/singularity 117+',
+          },
+          {
+            rating: 3,
+            headline: 'AI agent accelerates catalyst discovery for sustainable fuel development',
+            detail: 'Researchers deployed an AI agent to autonomously explore catalyst combinations for sustainable fuel, dramatically accelerating a process that previously required years of trial-and-error.',
+            source: 'Phys.org',
+          },
+          {
+            rating: 2,
+            headline: 'Purpose-built cybersecurity LLM outperforms GPT on attack chain tracing',
+            detail: 'A dedicated cybersecurity LLM trained on security-specific data significantly outperforms general-purpose models like GPT on multi-step attack chain analysis and threat attribution.',
+            source: 'Security Boulevard',
+          },
+        ],
+      },
+      {
+        icon: 'policy',
+        title: 'Industry & Policy',
+        signals: [
+          {
+            rating: 3,
+            headline: 'Has AI research lab become a meaningless term? — ML community debates',
+            detail: 'r/MachineLearning thread at 74 upvotes questions whether the term AI research lab still means anything when product teams, consulting firms, and startups all claim the label.',
+            source: 'r/MachineLearning 74+',
+          },
+          {
+            rating: 2,
+            headline: 'Embedding social values into AI real-time decision making — SMU research published',
+            detail: 'New research from SMU Assistant Professor Zhiguang Cao proposes continuous real-time monitoring of AI decisions against social value frameworks, enabling dynamic alignment correction.',
+            source: 'EurekAlert',
+          },
+          {
+            rating: 2,
+            headline: 'Scale AI dominates ML evaluation infrastructure — ML research engineer interviews spike',
+            detail: 'Scale AI emerging as central infrastructure for ML research evaluation. Engineer interview discussions trending on r/MachineLearning indicate growing industry demand for eval expertise.',
+            source: 'r/MachineLearning 28+',
+          },
+          {
+            rating: 2,
+            headline: 'LLMs evaluated for spear phishing automation — dual-use security risk quantified',
+            detail: 'Academic paper in ScienceDirect evaluates LLMs ability to automate targeted spear phishing at scale. Findings quantify dual-use risk and inform enterprise security posture updates.',
+            source: 'ScienceDirect',
+          },
+        ],
+      },
+      {
+        icon: 'opensource',
+        title: 'Open Source & Tools',
+        signals: [
+          {
+            rating: 4,
+            headline: 'Alibaba commits to continuous open-sourcing of Qwen and Wan models — 1,181 upvotes',
+            detail: 'Alibaba officially confirms it will continuously open-source new Qwen (language) and Wan (multimodal/video) models. Largest open-source AI commitment from Chinese Big Tech to date.',
+            source: 'r/LocalLLaMA 1181+',
+          },
+          {
+            rating: 4,
+            headline: 'Cursor confirms Kimi K2.5 is the best open-source model for code',
+            detail: 'Cursor IDE benchmarks confirm Kimi K2.5 outperforms all other open-source models on coding tasks. Community widely accepts Chinese AI stack as the new open-source frontier at 475 upvotes.',
+            source: 'r/LocalLLaMA 475+',
+          },
+          {
+            rating: 3,
+            headline: 'VibeVoice 9B leads 31-model STT benchmark for medical audio at 8.34% WER',
+            detail: 'Comprehensive benchmark of 31 speech-to-text models on medical audio names VibeVoice 9B the new open-source leader at 8.34% word error rate, outperforming commercial options.',
+            source: 'r/LocalLLaMA 52+',
+          },
+          {
+            rating: 2,
+            headline: '7 free web APIs every AI developer should know for live-data integration',
+            detail: 'KDnuggets roundup of the most useful free APIs for connecting AI apps to live web data. Practical resource for developers building LLM-powered apps that need real-time context.',
+            source: 'KDnuggets',
+          },
+        ],
+      },
+      {
+        icon: 'research',
+        title: 'Research',
+        signals: [
+          {
+            rating: 3,
+            headline: 'Ternary neural networks gaining traction as practical path to efficient AI — (+1, 0, -1) weights',
+            detail: 'Research and community discussion building on 1-bit and ternary weight quantization. Results show competitive accuracy at dramatic efficiency gains, potentially enabling sub-10W inference.',
+            source: 'r/MachineLearning 37+',
+          },
+          {
+            rating: 3,
+            headline: 'LoCoMo benchmark contamination study: 6.4% wrong ground truth, 63% judge error acceptance',
+            detail: 'Independent audit finds systematic flaws in the LoCoMo long-context benchmark. Wrong ground truth entries and high judge error tolerance invalidate many published scores relying on it.',
+            source: 'r/MachineLearning 45+',
+          },
+          {
+            rating: 2,
+            headline: 'Flocking bird collective intelligence offers framework for AI hallucination reduction',
+            detail: 'Researchers apply principles from bird flocking behavior to design ensemble AI systems that self-correct hallucinations through distributed consensus, improving factual accuracy.',
+            source: 'Futurity Research News',
+          },
+          {
+            rating: 2,
+            headline: 'AI agent autonomously discovers catalyst combinations for sustainable fuel production',
+            detail: 'Published results show an autonomous AI agent mapping catalyst discovery space for sustainable fuel far faster than traditional methods, demonstrating ROI for agentic scientific workflows.',
+            source: 'Phys.org',
+          },
+        ],
+      },
+    ],
+  },
+
+
+{
     id: 'ai-2026-03-27-noon',
     issueNumber: 3,
     date: 'March 27, 2026',
