@@ -29,6 +29,72 @@ export interface Issue {
 
 export const ISSUES: Issue[] = [
 
+const newIssue: ZackorIssue = {
+  id: 'issue-2026-03-28-noon',
+  issueNumber: 36,
+  date: 'March 28, 2026',
+  time: 'Noon CT',
+  btcPrice: '$66,877',
+  btcChange: '+0.79%',
+  btcUp: true,
+  ethPrice: '$2,021',
+  ethChange: '+1.50%',
+  ethUp: true,
+  sections: [
+    {
+      icon: '₿',
+      title: 'Bitcoin',
+      signals: [
+        { rating: 4, headline: 'Morgan Stanley Files First Bank Bitcoin ETF', detail: 'The banking giant set an ultra-low fee of 0.14 percent for its spot BTC offering.', source: 'You.com' },
+        { rating: 3, headline: 'Bitcoin Miners Sell 15,000 BTC', detail: 'On-chain data confirms significant divestment by miners despite bullish price predictions.', source: 'You.com' },
+        { rating: 3, headline: 'Spot BTC ETF Inflows Reach 1.2 Billion', detail: 'Institutional demand remains strong with massive capital entry into exchange-traded products.', source: 'You.com' },
+        { rating: 2, headline: 'BTC Eyes Breakout Signal as Fear Hits 12', detail: 'Extreme fear in the market coincides with key technical indicators flashing a potential move to 125k.', source: 'You.com' }
+      ]
+    },
+    {
+      icon: 'Ξ',
+      title: 'Ethereum',
+      signals: [
+        { rating: 3, headline: 'Bitmine Adds Over 65,000 ETH to Holdings', detail: 'The accumulation signals an end to the recent mini crypto winter for Ethereum.', source: 'You.com' },
+        { rating: 3, headline: 'EtherFi Deploys 25 Million in New Capital', detail: 'The liquid restaking protocol continues to expand its ecosystem footprint.', source: 'You.com' },
+        { rating: 2, headline: 'Ethereum Foundation Holds Institutional Event', detail: 'An invite-only session for major financial firms was held to discuss the roadmap.', source: 'You.com' },
+        { rating: 2, headline: 'ETH Price Recovers Above 2,000 Mark', detail: 'Ethereum shows resilience with a 1.5 percent gain as investors eye upcoming upgrades.', source: 'You.com' }
+      ]
+    },
+    {
+      icon: '🔗',
+      title: 'Blockchain & Crypto',
+      signals: [
+        { rating: 3, headline: 'Solana Tops DEX Trading Volume in March', detail: 'SOL recorded nearly 50 billion in decentralized exchange volume, ranking first globally.', source: 'You.com' },
+        { rating: 2, headline: 'Pepeto Presale Surpasses New Funding Milestones', detail: 'The memecoin project continues to draw retail attention amidst broader market volatility.', source: 'You.com' },
+        { rating: 2, headline: 'Hong Kong Bourse Plans Micro Tech Futures', detail: 'The exchange is expanding its digital and tech-index offerings for smaller investors.', source: 'You.com' },
+        { rating: 2, headline: 'SoonTech Joins Hong Kong Web3 Festival', detail: 'Participation confirmed for the major 2026 industry event in the Asian crypto hub.', source: 'You.com' }
+      ]
+    },
+    {
+      icon: '🤖',
+      title: 'AI & Agents',
+      signals: [
+        { rating: 4, headline: 'MoonPay Launches Open-Source AI Agent Wallet', detail: 'A new framework allows autonomous AI agents to manage crypto wallets and transactions.', source: 'You.com' },
+        { rating: 3, headline: 'TradingAgents Framework Released for Finance', detail: 'A multi-agent LLM system designed specifically for financial analysis and execution.', source: 'You.com' },
+        { rating: 3, headline: 'Microsoft Qlib Uses AI for Quant Investing', detail: 'An AI-oriented platform aiming to empower investment strategies with machine learning.', source: 'GitHub Trending / microsoft/qlib' },
+        { rating: 2, headline: 'GitAgent Simplifies AI Agent Deployment', detail: 'Marketed as the Docker for AI agents, the tool aims to standardize agentic workflows.', source: 'You.com' }
+      ]
+    },
+    {
+      icon: '🌊',
+      title: 'OpenClaw & Niche',
+      signals: [
+        { rating: 4, headline: 'OpenClaw 2026 Architecting Enterprise Workflows', detail: 'New focus on building robust agentic AI architectures for large-scale corporate use.', source: 'You.com' },
+        { rating: 3, headline: 'Supabase Sees Massive New Developer Interest', detail: 'The Postgres development platform is trending with a dedicated focus on AI data infra.', source: 'GitHub Trending / sponsors/supabase' },
+        { rating: 3, headline: 'Chroma Core Gains Traction for AI Data', detail: 'Essential data infrastructure for AI applications continues to see high developer adoption.', source: 'GitHub Trending / chroma-core/chroma' },
+        { rating: 2, headline: 'Apache Superset Leads Data Exploration Trends', detail: 'The visualization platform remains a top choice for AI-integrated data exploration.', source: 'GitHub Trending / apache/superset' }
+      ]
+    }
+  ]
+};
+
+
 {
     id: '2026-03-28-8am',
     issueNumber: 35,
