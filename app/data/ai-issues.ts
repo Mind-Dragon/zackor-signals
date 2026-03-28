@@ -24,6 +24,190 @@ export interface AIIssue {
 export const AI_ISSUES: AIIssue[] = [
 
 {
+    id: 'ai-2026-03-28-8am',
+    issueNumber: 5,
+    date: 'March 28, 2026',
+    time: '8AM CT',
+    sections: [
+      {
+        icon: 'model',
+        title: 'Foundation Models',
+        signals: [
+          {
+            rating: 4,
+            headline: 'Mistral AI releases Voxtral TTS — 3B open-weight text-to-speech model built for speed',
+            detail: 'Mistral AI announced Voxtral, a 3-billion-parameter open-weight text-to-speech model optimized for real-time voice applications. Designed to run on consumer hardware, Voxtral directly challenges commercial TTS APIs with open-weight deployment.',
+            source: 'r/LocalLLaMA 1687+',
+          },
+          {
+            rating: 4,
+            headline: 'Anthropic exclusive: details of unreleased model and upcoming capabilities leaked',
+            detail: 'Exclusive reporting reveals Anthropic accidentally left details of an unreleased model in a public document. The leaked capability profile suggests the next Claude model will be a significant capability leap above current offerings.',
+            source: 'r/singularity 232+',
+          },
+          {
+            rating: 3,
+            headline: 'Mistral releases Leanstral-2603 on HuggingFace — new open-weight model published',
+            detail: 'Mistral AI published Leanstral-2603 on HuggingFace. Details on benchmarks and intended use cases are emerging from the community, with initial tests suggesting strong performance on instruction-following tasks.',
+            source: 'r/LocalLLaMA 190+',
+          },
+          {
+            rating: 3,
+            headline: 'DeepSeek core researcher Daya Guo rumored to have resigned',
+            detail: 'Rumors circulating in the open-source AI community suggest Daya Guo, a core researcher at DeepSeek, has resigned. If confirmed, the departure signals potential instability in one of the most influential open-source AI research groups globally.',
+            source: 'r/LocalLLaMA 124+',
+          },
+          {
+            rating: 2,
+            headline: 'Wikipedia bans AI-generated content with only two narrow exceptions',
+            detail: 'Wikipedia has updated its content policy to ban AI-generated text with only two narrow allowed exceptions. The move reflects growing editorial concern about AI content quality and sets a precedent for how major knowledge platforms will handle AI-authored material.',
+            source: 'YouSearch / TechCrunch',
+          },
+        ],
+      },
+      {
+        icon: 'agent',
+        title: 'Agents & Automation',
+        signals: [
+          {
+            rating: 4,
+            headline: 'Australian tech entrepreneur uses ChatGPT to achieve major breakthrough — story viral',
+            detail: 'A widely shared story from Australia details how a tech entrepreneur used extended ChatGPT sessions over months to achieve a significant discovery. The story at 2,147 upvotes is sparking debate on AI-assisted individual achievement vs. institutional research.',
+            source: 'r/singularity 2147+',
+          },
+          {
+            rating: 4,
+            headline: 'Figure robot autonomously cleans living room in unscripted demo — 1,051 upvotes',
+            detail: 'Figure AI released an unscripted video of its humanoid robot autonomously cleaning a living room: object recognition, navigation, retrieval, and cleaning — all without manual programming of the task. Community response: this is the real milestone.',
+            source: 'r/singularity 1051+',
+          },
+          {
+            rating: 3,
+            headline: 'Ai2 releases open-source web agent to rival closed systems from OpenAI and Google',
+            detail: 'Allen Institute for AI (Ai2) has released an open-source web agent capable of autonomous browsing, form completion, and information retrieval. Positioned as a direct open-source alternative to OpenAI Operator and Google agents.',
+            source: 'YouSearch / TechCrunch',
+          },
+          {
+            rating: 3,
+            headline: 'NVIDIA ProRL Agent: decoupled rollout-as-a-service infrastructure for RL training',
+            detail: 'NVIDIA AI unveiled ProRL, an architecture that separates rollout generation from policy training in reinforcement learning pipelines. The design improves GPU utilization and enables more scalable RL agent training across distributed clusters.',
+            source: 'MarkTechPost',
+          },
+          {
+            rating: 2,
+            headline: 'Why AI agent teams often fail to work together — Science News analysis',
+            detail: 'A Science News analysis examines why multi-agent AI systems consistently fail at coordination despite strong individual performance. Key findings: role ambiguity, conflicting sub-goals, and lack of shared world model across agents.',
+            source: 'Science News',
+          },
+        ],
+      },
+      {
+        icon: 'policy',
+        title: 'Industry & Policy',
+        signals: [
+          {
+            rating: 4,
+            headline: 'First-ever American AI Jobs Risk Index released by Tufts University',
+            detail: 'Tufts University published the inaugural American AI Jobs Risk Index, mapping every US occupation by AI automation risk. The index provides state-level and sector-level breakdowns — healthcare, legal, and clerical roles show the highest near-term exposure.',
+            source: 'r/singularity 382+',
+          },
+          {
+            rating: 4,
+            headline: 'Major security breach of critical AI dependency exposes cloud secrets across applications',
+            detail: 'A newly discovered security breach in a widely used AI infrastructure dependency exposed cloud secrets, API keys, and sensitive credentials across thousands of downstream AI applications. Scope of affected systems still being assessed.',
+            source: 'YouSearch / Security Boulevard',
+          },
+          {
+            rating: 3,
+            headline: 'LangChain and LangGraph critical flaws expose files, secrets, and databases in AI apps',
+            detail: 'Security researchers disclosed critical vulnerabilities in LangChain and LangGraph that allow attackers to access local files, environment variables, and connected databases. Millions of AI applications built on these frameworks are potentially exposed.',
+            source: 'YouSearch',
+          },
+          {
+            rating: 3,
+            headline: 'Nvidia-backed Reflection startup seeks $2.5B valuation for open-source AI models',
+            detail: 'Reflection AI, backed by Nvidia, is seeking a $2.5 billion valuation in its latest funding round. The startup focuses on open-source model development and positions itself as a high-quality alternative to closed frontier labs.',
+            source: 'YouSearch',
+          },
+          {
+            rating: 2,
+            headline: 'Anti-AI goal post moving draws criticism — r/singularity community responds',
+            detail: 'A highly upvoted thread on r/singularity calls out a recurring pattern of critics dismissing AI milestones by immediately shifting standards. The discussion surfaces the challenge of evaluating AI progress against constantly moving goalposts.',
+            source: 'r/singularity 460+',
+          },
+        ],
+      },
+      {
+        icon: 'opensource',
+        title: 'Open Source & Tools',
+        signals: [
+          {
+            rating: 4,
+            headline: 'Intel to sell cheap GPU with 32GB VRAM next week — local LLM hardware moment',
+            detail: 'Intel is launching an affordable consumer GPU with 32GB VRAM next week. For local LLM inference, this is transformative: 32GB VRAM enables running 70B+ parameter models without aggressive quantization tradeoffs.',
+            source: 'r/LocalLLaMA 1088+',
+          },
+          {
+            rating: 4,
+            headline: 'FlashAttention-4 achieves 1,613 TFLOPs/s — 2.7x faster than Triton baseline',
+            detail: 'FlashAttention-4 sets a new efficiency benchmark at 1,613 TFLOPs/s, outperforming Triton-based alternatives by 2.7x. The CUDA-native implementation dramatically reduces attention computation cost, particularly for long-context workloads.',
+            source: 'r/LocalLLaMA 241+',
+          },
+          {
+            rating: 3,
+            headline: 'Arm launches its first chip — designed to reshape the semiconductor market',
+            detail: 'Arm has officially released its first in-house chip, moving beyond IP licensing into direct hardware. The chip is optimized for AI inference workloads and signals a new competitive dynamic in the semiconductor stack for AI applications.',
+            source: 'AOL.com / The Verge',
+          },
+          {
+            rating: 3,
+            headline: 'Google AI compression technology cuts data center energy consumption',
+            detail: 'Google published results of an AI-driven compression technology for data centers that significantly reduces energy consumption. The technique applies learned compression to storage and network layers, with reported efficiency gains in live infrastructure.',
+            source: 'YouSearch',
+          },
+          {
+            rating: 2,
+            headline: 'Researchers find combative AI agents reason better in debates when all have equal information',
+            detail: 'New research shows that adversarial debate between AI agents produces more accurate reasoning — but only when all agents have access to the same information. Information asymmetry causes one-sided conclusions even in structured debate formats.',
+            source: 'Intelligent Living',
+          },
+        ],
+      },
+      {
+        icon: 'research',
+        title: 'Research',
+        signals: [
+          {
+            rating: 3,
+            headline: 'CIDR 2026 conference: researchers examine AI-native database architectures',
+            detail: 'The Conference on Innovative Data Systems Research (CIDR 2026) is examining AI-native database designs, including learned indexes, neural query optimizers, and LLM-integrated storage systems for the next generation of data infrastructure.',
+            source: 'i-programmer.info',
+          },
+          {
+            rating: 3,
+            headline: 'Why AI agent teams often fail: role ambiguity and conflicting sub-goals identified',
+            detail: 'Science News analysis of multi-agent AI system failures identifies three root causes: undefined role boundaries, conflicting sub-goals between agents, and absence of a shared world model. Findings have direct implications for enterprise multi-agent deployments.',
+            source: 'Science News',
+          },
+          {
+            rating: 2,
+            headline: 'Flocking bird collective intelligence model offers new framework for AI coordination',
+            detail: 'Researchers studying flocking bird behavior propose applying collective intelligence principles to AI agent coordination. The model addresses error propagation and distributed consensus in a way that mirrors natural swarm decision-making.',
+            source: 'Futurity Research News',
+          },
+          {
+            rating: 2,
+            headline: 'Google AI compression: learned optimization applied to live data center infrastructure',
+            detail: 'Google published technical details of how AI-driven compression models are deployed at data center scale, achieving energy savings without sacrificing throughput. The work represents a practical application of ML optimization beyond model training.',
+            source: 'YouSearch',
+          },
+        ],
+      },
+    ],
+  },
+
+
+{
     id: 'ai-2026-03-27-6pm',
     issueNumber: 4,
     date: 'March 27, 2026',
