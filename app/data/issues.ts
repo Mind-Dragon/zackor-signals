@@ -30,6 +30,202 @@ export interface Issue {
 export const ISSUES: Issue[] = [
 
 {
+  id: 'issue-2026-03-28-6pm',
+  issueNumber: 37,
+  date: 'March 28, 2026',
+  time: '6PM CT',
+  btcPrice: '$66,762',
+  btcChange: '+0.62%',
+  btcUp: true,
+  ethPrice: '$2,010',
+  ethChange: '+0.94%',
+  ethUp: true,
+  sections: [
+    {
+      icon: '\u20BF',
+      title: 'Bitcoin',
+      signals: [
+        {
+          rating: 4,
+          headline: 'Morgan Stanley locks in 0.14% fee for MSBT \u2014 cheapest bank-filed BTC ETF on record',
+          detail: 'Morgan Stanley finalizes an ultra-low 0.14% expense ratio for its spot Bitcoin ETF (ticker: MSBT) with $1M in seed capital, undercutting all existing ETFs and marking the first major bank-issued spot BTC ETF launch.',
+          source: 'Morgan Stanley / ETF filings',
+        },
+        {
+          rating: 4,
+          headline: 'Fear & Greed Index crashes to 12 \u2014 deepest crypto fear since Jan 2023',
+          detail: 'Crypto Fear & Greed Index hits 12, entering extreme fear territory. Historically, sub-15 readings precede major BTC rebounds. ETF inflows continue despite the sentiment collapse, signaling institutional resolve.',
+          source: 'Alternative.me / CoinDesk',
+        },
+        {
+          rating: 3,
+          headline: 'US Senate votes to ban the Federal Reserve from issuing a CBDC',
+          detail: 'The US Senate passes a bill blocking the Federal Reserve from launching a central bank digital currency, removing a key institutional BTC competitor from the policy roadmap in a landmark pro-Bitcoin legislative win.',
+          source: 'r/CryptoCurrency',
+        },
+        {
+          rating: 3,
+          headline: 'North Carolina advances BTC strategic reserve legislation',
+          detail: 'North Carolina joins the state-level Bitcoin reserve movement as legislation advances in committee, extending state-level crypto adoption momentum that followed the federal strategic reserve debate.',
+          source: 'r/CryptoCurrency',
+        },
+        {
+          rating: 2,
+          headline: 'Bitcoin quantum-resistance upgrade path outlined without hard fork',
+          detail: 'Researchers outline a credible multi-phase path for BTC to achieve quantum resistance via Taproot evolution and post-quantum cryptography, without requiring a hard fork, easing long-term protocol security concerns.',
+          source: 'r/Bitcoin',
+        },
+      ],
+    },
+    {
+      icon: '\u039E',
+      title: 'Ethereum',
+      signals: [
+        {
+          rating: 3,
+          headline: 'CLARITY Act poses commodity re-classification risk for ETH',
+          detail: 'The CLARITY Act advancing in Congress may complicate ETH commodity status under CFTC. Legal analysts warn bill language could create an SEC re-classification pathway, adding regulatory headwinds for institutional ETH adoption.',
+          source: 'CoinDesk / YouSearch',
+        },
+        {
+          rating: 3,
+          headline: 'Solana claims March DEX crown with $50B in monthly trading volume',
+          detail: 'Solana surpasses Ethereum in monthly DEX trading for March 2026 with nearly $50B volume driven by meme coin activity and low fees. Ethereum L2s partially offset on-chain losses but the monthly top spot shifts.',
+          source: 'YouSearch / The Block',
+        },
+        {
+          rating: 2,
+          headline: 'Ethereum Foundation hosts invite-only institutional event',
+          detail: 'The Ethereum Foundation convenes select institutional investors alongside Aave and Ethena leadership for a private session, outlining a coordinated push to deepen institutional DeFi infrastructure and protocol adoption.',
+          source: 'CoinDesk / r/ethereum',
+        },
+        {
+          rating: 2,
+          headline: 'Analysts predict ETH outperforms BTC over the next 3 years',
+          detail: 'Multiple analysts argue commodity-status clarity, DeFi TVL dominance, and staking yields position ETH for long-term outperformance relative to BTC, despite ETH trading below $2,100 through March 2026.',
+          source: 'The Motley Fool',
+        },
+        {
+          rating: 1,
+          headline: 'ETH holds $2,000 support as Ethereum-Solana rivalry intensifies',
+          detail: 'ETH defends the $2,000 floor as Solana claims DEX volume leadership. ETH retains DeFi TVL while Solana captures new retail liquidity flows, sharpening the developer and capital allocation debate.',
+          source: 'r/ethereum / CoinDesk',
+        },
+      ],
+    },
+    {
+      icon: '\uD83D\uDD17',
+      title: 'Blockchain & Crypto',
+      signals: [
+        {
+          rating: 4,
+          headline: 'UK man: wife used CCTV footage to steal $176M in Bitcoin',
+          detail: 'A UK Bitcoin holder reports losing approximately $176M after his wife used CCTV footage to observe him entering wallet credentials. The case becomes a landmark OpSec failure at extreme crypto wealth levels.',
+          source: 'r/CryptoCurrency',
+        },
+        {
+          rating: 3,
+          headline: 'Crypto market adds $100B in a single session as fear subsides',
+          detail: 'Total crypto market cap surges $100B in 24 hours as macro uncertainty partially eases and ETF inflows resume. BTC reclaims $66K and ETH holds $2K as short-term selling pressure lifts.',
+          source: 'YouSearch / CoinDesk',
+        },
+        {
+          rating: 3,
+          headline: 'Consensus Hong Kong 2026 opens \u2014 Asia crypto week draws global delegates',
+          detail: 'Consensus Hong Kong 2026 and SoonTech Web3 Festival open to thousands of attendees. Hong Kong Bourse announces new micro-futures on Hang Seng tech indexes, reinforcing the city as Asia primary crypto hub.',
+          source: 'CoinDesk / YouSearch',
+        },
+        {
+          rating: 2,
+          headline: 'BlackRock news sparks liquidations across BTC and ETH positions',
+          detail: 'A BlackRock ETF-related announcement triggered cascading liquidations across leveraged crypto positions. Markets recovered within hours but the event revealed fragility in over-leveraged institutional-adjacent stacks.',
+          source: 'r/CryptoCurrency',
+        },
+        {
+          rating: 2,
+          headline: 'BTC forms double-bottom at $65K \u2014 bulls defend critical technical support',
+          detail: 'Bitcoin forms a double-bottom pattern at $65,000 through late-March volatility. Analysts cite this structure as a bullish reversal signal contingent on a sustained close above the $68K resistance level.',
+          source: 'r/Bitcoin',
+        },
+      ],
+    },
+    {
+      icon: '\uD83E\uDD16',
+      title: 'AI & Agents',
+      signals: [
+        {
+          rating: 3,
+          headline: 'NVIDIA open-sources AI agent deployment stack at GTC 2026',
+          detail: 'NVIDIA releases open-source tools for building and deploying AI agents at GTC 2026, including inference microservices, agent orchestration SDKs, and hardware-optimized runtimes designed for enterprise production deployments.',
+          source: 'NVIDIA / GTC 2026',
+        },
+        {
+          rating: 3,
+          headline: "OpenClaw Discord bans 'bitcoin' \u2014 community backlash erupts",
+          detail: "OpenClaw moderators add 'bitcoin' to its Discord banned-word list citing spam prevention. The move triggers immediate backlash given OpenClaw's crypto-agent positioning and the irony of censoring its own user base.",
+          source: 'r/CryptoCurrency',
+        },
+        {
+          rating: 3,
+          headline: 'Ben Thompson: Agent architecture replaces the subscription economy',
+          detail: "Stratechery argues the agent era rewrites AI economics, shifting from subscription SaaS to autonomous execution. Thompson identifies four architectural questions that determine which agent platforms capture durable value.",
+          source: 'Stratechery / Ben Thompson',
+        },
+        {
+          rating: 2,
+          headline: 'LangChain and LangGraph critical CVEs expose files, secrets, databases',
+          detail: 'Security researchers disclose critical vulnerabilities in LangChain and LangGraph that expose files, secrets, and databases in production AI applications. Emergency patches released; unpatched deployments remain at critical risk.',
+          source: 'Security researchers / YouSearch',
+        },
+        {
+          rating: 1,
+          headline: 'nanobot \u2014 Ultra-Lightweight OpenClaw fork targets edge deployment',
+          detail: 'HKUDS releases nanobot on GitHub, describing it as an ultra-lightweight OpenClaw targeting edge, IoT, and mobile agent contexts with minimal resource requirements, extending the OpenClaw ecosystem beyond data centers.',
+          source: 'GitHub / HKUDS/nanobot',
+        },
+      ],
+    },
+    {
+      icon: '\uD83E\uDD85',
+      title: 'OpenClaw & Niche',
+      signals: [
+        {
+          rating: 3,
+          headline: 'HuggingFace Transformers gains 46 GitHub stars today \u2014 model framework standard holds',
+          detail: 'HuggingFace Transformers earns 46 GitHub stars as NVIDIA agent integration announcements and new multi-modal model releases drive developer interest back to the core model definition framework.',
+          source: 'GitHub Trending / huggingface/transformers',
+        },
+        {
+          rating: 3,
+          headline: 'Chroma spikes 41 stars/day \u2014 production RAG infrastructure demand accelerates',
+          detail: 'Chroma-core/chroma gains 41 GitHub stars as teams race to build production RAG pipelines on LangChain and LlamaIndex agent stacks. Positioned as the default vector store in the open-source agent ecosystem.',
+          source: 'GitHub Trending / chroma-core/chroma',
+        },
+        {
+          rating: 2,
+          headline: 'LlamaIndex earns 30 GitHub stars/day \u2014 document agent platform matures',
+          detail: 'run-llama/llama_index gains 30 stars as enterprises adopt it as the middleware layer for document intelligence and agent orchestration between raw models and structured business data.',
+          source: 'GitHub Trending / run-llama/llama_index',
+        },
+        {
+          rating: 2,
+          headline: 'Microsoft Qlib AI quant platform trends at 38 GitHub stars/day',
+          detail: "Microsoft Qlib, an AI-oriented quantitative investment platform, spikes to 38 daily GitHub stars as AI-native quant infrastructure replaces legacy tooling across hedge funds and asset managers.",
+          source: 'GitHub Trending / microsoft/qlib',
+        },
+        {
+          rating: 1,
+          headline: "OpenClaw ChatGPT moment fuels ecosystem fragmentation fears",
+          detail: "Analysts compare OpenClaw's viral growth to early ChatGPT, sparking commoditization debate. OpenClaw architecture forks multiply (nanobot, MetaClaw, NanoClaw) as developers race to claim specialization niches.",
+          source: 'YouSearch / AI news',
+        },
+      ],
+    },
+  ],
+},
+
+
+{
   id: 'issue-2026-03-28-noon',
   issueNumber: 36,
   date: 'March 28, 2026',
