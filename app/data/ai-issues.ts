@@ -23,6 +23,66 @@ export interface AIIssue {
 
 export const AI_ISSUES: AIIssue[] = [
 
+const newAIIssue: AIIssue = {
+  id: 'ai-2026-03-28-noon',
+  issueNumber: 6,
+  date: 'March 28, 2026',
+  time: 'Noon CT',
+  sections: [
+    {
+      icon: '🤖',
+      title: 'Foundation Models',
+      signals: [
+        { rating: 4, headline: 'Intern-S1-Pro Hits One Trillion Parameters', detail: 'The first trillion-parameter scientific multimodal model delivers massive scaling across genomic and scientific domains.', source: 'HuggingFace Papers / arXiv' },
+        { rating: 4, headline: 'Qwen 3.5 397B Model Released', detail: 'Alibaba released a massive 397B parameter Mixture-of-Experts model specialized for image and text processing.', source: 'HuggingFace Org Models' },
+        { rating: 3, headline: 'Mistral Launches Voxtral 4B TTS', detail: 'A new multilingual text-to-speech model capable of natural cloning from just 3 seconds of audio.', source: 'HuggingFace Org Models' },
+        { rating: 3, headline: 'Microsoft Debuts Phi-4 Reasoning Vision', detail: 'A 15B parameter model integrating advanced reasoning with visual understanding capabilities.', source: 'HuggingFace Org Models' }
+      ]
+    },
+    {
+      icon: '⚡',
+      title: 'Agents & Automation',
+      signals: [
+        { rating: 4, headline: 'Claude Gains Native Computer Control', detail: 'Anthropic updated Claude with the ability to navigate and interact with desktop environments directly.', source: 'You.com' },
+        { rating: 3, headline: 'Alibaba Unveils Dedicated AI Agent Chip', detail: 'New hardware architecture specifically optimized for running autonomous agentic workflows at scale.', source: 'You.com' },
+        { rating: 3, headline: 'Cisco Integrates Agentic AI Security', detail: 'The networking giant is pivoting to autonomous security agents to defend enterprise infrastructure.', source: 'You.com' },
+        { rating: 2, headline: 'Ai2 Releases Open-Source Web Agent', detail: 'The Allen Institute for AI launched a web-navigation agent to compete with proprietary systems.', source: 'You.com' }
+      ]
+    },
+    {
+      icon: '🏛',
+      title: 'Industry & Policy',
+      signals: [
+        { rating: 4, headline: 'Wikipedia Formally Bans AI-Generated Content', detail: 'Editors voted to prohibit AI-written articles, relying on human detection to maintain factual integrity.', source: 'You.com' },
+        { rating: 3, headline: 'US Imposes 25 Percent AI Chip Tariff', detail: 'The new trade policy specifically targets high-performance silicon imports used for model training.', source: 'You.com' },
+        { rating: 3, headline: 'Nvidia Navigates Return to China Market', detail: 'Recent regulatory shifts suggest the chipmaker may resume high-end hardware sales in the region.', source: 'You.com' },
+        { rating: 2, headline: 'Meta Ray-Ban Smart Glasses Update Incoming', detail: 'Two new hardware iterations are scheduled to debut next week with enhanced AI features.', source: 'You.com' }
+      ]
+    },
+    {
+      icon: '🛠',
+      title: 'Open Source & Tools',
+      signals: [
+        { rating: 3, headline: 'MSA Enables 100M Token Context Scaling', detail: 'Memory Sparse Attention allows models to process lifetime-scale information through efficient scaling.', source: 'HuggingFace Papers / arXiv' },
+        { rating: 3, headline: 'Nvidia Intros Open Source Agent Tools', detail: 'A new suite of developer resources designed to simplify the deployment of multi-agent systems.', source: 'You.com' },
+        { rating: 2, headline: 'Calibri Enhances Diffusion Transformer Efficiency', detail: 'New parameter-efficient calibration techniques significantly boost the performance of generative DiTs.', source: 'HuggingFace Papers / arXiv' },
+        { rating: 2, headline: 'RealRestorer Improves Real-World Image Quality', detail: 'A generalizable restoration model designed for downstream tasks like autonomous driving.', source: 'HuggingFace Papers / arXiv' }
+      ]
+    },
+    {
+      icon: '🔬',
+      title: 'Research',
+      signals: [
+        { rating: 4, headline: 'SlopCodeBench Tracks Coding Agent Decay', detail: 'New benchmark reveals how agents fail during long-horizon iterative software development tasks.', source: 'HuggingFace Papers / arXiv' },
+        { rating: 3, headline: 'VFIG Vectorizes Complex Figures via VLM', detail: 'Research demonstrates how vision-language models can convert technical illustrations into SVG format.', source: 'HuggingFace Papers / arXiv' },
+        { rating: 2, headline: 'PixelSmile Enables Fine-Grained Facial Editing', detail: 'The Flex Facial Expression dataset allows for continuous affective annotations in image generation.', source: 'HuggingFace Papers / arXiv' },
+        { rating: 2, headline: 'AVControl Streamlines Audio-Visual Training', detail: 'A new framework for efficient multi-modal generation using diverse control signals.', source: 'HuggingFace Papers / arXiv' }
+      ]
+    }
+  ]
+};
+
+
 {
     id: 'ai-2026-03-28-8am',
     issueNumber: 5,
