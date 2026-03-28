@@ -92,7 +92,7 @@ export const ISSUES: Issue[] = [
       ]
     }
   ]
-};
+},
 
 
 {
