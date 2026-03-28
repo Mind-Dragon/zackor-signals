@@ -24,6 +24,196 @@ export interface AIIssue {
 export const AI_ISSUES: AIIssue[] = [
 
 {
+  id: 'ai-2026-03-28-6pm',
+  issueNumber: 7,
+  date: 'March 28, 2026',
+  time: '6PM CT',
+  sections: [
+    {
+      icon: '\uD83E\uDDE0',
+      title: 'Foundation Models',
+      signals: [
+        {
+          rating: 4,
+          headline: 'Google ships Gemini 3.1 Flash Live \u2014 real-time multimodal voice and video model',
+          detail: 'Google releases Gemini 3.1 Flash Live with real-time voice, video, and screen-sharing capabilities. Targets the live agent assistant market against GPT-4o Live and Claude 3.7, with sub-100ms latency on Tensor infrastructure.',
+          source: 'Google / YouSearch',
+        },
+        {
+          rating: 4,
+          headline: 'Anthropic Claude release confirmed \u2014 major new model imminent',
+          detail: 'A leaked Anthropic internal roadmap confirms a significant new Claude release is imminent. Community sources identify a major capability jump versus Claude 3.7. Official announcement expected within days.',
+          source: 'YouSearch / devFlokers',
+        },
+        {
+          rating: 3,
+          headline: 'Voxtral TTS research paper drops \u2014 Mistral documents its voice synthesis model',
+          detail: "Mistral's Voxtral TTS model receives a full research paper on HuggingFace Papers (30 upvotes). The model produces high-quality speech synthesis and positions Mistral as a voice AI contender alongside ElevenLabs and OpenAI TTS.",
+          source: 'HuggingFace Papers / arXiv',
+        },
+        {
+          rating: 3,
+          headline: 'NVIDIA GTC 2026 reveals strategic shift to open-source AI infrastructure',
+          detail: 'NVIDIA signals a major strategic pivot at GTC 2026, releasing open-source agent tools, inference microservices, and hardware-optimized runtimes. The shift positions NVIDIA as an open ecosystem player beyond GPU hardware.',
+          source: 'NVIDIA Blog / GTC 2026',
+        },
+        {
+          rating: 2,
+          headline: "Meta TRIBE v2 predicts brain activity from visual input",
+          detail: "Meta releases TRIBE v2, an AI model that predicts brain activity from visual stimuli with high fidelity. Positions Meta at the frontier of brain-computer interface research alongside Neuralink, extending AI into neuroscience.",
+          source: 'YouSearch / Meta AI',
+        },
+      ],
+    },
+    {
+      icon: '\u26A1',
+      title: 'Agents & Automation',
+      signals: [
+        {
+          rating: 4,
+          headline: 'Ben Thompson: The Agent Era replaces the subscription software economy',
+          detail: "Stratechery's Ben Thompson publishes a seminal analysis: AI agents replace SaaS subscriptions because they execute on behalf of users rather than serve as tools. Four architectural questions determine agent platform winners.",
+          source: 'Stratechery / Ben Thompson',
+        },
+        {
+          rating: 4,
+          headline: 'LangChain and LangGraph critical CVEs \u2014 files, secrets, databases exposed',
+          detail: 'Critical security vulnerabilities in LangChain and LangGraph expose files, secrets, and databases in production AI systems. Emergency patches are available; unpatched deployments remain at high risk of data exfiltration.',
+          source: 'Security researchers / YouSearch',
+        },
+        {
+          rating: 3,
+          headline: 'NVIDIA releases open-source agent deployment toolkit at GTC 2026',
+          detail: 'NVIDIA open-sources a full agent deployment stack at GTC 2026: inference microservices, orchestration SDKs, and hardware-optimized runtimes. Designed to accelerate enterprise AI agent production deployments at scale.',
+          source: 'NVIDIA / GTC 2026',
+        },
+        {
+          rating: 3,
+          headline: 'Oracle expands AI Agent Studio for Fusion with multi-agent workflows',
+          detail: 'Oracle extends AI Agent Studio inside Fusion Applications, enabling multi-agent workflows across ERP, SCM, and HCM modules. Enterprise AI automation reaches mainstream business process layers through Oracle infrastructure.',
+          source: 'Oracle / YouSearch',
+        },
+        {
+          rating: 2,
+          headline: 'Researchers train AI to autonomously attack other LLM applications',
+          detail: 'New research demonstrates training an AI agent to autonomously probe and exploit vulnerabilities in LLM-based applications, advancing both adversarial red-teaming capabilities and defensive countermeasure research.',
+          source: 'YouSearch / AI security research',
+        },
+      ],
+    },
+    {
+      icon: '\uD83C\uDFDB',
+      title: 'Industry & Policy',
+      signals: [
+        {
+          rating: 4,
+          headline: 'Wikipedia officially bans AI-generated content \u2014 human editors only',
+          detail: 'Wikipedia prohibits AI-generated content across all articles, requiring human editorial review for every contribution. Automated detection tools will flag suspected AI text, but human editorial responsibility is final.',
+          source: 'YouSearch / Wikipedia',
+        },
+        {
+          rating: 3,
+          headline: 'Apple iOS 27 lets users choose their own AI assistant inside Siri',
+          detail: "Apple confirms a complete Siri overhaul in iOS 27, allowing users to set a third-party AI (Claude, ChatGPT, Gemini) as the default intelligence layer. A fundamental shift in mobile AI distribution that benefits every non-Apple LLM provider.",
+          source: 'YouSearch / tech press',
+        },
+        {
+          rating: 3,
+          headline: 'EU AI Act enforcement drives accelerating compliance spending across industries',
+          detail: 'EU AI Act compliance deadlines prompt enterprises to accelerate AI governance spending. High-risk AI systems in hiring, credit scoring, and critical infrastructure face mandatory documentation and audit requirements now in effect.',
+          source: 'YouSearch / EU AI policy',
+        },
+        {
+          rating: 2,
+          headline: 'HP Imagine signals enterprise shift toward embedded AI in hardware',
+          detail: 'HP Imagine conference showcases AI embedded across laptops, printers, and enterprise devices, signaling the shift from AI-as-software to AI-as-infrastructure. Device-level intelligence becomes an expected enterprise standard.',
+          source: 'YouSearch / HP',
+        },
+        {
+          rating: 2,
+          headline: 'Pilot study: College students use AI as co-writer, not full replacement',
+          detail: 'A university pilot study finds college students use AI collaboratively in writing rather than as a full ghostwriter, producing hybrid human-AI content that challenges detection tools calibrated for pure AI output.',
+          source: 'YouSearch / academic research',
+        },
+      ],
+    },
+    {
+      icon: '\uD83D\uDEE0',
+      title: 'Open Source & Tools',
+      signals: [
+        {
+          rating: 4,
+          headline: 'HuggingFace Transformers earns 46 GitHub stars today \u2014 model framework holds firm',
+          detail: 'HuggingFace Transformers (46 stars/day) maintains its position as the definitive model definition framework as NVIDIA agent integrations and new multi-modal model releases drive fresh developer momentum.',
+          source: 'GitHub Trending / huggingface/transformers',
+        },
+        {
+          rating: 3,
+          headline: 'Chroma spikes 41 stars/day \u2014 production RAG infrastructure demand accelerates',
+          detail: 'Chroma-core/chroma gains 41 GitHub stars as enterprises race to build production RAG pipelines. The default vector store for LangChain and LlamaIndex stacks benefits directly from the agent boom.',
+          source: 'GitHub Trending / chroma-core/chroma',
+        },
+        {
+          rating: 3,
+          headline: 'LlamaIndex gains 30 stars/day \u2014 document agent and OCR platform matures',
+          detail: 'run-llama/llama_index earns 30 GitHub stars as enterprises adopt it as the middleware layer between raw models and business data, positioning it as a leading document intelligence and agent orchestration platform.',
+          source: 'GitHub Trending / run-llama/llama_index',
+        },
+        {
+          rating: 2,
+          headline: 'Microsoft Qlib AI quant platform trends at 38 GitHub stars/day',
+          detail: 'Qlib, Microsoft AI-oriented quantitative investment platform, spikes to 38 daily GitHub stars as AI-native quant infrastructure displaces legacy tooling across hedge funds and systematic trading desks.',
+          source: 'GitHub Trending / microsoft/qlib',
+        },
+        {
+          rating: 2,
+          headline: 'nanobot \u2014 Ultra-Lightweight OpenClaw fork launches for edge and IoT agents',
+          detail: 'HKUDS releases nanobot (GitHub: HKUDS/nanobot), a minimal-resource OpenClaw fork for edge, IoT, and mobile agent contexts. Extends the OpenClaw agent ecosystem to resource-constrained and latency-sensitive environments.',
+          source: 'GitHub / HKUDS/nanobot',
+        },
+      ],
+    },
+    {
+      icon: '\uD83D\uDD2C',
+      title: 'Research',
+      signals: [
+        {
+          rating: 4,
+          headline: 'PixelSmile: Fine-grained facial expression editing with diffusion models (105 upvotes)',
+          detail: 'PixelSmile achieves fine-grained, identity-preserving facial expression editing using diffusion models. Tops HuggingFace daily papers at 105 upvotes with precise micro-expression control and photo-realistic output.',
+          source: 'HuggingFace Papers / arXiv',
+        },
+        {
+          rating: 4,
+          headline: 'Intern-S1-Pro: First 1-trillion-parameter scientific multimodal model (100 upvotes)',
+          detail: 'Intern-S1-Pro from Shanghai AI Lab introduces the first 1T-parameter scientific multimodal foundation model, unifying text, images, tables, equations, and molecular structures under a single architecture.',
+          source: 'HuggingFace Papers / arXiv',
+        },
+        {
+          rating: 3,
+          headline: 'Calibri: Parameter-efficient calibration improves diffusion transformers (49 upvotes)',
+          detail: 'Calibri introduces a parameter-efficient calibration technique for diffusion transformers that improves image quality and prompt alignment without full retraining, opening efficiency pathways for large-scale image generation.',
+          source: 'HuggingFace Papers / arXiv',
+        },
+        {
+          rating: 3,
+          headline: 'MSA: Memory Sparse Attention scales LLM context to 100M tokens (26 upvotes)',
+          detail: 'Memory Sparse Attention (MSA) enables end-to-end memory scaling to 100 million token contexts with sub-quadratic compute cost. Critical architecture research for long-context agent reasoning and persistent memory systems.',
+          source: 'HuggingFace Papers / arXiv',
+        },
+        {
+          rating: 2,
+          headline: 'SlopCodeBench shows AI coding agents degrade over long iterative tasks (22 upvotes)',
+          detail: 'SlopCodeBench benchmarks how AI coding agents accumulate errors and reduce code quality across extended iterative sessions, revealing compound degradation as a core limitation of current autonomous development agents.',
+          source: 'HuggingFace Papers / arXiv',
+        },
+      ],
+    },
+  ],
+},
+
+
+{
   id: 'ai-2026-03-28-noon',
   issueNumber: 6,
   date: 'March 28, 2026',
