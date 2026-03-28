@@ -23,7 +23,7 @@ export interface AIIssue {
 
 export const AI_ISSUES: AIIssue[] = [
 
-const newAIIssue: AIIssue = {
+{
   id: 'ai-2026-03-28-noon',
   issueNumber: 6,
   date: 'March 28, 2026',
