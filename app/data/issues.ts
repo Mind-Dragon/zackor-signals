@@ -30,6 +30,196 @@ export interface Issue {
 export const ISSUES: Issue[] = [
 
 {
+    id: '2026-03-28-8am',
+    issueNumber: 35,
+    date: 'March 28, 2026',
+    time: '8AM CT',
+    btcPrice: '$66,362',
+    btcChange: '+0.02%',
+    btcUp: true,
+    ethPrice: '$2,002',
+    ethChange: '+0.53%',
+    ethUp: true,
+    sections: [
+      {
+        icon: 'btc',
+        title: 'Bitcoin',
+        signals: [
+          {
+            rating: 4,
+            headline: 'Fannie Mae opens door to Bitcoin-backed mortgage applications',
+            detail: 'The Federal National Mortgage Association (Fannie Mae) has moved to allow Bitcoin holdings as collateral in mortgage applications, marking a structural shift in how BTC is recognized within US housing finance.',
+            source: 'r/Bitcoin 304+',
+          },
+          {
+            rating: 4,
+            headline: 'Bitcoin ETF outflows hit $225M as ETH and SOL spot funds also bleed',
+            detail: 'Broad crypto ETF outflows accelerate: BTC spot ETFs shed $225M in a single session while Ethereum and Solana spot funds follow suit, signaling a coordinated risk-off move across the digital asset ETF complex.',
+            source: 'MEXC / Bitcoin.com',
+          },
+          {
+            rating: 3,
+            headline: 'Bitcoin spot ETFs defy market volatility by securing 1.28M BTC in holdings',
+            detail: 'Despite week-over-week outflows, Bitcoin spot ETFs collectively hold a record 1.28M BTC. Long-term custody accumulation continues even as short-term capital flows turn negative.',
+            source: 'CryptoRank',
+          },
+          {
+            rating: 3,
+            headline: 'JPMorgan: Bitcoin surpasses gold and silver as safe-haven asset in times of crisis',
+            detail: 'JPMorgan analysis finds Bitcoin is outperforming both gold and silver as a crisis hedge. The bank cites institutional portfolio data showing BTC allocation accelerating relative to traditional safe-havens.',
+            source: 'Bitget',
+          },
+          {
+            rating: 3,
+            headline: 'Bitcoin $70K floor surviving a perfect storm of macro headwinds',
+            detail: 'Multiple converging pressures — rising yields, Iran uncertainty, geopolitical escalation — tested the $70K support zone. So far the floor is holding, with on-chain accumulation providing structural support.',
+            source: 'r/Bitcoin 80+',
+          },
+        ],
+      },
+      {
+        icon: 'eth',
+        title: 'Ethereum',
+        signals: [
+          {
+            rating: 3,
+            headline: 'EtherFi deploys $25M — ETH restaking protocol scales distribution',
+            detail: 'EtherFi, one of the leading Ethereum liquid restaking protocols, has deployed $25M in fresh capital. The move accelerates distribution of restaked ETH yield across DeFi infrastructure.',
+            source: 'YouSearch / CryptoNews',
+          },
+          {
+            rating: 3,
+            headline: 'Why BlackRock news rattled both Bitcoin and Ethereum traders',
+            detail: 'A BlackRock internal memo regarding crypto custody strategy triggered unusual volatility across both BTC and ETH markets. Traders interpreted the news as a signal of potential near-term supply pressure from institutional rebalancing.',
+            source: 'r/CryptoCurrency 47+',
+          },
+          {
+            rating: 3,
+            headline: 'ETH recovers $2K as crypto fears ease slightly on Saturday',
+            detail: 'Ethereum reclaims the $2,000 psychological level as weekend selling pressure eases. ETH is up 0.53% on the day, outperforming BTC slightly as the broader macro climate stabilizes.',
+            source: 'Composio Finance',
+          },
+          {
+            rating: 2,
+            headline: 'Spot Bitcoin ETFs end four-week inflow streak — capital avoids directional risk',
+            detail: 'The four-week consecutive inflow streak for spot BTC ETFs has ended. Analysts note capital is not exiting crypto entirely but rotating into cash and short-duration instruments, avoiding directional exposure.',
+            source: 'MEXC',
+          },
+        ],
+      },
+      {
+        icon: 'chain',
+        title: 'Blockchain & Crypto',
+        signals: [
+          {
+            rating: 3,
+            headline: 'UK man claims wife used CCTV footage to steal $176M in Bitcoin',
+            detail: 'A UK man has alleged that his wife accessed CCTV recordings to observe him entering his Bitcoin wallet credentials, enabling a $176M theft. The case highlights the physical security vulnerabilities of self-custody at scale.',
+            source: 'r/CryptoCurrency 289+',
+          },
+          {
+            rating: 3,
+            headline: 'North Carolina moves to create state Bitcoin strategic reserve',
+            detail: 'North Carolina legislators are advancing a bill to establish a state-level Bitcoin strategic reserve. The move follows similar proposals in other US states as BTC treasury adoption spreads to the public sector.',
+            source: 'r/CryptoCurrency 30+',
+          },
+          {
+            rating: 3,
+            headline: 'Record Deribit options expiry drives volatility and signals market sentiment shift',
+            detail: 'A record-level Deribit options expiry event caused significant short-term BTC volatility. Post-expiry market positioning data suggests a shift in open interest toward bearish structures in April.',
+            source: 'AD HOC NEWS',
+          },
+          {
+            rating: 2,
+            headline: 'Bitcoin traders bet on sub-$66K in April as fear levels rise',
+            detail: 'Options and derivatives data show a growing cohort of traders positioning for BTC to revisit sub-$66K in April. Rising fear index readings and declining spot demand support the bearish near-term thesis.',
+            source: 'YouSearch / CryptoBriefing',
+          },
+          {
+            rating: 2,
+            headline: 'Mentioning Bitcoin on OpenClaw Discord triggers AI agent response — integration live',
+            detail: 'Community discovery: OpenClaw AI agent monitors its Discord server and auto-responds to mentions of Bitcoin with real-time price and sentiment data. Signals growing crypto-AI agent integration in community tooling.',
+            source: 'r/CryptoCurrency 31+',
+          },
+        ],
+      },
+      {
+        icon: 'ai',
+        title: 'AI & Agents',
+        signals: [
+          {
+            rating: 4,
+            headline: 'Australian tech entrepreneur uses ChatGPT to achieve breakthrough — story goes viral',
+            detail: 'A viral story from Australia details a tech entrepreneur who used ChatGPT over months of intensive sessions to develop a significant breakthrough, demonstrating the real-world impact of AI-assisted discovery at the individual level.',
+            source: 'r/singularity 2147+',
+          },
+          {
+            rating: 4,
+            headline: 'Figure robot autonomously cleans living room — unscripted demo goes viral',
+            detail: 'Figure AI released video of its humanoid robot autonomously cleaning a living room without prompting, including object recognition, navigation, and task planning. The unscripted demo at 1,051 upvotes signals rapid physical AI progress.',
+            source: 'r/singularity 1051+',
+          },
+          {
+            rating: 3,
+            headline: 'Anthropic exclusive: details of unreleased model and upcoming capabilities surface',
+            detail: 'Exclusive reporting reveals Anthropic accidentally left details of an unreleased model in a public-facing document. The leaked capability profile suggests the next model will be a significant step above Claude current offerings.',
+            source: 'r/singularity 232+',
+          },
+          {
+            rating: 3,
+            headline: 'First-ever American AI Jobs Risk Index released by Tufts University',
+            detail: 'Tufts University published the inaugural American AI Jobs Risk Index, mapping every US occupation by automation risk. The index provides state and sector-level data on which roles face the highest near-term displacement.',
+            source: 'r/singularity 382+',
+          },
+          {
+            rating: 2,
+            headline: 'NVIDIA ProRL Agent introduces decoupled rollout-as-a-service for reinforcement learning',
+            detail: 'NVIDIA AI has unveiled ProRL, an infrastructure design that decouples rollout generation from policy training in reinforcement learning. The architecture improves GPU utilization and enables more scalable RL agent training.',
+            source: 'MarkTechPost',
+          },
+        ],
+      },
+      {
+        icon: 'niche',
+        title: 'OpenClaw & Niche',
+        signals: [
+          {
+            rating: 4,
+            headline: 'Mistral AI to release Voxtral TTS — 3B-parameter open-weight text-to-speech model',
+            detail: 'Mistral AI announced Voxtral, a 3-billion-parameter open-weight text-to-speech model optimized for speed and naturalness. Built for real-time voice applications, it is designed to run efficiently on consumer hardware.',
+            source: 'r/LocalLLaMA 1687+',
+          },
+          {
+            rating: 4,
+            headline: 'Intel to sell cheap GPU with 32GB VRAM next week — major local AI hardware moment',
+            detail: 'Intel is launching an affordable GPU with 32GB of VRAM at accessible price points next week. The release is significant for local LLM inference, enabling mid-range hardware to run 70B+ parameter models without quantization tradeoffs.',
+            source: 'r/LocalLLaMA 1088+',
+          },
+          {
+            rating: 3,
+            headline: 'FlashAttention-4 achieves 1613 TFLOPs/s — 2.7x faster than Triton, written in CUDA',
+            detail: 'FlashAttention-4 achieves 1,613 TFLOPs per second in benchmarks, representing a 2.7x speedup over Triton-based alternatives. The new implementation is CUDA-native and dramatically reduces attention computation cost for long contexts.',
+            source: 'r/LocalLLaMA 241+',
+          },
+          {
+            rating: 3,
+            headline: 'LangChain and LangGraph critical security flaws expose files, secrets, and databases',
+            detail: 'Newly disclosed vulnerabilities in LangChain and LangGraph allow attackers to access local files, environment secrets, and connected databases. Millions of AI applications built on these widely-used frameworks are potentially exposed.',
+            source: 'YouSearch / Security Research',
+          },
+          {
+            rating: 3,
+            headline: 'DeepSeek core researcher Daya Guo rumored to have resigned',
+            detail: 'Rumors circulating on r/LocalLLaMA suggest Daya Guo, a core researcher at DeepSeek, has resigned from the company. If confirmed, the departure would signal potential instability in one of the most influential open-source AI labs.',
+            source: 'r/LocalLLaMA 124+',
+          },
+        ],
+      },
+    ],
+  },
+
+
+{
     id: '2026-03-27-6pm',
     issueNumber: 34,
     date: 'March 27, 2026',
