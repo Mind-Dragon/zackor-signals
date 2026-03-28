@@ -29,7 +29,7 @@ export interface Issue {
 
 export const ISSUES: Issue[] = [
 
-const newIssue: ZackorIssue = {
+{
   id: 'issue-2026-03-28-noon',
   issueNumber: 36,
   date: 'March 28, 2026',
