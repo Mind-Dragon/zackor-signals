@@ -42,6 +42,7 @@ export const ISSUES: Issue[] = [
   ethUp: true,
   sections: [
     {
+      icon: '🟠',
       title: 'Bitcoin',
       signals: [
         {
@@ -77,6 +78,7 @@ export const ISSUES: Issue[] = [
       ]
     },
     {
+      icon: '🔷',
       title: 'Ethereum',
       signals: [
         {
@@ -106,6 +108,7 @@ export const ISSUES: Issue[] = [
       ]
     },
     {
+      icon: '🔗',
       title: 'Blockchain & Crypto',
       signals: [
         {
@@ -135,6 +138,7 @@ export const ISSUES: Issue[] = [
       ]
     },
     {
+      icon: '🤖',
       title: 'AI & Agents',
       signals: [
         {
@@ -164,6 +168,7 @@ export const ISSUES: Issue[] = [
       ]
     },
     {
+      icon: '🛠️',
       title: 'OpenClaw & Niche',
       signals: [
         {
