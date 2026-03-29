@@ -23,6 +23,130 @@ export interface AIIssue {
 
 export const AI_ISSUES: AIIssue[] = [
 
+{
+  id: 'ai-issue-8',
+  issueNumber: 8,
+  date: 'March 29, 2026',
+  time: '8AM CT',
+  btcPrice: 66843,
+  btcChange: '+0.79',
+  btcUp: true,
+  ethPrice: 2000,
+  ethChange: '+0.37',
+  ethUp: true,
+  sections: [
+    {
+      icon: '🧠',
+      title: 'Foundation Models',
+      signals: [
+        {
+          rating: 4,
+          headline: 'Exclusive: Anthropic Accidentally Reveals Unreleased Model — New Claude Imminent',
+          detail: 'An exclusive report confirms Anthropic left details of an unannounced model and upcoming product release publicly visible before intended. The leak points to a significant capability leap in the next Claude generation.',
+          source: 'r/singularity (290 upvotes)'
+        },
+        {
+          rating: 4,
+          headline: 'LeCun Raises $1B — Post-Transformer Architecture Research Signals LLM Ceiling',
+          detail: 'Yann LeCun is raising $1 billion to fund AI research beyond transformers and autoregressive models. The r/MachineLearning community (269 upvotes) reads this as a bellwether: the autoregressive LLM paradigm may be approaching its limits.',
+          source: 'r/MachineLearning (269 upvotes)'
+        },
+        {
+          rating: 3,
+          headline: 'Qwen3.5-397B-A17B Tops HuggingFace With 1,386 Likes — Best Open Multilingual Model',
+          detail: 'Alibaba\'s Qwen3.5-397B-A17B, a 397-billion-parameter Mixture-of-Experts model, leads HuggingFace trending. It is currently the most capable open-source multilingual model available for self-hosted deployment.',
+          source: 'HuggingFace Trending'
+        },
+        {
+          rating: 3,
+          headline: 'DeepSeek-V3.2 Holds Top-3 HuggingFace Rank — Efficient Open-Weight Reasoning',
+          detail: 'DeepSeek-V3.2 continues its top-3 HuggingFace run with 1,343 community likes. Strong coding and reasoning capabilities at accessible inference cost make it a preferred open-weight choice for enterprise teams.',
+          source: 'HuggingFace Trending'
+        }
+      ]
+    },
+    {
+      icon: '⚙️',
+      title: 'AI Infrastructure',
+      signals: [
+        {
+          rating: 4,
+          headline: 'LangChain + LangGraph Critical CVEs — Files, Secrets, Databases at Risk',
+          detail: 'Critical security vulnerabilities in LangChain and LangGraph allow attackers to access sensitive files, credentials, and databases across widely deployed AI agent frameworks. Emergency patches are live — update all production stacks immediately.',
+          source: 'YouSearch / Security Research'
+        },
+        {
+          rating: 3,
+          headline: 'MCP Shifts Enterprise AI From Chat Interfaces to Autonomous Work Execution',
+          detail: 'Anthropic\'s Model Context Protocol is becoming the connective tissue of enterprise AI. Leading teams are moving from LLM chatbots to fully automated business workflows, with MCP as the orchestration backbone.',
+          source: 'AI News Weekly'
+        },
+        {
+          rating: 3,
+          headline: 'llm-d Joins CNCF Sandbox — Kubernetes-Native LLM Inference Now Production-Grade',
+          detail: 'The Cloud Native Computing Foundation accepted llm-d, a distributed LLM inference framework for Kubernetes, into its Sandbox programme — formalising enterprise LLM serving as core cloud infrastructure.',
+          source: 'CNCF / AI News'
+        },
+        {
+          rating: 3,
+          headline: 'Intel Releases 32GB VRAM GPU Next Week — Local 70B Inference Goes Mainstream',
+          detail: 'Intel will launch an affordable 32GB VRAM GPU next week, per 1,095-upvote thread on r/LocalLLaMA. At this capacity, most 70B-parameter models run unquantised on consumer hardware — a milestone for local AI accessibility.',
+          source: 'r/LocalLLaMA (1095 upvotes)'
+        }
+      ]
+    },
+    {
+      icon: '🌍',
+      title: 'AI & Society',
+      signals: [
+        {
+          rating: 4,
+          headline: 'Tufts University Releases First-Ever American AI Jobs Risk Index',
+          detail: 'Tufts University published the inaugural American AI Jobs Risk Index — the first systematic assessment of which U.S. job categories face material AI automation risk. High-risk sectors flagged: data processing, paralegal, junior analytics, and customer service.',
+          source: 'r/singularity (379 upvotes)'
+        },
+        {
+          rating: 3,
+          headline: 'Anti-AI Goalpost Moving Gets Viral Pushback — Community Tired of Shifting Criteria',
+          detail: 'A viral r/singularity thread (471 upvotes) documents how AI critics continuously move success criteria as AI capabilities advance. The debate reflects growing frustration with asymmetric standards applied to AI progress.',
+          source: 'r/singularity (471 upvotes)'
+        },
+        {
+          rating: 2,
+          headline: 'Pilot Study: College Students Use AI as Cognitive Scaffold, Not Outsourcing Tool',
+          detail: 'New research challenges the assumption that AI writing tools replace student thinking. Data suggests students are using AI to augment and scaffold their own reasoning rather than simply offloading the cognitive work entirely.',
+          source: 'YouSearch / Academic Research'
+        }
+      ]
+    },
+    {
+      icon: '🛠️',
+      title: 'OpenClaw & Niche',
+      signals: [
+        {
+          rating: 3,
+          headline: 'OpenBB Finance Gains 113 GitHub Stars — AI Agent Financial Data Stack Heats Up',
+          detail: 'OpenBB Finance, the open-source financial data platform for analysts, quants and AI agents, surged 113 stars in one session. It is becoming the go-to data layer for autonomous market analysis agent pipelines.',
+          source: 'GitHub Trending / OpenBB-finance'
+        },
+        {
+          rating: 2,
+          headline: 'Whisper by OpenAI Adds 70 Stars — Voice-to-Text Infrastructure Stays in Demand',
+          detail: 'OpenAI\'s Whisper, the weak-supervision speech recognition model, gained 70 new GitHub stars. Continued traction signals ongoing developer investment in voice-to-text pipelines for agentic and productivity applications.',
+          source: 'GitHub Trending / openai/whisper'
+        },
+        {
+          rating: 2,
+          headline: 'LlamaIndex Adds 29 Stars — Document Agent and RAG Platform Sustains Growth',
+          detail: 'LlamaIndex, now positioning as the leading document agent and OCR platform, added 29 GitHub stars today. Steady growth reflects enterprise and indie developer demand for structured document ingestion into agent pipelines.',
+          source: 'GitHub Trending / run-llama/llama_index'
+        }
+      ]
+    }
+  ]
+},
+
+
 import { AIIssue } from '../types';
 
 const aiIssue8: AIIssue = {
