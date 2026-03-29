@@ -24,6 +24,150 @@ export interface AIIssue {
 export const AI_ISSUES: AIIssue[] = [
 
 {
+  id: 'ai-2026-03-29-noon',
+  issueNumber: 9,
+  date: 'March 29, 2026',
+  time: 'Noon CT',
+  sections: [
+    {
+      title: 'Foundation Models',
+      signals: [
+        {
+          rating: 4,
+          headline: 'Qwen3.5-397B-A17B from Alibaba hits 1,387 HuggingFace likes — top open MoE of 2026',
+          detail: 'Alibaba\'s Qwen3.5-397B-A17B mixture-of-experts model leads open-weight rankings with 1,387 HuggingFace likes. Only 17B active parameters per token at inference, rivaling GPT-4-class performance at fraction of compute cost.',
+          source: 'HuggingFace Trending / Qwen'
+        },
+        {
+          rating: 3,
+          headline: 'DeepSeek-V3.2 trending at 1,343 HF likes — open-weight frontier model still dominant',
+          detail: 'DeepSeek-V3.2 remains among the most-liked open-weight models on HuggingFace, demonstrating sustained developer interest in Chinese open-source frontier models as a credible alternative to closed APIs.',
+          source: 'HuggingFace Trending / deepseek-ai'
+        },
+        {
+          rating: 3,
+          headline: 'LLM release velocity in March 2026 — multiple model drops in single week',
+          detail: 'March 2026 has seen an unusually high density of new model releases across Alibaba, DeepSeek, Mistral, Meta, and Anthropic. The release cadence is accelerating with cycles measured in weeks not months.',
+          source: 'YouSearch / LLM News Today'
+        },
+        {
+          rating: 2,
+          headline: 'What comes next for LLMs — post-transformer architectures entering mainstream debate',
+          detail: 'Researchers and practitioners are increasingly debating the ceiling of transformer-based LLMs, with LeCun\'s AMI ($1B), state-space models, and hybrid architectures positioning for the next architecture cycle.',
+          source: 'YouSearch / AI Research'
+        }
+      ]
+    },
+    {
+      title: 'Agents & Automation',
+      signals: [
+        {
+          rating: 4,
+          headline: 'LangChain + LangGraph critical CVEs — files, secrets, databases exposed in production agents',
+          detail: 'Critical security flaws confirmed in LangChain and LangGraph, the two most-deployed agent orchestration frameworks. Attack surface includes arbitrary file read, environment variable exfiltration, and database access. Patch immediately.',
+          source: 'YouSearch / Security Research'
+        },
+        {
+          rating: 4,
+          headline: 'AI adversarial agents now trained to attack LLM systems like real adversaries',
+          detail: 'Security researchers successfully trained AI agents to autonomously discover and exploit vulnerabilities in production LLM applications. The work establishes AI-vs-AI red teaming as a new security discipline for 2026.',
+          source: 'YouSearch / Cybersecurity'
+        },
+        {
+          rating: 3,
+          headline: 'Top agentic LLM models 2026 — Adaline benchmark shows Claude 3.7 + Gemini 2.5 Pro leading',
+          detail: 'Adaline\'s updated agentic benchmark for 2026 ranks Claude 3.7 Sonnet, Gemini 2.5 Pro, and GPT-5 as top performers for multi-step agent tasks. The gap between chat performance and agent performance remains significant.',
+          source: 'YouSearch / Adaline'
+        },
+        {
+          rating: 2,
+          headline: 'Knowi enterprise data agents bypass LLM API dependency — proprietary AI for data workflows',
+          detail: 'Knowi launched enterprise data agents built on its own AI, not OpenAI or Anthropic, targeting enterprises that need cost-predictable and audit-compliant AI data analysis without LLM vendor lock-in.',
+          source: 'YouSearch / Enterprise Tech'
+        }
+      ]
+    },
+    {
+      title: 'Industry & Policy',
+      signals: [
+        {
+          rating: 4,
+          headline: 'Eli Lilly + Insilico Medicine sign multibillion-dollar AI drug deal — 2026\'s largest pharma AI contract',
+          detail: 'Eli Lilly expanded its AI drug discovery push by signing a multibillion-dollar agreement with Insilico Medicine. The deal validates generative AI for drug candidate design at commercial pharmaceutical scale.',
+          source: 'YouSearch / Reuters'
+        },
+        {
+          rating: 3,
+          headline: 'AI search visibility becomes B2B priority — brands racing to optimize for LLM results',
+          detail: 'New data from LightSite AI shows B2B companies are actively redesigning content to improve visibility in ChatGPT, Perplexity, and Gemini answers. AI LLM optimization is splitting from traditional SEO as a separate discipline.',
+          source: 'YouSearch / Marketing Analytics'
+        },
+        {
+          rating: 2,
+          headline: 'EU + UK AI regulation updates 2026 — enforcement phase beginning for foundation models',
+          detail: 'The EU AI Act\'s obligations for high-risk AI systems and foundation model providers entered enforcement preparation phase in Q1 2026. UK is diverging with a lighter-touch sector-specific framework.',
+          source: 'YouSearch / Policy News'
+        }
+      ]
+    },
+    {
+      title: 'Open Source & Tools',
+      signals: [
+        {
+          rating: 4,
+          headline: 'OpenBB Finance surges 113 GitHub stars today — AI-native financial platform for agents + quants',
+          detail: 'OpenBB Finance, the open-source financial data platform designed for AI agents and quantitative analysts, hit 113 GitHub stars in a single day. Provides standardized financial data APIs for LLM-powered trading and research agents.',
+          source: 'GitHub Trending / sponsors/OpenBB-finance'
+        },
+        {
+          rating: 3,
+          headline: 'Upscayl AI image upscaler 78 stars today — #1 free open source upscaler for Linux/Mac/Windows',
+          detail: 'Upscayl, the leading free and open-source AI image upscaler, gained 78 GitHub stars today. Cross-platform desktop app using local AI models, no cloud dependency, competing with commercial Topaz alternatives.',
+          source: 'GitHub Trending / upscayl/upscayl'
+        },
+        {
+          rating: 3,
+          headline: 'OpenAI Whisper still trending at 70 stars today — speech recognition remains foundational',
+          detail: 'OpenAI\'s Whisper speech recognition model continues trending on GitHub with 70 stars today, reflecting sustained developer adoption as a foundational component in voice-enabled AI agent pipelines.',
+          source: 'GitHub Trending / openai/whisper'
+        },
+        {
+          rating: 2,
+          headline: 'DeepSeek-OCR-2 hits 882 HuggingFace likes — state-of-the-art document understanding',
+          detail: 'DeepSeek\'s OCR-2 model for image-to-text understanding reached 882 HuggingFace likes, positioning it as the top open-source option for document processing pipelines and multi-modal agent workflows.',
+          source: 'HuggingFace Trending / deepseek-ai'
+        }
+      ]
+    },
+    {
+      title: 'Research',
+      signals: [
+        {
+          rating: 3,
+          headline: 'Adversarial LLM attack automation — AI agents as red-team tools for security research',
+          detail: 'New research demonstrates training specialized AI agents to replicate real adversary attack patterns against LLM-based systems. Findings suggest current LLM deployments are systematically underprotected against AI-native attacks.',
+          source: 'YouSearch / Security Research'
+        },
+        {
+          rating: 3,
+          headline: 'Agentic benchmark gap 2026 — LLM chat scores diverge from multi-step agent performance',
+          detail: 'Multiple 2026 benchmark studies confirm that standard LLM capability metrics (MMLU, HumanEval) are poor predictors of agent task performance. New agent-specific benchmarks are emerging as the standard for enterprise evaluation.',
+          source: 'YouSearch / AI Research'
+        },
+        {
+          rating: 2,
+          headline: 'Next LLM architecture cycle — post-transformer alternatives getting serious funding and attention',
+          detail: 'After 5+ years of transformer dominance, alternative architectures (Mamba/SSMs, LeCun-style world models, hybrid attention) are receiving serious research investment in early 2026. Timeline to production: 12-24 months.',
+          source: 'YouSearch / Research Analysis'
+        }
+      ]
+    }
+  ]
+}
+',
+
+
+{
   id: 'ai-issue-8',
   issueNumber: 8,
   date: 'March 29, 2026',
