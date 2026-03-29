@@ -34,11 +34,11 @@ export const ISSUES: Issue[] = [
   issueNumber: 39,
   date: 'March 29, 2026',
   time: '8AM CT',
-  btcPrice: 66843,
-  btcChange: '+0.79',
+  btcPrice: '$66,843',
+  btcChange: '+0.79%',
   btcUp: true,
-  ethPrice: 2000,
-  ethChange: '+0.37',
+  ethPrice: '$2,000',
+  ethChange: '+0.37%',
   ethUp: true,
   sections: [
     {
@@ -181,73 +181,6 @@ export const ISSUES: Issue[] = [
     }
   ]
 },
-
-
-import { ZackorIssue } from '../types';
-
-const issue38: ZackorIssue = {
-  id: '2026-03-29-8am',
-  issueNumber: 38,
-  date: 'March 29, 2026',
-  time: '8AM CT',
-  btcPrice: '$66,843',
-  btcChange: '+0.79%',
-  btcUp: true,
-  ethPrice: '$2,000',
-  ethChange: '+0.37%',
-  ethUp: true,
-  sections: [
-    {
-      icon: '₿',
-      title: 'Bitcoin',
-      signals: [
-        { rating: 4, headline: 'Morgan Stanley Files for First Bank-Led Spot Bitcoin ETF', detail: 'The banking giant has officially filed for its own Spot BTC ETF with an ultra-low fee structure, signaling a massive shift in institutional accessibility.', source: 'Bitcoin News' },
-        { rating: 4, headline: 'US Senate Votes to Ban Federal Reserve From Issuing CBDC', detail: 'In a major victory for privacy and decentralized assets, the Senate has moved to block the Federal Reserve from creating a central bank digital currency.', source: 'Reddit / r/Bitcoin' },
-        { rating: 3, headline: 'Bitcoin Miners Sell 15,000 BTC Amid Market Volatility', detail: 'Significant selling pressure from miners has hit the market as 15,000 BTC were liquidated, contributing to recent price fluctuations and a \'fear\' index dip.', source: 'Crypto News Today' },
-        { rating: 3, headline: 'Spot BTC ETF Inflows Rebound with $180M Institutional Buy-in', detail: 'Despite recent outflows, institutional appetite remains strong with $180M in net inflows as firms scoop up the dip following geopolitical tensions.', source: 'The Block' },
-        { rating: 3, headline: 'BNP Paribas Launches Bitcoin and Ether ETNs for French Retailers', detail: 'Major European bank BNP Paribas has expanded its digital asset offerings by adding BTC and ETH exchange-traded notes for retail users in France.', source: 'BNP Paribas' }
-      ]
-    },
-    {
-      icon: 'Ξ',
-      title: 'Ethereum',
-      signals: [
-        { rating: 3, headline: 'Analysts Warn Ethereum May Face \'Flipping\' Risk in 2026', detail: 'New market reports suggest Ethereum could lose its dominant layer-1 position to emerging competitors if it fails to resolve scalability issues by year-end.', source: 'The Block' },
-        { rating: 3, headline: 'EtherFi Deploys $25M as Staking Infrastructure Expands', detail: 'EtherFi has deployed $25M in capital to bolster liquidity and staking services, even as ETH price consolidation continues below the $2,100 resistance level.', source: 'Crypto News Today' },
-        { rating: 2, headline: 'Ethereum Price Outlook Remains Cautious Amid Macro Chaos', detail: 'Traders are debating if it is \'too soon\' for a bounce as ETH struggles to maintain momentum alongside Bitcoin during global economic uncertainty.', source: 'Market Outlook' },
-        { rating: 2, headline: 'Ethereum vs. Solana: The Battle for the $2,000 Investment', detail: 'Institutional analysts are weighing ETH against SOL for mid-year portfolios, highlighting Solana\'s speed versus Ethereum\'s established security.', source: 'The Motley Fool' },
-        { rating: 2, headline: 'The Search for Yield: ETH Staking Trends Shift in 2026', detail: 'Ethereum community discussions indicate a shift toward diverse staking providers as users seek higher yields outside of traditional centralized exchanges.', source: 'Reddit / r/ethereum' }
-      ]
-    },
-    {
-      icon: '⛓️',
-      title: 'Blockchain & Crypto',
-      signals: [
-        { rating: 4, headline: 'BlackRock Liquidates $450M in Crypto Assets Within One Week', detail: 'The world\'s largest asset manager has sold off nearly $450M of various cryptocurrencies, sparking concerns of a broader institutional de-risking phase.', source: 'The Block' },
-        { rating: 3, headline: 'Gemini Executives Exit Following Successful IPO', detail: 'Key leadership at Gemini has departed just months after the exchange went public, raising questions about the firm\'s future strategic direction.', source: 'Reddit / r/CryptoCurrency' },
-        { rating: 2, headline: 'UK Man Reports $176M Bitcoin Theft via CCTV Footage', detail: 'In a bizarre security breach, a UK resident claims his spouse used home security footage to compromise private keys and steal $176M in BTC.', source: 'Reddit / r/CryptoCurrency' },
-        { rating: 1, headline: 'TradFi Perspectives Suggest $70k BTC Floor is Resilient', detail: 'Traditional finance analysts argue that the current market floor is surviving a \'perfect storm\' of macro chaos that retail investors may be misinterpreting.', source: 'Reddit / r/Bitcoin' },
-        { rating: 3, headline: 'Fear & Greed Index Hits 12 — Extreme Fear as Potential Bottom Signal', detail: 'Crypto fear index at 12 signals historically rare capitulation zones that have preceded major BTC recoveries.', source: 'CNN Fear & Greed' }
-      ]
-    },
-    {
-      icon: '🤖',
-      title: 'AI & Agents',
-      signals: [
-        { rating: 3, headline: 'Ethereum LLM Prediction Markets Beat Fiat-Based Systems', detail: 'r/ethereum community tests LLM-powered prediction market protocols as a next-gen replacement for fiat-settled systems.', source: 'Reddit / r/ethereum' },
-        { rating: 2, headline: 'TradingAgents Multi-LLM Framework Targets Crypto Finance', detail: 'New open-source multi-agent LLM framework from TauricResearch routes financial trading signals through specialized AI agents.', source: 'Web / TauricResearch' }
-      ]
-    },
-    {
-      icon: '💎',
-      title: 'OpenClaw & Niche',
-      signals: [
-        { rating: 1, headline: 'Fear Index Hits Historic Low of 12 Amid Price Volatility', detail: 'Market sentiment has plunged to \'Extreme Fear\' levels not seen in months, even as some analysts maintain a $125k long-term price target.', source: 'Crypto News Today' },
-        { rating: 2, headline: 'Cathie Wood: Quantum Computers Cannot Break Bitcoin Cryptography', detail: 'Ark Invest CEO confirms current quantum hardware lacks the scale needed to threaten Bitcoin SHA-256 security.', source: 'Ark Invest / Motley Fool' }
-      ]
-    }
-  ]
-};
 
 export default issue38,
 
