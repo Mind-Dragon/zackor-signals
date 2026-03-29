@@ -21,7 +21,112 @@ export interface AIIssue {
   sections: AIIssueSection[];
 }
 
-export const AI_ISSUES: AIIssue[] = [
+export const AI_ISSUES: AIIssue[
+{
+  id: 'ai-2026-03-29-6pm',
+  issueNumber: 10,
+  date: 'March 29, 2026',
+  time: '6pm CT',
+  sections: [
+    {
+      icon: '🧠',
+      title: 'Foundation Models & Research',
+      signals: [
+        {
+          rating: 4,
+          headline: 'Chroma Releases Context-1: 20B Agentic Search Model for Multi-Hop Retrieval',
+          detail: 'Chroma (vector DB company) releases Context-1, a 20B open-weight model purpose-built for agentic multi-hop search and contextual reasoning. Directly competes with closed-API RAG pipelines — significant for OpenClaw and agent stack developers.',
+          source: 'MarkTechPost / Exa'
+        },
+        {
+          rating: 3,
+          headline: 'NVIDIA ProRL: Decoupled Rollout-as-a-Service for Scalable Reinforcement Learning',
+          detail: "NVIDIA AI's ProRL separates rollout generation from model training, enabling massively parallel RL pipelines at scale. Key infrastructure for training next-gen autonomous agents without monolithic compute bottlenecks.",
+          source: 'MarkTechPost / Exa'
+        },
+        {
+          rating: 3,
+          headline: 'TurboQuant: Near-Optimal 4-Bit LLM Quantization with Lossless 8-Bit Recovery',
+          detail: 'Open-source Python implementation of TurboQuant achieves near-optimal 4-bit model compression with a lossless 8-bit recovery path — enabling large model deployment on constrained hardware without meaningful quality loss. (r/ML, 62 upvotes)',
+          source: 'r/MachineLearning'
+        },
+        {
+          rating: 3,
+          headline: 'Open-Source Street Image Geolocator: ML Tool Identifies Any Location from Photo',
+          detail: 'New open-source ML tool accurately determines the geographic location of any street-level photo. 148 upvotes in r/MachineLearning. Dual-use: mapping and navigation advances plus significant privacy and surveillance implications.',
+          source: 'r/MachineLearning'
+        },
+        {
+          rating: 2,
+          headline: 'LLM Physics Benchmark: New Test Catches Models Violating Laws of Physics',
+          detail: "Researcher builds a benchmark specifically designed to catch LLMs generating physically impossible outputs — fills a gap in current eval suites that do not test physical world reasoning. (r/ML, 44 upvotes)",
+          source: 'r/MachineLearning'
+        }
+      ]
+    },
+    {
+      icon: '🏢',
+      title: 'AI Industry & Policy',
+      signals: [
+        {
+          rating: 4,
+          headline: "Original 'AGI' Acronym Creator: We've Already Achieved It — Exactly as Defined",
+          detail: "The researcher who first coined the term 'Artificial General Intelligence' (AGI) publicly stated we have now achieved it by the original definition. 567 upvotes in r/singularity — a major definitional and psychological inflection point for the field.",
+          source: 'r/singularity'
+        },
+        {
+          rating: 4,
+          headline: 'LiteLLM Supply Chain Attack: Critical API Key Vulnerability Across AI Dev Stacks',
+          detail: 'A supply chain attack targeting LiteLLM — one of the most widely used LLM API gateway libraries — enables API key exfiltration across affected deployments. Any developer using LiteLLM in production should patch immediately. (r/ML, 35 upvotes)',
+          source: 'r/MachineLearning'
+        },
+        {
+          rating: 3,
+          headline: 'Palantir CEO: Only Two Types of People Will Succeed in the AI Era',
+          detail: "Alex Karp's stark prediction on workforce polarization — 629 upvotes in r/singularity. Palantir's billionaire CEO frames AI as a hard binary separating winners from losers across industries, with no middle ground.",
+          source: 'r/singularity'
+        },
+        {
+          rating: 3,
+          headline: 'China Bars Manus AI Co-Founders From Leaving Country Amid Meta Deal Review',
+          detail: "Chinese government prevents Manus AI co-founders from leaving China while regulators review Meta's proposed acquisition. Geopolitical AI competition entering a new phase of direct state intervention in tech transactions.",
+          source: 'r/singularity'
+        },
+        {
+          rating: 3,
+          headline: 'OpenAI Offers PE Firms 17.5% Guaranteed Minimum Return',
+          detail: "OpenAI structured a deal offering private equity firms a floor return of 17.5% — aggressive capital-raising that signals IPO preparation and financial engineering at a scale unusual for an AI safety organization. (r/singularity, 251 upvotes)",
+          source: 'r/singularity'
+        }
+      ]
+    },
+    {
+      icon: '🦾',
+      title: 'Agent Ecosystem',
+      signals: [
+        {
+          rating: 3,
+          headline: 'OpenClaw v2026.3.28-beta.1 Released — New GitHub + NPM Packages Live',
+          detail: 'OpenClaw pushed a new beta release to both GitHub and NPM. A production plugin development guide covering runtime authority patterns for autonomous agents was also published — practical signal for developers building on the platform.',
+          source: 'GitHub / NPM / Exa'
+        },
+        {
+          rating: 2,
+          headline: "Google Agent Smith: Internal Agentic Tool Automates Engineering Operations",
+          detail: "First detailed account of Google's internal 'Agent Smith' — an AI tool automating engineering operations tasks for Google's own engineers. Signals that frontier AI companies are running agentic infrastructure internally at production scale.",
+          source: 'VentureBeat / Exa'
+        },
+        {
+          rating: 2,
+          headline: 'CapiscIO Launches: Dedicated AI Security Platform for Agentic Systems',
+          detail: 'CapiscIO is a new security platform built specifically for agentic AI deployments — addressing the growing gap between standard application security and the unique threat surface of autonomous agent systems in production.',
+          source: 'Exa'
+        }
+      ]
+    }
+  ]
+},
+] = [
 
 {
   id: 'ai-2026-03-29-noon',
