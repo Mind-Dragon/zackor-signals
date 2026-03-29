@@ -164,7 +164,6 @@ export const AI_ISSUES: AIIssue[] = [
     }
   ]
 }
-',
 
 
 {
