@@ -28,12 +28,6 @@ export const AI_ISSUES: AIIssue[] = [
   issueNumber: 8,
   date: 'March 29, 2026',
   time: '8AM CT',
-  btcPrice: 66843,
-  btcChange: '+0.79',
-  btcUp: true,
-  ethPrice: 2000,
-  ethChange: '+0.37',
-  ethUp: true,
   sections: [
     {
       icon: '🧠',
