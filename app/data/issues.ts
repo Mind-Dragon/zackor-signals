@@ -187,8 +187,7 @@ export const ISSUES: Issue[] = [
       ]
     }
   ]
-}
-
+},
 
 {
   id: 'issue-39',
