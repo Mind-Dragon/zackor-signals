@@ -182,7 +182,6 @@ export const ISSUES: Issue[] = [
   ]
 },
 
-export default issue38,
 
 
 {
