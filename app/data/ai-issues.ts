@@ -140,7 +140,6 @@ export const AI_ISSUES: AIIssue[] = [
   ]
 },
 
-export default aiIssue8,
 
 
 {
