@@ -163,8 +163,7 @@ export const AI_ISSUES: AIIssue[] = [
       ]
     }
   ]
-}
-
+},
 
 {
   id: 'ai-issue-8',
