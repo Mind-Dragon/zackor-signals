@@ -30,6 +30,168 @@ export interface Issue {
 export const ISSUES: Issue[] = [
 
 {
+  id: 'issue-2026-03-29-noon',
+  issueNumber: 40,
+  date: 'March 29, 2026',
+  time: 'Noon CT',
+  btcPrice: '$66,450',
+  btcChange: '+0.10%',
+  btcUp: true,
+  ethPrice: '$1,997',
+  ethChange: '+0.17%',
+  ethUp: true,
+  sections: [
+    {
+      title: 'Bitcoin',
+      signals: [
+        {
+          rating: 4,
+          headline: 'BlackRock dumps $450M BTC + ETH in single week — largest ETF sell-off of 2026',
+          detail: 'BlackRock liquidated nearly $450M of Bitcoin and Ethereum ETF positions in one week, the largest institutional single-week distribution since ETF launch. Analysts see short-term profit-taking, not structural exit.',
+          source: 'YouSearch / Crypto News'
+        },
+        {
+          rating: 4,
+          headline: 'BNP Paribas adds Bitcoin + ETH ETNs for French retail — European banking opens crypto',
+          detail: 'BNP Paribas, Europe\'s 3rd-largest bank by assets, has listed Bitcoin and Ethereum exchange-traded notes for retail investors in France — a significant step in mainstream European institutional adoption.',
+          source: 'YouSearch / CoinDesk'
+        },
+        {
+          rating: 3,
+          headline: 'Miners dump 15,000 BTC — capitulation signal historically precedes rebounds',
+          detail: 'On-chain data shows Bitcoin miners sold 15,000 BTC this week. Historically, miner capitulation at these levels has preceded major price bottoms within 30 days.',
+          source: 'YouSearch / Crypto News'
+        },
+        {
+          rating: 3,
+          headline: 'Fear & Greed Index hits 12 — extreme fear zone signals potential reversal',
+          detail: 'Crypto Fear & Greed Index dropped to 12 (extreme fear). The last time readings were this low (Nov 2022, June 2023) marked cycle bottoms within weeks. Contrarian buy signals accumulating.',
+          source: 'YouSearch / Crypto News'
+        },
+        {
+          rating: 2,
+          headline: 'Morgan Stanley bank BTC ETF filing confirmed at 0.14% fee — cheapest bank-issued ETF',
+          detail: 'Morgan Stanley\'s SEC filing for the first bank-issued Bitcoin ETF at 0.14% annual fee undercuts BlackRock\'s 0.25% IBIT by a significant margin. Institutional distribution competition intensifying.',
+          source: 'YouSearch / Reuters'
+        }
+      ]
+    },
+    {
+      title: 'Ethereum',
+      signals: [
+        {
+          rating: 3,
+          headline: 'Bitmine adds 65,341 ETH to treasury — corporate ETH accumulation accelerating',
+          detail: 'Bitmine Immersion Technologies added 65,341 ETH (~$130M) to its corporate treasury, following a growing trend of companies holding ETH as a balance sheet asset alongside Bitcoin.',
+          source: 'YouSearch / Crypto News'
+        },
+        {
+          rating: 3,
+          headline: 'Ethereum Foundation holds invite-only institutional event — L1/L2 alignment push',
+          detail: 'The Ethereum Foundation hosted a closed-door institutional event, with Aave and Ethena leaders outlining plans to align Ethereum L1 and L2 ecosystems. Signals coordinated institutional strategy for ETH.',
+          source: 'YouSearch / CoinDesk'
+        },
+        {
+          rating: 2,
+          headline: 'ETH vs SOL debate intensifies — Solana holds March DEX crown at $50B volume',
+          detail: 'Analysis shows Ethereum still leads total value locked but Solana\'s $50B+ March DEX volume challenges ETH\'s DeFi dominance. Institutional investors increasingly diversifying between the two.',
+          source: 'YouSearch / Motley Fool'
+        },
+        {
+          rating: 2,
+          headline: 'Ethereum "mini crypto winter" ending — DeFi blue chips show accumulation signals',
+          detail: 'On-chain analysis suggests the ETH-specific drawdown may be bottoming, with major DeFi protocols (Aave, Ethena) showing accumulation patterns and the Ethereum Foundation signaling renewed institutional focus.',
+          source: 'YouSearch / Crypto Analysis'
+        }
+      ]
+    },
+    {
+      title: 'Blockchain & Crypto',
+      signals: [
+        {
+          rating: 4,
+          headline: 'BlackRock ETF week outflows hit $450M — signals short-term institutional rotation',
+          detail: 'Combined BTC and ETH ETF outflows from BlackRock vehicles reached $450M in a single week, the largest since product launch. Context: total crypto ETF AUM still above $60B — this is rotation, not exit.',
+          source: 'YouSearch / Bloomberg'
+        },
+        {
+          rating: 3,
+          headline: 'Hong Kong Web3 Festival 2026 — Asian institutional crypto market signals growth',
+          detail: 'SoonTech and multiple Asian institutions confirmed participation at Hong Kong Web3 Festival 2026. Asia-Pacific remains the fastest-growing jurisdiction for regulated crypto infrastructure.',
+          source: 'YouSearch / Web3 News'
+        },
+        {
+          rating: 2,
+          headline: 'Iran tensions drive geopolitical Bitcoin narrative — safe-haven thesis tested',
+          detail: 'US military escalation around Iran (3,500 troops, potential ground operations) is driving safe-haven debate. Bitcoin\'s correlation with gold during geopolitical stress events is being tested in real time.',
+          source: 'Google News'
+        },
+        {
+          rating: 2,
+          headline: 'Better buy: Bitcoin or a Bitcoin ETF? — Motley Fool analysis signals mainstream interest',
+          detail: 'Major financial media comparing direct BTC vs ETF vehicle signals growing mainstream investor interest. The ETF wrapper now controls 1.28M BTC (~$85B) — the debate itself is a bullish adoption indicator.',
+          source: 'YouSearch / Motley Fool'
+        }
+      ]
+    },
+    {
+      title: 'AI & Agents',
+      signals: [
+        {
+          rating: 4,
+          headline: 'LangChain + LangGraph critical CVEs expose files, secrets, databases — patch now',
+          detail: 'Critical security vulnerabilities confirmed in LangChain and LangGraph frameworks widely used in AI agent pipelines. Exploit enables access to files, environment secrets, and connected databases. Immediate patching required.',
+          source: 'YouSearch / Security Research'
+        },
+        {
+          rating: 4,
+          headline: 'Eli Lilly + Insilico Medicine sign multibillion-dollar AI drug deal — largest pharma AI deal of 2026',
+          detail: 'Eli Lilly inked a multibillion-dollar agreement with Insilico Medicine to expand AI-driven drug discovery. The deal is the largest pharma-AI commercial agreement of 2026, validating LLM application in life sciences.',
+          source: 'YouSearch / Financial News'
+        },
+        {
+          rating: 3,
+          headline: 'AI adversarial agents trained to attack LLM applications — red-teaming automation rises',
+          detail: 'Security researchers published results on training AI agents to attack production LLM applications like a real adversary. The work signals a new category of AI security tooling for enterprise deployments.',
+          source: 'YouSearch / Security Research'
+        },
+        {
+          rating: 2,
+          headline: 'OpenBB Finance hits 113 GitHub stars today — AI financial data platform for agents',
+          detail: 'OpenBB Finance (open-source financial data platform for analysts, quants, and AI agents) surged 113 GitHub stars in a single day, signaling growing developer interest in AI-native financial infrastructure.',
+          source: 'GitHub Trending / sponsors/OpenBB-finance'
+        }
+      ]
+    },
+    {
+      title: 'OpenClaw & Niche',
+      signals: [
+        {
+          rating: 3,
+          headline: 'Agentic LLM model benchmark 2026 — gap between chat and agent performance widens',
+          detail: 'Adaline\'s updated agentic benchmark comparison shows the top models for 2026 agent pipelines are diverging from chat-focused rankings. Claude 3.7, Gemini 2.5 Pro, and GPT-5 lead agent-specific evaluations.',
+          source: 'YouSearch / Adaline'
+        },
+        {
+          rating: 2,
+          headline: 'Knowi launches enterprise data agents on proprietary AI — alternative to LLM wrappers',
+          detail: 'Knowi released enterprise-grade data agents powered by its own AI architecture rather than OpenAI or Anthropic APIs, positioning as a cost-efficient alternative for corporate data analysis workflows.',
+          source: 'YouSearch / Enterprise Tech'
+        },
+        {
+          rating: 2,
+          headline: 'AI search visibility emerging as B2B priority — LightSite publishes optimization data',
+          detail: 'LightSite AI published data on what content strategies improve brand visibility in AI search results (ChatGPT, Perplexity, Gemini). B2B companies treating AI LLM optimization as a new SEO category.',
+          source: 'YouSearch / Marketing Tech'
+        }
+      ]
+    }
+  ]
+}
+',
+
+
+{
   id: 'issue-39',
   issueNumber: 39,
   date: 'March 29, 2026',
