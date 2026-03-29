@@ -30,6 +30,7 @@ export const AI_ISSUES: AIIssue[] = [
   time: 'Noon CT',
   sections: [
     {
+      icon: '🧠',
       title: 'Foundation Models',
       signals: [
         {
@@ -59,6 +60,7 @@ export const AI_ISSUES: AIIssue[] = [
       ]
     },
     {
+      icon: '⚙️',
       title: 'Agents & Automation',
       signals: [
         {
@@ -88,6 +90,7 @@ export const AI_ISSUES: AIIssue[] = [
       ]
     },
     {
+      icon: '🏛',
       title: 'Industry & Policy',
       signals: [
         {
@@ -111,6 +114,7 @@ export const AI_ISSUES: AIIssue[] = [
       ]
     },
     {
+      icon: '🔧',
       title: 'Open Source & Tools',
       signals: [
         {
@@ -140,6 +144,7 @@ export const AI_ISSUES: AIIssue[] = [
       ]
     },
     {
+      icon: '🔬',
       title: 'Research',
       signals: [
         {
