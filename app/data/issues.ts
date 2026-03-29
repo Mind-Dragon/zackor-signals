@@ -27,7 +27,100 @@ export interface Issue {
   sections: IssueSection[];
 }
 
-export const ISSUES: Issue[] = [
+export const ISSUES: Issue[
+{
+  id: 'issue-2026-03-29-6pm',
+  issueNumber: 41,
+  date: 'March 29, 2026',
+  time: '6pm CT',
+  btcPrice: '$65,803',
+  btcChange: '-0.97%',
+  btcUp: false,
+  ethPrice: '$1,972',
+  ethChange: '-1.25%',
+  ethUp: false,
+  sections: [
+    {
+      icon: '🟠',
+      title: 'Bitcoin',
+      signals: [
+        {
+          rating: 3,
+          headline: 'Saylor Breaks 13-Week Bitcoin Buying Streak — No Purchase This Week',
+          detail: 'MicroStrategy Chair Michael Saylor did not make his weekly Bitcoin purchase for the first time in 13 weeks. Analysts split on whether this signals price ceiling concerns or a routine pause at the $65K range.',
+          source: 'r/CryptoCurrency'
+        },
+        {
+          rating: 3,
+          headline: 'Bitcoin ETFs Pull $2.5B in March — Reversing 4-Month Outflow Streak',
+          detail: 'After 4 months of consecutive outflows, spot Bitcoin ETFs attracted $2.5B net in March 2026, the largest monthly inflow since launch. Institutional demand structurally returning despite end-of-month profit-taking.',
+          source: 'Coira / Exa'
+        },
+        {
+          rating: 2,
+          headline: 'Goldman Sachs CEO Admits Personal Bitcoin Holdings at WLF Conference',
+          detail: 'David Solomon disclosed personal Bitcoin ownership at the World Leadership Forum — reversing his prior dismissive public stance. Another legacy finance executive crossing the line publicly.',
+          source: 'r/CryptoCurrency'
+        },
+        {
+          rating: 2,
+          headline: 'GameStop Now Holds 4,710 BTC — Corporate Treasury Accumulation Continues',
+          detail: 'GameStop joins the growing list of public companies holding BTC on the balance sheet. Corporate treasury Bitcoin adoption continues to broaden beyond tech-sector pioneers.',
+          source: 'TechBullion'
+        },
+        {
+          rating: 2,
+          headline: 'Macro Headwinds: War, Oil Shock, Rate Crunch & AI Fear Weigh on Crypto',
+          detail: 'BTC slips ~1% in afternoon trading as geopolitical tension, energy price spikes, Fed rate uncertainty, and AI market fears create correlative drag across all crypto assets.',
+          source: 'r/CryptoCurrency'
+        },
+        {
+          rating: 2,
+          headline: "Walmart's OnePay Adds 12 Cryptos — Mainstream Retail Superapp Integration",
+          detail: "Walmart's financial superapp OnePay added Bitcoin, Ethereum, and 10 more cryptocurrencies — the first major US mass-market retail platform to integrate crypto at this scale.",
+          source: 'CoinTelegraph'
+        }
+      ]
+    },
+    {
+      icon: '🔷',
+      title: 'Ethereum',
+      signals: [
+        {
+          rating: 3,
+          headline: "Ethereum Builders Propose 'Economic Zone' to Unify L1 + L2 Fragmentation",
+          detail: "Ethereum developers formally proposed an 'Economic Zone' — a shared economic framework bridging L1 and all major L2s to resolve the fragmentation driving capital away from ETH. A protocol-level fix for the L2 narrative problem.",
+          source: 'CoinTelegraph'
+        },
+        {
+          rating: 3,
+          headline: 'Coinbase Research: Ethereum Fundamentally Mispriced at Current Levels',
+          detail: "Coinbase's Research Chief argues ETH is trading well below fundamental value ahead of EthCC — citing stablecoin inflow recovery, L1 activity rebound, and RWA settlement growth as diverging positives.",
+          source: 'Blockworks / Exa'
+        },
+        {
+          rating: 2,
+          headline: 'Post-Quantum Ethereum Client Dev Pier Two Acquired by BMNR',
+          detail: 'Pier Two, builders of the Lantern post-quantum Ethereum client, acquired by BMNR. Quantum-resistant ETH client development now has institutional backing — long-term infrastructure signal.',
+          source: 'r/ethereum'
+        },
+        {
+          rating: 2,
+          headline: 'Onchain RWA Protocols: $4.1B → $14.1B in 2025 — 244% Growth on Ethereum',
+          detail: 'Eight real-world asset tokenization protocols on Ethereum collectively grew from $4.1B to $14.1B last year. Ethereum increasingly dominant as the settlement layer for institutional RWA markets.',
+          source: 'r/ethereum'
+        },
+        {
+          rating: 2,
+          headline: 'Ethereum L1 Activity + Stablecoin Flows Returning After L2 Migration',
+          detail: 'On-chain data shows renewed Ethereum L1 engagement and stablecoin inflows reversing the trend of base-layer hollowing. ETH base layer recovery narrative gaining on-chain evidence.',
+          source: 'Blockworks'
+        }
+      ]
+    }
+  ]
+},
+] = [
 
 {
   id: 'issue-2026-03-29-noon',
