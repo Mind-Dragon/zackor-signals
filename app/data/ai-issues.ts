@@ -21,7 +21,7 @@ export interface AIIssue {
   sections: AIIssueSection[];
 }
 
-export const AI_ISSUES: AIIssue[
+export const AI_ISSUES: AIIssue[] = [
 {
   id: 'ai-2026-03-29-6pm',
   issueNumber: 10,
@@ -126,7 +126,6 @@ export const AI_ISSUES: AIIssue[
     }
   ]
 },
-] = [
 
 {
   id: 'ai-2026-03-29-noon',
