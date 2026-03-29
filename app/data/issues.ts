@@ -29,6 +29,160 @@ export interface Issue {
 
 export const ISSUES: Issue[] = [
 
+{
+  id: 'issue-39',
+  issueNumber: 39,
+  date: 'March 29, 2026',
+  time: '8AM CT',
+  btcPrice: 66843,
+  btcChange: '+0.79',
+  btcUp: true,
+  ethPrice: 2000,
+  ethChange: '+0.37',
+  ethUp: true,
+  sections: [
+    {
+      icon: '🟠',
+      title: 'Bitcoin',
+      signals: [
+        {
+          rating: 4,
+          headline: 'BlackRock Bitcoin + Ethereum ETFs Shed $443M in Single-Day Outflows',
+          detail: 'BlackRock\'s iShares Bitcoin and Ethereum ETFs registered $443M in combined outflows in a single session — the steepest institutional exit in weeks as macro uncertainty weighs on crypto positions.',
+          source: 'KuCoin / ETF Monitor'
+        },
+        {
+          rating: 3,
+          headline: 'BTC ETFs End Week With $225M Outflow — Third Consecutive Negative Week',
+          detail: 'Spot Bitcoin ETFs wrapped the week with $225M in net outflows, marking a third straight negative week. Analysts say a sustained bid above $65K is needed before calling a trend reversal.',
+          source: 'Bitcoin.com News'
+        },
+        {
+          rating: 3,
+          headline: 'Bitcoin Miners Dump 15,000 BTC — On-Chain Pressure Historically Precedes Bottoms',
+          detail: 'On-chain data confirms miners offloaded approximately 15,000 BTC to exchanges this week. Past cycles show peak miner selling often signals supply exhaustion and a local price floor forming.',
+          source: 'YouSearch / CryptoAnalysis'
+        },
+        {
+          rating: 2,
+          headline: 'Morgan Stanley MSBT at 0.14% — Lowest-Fee Bank BTC ETF Confirmed',
+          detail: 'Morgan Stanley finalised the MSBT ticker for its spot Bitcoin ETF at a 0.14% expense ratio — undercutting BlackRock\'s IBIT and positioning it as the most cost-efficient bank-issued BTC ETF on the market.',
+          source: 'r/CryptoCurrency'
+        },
+        {
+          rating: 2,
+          headline: 'Macro Watch: Ukraine Oil Pressure Meets China-US Trade Stabilisation Signal',
+          detail: 'Ukraine-related oil market disruption adds to crypto headwinds, while China signalled willingness to deepen economic cooperation with the US — a cautiously bullish macro signal for risk assets including Bitcoin.',
+          source: 'YouSearch / Reuters'
+        }
+      ]
+    },
+    {
+      icon: '🔷',
+      title: 'Ethereum',
+      signals: [
+        {
+          rating: 3,
+          headline: 'Ethereum Risks DeFi Crown as Solana Claims March DEX Record of $50B',
+          detail: 'Analysts warn ETH faces its sharpest competitive challenge yet as Solana posted $50B in March DEX volume — a new all-time record — while Ethereum\'s market cap premium over SOL continues to narrow.',
+          source: 'YouSearch / CryptoAnalysis'
+        },
+        {
+          rating: 2,
+          headline: 'Ethereum Foundation Stakes 70K ETH — Confidence Signal Amid Community Debate',
+          detail: 'The Ethereum Foundation added 70,000 ETH to its staking position, reinforcing long-term confidence in the network. The move comes as community discussions about EF\'s liquid staking strategy intensify.',
+          source: 'r/ethereum'
+        },
+        {
+          rating: 2,
+          headline: 'BlackRock Plans Native ETH Staking in ETHA — Roman Storm Retrial Looms',
+          detail: 'BlackRock is advancing plans for native Ethereum staking inside its ETHA ETF. Meanwhile the US DoJ is pursuing a retrial for Tornado Cash developer Roman Storm — a case that could set lasting DeFi legal precedent.',
+          source: 'r/ethereum'
+        }
+      ]
+    },
+    {
+      icon: '🔗',
+      title: 'Blockchain & Crypto',
+      signals: [
+        {
+          rating: 3,
+          headline: 'Bitget UEX Switch Bridges CEX Liquidity and On-Chain DeFi Seamlessly',
+          detail: 'Bitget launched its UEX Switch product enabling traders to toggle between centralised exchange liquidity and on-chain DeFi positions with a single click — targeting the $600B gap between CeFi and DeFi accessibility.',
+          source: 'r/CryptoCurrency'
+        },
+        {
+          rating: 2,
+          headline: 'Hong Kong Web3 Festival 2026 Solidifies Asia\'s Crypto Hub Status',
+          detail: 'SoonTech and a growing list of Asia-Pacific blockchain companies confirmed participation at the Hong Kong Web3 Festival 2026, as the region strengthens its position as the leading regulated crypto hub outside the US.',
+          source: 'YouSearch / HK Web3'
+        },
+        {
+          rating: 2,
+          headline: 'Analysts: A Reset Phase Is Needed Before the Next Crypto Bull Run',
+          detail: 'Multiple market strategists argue a prolonged BTC consolidation between $60K-$70K is structurally healthy — clearing weak hands and allowing institutional accumulation before the next major upward move.',
+          source: 'Blockchain Council'
+        }
+      ]
+    },
+    {
+      icon: '🤖',
+      title: 'AI & Agents',
+      signals: [
+        {
+          rating: 4,
+          headline: 'LeCun Raises $1B — Post-Autoregressive AI Architecture Era May Be Starting',
+          detail: 'Yann LeCun is reportedly raising $1 billion for an AI lab focused on architectures beyond transformers. The r/MachineLearning community (269 upvotes) frames this as a signal that autoregressive LLMs may be approaching their capability ceiling.',
+          source: 'r/MachineLearning (269 upvotes)'
+        },
+        {
+          rating: 3,
+          headline: 'MCP Protocol Moves AI From Chat Interfaces to Real Autonomous Work',
+          detail: 'Anthropic\'s Model Context Protocol is rapidly becoming the connective layer for enterprise AI. Industry reports confirm leading tech teams are shifting from LLM chatbots to fully automated business workflows powered by MCP.',
+          source: 'AI News Weekly'
+        },
+        {
+          rating: 3,
+          headline: 'llm-d Enters CNCF Sandbox — Kubernetes-Native LLM Serving Goes Mainstream',
+          detail: 'The Cloud Native Computing Foundation accepted llm-d into its Sandbox programme, recognising distributed LLM inference on Kubernetes as production-grade infrastructure and a sign of enterprise AI platform consolidation.',
+          source: 'CNCF / AI News'
+        }
+      ]
+    },
+    {
+      icon: '🛠️',
+      title: 'OpenClaw & Niche',
+      signals: [
+        {
+          rating: 3,
+          headline: 'OpenBB Finance Surges 113 GitHub Stars — AI Agent Financial Stack Accelerating',
+          detail: 'OpenBB Finance, the open-source financial data platform for analysts, quants and AI agents, gained 113 GitHub stars in a single session. It is emerging as the top data layer for autonomous market analysis pipelines.',
+          source: 'GitHub Trending / OpenBB-finance'
+        },
+        {
+          rating: 2,
+          headline: 'Apache Superset Spikes 445 Stars — Data Visualisation Meets AI Analytics',
+          detail: 'Apache Superset, the open-source data exploration platform, trended with 445 new GitHub stars. Growing interest signals the convergence of traditional BI tooling and AI-driven data analytics pipelines.',
+          source: 'GitHub Trending / apache/superset'
+        },
+        {
+          rating: 2,
+          headline: 'Upscayl #1 Free AI Upscaler Adds 78 Stars — Local Creative AI Tooling Grows',
+          detail: 'Upscayl, the leading open-source AI image upscaler for Linux, macOS and Windows, gained 78 new GitHub stars today. Sustained traction confirms a growing developer base for local AI-powered creative workflows.',
+          source: 'GitHub Trending / upscayl/upscayl'
+        },
+        {
+          rating: 2,
+          headline: 'LlamaIndex Document Agent Platform Adds 29 Stars — RAG Infrastructure Scales',
+          detail: 'LlamaIndex, positioning as the leading document agent and OCR platform, added 29 GitHub stars today. Continued traction reflects enterprise and indie developer interest in structured document ingestion pipelines.',
+          source: 'GitHub Trending / run-llama/llama_index'
+        }
+      ]
+    }
+  ]
+},
+
+
 import { ZackorIssue } from '../types';
 
 const issue38: ZackorIssue = {
