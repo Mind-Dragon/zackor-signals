@@ -60,7 +60,7 @@ export const ISSUES: Issue[] = [
         {
           rating: 3,
           headline: 'Morgan Stanley Bitcoin ETF expected to launch early April',
-          detail: "Morgan Stanley's spot Bitcoin ETF is on track for an April launch per Bloomberg — unlocking advisor-channeled flows from one of Wall Street's largest wealth management platforms.",
+          detail: "Morgan Stanley's spot Bitcoin ETF is on track for an April launch per Bloomberg — unlocking advisor-channeled flows from one of Wall Street\'s largest wealth management platforms.",
           source: 'Bloomberg / r/Bitcoin'
         },
         {
@@ -78,7 +78,7 @@ export const ISSUES: Issue[] = [
         {
           rating: 2,
           headline: 'Fear & Greed = 8 — 59 consecutive days Extreme Fear; ETF outflows $225M',
-          detail: 'BTC ETF outflows hit $225M last week as Fear & Greed holds at 8 for a 59th consecutive day. Powell speech and Friday jobs report are this week's directional catalysts.',
+          detail: 'BTC ETF outflows hit $225M last week as Fear & Greed holds at 8 for a 59th consecutive day. Powell speech and Friday jobs report are this week\'s directional catalysts.',
           source: 'CryptoRank / CoinDesk'
         }
       ]
@@ -102,7 +102,7 @@ export const ISSUES: Issue[] = [
         {
           rating: 2,
           headline: 'Aave x Layer expands to OKX X Layer — lower fees, faster settlement',
-          detail: "Aave's multi-chain expansion reaches OKX's L2, deepening DeFi lending access across exchange-backed L2 environments and increasing liquidity for OKX ecosystem users.",
+          detail: "Aave's multi-chain expansion reaches OKX\'s L2, deepening DeFi lending access across exchange-backed L2 environments and increasing liquidity for OKX ecosystem users.",
           source: 'Cryptonomist'
         },
         {
@@ -1774,7 +1774,7 @@ export const ISSUES: Issue[] = [
           {
             rating: 4,
             headline: "Trump escalates: 48-hour ultimatum on Iran power plants — geopolitical risk ratchets up from 'final warning' to deadline",
-            detail: "Exa (Mar 22): Trump upgraded from this morning's 'final warning' to Iran to a specific 48-hour ultimatum targeting Iran's power plant infrastructure. This is a material escalation from the 8am signal. BTC has recovered to $68,834 (+0.14%) from the sub-$68K dip — suggesting the market is currently absorbing the geopolitical risk rather than selling it. The 48-hour clock runs through Monday noon CT. If Iran does not comply, the next escalation window is Monday 12pm–2pm CT. Monitor closely."
+            detail: "Exa (Mar 22): Trump upgraded from this morning's \'final warning' to Iran to a specific 48-hour ultimatum targeting Iran's power plant infrastructure. This is a material escalation from the 8am signal. BTC has recovered to $68,834 (+0.14%) from the sub-$68K dip — suggesting the market is currently absorbing the geopolitical risk rather than selling it. The 48-hour clock runs through Monday noon CT. If Iran does not comply, the next escalation window is Monday 12pm–2pm CT. Monitor closely."
           },
           {
             rating: 4,
@@ -1784,7 +1784,7 @@ export const ISSUES: Issue[] = [
           {
             rating: 4,
             headline: "Community consensus: 'Under $70K is an amazing opportunity' — r/Bitcoin conviction buy sentiment at 74↑ after Iran dip",
-            detail: "r/Bitcoin (74↑, 3.2h): Following the Iran-driven dip below $68K this morning, r/Bitcoin's most-engaged new post frames the current price level as a once-in-cycle buying opportunity. BTC has since recovered to $68,834. The community sentiment shift from fear to conviction buying within hours of a geopolitical dip is a pattern consistent with prior BTC recoveries from external shock events. Contrast with MicroStrategy's $8.8B paper loss analysis (Exa) — institutional holders absorbing unrealized losses rather than capitulating."
+            detail: "r/Bitcoin (74↑, 3.2h): Following the Iran-driven dip below $68K this morning, r/Bitcoin's most-engaged new post frames the current price level as a once-in-cycle buying opportunity. BTC has since recovered to $68,834. The community sentiment shift from fear to conviction buying within hours of a geopolitical dip is a pattern consistent with prior BTC recoveries from external shock events. Contrast with MicroStrategy\'s $8.8B paper loss analysis (Exa) — institutional holders absorbing unrealized losses rather than capitulating."
           },
           {
             rating: 3,
@@ -1805,7 +1805,7 @@ export const ISSUES: Issue[] = [
           {
             rating: 4,
             headline: "Ethereum cuts bridge times by 98% — technical milestone hits r/ethereum at noon (12↑, 2.6h)",
-            detail: "r/ethereum (12↑, 2.6h): Ethereum has achieved a 98% reduction in cross-chain bridge times. This is the #1 r/ethereum post of the day. Bridge speed is one of the core UX friction points for ETH-based DeFi and L2 adoption — a 98% improvement is not incremental, it's a category change. If ETH bridges are now near-instant, the L2 ecosystem's composability and user experience improves dramatically, removing a major objection to ETH vs. Solana or other faster chains."
+            detail: "r/ethereum (12↑, 2.6h): Ethereum has achieved a 98% reduction in cross-chain bridge times. This is the #1 r/ethereum post of the day. Bridge speed is one of the core UX friction points for ETH-based DeFi and L2 adoption — a 98% improvement is not incremental, it's a category change. If ETH bridges are now near-instant, the L2 ecosystem\'s composability and user experience improves dramatically, removing a major objection to ETH vs. Solana or other faster chains."
           },
           {
             rating: 4,
@@ -1859,8 +1859,8 @@ export const ISSUES: Issue[] = [
           },
           {
             rating: 4,
-            headline: "Strategy CEO: MSBT could attract $160B — triple BlackRock's $54B, 'monster' BTC demand incoming",
-            detail: "Exa (Mar 22): Strategy's CEO (Michael Saylor) stated that Morgan Stanley's MSBT could attract up to $160B in flows, potentially making it three times larger than BlackRock's IBIT. Strategy itself now holds $54B in Bitcoin (Twitter/CWAlerts). The 'monster Bitcoin' framing is gaining mainstream traction as MSBT goes live on NYSE with 15,000+ advisor distribution network."
+            headline: "Strategy CEO: MSBT could attract $160B — triple BlackRock's $54B, \'monster' BTC demand incoming",
+            detail: "Exa (Mar 22): Strategy's CEO (Michael Saylor) stated that Morgan Stanley\'s MSBT could attract up to $160B in flows, potentially making it three times larger than BlackRock\'s IBIT. Strategy itself now holds $54B in Bitcoin (Twitter/CWAlerts). The \'monster Bitcoin' framing is gaining mainstream traction as MSBT goes live on NYSE with 15,000+ advisor distribution network."
           },
           {
             rating: 4,
@@ -1870,7 +1870,7 @@ export const ISSUES: Issue[] = [
           {
             rating: 3,
             headline: "JPMorgan sets $266K BTC target — institutional demand thesis strengthening as correlation with S&P 500 rises",
-            detail: "Exa (Mar 22): JPMorgan published a $266K BTC price target based on institutional demand acceleration. Simultaneously, a separate analysis flags Bitcoin's rising S&P 500 correlation as a potential risk (YouSearch: 'triggers 50% crash setup'). The divergence between the bull case ($266K institutional target) and bear case (correlation risk) is the central BTC tension this week."
+            detail: "Exa (Mar 22): JPMorgan published a $266K BTC price target based on institutional demand acceleration. Simultaneously, a separate analysis flags Bitcoin's rising S&P 500 correlation as a potential risk (YouSearch: \'triggers 50% crash setup'). The divergence between the bull case ($266K institutional target) and bear case (correlation risk) is the central BTC tension this week."
           },
           {
             rating: 3,
@@ -1935,7 +1935,7 @@ export const ISSUES: Issue[] = [
           },
           {
             rating: 4,
-            headline: "r/CryptoCurrency 'Don't Forget to Buy the Dip!' explodes to 440↑ in 4.3h — session sentiment pivot signal",
+            headline: "r/CryptoCurrency 'Don\'t Forget to Buy the Dip!' explodes to 440↑ in 4.3h — session sentiment pivot signal",
             detail: "r/CryptoCurrency (440↑, 4.3h): The top post of the day by a significant margin. A classic retail sentiment inflection post gaining outsized traction as BTC holds $70K through three straight ETF outflow days. This engagement pattern — high-score accumulation narrative at resistance — has historically preceded short-term bounces. Retail capitulation or accumulation signal: the 440↑ velocity within 4 hours answers that question."
           },
           {
@@ -1962,7 +1962,7 @@ export const ISSUES: Issue[] = [
           {
             rating: 4,
             headline: "New ETH whale makes $111M bet — second independent mega-whale move of the day alongside thomasg.eth",
-            detail: "Exa (Mar 21): A separate ETH whale made a $111M bet on Ethereum today — a distinct move from thomasg.eth's $19.5M buy-back. This is the largest single whale ETH position confirmed today. The question: 'buy the dip' or 'rotation catalyst' — but the on-chain answer is that two separate whale-class actors deployed nine-figure capital into ETH in the same session while ETF outflows suppressed price."
+            detail: "Exa (Mar 21): A separate ETH whale made a $111M bet on Ethereum today — a distinct move from thomasg.eth's $19.5M buy-back. This is the largest single whale ETH position confirmed today. The question: \'buy the dip' or 'rotation catalyst' — but the on-chain answer is that two separate whale-class actors deployed nine-figure capital into ETH in the same session while ETF outflows suppressed price."
           },
           {
             rating: 4,
@@ -1972,7 +1972,7 @@ export const ISSUES: Issue[] = [
           {
             rating: 4,
             headline: "thomasg.eth $19.5M buy-back remains dominant ETH story — aggressive $2,201 entry signals smart money conviction",
-            detail: "Exa (Mar 21): Coverage of thomasg.eth's buy-back has deepened throughout the day, now including specific entry price ($2,201) analysis. The framing has shifted from 'whale accumulation' to 'smart money conviction at resistance.' An OG whale who sold $538M near ATH buying aggressively at $2,201 — the entry price being above current $2,150 spot means this whale is underwater, but still adding. Strong conviction signal."
+            detail: "Exa (Mar 21): Coverage of thomasg.eth's buy-back has deepened throughout the day, now including specific entry price ($2,201) analysis. The framing has shifted from \'whale accumulation' to 'smart money conviction at resistance.' An OG whale who sold $538M near ATH buying aggressively at $2,201 — the entry price being above current $2,150 spot means this whale is underwater, but still adding. Strong conviction signal."
           },
           {
             rating: 3,
@@ -1982,7 +1982,7 @@ export const ISSUES: Issue[] = [
           {
             rating: 3,
             headline: "a16z crypto: 'End of Foundation Era' — new primitives thesis gaining traction on r/CC (9↑, 7.5h)",
-            detail: "r/CryptoCurrency (9↑, 7.5h): a16z crypto published a thesis arguing we're at the end of the 'foundation era' of crypto — the next phase will be driven by new primitives, not infrastructure build-out. Ethereum is the direct beneficiary of this framing. If a16z's thesis is right, ETH's position as the primary smart contract layer means the next cycle's application layer explosion runs on ETH. Watch for a16z follow-up pieces."
+            detail: "r/CryptoCurrency (9↑, 7.5h): a16z crypto published a thesis arguing we're at the end of the \'foundation era' of crypto — the next phase will be driven by new primitives, not infrastructure build-out. Ethereum is the direct beneficiary of this framing. If a16z's thesis is right, ETH\'s position as the primary smart contract layer means the next cycle\'s application layer explosion runs on ETH. Watch for a16z follow-up pieces."
           }
         ]
       }
@@ -2007,7 +2007,7 @@ export const ISSUES: Issue[] = [
           {
             rating: 4,
             headline: "Morgan Stanley MSBT poised to attract $160B in new crypto money — could usurp BlackRock as top BTC ETF",
-            detail: "Exa (Mar 21): New analysis projects Morgan Stanley's MSBT ETF could attract $160B in new money, potentially surpassing BlackRock's IBIT as the dominant spot BTC ETF. Morgan Stanley filed its second S-1 amendment, setting the stage for spot ETF launch. If MSBT gets approved, 15,000+ MS financial advisors become BTC distribution — the largest retail-institutional distribution network in any ETF ever."
+            detail: "Exa (Mar 21): New analysis projects Morgan Stanley's MSBT ETF could attract $160B in new money, potentially surpassing BlackRock\'s IBIT as the dominant spot BTC ETF. Morgan Stanley filed its second S-1 amendment, setting the stage for spot ETF launch. If MSBT gets approved, 15,000+ MS financial advisors become BTC distribution — the largest retail-institutional distribution network in any ETF ever."
           },
           {
             rating: 4,
@@ -2022,17 +2022,17 @@ export const ISSUES: Issue[] = [
           {
             rating: 4,
             headline: "Astrophysicist $350K–$700K BTC model now top r/Bitcoin post today (117↑, 6.4h)",
-            detail: "r/Bitcoin (117↑): Stephen Perrenn's physics-based BTC cycle model, targeting $350K–$700K without retail FOMO, is now the top Bitcoin Reddit post of the day. Gaining traction from this morning's 42↑ to 117↑ in under 6 hours — accelerating engagement indicates this cycle thesis is resonating with the BTC holder base. Model uses stock-to-flow + adoption curve, independent of sentiment."
+            detail: "r/Bitcoin (117↑): Stephen Perrenn's physics-based BTC cycle model, targeting $350K–$700K without retail FOMO, is now the top Bitcoin Reddit post of the day. Gaining traction from this morning\'s 42↑ to 117↑ in under 6 hours — accelerating engagement indicates this cycle thesis is resonating with the BTC holder base. Model uses stock-to-flow + adoption curve, independent of sentiment."
           },
           {
             rating: 3,
             headline: "Lightning Network moving $15B+/year — payment layer utility signal emerging",
-            detail: "r/Bitcoin (18↑, 2.0h): Latest data suggests Lightning Network is processing over $15B annually. This is a utility signal for BTC as a payments layer, not just a store of value. Context: at a time when speculation vs. utility debates dominate crypto Twitter, BTC's payment rails showing real volume is a meaningful counter-narrative to 'digital gold only' framing."
+            detail: "r/Bitcoin (18↑, 2.0h): Latest data suggests Lightning Network is processing over $15B annually. This is a utility signal for BTC as a payments layer, not just a store of value. Context: at a time when speculation vs. utility debates dominate crypto Twitter, BTC's payment rails showing real volume is a meaningful counter-narrative to \'digital gold only' framing."
           },
           {
             rating: 3,
             headline: "14-year dormant BTC wallet (2,100 BTC) wake-up story still driving traffic — dormant whale narrative persists",
-            detail: "YouSearch (Mar 21): The 2,100 BTC dormant wallet story from this morning's scan continues generating major coverage throughout the day. $148M in Bitcoin that was untouched since 2012 reactivating at $70K resistance is a story the market hasn't fully processed yet."
+            detail: "YouSearch (Mar 21): The 2,100 BTC dormant wallet story from this morning's scan continues generating major coverage throughout the day. $148M in Bitcoin that was untouched since 2012 reactivating at $70K resistance is a story the market hasn\'t fully processed yet."
           }
         ]
       },
@@ -2043,7 +2043,7 @@ export const ISSUES: Issue[] = [
           {
             rating: 4,
             headline: "Bitmine stakes $204M in ETH — institutional staking as yield strategy signal",
-            detail: "Exa (Mar 21): Bitmine announced a $204M ETH stake position. This is a flow analysis signal: institutional players are not just holding ETH, they're staking it for yield. $204M in new staking adds to the 37M ETH already staked (record). Combined with thomasg.eth's $19.5M buy-back — two separate institutional accumulation + staking signals on the same day."
+            detail: "Exa (Mar 21): Bitmine announced a $204M ETH stake position. This is a flow analysis signal: institutional players are not just holding ETH, they're staking it for yield. $204M in new staking adds to the 37M ETH already staked (record). Combined with thomasg.eth\'s $19.5M buy-back — two separate institutional accumulation + staking signals on the same day."
           },
           {
             rating: 4,
@@ -2103,7 +2103,7 @@ export const ISSUES: Issue[] = [
           {
             rating: 4,
             headline: "Morgan Stanley MSBT filing continues gaining traction — Strategy CEO calls it a 'Monster Bitcoin' bet",
-            detail: "Exa (Mar 20-21): Morgan Stanley's amended MSBT ETF filing is dominating institutional conversation. Strategy CEO described it as a 'Monster Bitcoin' bet. ETF collateral approval + record BTC ETF volume (4 all-time highs in 30 days) + MSBT = three institutional catalysts converging. First bank-led spot BTC ETF would open distribution to Morgan Stanley's 15,000+ financial advisors."
+            detail: "Exa (Mar 20-21): Morgan Stanley's amended MSBT ETF filing is dominating institutional conversation. Strategy CEO described it as a \'Monster Bitcoin' bet. ETF collateral approval + record BTC ETF volume (4 all-time highs in 30 days) + MSBT = three institutional catalysts converging. First bank-led spot BTC ETF would open distribution to Morgan Stanley's 15,000+ financial advisors."
           },
           {
             rating: 4,
@@ -2129,7 +2129,7 @@ export const ISSUES: Issue[] = [
           {
             rating: 4,
             headline: "ETH holds $2,157 (+0.5%) — OG whale thomasg.eth rebuilding $19.5M ETH stack after selling $538M a year ago",
-            detail: "Twitter @arkham (1230pts — top signal of entire scan): thomasg.eth, who once held $538M in ETH and sold near the top, is now actively buying back, rebuilding his position with $19.5M this week alone. This is the same 'returning whale' signal flagged in yesterday's Exa data — now confirmed on-chain with identity. Arkham's post went massively viral (502 likes, 59 RTs)."
+            detail: "Twitter @arkham (1230pts — top signal of entire scan): thomasg.eth, who once held $538M in ETH and sold near the top, is now actively buying back, rebuilding his position with $19.5M this week alone. This is the same 'returning whale' signal flagged in yesterday's Exa data — now confirmed on-chain with identity. Arkham\'s post went massively viral (502 likes, 59 RTs)."
           },
           {
             rating: 4,
@@ -2149,7 +2149,7 @@ export const ISSUES: Issue[] = [
           {
             rating: 3,
             headline: "Vitalik's speculation warning carries into Saturday — still top-2 post on r/CryptoCurrency (306↑)",
-            detail: "r/CryptoCurrency (306↑): Vitalik's 'crypto dies without utility' message from Friday is still the second most-upvoted post on r/CryptoCurrency today. 24+ hours of sustained traction = lasting narrative shift. ETH's L2 + DeFi + staking ecosystem IS the utility answer."
+            detail: "r/CryptoCurrency (306↑): Vitalik's \'crypto dies without utility' message from Friday is still the second most-upvoted post on r/CryptoCurrency today. 24+ hours of sustained traction = lasting narrative shift. ETH's L2 + DeFi + staking ecosystem IS the utility answer."
           },
           {
             rating: 2,
@@ -2240,7 +2240,7 @@ export const ISSUES: Issue[] = [
           {
             rating: 3,
             headline: "Vitalik Buterin: 'Crypto dies if users focus only on speculation' — utility-first narrative at peak",
-            detail: "r/CryptoCurrency (213↑ — trending all day, topped at 1007 comments by 6pm): Vitalik's post gained massive traction throughout the day. The message: ETH's survival requires real utility adoption over speculation. Timely given ETH underperformance vs. BTC YTD — narrative pivot to utility is the ETH bull thesis."
+            detail: "r/CryptoCurrency (213↑ — trending all day, topped at 1007 comments by 6pm): Vitalik's post gained massive traction throughout the day. The message: ETH\'s survival requires real utility adoption over speculation. Timely given ETH underperformance vs. BTC YTD — narrative pivot to utility is the ETH bull thesis."
           }
         ]
       }
@@ -2295,7 +2295,7 @@ export const ISSUES: Issue[] = [
           {
             rating: 2,
             headline: "BTC hashrate: Bitlease founder argues falling hashrates aren't a threat — security narrative holds",
-            detail: "r/CryptoCurrency (24↑): Nima Beni (Bitlease) explains why falling hashrates don't endanger Bitcoin's security — different security model than most assume. Background signal for institutional risk assessors."
+            detail: "r/CryptoCurrency (24↑): Nima Beni (Bitlease) explains why falling hashrates don't endanger Bitcoin\'s security — different security model than most assume. Background signal for institutional risk assessors."
           }
         ]
       },
@@ -2316,12 +2316,12 @@ export const ISSUES: Issue[] = [
           {
             rating: 4,
             headline: "BlackRock's staked Ethereum ETF (ETHB) rewrites crypto fund rules — $155M inflows; Grayscale adds $44.6M staked",
-            detail: "BlackRock ETHB bringing yield (staking) directly into an ETF structure for the first time. Grayscale doubles down adding $44.6M staked ETH. Ethereum's 'Three-Body Problem': 37M ETH staked + L2 fees down 90% + ETF institutional demand all compressing supply simultaneously."
+            detail: "BlackRock ETHB bringing yield (staking) directly into an ETF structure for the first time. Grayscale doubles down adding $44.6M staked ETH. Ethereum's \'Three-Body Problem': 37M ETH staked + L2 fees down 90% + ETF institutional demand all compressing supply simultaneously."
           },
           {
             rating: 3,
             headline: "Vitalik Buterin: 'Crypto dies if users focus only on speculation' — utility narrative push",
-            detail: "r/CryptoCurrency (107↑): Vitalik warning that speculation-first culture is existential risk for crypto. He's pushing for real utility use cases to dominate. Context: ETH's utility narrative (staking yield, L2 scalability) is the bull case against pure speculation pressure."
+            detail: "r/CryptoCurrency (107↑): Vitalik warning that speculation-first culture is existential risk for crypto. He's pushing for real utility use cases to dominate. Context: ETH\'s utility narrative (staking yield, L2 scalability) is the bull case against pure speculation pressure."
           },
           {
             rating: 3,
@@ -2366,7 +2366,7 @@ export const ISSUES: Issue[] = [
           {
             rating: 4,
             headline: "Strategy buys $1.57B in Bitcoin last week — 761,068 BTC total; STRC preferred equity to accelerate purchases",
-            detail: "MicroStrategy/Strategy's largest-ever weekly purchase: 22,337 BTC at avg ~$70,337. STRC perpetual preferred equity vehicle announced to accelerate BTC accumulation toward BlackRock's $55B BTC stockpile. Saylor is systematically building a position that rivals sovereign wealth funds."
+            detail: "MicroStrategy/Strategy's largest-ever weekly purchase: 22,337 BTC at avg ~$70,337. STRC perpetual preferred equity vehicle announced to accelerate BTC accumulation toward BlackRock\'s $55B BTC stockpile. Saylor is systematically building a position that rivals sovereign wealth funds."
           },
           {
             rating: 4,
@@ -2457,7 +2457,7 @@ export const ISSUES: Issue[] = [
         {
           rating: 3,
           headline: "Morgan Stanley Bitcoin ETF ticker revealed: 'MSBT' on NYSE — launch imminent after amended S-1",
-          detail: "Morgan Stanley's Bitcoin ETF will trade as 'MSBT' on the NYSE (Exa, CoinCentral Mar 19). The ticker reveal follows the amended S-1 filing — a sign the launch is nearing. With 126 crypto ETFs under concurrent SEC review, MSBT's entry would be the most significant new BTC distribution channel since BlackRock's IBIT."
+          detail: "Morgan Stanley's Bitcoin ETF will trade as \'MSBT' on the NYSE (Exa, CoinCentral Mar 19). The ticker reveal follows the amended S-1 filing — a sign the launch is nearing. With 126 crypto ETFs under concurrent SEC review, MSBT's entry would be the most significant new BTC distribution channel since BlackRock\'s IBIT."
         },
         {
           rating: 3,
@@ -2539,7 +2539,7 @@ export const ISSUES: Issue[] = [
         {
           rating: 4,
           headline: "BTC breaks below $70K as Iran war + oil spike triggers macro risk-off — Fed hold fails to hold price",
-          detail: "Bitcoin dropped below $70,000 today as rising oil prices (Iran-related tensions) overwhelmed the Fed's rate hold. BTC-USD now at $69,465 (-2.4% from 6pm yesterday, -3.5% 24h). 'Hold onto dry powder while prices swing' (analyst, CoinDesk). The Fed paused as expected, but 'higher for longer' + geopolitical risk-off = double pressure. $70K psychological floor decisively breached at noon."
+          detail: "Bitcoin dropped below $70,000 today as rising oil prices (Iran-related tensions) overwhelmed the Fed's rate hold. BTC-USD now at $69,465 (-2.4% from 6pm yesterday, -3.5% 24h). \'Hold onto dry powder while prices swing' (analyst, CoinDesk). The Fed paused as expected, but 'higher for longer' + geopolitical risk-off = double pressure. $70K psychological floor decisively breached at noon."
         },
         {
           rating: 4,
@@ -2580,7 +2580,7 @@ export const ISSUES: Issue[] = [
         {
           rating: 4,
           headline: "Ethereum outperforming Bitcoin in Iran/war macro — ETH/BTC ratio strengthening as geopolitical hedge",
-          detail: "ETH is outperforming BTC during the Iran-US-Israel geopolitical crisis — unexpected, as ETH typically underperforms in risk-off (CoinDesk). ETH at $2,114 vs BTC at $69,465. ETH/BTC ratio holding. Explanation: ETH's yield (staking) + DeFi productivity creates a 'digital economy' narrative distinct from pure BTC store-of-value during geopolitical stress."
+          detail: "ETH is outperforming BTC during the Iran-US-Israel geopolitical crisis — unexpected, as ETH typically underperforms in risk-off (CoinDesk). ETH at $2,114 vs BTC at $69,465. ETH/BTC ratio holding. Explanation: ETH's yield (staking) + DeFi productivity creates a \'digital economy' narrative distinct from pure BTC store-of-value during geopolitical stress."
         },
         {
           rating: 4,
@@ -2595,7 +2595,7 @@ export const ISSUES: Issue[] = [
         {
           rating: 3,
           headline: "Ethereum Foundation deploys 3,400 ETH to Morpho DeFi vaults — DeFi TVL crosses $100B milestone",
-          detail: "EF added 3,400 ETH to Morpho Vaults V2 (Exa, multiple confirmations Mar 18-19). DeFi Total Value Locked crossed $100 billion again after months of contraction (Exa Mar 18). The EF's active DeFi deployment signals conviction in on-chain treasury management and directly grows TVL in Ethereum's core ecosystem."
+          detail: "EF added 3,400 ETH to Morpho Vaults V2 (Exa, multiple confirmations Mar 18-19). DeFi Total Value Locked crossed $100 billion again after months of contraction (Exa Mar 18). The EF's active DeFi deployment signals conviction in on-chain treasury management and directly grows TVL in Ethereum\'s core ecosystem."
         },
         {
           rating: 3,
@@ -2678,25 +2678,25 @@ export const ISSUES: Issue[] = [
         icon: "₿",
         title: "Bitcoin",
         signals: [
-          { rating: 4, headline: "$820B wiped from US stock market today — $120B from crypto — macro risk-off dominates closing session", detail: "r/CryptoCurrency score=180, 1.7h: The single biggest story of the day's close. $820 billion was erased from the US stock market today alongside $120 billion from total crypto market cap. This is a broad macro deleveraging event — equities and crypto selling in tandem at close. Yet BTC's correlation with tech stocks flipped NEGATIVE earlier today (You.com), meaning the equity crash has dragged crypto despite the decoupling thesis. Watch whether BTC holds $70K tonight as a key psychological floor.", source: "r/CryptoCurrency score=180 · 1.7h" },
+          { rating: 4, headline: "$820B wiped from US stock market today — $120B from crypto — macro risk-off dominates closing session", detail: "r/CryptoCurrency score=180, 1.7h: The single biggest story of the day's close. $820 billion was erased from the US stock market today alongside $120 billion from total crypto market cap. This is a broad macro deleveraging event — equities and crypto selling in tandem at close. Yet BTC\'s correlation with tech stocks flipped NEGATIVE earlier today (You.com), meaning the equity crash has dragged crypto despite the decoupling thesis. Watch whether BTC holds $70K tonight as a key psychological floor.", source: "r/CryptoCurrency score=180 · 1.7h" },
           { rating: 4, headline: "Fed holds rates — BTC chasing $72K immediately post-announcement; Bitcoin back to $71K", detail: "You.com: 'Bitcoin Chases $72K After Fed Decides To Hold Rates: Is BTC Selling Over?' — the FOMC held rates as expected, triggering an initial BTC bounce toward $72K. However the stock market selloff (-$820B) reasserted downward pressure. Fed 'Higher for Longer' reality priced in (Exa: Wall Street braces). Current price $71,155 — down from the $72K chase high but stabilizing. Net read: Fed catalyst delivered short-term relief, but macro risk-off environment capped the move.", source: "You.com + Exa: FOMC Decision Wall Street Higher for Longer Mar 18" },
           { rating: 4, headline: "Institutional Bitcoin demand at highest level since October 2025 — Bitwise holds firm through downturn", detail: "r/Bitcoin score=177, 5.3h: Institutional demand for Bitcoin has risen to its highest level since October 2025 — confirmed across custodians and ETF data. Bitwise: institutional investors held firm through bitcoin's downturn (Exa: Infomarine/Bitwise Mar 18). ETF collateral approved + 7-day inflow streak + $1.06B weekly ETF inflows (carry-forward from noon). BTC ETF inflows: 7 consecutive days net positive (Chinese + Korean crypto media confirmed via Exa). Advisor demand stays resilient even as retail sentiment dips (Morgan Stanley, FinanceFeeds).", source: "r/Bitcoin score=177 · 5.3h + Exa Bitwise Mar 18" },
-          { rating: 3, headline: "Tim Scott expects stablecoin yield compromise proposal by week's end — crypto legislation unblocking", detail: "Exa Mar 18: Tim Scott expects a stablecoin yield compromise proposal by end of this week to break the stalled crypto bill impasse. This is the key legislative catalyst the market has been waiting on. A stablecoin framework would accelerate institutional DeFi adoption and give ETH's utility token ecosystem firm legal footing. Breakthrough deal expected imminently.", source: "Exa: Tim Scott stablecoin compromise Mar 18" },
+          { rating: 3, headline: "Tim Scott expects stablecoin yield compromise proposal by week's end — crypto legislation unblocking", detail: "Exa Mar 18: Tim Scott expects a stablecoin yield compromise proposal by end of this week to break the stalled crypto bill impasse. This is the key legislative catalyst the market has been waiting on. A stablecoin framework would accelerate institutional DeFi adoption and give ETH\'s utility token ecosystem firm legal footing. Breakthrough deal expected imminently.", source: "Exa: Tim Scott stablecoin compromise Mar 18" },
           { rating: 3, headline: "Bhutan continues selling Bitcoin stash — national reserve falls to 4,400 BTC", detail: "You.com: Bhutan continues to sell its sovereign Bitcoin holdings, with reserves now fallen to 4,400 BTC. Bhutan accumulated via state-run BTC mining; this represents sovereign-level profit-taking at $71K prices — a macro signal that nation-state holders are trimming at current levels. Not a panic sell, but worth tracking alongside Trezor phishing letter campaign (r/Bitcoin score=45, 3.8h).", source: "You.com BTC scan + r/Bitcoin score=45 phishing alert" },
           { rating: 3, headline: "Bitcoin power law cycle analysis goes viral — r/Bitcoin score=208 in 10 hours", detail: "r/Bitcoin score=208, 10.8h: Bitcoin power law 'as real as the 4-year cycle' — detailed analysis thread going viral. Long-term cycle conviction holding even during -3.76% day. Complements Bloomberg 'Bitcoin Outperforms During War' carry-forward (score=45) and 'Institutional demand at highest since Oct 2025' (score=177). Community sentiment: this is a buying opportunity on the power law chart, not a trend break.", source: "r/Bitcoin score=208 · 10.8h" },
-          { rating: 2, headline: "BTC 6pm close: $71,155 (-3.76%) — worst close of the week; $70K psychological support critical overnight", detail: "BTC ended the day at $71,155 — the deepest daily close of the week (-3.76% vs noon's -3.5%). The Fed hold provided a brief $72K bounce but risk-off macro ($820B equity wipe) reasserted pressure. A Trezor phishing letter was mailed to a user's home address (r/Bitcoin score=45) — hardware wallet OPSEC alert active. Watch $70,000 overnight as the must-hold floor. $79K rally still needed for all spot ETF holders to be whole.", source: "COMPOSIO_SEARCH_FINANCE 6pm CT" },
+          { rating: 2, headline: "BTC 6pm close: $71,155 (-3.76%) — worst close of the week; $70K psychological support critical overnight", detail: "BTC ended the day at $71,155 — the deepest daily close of the week (-3.76% vs noon's -3.5%). The Fed hold provided a brief $72K bounce but risk-off macro ($820B equity wipe) reasserted pressure. A Trezor phishing letter was mailed to a user\'s home address (r/Bitcoin score=45) — hardware wallet OPSEC alert active. Watch $70,000 overnight as the must-hold floor. $79K rally still needed for all spot ETF holders to be whole.", source: "COMPOSIO_SEARCH_FINANCE 6pm CT" },
         ],
       },
       {
         icon: "Ξ",
         title: "Ethereum",
         signals: [
-          { rating: 4, headline: "FOMC holds rates — ETH targets higher levels post-announcement; stablecoin bill compromise expected this week", detail: "Exa Mar 18: 'Ether price breakout: ETH surges above resistance, targets higher levels' (IG AU). 'ETH tests $2,400 resistance as breakout strength builds' (Exa Mar 18). The FOMC hold removes the yield competition pressure on ETH's staking returns. Tim Scott's stablecoin compromise bill (expected by week's end) would directly enable ETH DeFi expansion. BlackRock ETHB staking yield narrative gets stronger as the risk-free rate stays flat.", source: "Exa: ETH price breakout + resistance test Mar 18 + Tim Scott bill" },
-          { rating: 4, headline: "ETH staking + BlackRock ETHB + 30% supply locked — structural floor building as price tests $2,150", detail: "Carry-forward from day's earlier scans: ETH staking at 30% of total supply (Investing.com), EF staked 72,000 ETH total, BlackRock ETHB paying monthly staking rewards, Vitalik pushing 1-click staking UX. With the FOMC hold confirmed, ETHB's monthly yield becomes even more attractive versus risk-free rates. The structural supply sink (30% locked) persists regardless of short-term price action. $2,150 remains the critical support — currently holding at $2,193.", source: "Exa Mar 17-18 carry-forward · structural floor analysis" },
+          { rating: 4, headline: "FOMC holds rates — ETH targets higher levels post-announcement; stablecoin bill compromise expected this week", detail: "Exa Mar 18: 'Ether price breakout: ETH surges above resistance, targets higher levels' (IG AU). 'ETH tests $2,400 resistance as breakout strength builds' (Exa Mar 18). The FOMC hold removes the yield competition pressure on ETH's staking returns. Tim Scott\'s stablecoin compromise bill (expected by week\'s end) would directly enable ETH DeFi expansion. BlackRock ETHB staking yield narrative gets stronger as the risk-free rate stays flat.", source: "Exa: ETH price breakout + resistance test Mar 18 + Tim Scott bill" },
+          { rating: 4, headline: "ETH staking + BlackRock ETHB + 30% supply locked — structural floor building as price tests $2,150", detail: "Carry-forward from day's earlier scans: ETH staking at 30% of total supply (Investing.com), EF staked 72,000 ETH total, BlackRock ETHB paying monthly staking rewards, Vitalik pushing 1-click staking UX. With the FOMC hold confirmed, ETHB\'s monthly yield becomes even more attractive versus risk-free rates. The structural supply sink (30% locked) persists regardless of short-term price action. $2,150 remains the critical support — currently holding at $2,193.", source: "Exa Mar 17-18 carry-forward · structural floor analysis" },
           { rating: 4, headline: "SEC crypto commodity classification + Tim Scott stablecoin bill = dual regulatory tailwinds for ETH DeFi", detail: "SEC declared 18 digital assets as commodities (r/CC score=356, now at all-time high for this thread). R/ethereum SEC thread at score=28 (up from 25 at noon). Tim Scott stablecoin yield compromise coming by week's end (Exa). S&P Dow Jones + Tradexyz launching first official S&P500 perpetual on Hyperliquid (r/CC score=15) — TradFi perpetual derivatives on crypto infrastructure signals institutional legitimacy. ETH-based DeFi infrastructure is the direct beneficiary.", source: "r/CryptoCurrency score=356 + r/ethereum score=28 + Exa Tim Scott + r/CC score=15" },
           { rating: 3, headline: "Polymarket opens 'The Situation Room' — prediction market degen venue signals crypto consumer culture expanding", detail: "r/CryptoCurrency score=20, 1.0h: Polymarket launched 'The Situation Room' — described as 'basically a sports bar for degens.' Prediction markets are becoming mainstream consumer crypto products. Polymarket runs on Polygon (Ethereum L2) — this is Ethereum ecosystem adoption at the consumer entertainment layer. High engagement signal for ETH L2 activity.", source: "r/CryptoCurrency score=20 · 1.0h" },
           { rating: 3, headline: "$2.24M wallet hacked via Trezor exploit — $60M Trezor crack claim active threat", detail: "r/CryptoCurrency score=18, 1.9h: 'Hacker Breaks Into a $2.24 Million Wallet and Now Claims a $60 Million Trezor Crack.' Separate from the phishing letter (r/Bitcoin score=45) — this is a claimed hardware wallet vulnerability. Active security threat for any Ethereum holder using Trezor. If the $60M crack claim is real, this is a major hardware wallet security event. Use passphrase protection on all Trezor devices immediately.", source: "r/CryptoCurrency score=18 · 1.9h" },
-          { rating: 2, headline: "ETH 6pm: $2,193 (-5.42%) — holding above $2,150; FOMC catalyst delivered, stablecoin bill the next trigger", detail: "ETH closed at $2,193 — slightly higher than noon's $2,182, showing modest recovery off lows. The FOMC hold was the main positive catalyst today. $2,150 support held. The stablecoin bill compromise (Tim Scott, expected this week) is the next legislation catalyst. $2,400 resistance identified by Exa analysts as the first recovery target. FOMC 'Higher for Longer' confirmed but priced in.", source: "COMPOSIO_SEARCH_FINANCE 6pm CT" },
+          { rating: 2, headline: "ETH 6pm: $2,193 (-5.42%) — holding above $2,150; FOMC catalyst delivered, stablecoin bill the next trigger", detail: "ETH closed at $2,193 — slightly higher than noon's $2,182, showing modest recovery off lows. The FOMC hold was the main positive catalyst today. $2,150 support held. The stablecoin bill compromise (Tim Scott, expected this week) is the next legislation catalyst. $2,400 resistance identified by Exa analysts as the first recovery target. FOMC \'Higher for Longer' confirmed but priced in.", source: "COMPOSIO_SEARCH_FINANCE 6pm CT" },
         ],
       },
     ],
@@ -2733,7 +2733,7 @@ export const ISSUES: Issue[] = [
           { rating: 4, headline: "Ethereum staking at 30% of total supply — float tightening structurally, Vitalik pushes '1-click staking' after Foundation stakes 72K ETH", detail: "Exa Mar 17-18: ETH staking has reached 30% of total supply (Investing.com). EF staked 72,000 ETH total (bigger than yesterday's 5K OTC sale reveal — the full staking context). Vitalik now pushing for '1-click' Ethereum staking UX improvement post-Foundation move. 30% staking = 30% of circulating ETH locked, tightening available float dramatically. Structurally bullish for price recovery.", source: "Exa: Ethereum Staking 30% Supply Investing.com Mar 17 + Vitalik 1-click Mar 17" },
           { rating: 4, headline: "BlackRock ETHB live — earns monthly rewards via staked Ethereum ETF (confirmed launch details)", detail: "Exa Mar 17: BlackRock ETHB officially described as 'earn monthly rewards with staked Ethereum ETF.' First US institutional product paying staking yield to ETF holders. This changes the ETH investment thesis for traditional finance: ETH is now a yielding asset within regulated ETF wrappers, not just price exposure.", source: "Exa: BlackRock Launches ETHB Earn Monthly Rewards Mar 17" },
           { rating: 4, headline: "Ethereum ETF now live + FOMC outlook key catalyst — price at $2,182, ETH sitting on structural support", detail: "Exa Mar 18: 'Ethereum Price March 2026: ETH at $2,327 [now $2,182], ETF Live, FOMC Outlook.' FOMC meeting in view — rate decision could be a major catalyst. ETH deepened to -5.9% today vs BTC's -3.5%. $2,000 psychological support is the next major floor if $2,150 breaks.", source: "Exa: Ethereum Price March 2026 ETF Live FOMC Mar 18" },
-          { rating: 3, headline: "$800M ETH sell-off vs $2,300 rally — liquidity battle ongoing", detail: "Exa Mar 17: 'ETH's $800M Sell-Off vs. $2,300 Rally: The Liquidity Battle' — analysis of the tug-of-war between large sellers and institutional buyers. Today's -5.9% decline suggests sellers won the morning session. But 30% staking supply lock + BlackRock ETHB launch + Grayscale 57K ETH staked = structural buyers building at scale.", source: "Exa: ETH $800M Sell-Off vs $2,300 Rally Mar 17" },
+          { rating: 3, headline: "$800M ETH sell-off vs $2,300 rally — liquidity battle ongoing", detail: "Exa Mar 17: 'ETH\'s $800M Sell-Off vs. $2,300 Rally: The Liquidity Battle' — analysis of the tug-of-war between large sellers and institutional buyers. Today's -5.9% decline suggests sellers won the morning session. But 30% staking supply lock + BlackRock ETHB launch + Grayscale 57K ETH staked = structural buyers building at scale.", source: "Exa: ETH $800M Sell-Off vs $2,300 Rally Mar 17" },
           { rating: 3, headline: "SEC crypto securities clarity = Ethereum gets commodity momentum — regulatory path clearing for DeFi", detail: "SEC's 18-asset commodity declaration (r/CC score=304, r/ethereum score=25) and the joint SEC/CFTC guidance issued yesterday both move ETH toward commodity classification (post-Merge PoS). DeFi legal uncertainty reduced. ETH-based utility token ecosystem gets regulatory green light alongside BTC. Long-term institutional DeFi deployment now has clearer legal basis.", source: "r/CryptoCurrency score=304 + r/ethereum score=25 + Reuters" },
           { rating: 2, headline: "ETH noon update: $2,182 (-5.9%) — deeper pullback than BTC; $2,150 support critical", detail: "ETH dropped to $2,182, underperforming BTC (-3.5% vs -5.9%). $2,250 support identified at 8am failed by noon. Next critical level: $2,150 (previous consolidation zone) then $2,000 psychological. FOMC outlook is the macro catalyst to watch for recovery trigger. Citi lowered 12-month ETH forecast on crypto bill impasse — short-term headwind.", source: "COMPOSIO_SEARCH_FINANCE live · noon CT" },
         ],
