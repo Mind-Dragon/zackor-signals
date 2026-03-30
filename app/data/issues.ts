@@ -28,6 +28,104 @@ export interface Issue {
 }
 
 export const ISSUES: Issue[] = [
+
+{
+  id: 'issue-2026-03-30-8am',
+  issueNumber: 42,
+  date: 'March 30, 2026',
+  time: '8am CT',
+  btcPrice: '$67,605',
+  btcChange: '+2.50%',
+  btcUp: true,
+  ethPrice: '$2,073',
+  ethChange: '+4.61%',
+  ethUp: true,
+  sections: [
+    {
+      icon: '₿',
+      title: 'Bitcoin',
+      signals: [
+        {
+          icon: '🔴',
+          title: 'BTC bounces 4% to $67,605 — Schiff calls for exit, market fades him again',
+          body: 'Bitcoin rallied 4% in early Monday trading after Peter Schiff publicly urged holders to sell, extending the classic Schiff-fade pattern. BTC sits at $67,605 (+2.5% on the day). Analysts warn the bounce is running low on fuel ahead of the Powell speech and Friday jobs report — key macro catalysts for directional BTC movement.',
+          rating: 4,
+          url: 'https://www.thecoinrepublic.com/2026/03/30/bitcoin-price-bounces-4-right-after-peter-schiff-urges-holders-to-exit',
+        },
+        {
+          icon: '🔴',
+          title: 'Saylor breaks 13-week Bitcoin buying streak — MicroStrategy pauses accumulation',
+          body: 'MicroStrategy Chair Michael Saylor has broken his consecutive weekly Bitcoin buying streak that began in November 2025. The 13-week pause is the first since the company launched its aggressive BTC accumulation strategy, raising questions about institutional appetite at current price levels.',
+          rating: 3,
+          url: 'https://www.reddit.com/r/CryptoCurrency/',
+        },
+        {
+          icon: '📈',
+          title: 'Morgan Stanley Bitcoin ETF expected to launch early April',
+          body: "Morgan Stanley's spot Bitcoin ETF is on track to launch early next month per Bloomberg. The launch would mark the entrance of one of Wall Street's largest wealth management platforms into direct BTC ETF distribution, potentially unlocking advisor-channeled flows that existing ETFs have not yet activated.",
+          rating: 3,
+          url: 'https://www.reddit.com/r/Bitcoin/',
+        },
+        {
+          icon: '🇪🇺',
+          title: 'BNP Paribas opens Bitcoin and Ethereum ETNs to European retail clients',
+          body: "BNP Paribas, France's largest bank, opened access to Bitcoin and Ethereum exchange-traded notes for retail clients. The most prominent European incumbent bank retail crypto product launch of 2026, significantly expanding crypto exposure availability across EU banking channels.",
+          rating: 3,
+          url: 'https://news.bitcoin.com/bnp-paribas-opens-access-to-bitcoin-and-ethereum-etns-for-retail-clients',
+        },
+        {
+          icon: '⚖️',
+          title: 'Congress proposes removing widely used Bitcoin tax loophole',
+          body: 'U.S. lawmakers proposed legislation to eliminate a popular Bitcoin tax-loss harvesting strategy that allowed crypto investors to maintain market exposure while booking losses — unavailable in equities due to wash-sale rules. If passed, could alter short-term crypto trading patterns significantly.',
+          rating: 3,
+          url: 'https://www.reddit.com/r/CryptoCurrency/',
+        },
+        {
+          icon: '📊',
+          title: 'Fear & Greed = 8 — 59 consecutive days Extreme Fear; ETF outflows $225M',
+          body: 'Crypto Fear & Greed Index holds at 8 (Extreme Fear) for a 59th consecutive day. Bitcoin ETF outflows reached $225M last week as BTC broke key support. Powell speech and Friday jobs report are the near-term macro catalysts that could drive a directional move.',
+          rating: 2,
+          url: 'https://cryptorank.io/news/feed/3c132-bitcoin-faces-impending-45000-sell-off-catalyst',
+        },
+      ],
+    },
+    {
+      icon: 'Ξ',
+      title: 'Ethereum',
+      signals: [
+        {
+          icon: '🔼',
+          title: 'ETH +4.61% to $2,073 — Pectra upgrade approaches, bull case building',
+          body: 'Ethereum outperformed Bitcoin Monday morning with a 4.61% move to $2,073. FXStreet outlined three bullish catalysts: approaching Pectra upgrade, BlackRock fund expansion adding ETH exposure, and BNP Paribas opening ETH ETNs to European retail. ETH is retesting $2,000 as a demand zone.',
+          rating: 4,
+          url: 'https://www.fxstreet.com/cryptocurrencies/news/three-reasons-to-be-bullish-on-ethereum',
+        },
+        {
+          icon: '🏦',
+          title: 'Lido launches Vaults and Earn products as ETH staking yields compress',
+          body: 'Lido Finance introduced Vaults and Earn — yield optimization products for ETH stakers as baseline staking APR compresses under growing validator competition. Aimed at institutional and sophisticated DeFi users seeking enhanced yield beyond standard staking returns.',
+          rating: 3,
+          url: 'https://news.bitcoin.com/lido-launches-vaults-and-earn-products-as-staking-yields-compress',
+        },
+        {
+          icon: '🔗',
+          title: 'Aave x Layer expands to OKX X Layer — lower fees, faster settlement',
+          body: "Aave's X Layer expansion reaches OKX's L2 network, bringing DeFi lending with reduced fees and faster settlement. Deepens Aave's multi-chain presence across exchange-backed L2 environments and increases liquidity access for OKX ecosystem users.",
+          rating: 2,
+          url: 'https://en.cryptonomist.ch/2026/03/30/aave-x-layer-expands-to-okx',
+        },
+        {
+          icon: '🇪🇺',
+          title: 'European crypto policy group gets Ethereum-focused rebrand under MiCA',
+          body: 'The nonprofit European Crypto Initiative rebranded with an Ethereum-centric focus as MiCA takes effect across EU states. Signals a maturing European DeFi policy ecosystem organizing around ETH infrastructure, staking, and protocol-level regulatory clarity.',
+          rating: 2,
+          url: 'https://www.dlnews.com/articles/regulation/nonprofit-european-crypto-initiative-gets-ethereum-focused-rebrand',
+        },
+      ],
+    },
+  ],
+},
+
 {
   id: 'issue-2026-03-29-6pm',
   issueNumber: 41,
