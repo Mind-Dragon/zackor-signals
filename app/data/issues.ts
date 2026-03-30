@@ -78,7 +78,7 @@ export const ISSUES: Issue[] = [
         {
           rating: 2,
           headline: 'Fear & Greed = 8 — 59 consecutive days Extreme Fear; ETF outflows $225M',
-          detail: 'BTC ETF outflows hit $225M last week as Fear & Greed holds at 8 for a 59th consecutive day. Powell speech and Friday jobs report are this week's directional catalysts.',
+          detail: 'BTC ETF outflows hit $225M last week as Fear & Greed holds at 8 for a 59th consecutive day. Powell speech and Friday jobs report are this week\'s directional catalysts.',
           source: 'CryptoRank / CoinDesk'
         }
       ]
