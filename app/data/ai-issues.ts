@@ -22,6 +22,131 @@ export interface AIIssue {
 }
 
 export const AI_ISSUES: AIIssue[] = [
+
+{
+  id: 'ai-2026-03-30-8am',
+  issueNumber: 11,
+  date: 'March 30, 2026',
+  time: '8am CT',
+  sections: [
+    {
+      icon: '🧠',
+      title: 'Foundation Models & Research',
+      signals: [
+        {
+          icon: '🔍',
+          title: 'Chroma releases Context-1: 20B agentic search model for multi-hop retrieval',
+          body: 'Chroma has released Context-1, a 20-billion parameter model purpose-built for agentic search workflows. The model is optimized for multi-hop retrieval across large knowledge bases, context management across long agent sessions, and scalable synthetic task generation — addressing core limitations of general-purpose LLMs in retrieval-intensive agentic applications.',
+          rating: 4,
+          url: 'https://www.marktechpost.com/2026/03/29/chroma-releases-context-1-a-20b-agentic-search-model-for-multi-hop-retrieval/',
+        },
+        {
+          icon: '⚡',
+          title: 'TurboQuant: Python implementation of near-optimal online vector quantization',
+          body: 'A developer spent two days implementing TurboQuant — an online vector quantization algorithm with near-optimal distortion rate — in Python. The open-source repo (github.com/yashkc2025/turboquant) demonstrates practical implementation of the research paper and sparked active discussion in r/MachineLearning about real-world embedding compression applications.',
+          rating: 3,
+          url: 'https://github.com/yashkc2025/turboquant',
+        },
+        {
+          icon: '📊',
+          title: 'OpenBB Finance gains 499 GitHub stars in one day — financial AI agent platform surges',
+          body: 'OpenBB Finance topped GitHub trending with 499 new stars Monday, making it one of the fastest-rising financial data platforms. OpenBB is designed specifically for analysts, quants, and AI agents — providing structured financial data APIs that feed directly into agent workflows without custom scraping.',
+          rating: 3,
+          url: 'https://github.com/OpenBB-finance/OpenBB',
+        },
+        {
+          icon: '🤗',
+          title: 'HuggingFace trending: Qwen3.5-397B-A17B (1,389♥), DeepSeek-V3.2 (1,346♥)',
+          body: 'Qwen3.5-397B-A17B holds the top trending spot on HuggingFace with 1,389 likes. DeepSeek-V3.2 follows at 1,346 likes. Top research paper of the day: "Out of Sight but Not Out of Mind: Hybrid Memory for Dynamic Video World Models" (127 upvotes) — combining explicit and implicit memory for long-horizon video prediction tasks.',
+          rating: 2,
+          url: 'https://huggingface.co/models',
+        },
+      ],
+    },
+    {
+      icon: '🤖',
+      title: 'AI Agents & Autonomous Systems',
+      signals: [
+        {
+          icon: '🔴',
+          title: 'Nicolas Carlini: Claude discovered a 2003 Linux exploit that was never found before',
+          body: 'Nicolas Carlini — Google DeepMind researcher with 67,200 citations on Google Scholar — shared a video demonstrating Claude discovering a Linux kernel exploit introduced in 2003 that has never been found by any human or automated security tool in 23 years. The finding highlights AI security research capabilities that may be systematically superior to traditional vulnerability scanning at long-horizon exploit detection.',
+          rating: 4,
+          url: 'https://m.youtube.com/watch?v=1sd26pWhfmg',
+        },
+        {
+          icon: '🔄',
+          title: 'Cursor self-improves Composer 2 every 5 hours in background — continuous AI coding evolution',
+          body: 'Cursor is running automated continuous improvement on its Composer 2 coding agent every 5 hours in the background. The system applies self-modification cycles without user intervention, iterating on code generation quality autonomously. This makes Cursor one of the first commercial AI coding tools to deploy live recursive self-improvement in production.',
+          rating: 4,
+          url: 'https://www.reddit.com/r/singularity/',
+        },
+        {
+          icon: '⚠️',
+          title: 'New benchmark catches LLMs systematically violating physics laws',
+          body: 'Researchers published a benchmark specifically designed to catch LLMs generating outputs that violate physical laws — and found systematic failures across major models. The benchmark tests Newtonian mechanics, thermodynamics, and fluid dynamics scenarios, exposing a gap between linguistic fluency and physical reasoning that has practical implications for any AI system interacting with the physical world.',
+          rating: 3,
+          url: 'https://www.reddit.com/r/MachineLearning/',
+        },
+      ],
+    },
+    {
+      icon: '🌐',
+      title: 'Industry & Geopolitics',
+      signals: [
+        {
+          icon: '🏭',
+          title: 'China launches first automated humanoid robot manufacturing line — UBTECH, AgiBot, Unitree producing at scale',
+          body: "China has announced its first fully automated manufacturing line capable of producing humanoid robots at industrial scale. The line — operated by a company whose identity has not been disclosed by CCTV — joins UBTECH, AgiBot, and Unitree in China's accelerating humanoid robot production push. The announcement is a milestone in the industrialization of humanoid robotics.",
+          rating: 4,
+          url: 'https://www.reddit.com/r/singularity/',
+        },
+        {
+          icon: '🚫',
+          title: 'China bars Manus AI co-founders from leaving country amid Meta $2B deal review',
+          body: "Chinese regulators have barred two co-founders of AI startup Manus from leaving the country as authorities review Meta's reported $2 billion acquisition offer. The travel restrictions indicate the Chinese government views Manus as a strategic national asset and is asserting regulatory control before any cross-border technology transfer can occur.",
+          rating: 4,
+          url: 'https://www.reddit.com/r/singularity/',
+        },
+        {
+          icon: '💊',
+          title: 'Insilico Medicine secures $2.75B — largest AI drug development funding of 2026',
+          body: 'AI-driven drug developer Insilico Medicine has secured $2.75 billion in new funding, representing the largest single fundraise in AI drug development for 2026. The company uses generative AI to design novel drug candidates, with multiple compounds in clinical trials. The round signals sustained institutional conviction in AI-accelerated pharmaceutical discovery.',
+          rating: 3,
+          url: 'https://www.reddit.com/r/singularity/',
+        },
+        {
+          icon: '🤖',
+          title: 'AI humanoid soldiers: Phantom MK-1 designed for battlefield combat',
+          body: "The Phantom MK-1 — encased in jet-black steel with a tinted glass visor — is being developed as an AI-controlled humanoid soldier for battlefield deployment. The New York Times investigation describes accelerating investment in AI combat robots from multiple defense contractors, with the Ukraine conflict cited as a near-term deployment context.",
+          rating: 3,
+          url: 'https://www.reddit.com/r/singularity/',
+        },
+      ],
+    },
+    {
+      icon: '⚖️',
+      title: 'Regulation & Policy',
+      signals: [
+        {
+          icon: '🇺🇸',
+          title: 'Trump administration proposes federal AI standard to preempt state-level fragmentation',
+          body: "The Trump administration has proposed a unified federal AI standard aimed at preventing a patchwork of conflicting state-level AI regulations. The proposal would establish baseline requirements for AI transparency and risk assessment while potentially preempting stricter state laws — a significant shift in the U.S. AI governance approach.",
+          rating: 3,
+          url: 'https://www.mdm.com/news/technology/ai/trump-admin-proposes-federal-ai-standard',
+        },
+        {
+          icon: '🇪🇺',
+          title: "Meta's AI Smart Glasses hit European regulatory wall over biometric data collection",
+          body: "Meta's AI-enabled smart glasses have hit a regulatory obstacle in Europe, with data protection authorities raising concerns over the collection of biometric and environmental data without explicit user consent frameworks. The issue highlights the friction between AI-hardware integration and GDPR compliance requirements.",
+          rating: 3,
+          url: 'https://www.uctoday.com/immersive-workplace-xr-tech/metas-ai-smart-glasses-hit-regulatory-wall-in-europe',
+        },
+      ],
+    },
+  ],
+},
+
 {
   id: 'ai-2026-03-29-6pm',
   issueNumber: 10,
