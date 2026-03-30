@@ -195,7 +195,7 @@ export const AI_ISSUES: AIIssue[] = [
         {
           rating: 3,
           headline: 'Palantir CEO: Only Two Types of People Will Succeed in the AI Era',
-          detail: "Alex Karp's stark prediction on workforce polarization — 629 upvotes in r/singularity. Palantir's billionaire CEO frames AI as a hard binary separating winners from losers across industries, with no middle ground.",
+          detail: "Alex Karp's stark prediction on workforce polarization — 629 upvotes in r/singularity. Palantir\'s billionaire CEO frames AI as a hard binary separating winners from losers across industries, with no middle ground.",
           source: 'r/singularity'
         },
         {
@@ -225,7 +225,7 @@ export const AI_ISSUES: AIIssue[] = [
         {
           rating: 2,
           headline: "Google Agent Smith: Internal Agentic Tool Automates Engineering Operations",
-          detail: "First detailed account of Google's internal 'Agent Smith' — an AI tool automating engineering operations tasks for Google's own engineers. Signals that frontier AI companies are running agentic infrastructure internally at production scale.",
+          detail: "First detailed account of Google's internal \'Agent Smith' — an AI tool automating engineering operations tasks for Google's own engineers. Signals that frontier AI companies are running agentic infrastructure internally at production scale.",
           source: 'VentureBeat / Exa'
         },
         {
