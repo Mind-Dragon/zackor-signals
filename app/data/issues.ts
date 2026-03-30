@@ -27,7 +27,7 @@ export interface Issue {
   sections: IssueSection[];
 }
 
-export const ISSUES: Issue[
+export const ISSUES: Issue[] = [
 {
   id: 'issue-2026-03-29-6pm',
   issueNumber: 41,
@@ -120,7 +120,6 @@ export const ISSUES: Issue[
     }
   ]
 },
-] = [
 
 {
   id: 'issue-2026-03-29-noon',
