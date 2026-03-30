@@ -24,6 +24,116 @@ export interface AIIssue {
 export const AI_ISSUES: AIIssue[] = [
 
 {
+  id: 'ai-2026-03-30-noon',
+  issueNumber: 11,
+  date: 'March 30, 2026',
+  time: 'Noon CT',
+  sections: [
+    {
+      icon: '🧠',
+      title: 'Foundation Models & Research',
+      signals: [
+        {
+          rating: 4,
+          headline: 'Chroma releases Context-1: 20B agentic search model for multi-hop retrieval',
+          detail: "Chroma's Context-1 is a 20B model purpose-built for agentic multi-hop search, context management across long sessions, and scalable synthetic task generation — directly addressing core limitations of general-purpose LLMs in retrieval-intensive agent applications.",
+          source: 'MarkTechPost / Exa'
+        },
+        {
+          rating: 3,
+          headline: 'TurboQuant: Python implementation of near-optimal online vector quantization',
+          detail: 'Open-source Python implementation of TurboQuant (online vector quantization with near-optimal distortion rate). Two-day implementation sparked active discussion in r/MachineLearning about real-world embedding compression applications.',
+          source: 'r/MachineLearning (40 upvotes)'
+        },
+        {
+          rating: 3,
+          headline: 'OpenBB Finance surges 499 GitHub stars in one day — financial AI agent platform trending',
+          detail: 'OpenBB Finance topped GitHub trending with 499 new stars Monday. Designed for analysts, quants, and AI agents — providing structured financial data APIs that feed directly into agent workflows without custom scraping.',
+          source: 'GitHub Trending'
+        },
+        {
+          rating: 2,
+          headline: 'HuggingFace trending: Qwen3.5-397B-A17B (1,389♥), DeepSeek-V3.2 (1,346♥)',
+          detail: 'Top HF paper today: "Out of Sight but Not Out of Mind: Hybrid Memory for Dynamic Video World Models" (127 upvotes) — combining explicit and implicit memory for long-horizon video prediction.',
+          source: 'HuggingFace'
+        }
+      ]
+    },
+    {
+      icon: '🤖',
+      title: 'AI Agents & Autonomous Systems',
+      signals: [
+        {
+          rating: 4,
+          headline: 'Nicolas Carlini: Claude discovered a 2003 Linux exploit never found in 23 years',
+          detail: 'Google DeepMind researcher Nicolas Carlini (67.2K Scholar citations) shared Claude discovering a Linux kernel exploit from 2003 that no human or automated tool found in 23 years — highlighting AI security capabilities systematically superior to traditional vulnerability scanning.',
+          source: 'r/singularity (362 upvotes)'
+        },
+        {
+          rating: 4,
+          headline: 'Cursor self-improves Composer 2 every 5 hours — continuous AI evolution in production',
+          detail: 'Cursor runs automated continuous improvement on Composer 2 every 5 hours without user intervention. One of the first commercial AI coding tools to deploy live recursive self-improvement in production.',
+          source: 'r/singularity (246 upvotes)'
+        },
+        {
+          rating: 3,
+          headline: 'New benchmark catches LLMs systematically violating laws of physics',
+          detail: 'Benchmark tests Newtonian mechanics, thermodynamics, and fluid dynamics — finding systematic failures across major models. Reveals a gap between linguistic fluency and physical reasoning with practical real-world deployment implications.',
+          source: 'r/MachineLearning (48 upvotes)'
+        }
+      ]
+    },
+    {
+      icon: '🌐',
+      title: 'Industry & Geopolitics',
+      signals: [
+        {
+          rating: 4,
+          headline: 'China launches first automated humanoid robot manufacturing line at industrial scale',
+          detail: 'China announces its first fully automated manufacturing line capable of producing humanoid robots at scale — joining UBTECH, AgiBot, and Unitree in accelerating production. A milestone in the industrialization of humanoid robotics.',
+          source: 'r/singularity (2,270 upvotes)'
+        },
+        {
+          rating: 4,
+          headline: 'China bars Manus AI co-founders from leaving amid Meta $2B acquisition review',
+          detail: "Chinese regulators barred two Manus AI co-founders from leaving the country as authorities review Meta's reported $2B offer. China treating Manus as a strategic national asset — AI geopolitics entering a new phase of direct state intervention.",
+          source: 'Reuters / r/singularity (141 upvotes)'
+        },
+        {
+          rating: 3,
+          headline: 'Insilico Medicine secures $2.75B — largest AI drug development fundraise of 2026',
+          detail: 'AI-driven drug developer Insilico Medicine raised $2.75B — the largest single fundraise in AI drug development for 2026. Multiple AI-designed compounds in clinical trials. Signals sustained institutional conviction in AI-accelerated pharma.',
+          source: 'r/singularity'
+        },
+        {
+          rating: 3,
+          headline: 'AI humanoid soldiers: Phantom MK-1 designed for battlefield deployment',
+          detail: 'The Phantom MK-1 is being developed as an AI-controlled humanoid soldier. NYT investigation describes accelerating defense contractor investment in AI combat robots, with Ukraine cited as a near-term deployment context.',
+          source: 'NYT / r/singularity'
+        }
+      ]
+    },
+    {
+      icon: '⚖️',
+      title: 'Regulation & Policy',
+      signals: [
+        {
+          rating: 3,
+          headline: 'Trump administration proposes federal AI standard to preempt state fragmentation',
+          detail: 'Proposed unified federal AI standard aims to prevent conflicting state-level regulations while establishing baseline AI transparency and risk assessment requirements — a significant shift in U.S. AI governance.',
+          source: 'MDM'
+        },
+        {
+          rating: 3,
+          headline: "Meta's AI Smart Glasses hit EU regulatory wall over biometric data collection",
+          detail: "EU data protection authorities raised concerns over Meta's AI glasses collecting biometric and environmental data without explicit GDPR consent frameworks — highlighting friction between AI hardware and European compliance.",
+          source: 'UC Today'
+        }
+      ]
+    }
+  ]
+},
+{
   id: 'ai-2026-03-30-8am',
   issueNumber: 11,
   date: 'March 30, 2026',
