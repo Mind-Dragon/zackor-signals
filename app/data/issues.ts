@@ -30,6 +30,92 @@ export interface Issue {
 export const ISSUES: Issue[] = [
 
 {
+  id: 'issue-2026-03-30-noon',
+  issueNumber: 43,
+  date: 'March 30, 2026',
+  time: 'Noon CT',
+  btcPrice: '$67,605',
+  btcChange: '+2.50%',
+  btcUp: true,
+  ethPrice: '$2,073',
+  ethChange: '+4.61%',
+  ethUp: true,
+  sections: [
+    {
+      icon: '₿',
+      title: 'Bitcoin',
+      signals: [
+        {
+          rating: 4,
+          headline: 'BTC bounces 4% to $67,605 — Schiff calls for exit, market fades him again',
+          detail: 'Bitcoin rallied 4% in early Monday trading after Peter Schiff publicly urged holders to sell, extending the classic Schiff-fade pattern. BTC at $67,605 (+2.5%). Analysts warn the bounce is running low on fuel ahead of the Powell speech and Friday jobs report.',
+          source: 'The Coin Republic'
+        },
+        {
+          rating: 3,
+          headline: 'Saylor breaks 13-week Bitcoin buying streak — MicroStrategy pauses accumulation',
+          detail: 'MicroStrategy Chair Michael Saylor has broken his consecutive weekly Bitcoin buying streak that began in November 2025. The 13-week pause raises questions about institutional appetite at current price levels.',
+          source: 'r/CryptoCurrency'
+        },
+        {
+          rating: 3,
+          headline: 'Morgan Stanley Bitcoin ETF expected to launch early April',
+          detail: "Morgan Stanley's spot Bitcoin ETF is on track for an April launch per Bloomberg — unlocking advisor-channeled flows from one of Wall Street's largest wealth management platforms.",
+          source: 'Bloomberg / r/Bitcoin'
+        },
+        {
+          rating: 3,
+          headline: 'BNP Paribas opens Bitcoin and Ethereum ETNs to European retail clients',
+          detail: "BNP Paribas, France's largest bank, opened access to BTC and ETH exchange-traded notes for retail clients — the most prominent European incumbent bank crypto product launch of 2026.",
+          source: 'Bitcoin.com News'
+        },
+        {
+          rating: 3,
+          headline: 'Congress proposes removing widely used Bitcoin tax loophole',
+          detail: 'Proposed legislation would close the crypto tax-loss harvesting loophole unavailable in equities. If passed, could alter short-term crypto trading patterns significantly.',
+          source: 'r/CryptoCurrency'
+        },
+        {
+          rating: 2,
+          headline: 'Fear & Greed = 8 — 59 consecutive days Extreme Fear; ETF outflows $225M',
+          detail: 'BTC ETF outflows hit $225M last week as Fear & Greed holds at 8 for a 59th consecutive day. Powell speech and Friday jobs report are this week's directional catalysts.',
+          source: 'CryptoRank / CoinDesk'
+        }
+      ]
+    },
+    {
+      icon: 'Ξ',
+      title: 'Ethereum',
+      signals: [
+        {
+          rating: 4,
+          headline: 'ETH +4.61% to $2,073 — Pectra upgrade approaches, bull case building',
+          detail: 'Ethereum outperforms BTC Monday with +4.61% to $2,073. Catalysts: approaching Pectra upgrade, BlackRock expanding ETH exposure, BNP Paribas opening ETH ETNs to EU retail. ETH retesting $2,000 as demand zone.',
+          source: 'FXStreet'
+        },
+        {
+          rating: 3,
+          headline: 'Lido launches Vaults and Earn products as ETH staking yields compress',
+          detail: 'Lido introduces yield optimization products for stakers as baseline ETH staking APR compresses under growing validator competition. Targets institutional and sophisticated DeFi users.',
+          source: 'Bitcoin.com News'
+        },
+        {
+          rating: 2,
+          headline: 'Aave x Layer expands to OKX X Layer — lower fees, faster settlement',
+          detail: "Aave's multi-chain expansion reaches OKX's L2, deepening DeFi lending access across exchange-backed L2 environments and increasing liquidity for OKX ecosystem users.",
+          source: 'Cryptonomist'
+        },
+        {
+          rating: 2,
+          headline: 'European crypto policy group gets Ethereum-focused rebrand under MiCA',
+          detail: 'The nonprofit European Crypto Initiative rebrands with ETH-centric focus as MiCA takes effect, signaling organized Ethereum policy advocacy maturing in the EU.',
+          source: 'DL News'
+        }
+      ]
+    }
+  ]
+},
+{
   id: 'issue-2026-03-30-8am',
   issueNumber: 42,
   date: 'March 30, 2026',
