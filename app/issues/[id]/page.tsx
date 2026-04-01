@@ -12,20 +12,20 @@ export async function generateMetadata({ params }: { params: { id: string } }): 
   if (!issue) return {};
   const url = `https://zackor.news/issues/${issue.id}`;
   return {
-    title: `Issue #${issue.issueNumber} — Zackor Signals`,
-    description: `Zackor Signals Issue #${issue.issueNumber} · ${issue.date} · BTC ${issue.btcPrice} · ETH ${issue.ethPrice}`,
+    title: `Issue #${issue.issueNumber} — Zackor Signals: Powered by Sure Thing`,
+    description: `Zackor Signals: Powered by Sure Thing Issue #${issue.issueNumber} · ${issue.date} · BTC ${issue.btcPrice} · ETH ${issue.ethPrice}`,
     openGraph: {
-      title: `Zackor Signals — Issue #${issue.issueNumber}`,
+      title: `Zackor Signals: Powered by Sure Thing — Issue #${issue.issueNumber}`,
       description: `${issue.date} · BTC ${issue.btcPrice} · ETH ${issue.ethPrice} · AI Crypto Intelligence`,
       url,
       type: "article",
-      siteName: "Zackor Signals",
+      siteName: "Zackor Signals: Powered by Sure Thing",
     },
     twitter: {
       card: "summary_large_image",
       site: "@mindragon",
       creator: "@mindragon",
-      title: `Zackor Signals — Issue #${issue.issueNumber}`,
+      title: `Zackor Signals: Powered by Sure Thing — Issue #${issue.issueNumber}`,
       description: `${issue.date} · BTC ${issue.btcPrice} · ETH ${issue.ethPrice} · AI Crypto Intelligence`,
     },
   };
@@ -47,7 +47,7 @@ export default function IssuePage({ params }: { params: { id: string } }) {
   if (!issue) notFound();
 
   const issueUrl = `https://zackor.news/issues/${issue.id}`;
-  const tweetText = `Zackor Signals — Issue #${issue.issueNumber} · ${issue.date} · BTC ${issue.btcPrice} · ETH ${issue.ethPrice} · AI Crypto Intelligence`;
+  const tweetText = `Zackor Signals: Powered by Sure Thing — Issue #${issue.issueNumber} · ${issue.date} · BTC ${issue.btcPrice} · ETH ${issue.ethPrice} · AI Crypto Intelligence`;
   const twitterShareUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(tweetText)}&url=${encodeURIComponent(issueUrl)}`;
   const linkedinShareUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(issueUrl)}`;
 
