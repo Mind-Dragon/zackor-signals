@@ -30,6 +30,94 @@ export interface Issue {
 export const ISSUES: Issue[] = [
 
 {
+  id: 'issue-2026-04-01-noon',
+  issueNumber: 45,
+  date: 'April 1, 2026',
+  time: 'Noon CT',
+  btcPrice: '$68,894',
+  btcChange: '+1.5%',
+  btcUp: true,
+  ethPrice: '$2,145',
+  ethChange: '+4.6%',
+  ethUp: true,
+  sections: [
+    {
+      icon: '₿',
+      title: 'Bitcoin',
+      signals: [
+        {
+          rating: 4,
+          headline: 'US Dept of Labor proposes rule allowing Bitcoin in 401(k) plans',
+          detail: 'The Department of Labor is advancing a formal rule permitting Bitcoin inside 401(k) retirement accounts — potentially opening the door to hundreds of billions in retirement capital flowing into BTC. If adopted, would be the largest regulatory unlock of institutional access since the spot ETF approval.',
+          source: 'r/Bitcoin (214 upvotes)'
+        },
+        {
+          rating: 3,
+          headline: 'New Hampshire advances $100M Bitcoin-backed state bonds',
+          detail: 'New Hampshire is moving forward with plans to issue $100M in Bitcoin-backed state bonds, adding to the growing list of US states treating BTC as a treasury asset. Signals expanding municipal-level legitimacy well beyond federal policy moves.',
+          source: 'r/Bitcoin'
+        },
+        {
+          rating: 3,
+          headline: 'Strategy resumes Bitcoin purchases via STRC warrants — $80K target renewed',
+          detail: 'Strategy (formerly MicroStrategy) resumed Bitcoin accumulation after a 13-week pause, using STRC warrant proceeds. The resumption rebuilds the Saylor bull case for $80K and signals renewed institutional conviction at current $68K levels.',
+          source: 'YouSearch / r/Bitcoin'
+        },
+        {
+          rating: 2,
+          headline: 'April tracking as Bitcoin's best month of 2026 — quiet consolidation phase',
+          detail: 'Market data confirms April is on pace to be Bitcoin's strongest month of 2026 year-to-date following March's recovery from sub-$65K lows. Community tone is cautious optimism — the quiet phase is consistent with pre-move consolidation.',
+          source: 'YouSearch / r/Bitcoin (105 upvotes)'
+        },
+        {
+          rating: 2,
+          headline: 'BTC showing unusual compression — technical traders flag imminent directional break',
+          detail: 'Multiple technical analysts flagging unusual BTC behavior: narrow range compression and volume divergence historically preceding a directional break. Community split on bull vs. bear resolution, though macro tailwinds (401k proposal, NH bonds) favor upside.',
+          source: 'r/Bitcoin (98 upvotes)'
+        }
+      ]
+    },
+    {
+      icon: 'Ξ',
+      title: 'Ethereum',
+      signals: [
+        {
+          rating: 3,
+          headline: 'Ethereum $13.5B options expiry settles today — ETH holds $2,100 max pain',
+          detail: 'One of the largest single-day ETH options expirations in history ($13.5B notional) settled today. ETH held above the max pain level at $2,100, suggesting bullish positioning has the upper hand entering Q2. Historically positive when ETH survives expiry above max pain.',
+          source: 'YouSearch / CoinDesk'
+        },
+        {
+          rating: 3,
+          headline: 'Post-quantum ETH client Lantern developer Pier Two acquired by BMNR',
+          detail: 'BMNR acquired Pier Two — the team developing Lantern, the leading post-quantum Ethereum client — as quantum threat timelines tighten. Scientists now estimate 10,000 logical qubits are sufficient to break elliptic-curve encryption, making ETH's post-quantum roadmap an urgent competitive advantage.',
+          source: 'r/ethereum (15 upvotes)'
+        },
+        {
+          rating: 3,
+          headline: '10,000 qubits sufficient to break strongest encryption — quantum urgency rises',
+          detail: 'New research published today shows 10,000 logical qubits would be sufficient to break RSA and elliptic-curve encryption — a threshold within reach of near-term quantum hardware. Ethereum has an active post-quantum migration plan; Bitcoin community remains divided on response strategy.',
+          source: 'r/singularity (298 upvotes)'
+        },
+        {
+          rating: 2,
+          headline: 'ETH outperforming BTC this week — altcoin season watch begins',
+          detail: 'Ethereum is outperforming Bitcoin over the 7-day window following ETF inflow reversal and Pectra upgrade confirmation. Analysts pointing to sustained ETH outperformance as an early altcoin season indicator — historically follows BTC consolidation phases.',
+          source: 'YouSearch / r/ethereum'
+        },
+        {
+          rating: 2,
+          headline: 'Solana DEX volumes declining — activity rotating back to Ethereum ecosystem',
+          detail: 'Solana DEX volume dropped sharply as meme coin activity slowed and institutional flows rotated back toward Ethereum-native DeFi. ETH L2 throughput picking up the slack — early signal of post-Pectra DeFi ecosystem consolidation.',
+          source: 'YouSearch'
+        }
+      ]
+    }
+  ]
+},
+
+
+{
   id: 'issue-2026-04-01-8am',
   issueNumber: 44,
   date: 'April 1, 2026',
