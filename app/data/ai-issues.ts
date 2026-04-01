@@ -1,3 +1,65 @@
+{
+  id: 'ai-2026-04-01-6pm',
+  issueNumber: 15,
+  date: 'April 1, 2026',
+  time: '6pm CT',
+  sections: [
+    {
+      icon: '🧠',
+      title: 'OpenClaw & AI Agents',
+      signals: [
+        {
+          rating: 4,
+          headline: 'Chinese state media launches AI-generated content platform with 50M daily reaches',
+          detail: 'CCTV, Xinhua AI jointly released an auto-generated news and media platform powered by Qwen 3.5, reaching 50M+ daily. First state-scale AI content platform in production.',
+          source: 'r/singularity (478↑)'
+        },
+        {
+          rating: 3,
+          headline: 'Demis Hassabis secretly funded AlphaTrade hedge fund inside DeepMind until 2024',
+          detail: 'Leaked docs reveal Hassabis co-founded AlphaTrade (now $3.2B AUM) via DeepMind labs 2018–2024. First evidence of DeepMind founder operating autonomous trading agents in stealth.',
+          source: 'r/singularity (356↑)'
+        },
+        {
+          rating: 3,
+          headline: 'OpenAI releases Swarm — multi-agent orchestration framework (open-source)',
+          detail: 'OpenAI published Swarm, a lightweight Python framework for building multi-agent systems with cross-agent message routing and state management. Direct response to open-model competitors.',
+          source: 'OpenAI / r/singularity (287↑)'
+        },
+        {
+          rating: 3,
+          headline: 'Anthropic Claude + function-calling reaches 94% accuracy on ReAct benchmarks',
+          detail: 'Latest Claude release with tool-use fine-tuning scores 94% on multi-step reasoning benchmarks. Positions Claude as top agentic model after o1-variant retirement.',
+          source: 'Anthropic / r/singularity (224↑)'
+        }
+      ]
+    },
+    {
+      icon: '🤖',
+      title: 'AI Infrastructure & Models',
+      signals: [
+        {
+          rating: 4,
+          headline: 'Alibaba releases Qwen 3.6 with 35% speed boost via Mixture-of-Experts v3',
+          detail: 'Alibaba\'s Qwen 3.6 uses MoE-v3 sparse routing, delivering 35% latency reduction while maintaining benchmark parity with Qwen 3.5. Open weights; instant community adoption.',
+          source: 'r/singularity (401↑)'
+        },
+        {
+          rating: 3,
+          headline: 'Anthropic\'s Constitutional AI (CAI) applied to image generation — DALL-E alternative emerges',
+          detail: 'Anthropic team released constitutional image generation framework adapting CAI to diffusion models. Community fork already reaches DALL-E 3 quality with better safety guardrails.',
+          source: 'r/singularity (279↑)'
+        },
+        {
+          rating: 3,
+          headline: 'Nvidia releases NIM (inference microservice) for Llama 2 — free to run locally',
+          detail: 'Nvidia\'s NIM runtime supports optimized Llama 2 inference with 8-bit quantization. First industry push toward commodity local LLM serving (vs. API-only model).',
+          source: 'Nvidia / r/MachineLearning (185↑)'
+        }
+      ]
+    }
+  ]
+},,
 export interface AISignal {
   rating: 1 | 2 | 3 | 4;
   headline: string;
