@@ -30,6 +30,87 @@ export const AI_ISSUES: AIIssue[] = [
   time: 'Noon CT',
   sections: [
     {
+      icon: '🤖',
+      title: 'OpenClaw & AI Agents',
+      signals: [
+        {
+          rating: 4,
+          headline: 'Meta acquires Moltbook — AI agent social network enters Meta\'s infrastructure stack',
+          detail: 'Meta acquired Moltbook, the AI agent social network that enables agents to communicate, collaborate, and share skills with each other. The acquisition signals Meta\'s entry into agentic social infrastructure — a layer on top of standard LLM deployment. Reddit Singularity thread hit 337 upvotes within hours.',
+          source: 'r/singularity (337 upvotes)'
+        },
+        {
+          rating: 4,
+          headline: 'Cursor\'s Composer 2 revealed as Kimi K2.5 with RL fine-tuning — Moonshot AI powers top coding tool',
+          detail: 'Confirmed: Cursor\'s Composer 2 model is Kimi K2.5 with reinforcement learning fine-tuning applied by Cursor\'s team. Moonshot AI\'s K2.5, previously underrated against GPT-4/Claude, is now the backbone of the most-used AI coding assistant. A major signal for open-model RL fine-tuning economics.',
+          source: 'r/singularity (666 upvotes)'
+        },
+        {
+          rating: 3,
+          headline: 'Claude gains computer control — OpenClaw and Zenmux updated same day',
+          detail: 'Anthropic released computer control capabilities for Claude, and both OpenClaw and Zenmux pushed updates on the same day to integrate the new API. The simultaneous ecosystem response confirms OpenClaw\'s role as the de facto integration layer for new Anthropic capability launches.',
+          source: 'r/singularity (307 upvotes)'
+        },
+        {
+          rating: 3,
+          headline: 'Zhipu AI unveils AutoClaw Agent: Pony-Alpha-2 model with seamless enterprise deployment',
+          detail: 'Chinese AI lab Zhipu AI launched AutoClaw Agent, powered by its Pony-Alpha-2 model, positioning it as a drop-in enterprise agent with multi-step task execution and tool integration. The AutoClaw naming signals the Chinese AI ecosystem is explicitly targeting OpenClaw\'s agent framework market.',
+          source: 'Exa / xix.ai'
+        },
+        {
+          rating: 3,
+          headline: 'Xiaomi\'s MiMo model joins OpenClaw — five frameworks offer limited free access',
+          detail: 'Xiaomi\'s MiMo reasoning model is now integrated into OpenClaw and four other agentic frameworks in a limited free-tier access rollout. The move significantly expands the pool of freely available agent-capable models, lowering the infrastructure floor for independent developers.',
+          source: 'Exa / xix.ai'
+        }
+      ]
+    },
+    {
+      icon: '🧠',
+      title: 'AI Infrastructure & Ecosystem',
+      signals: [
+        {
+          rating: 4,
+          headline: 'Xiaomi\'s MiMo-V2-Pro matches Anthropic on AI benchmarks — phone company competes with AI lab',
+          detail: 'MiMo-V2-Pro, released by Xiaomi, posts benchmark results competitive with Anthropic\'s models — the first time a consumer electronics company has reached frontier AI lab performance. The result validates vertical integration as a path to top-tier model capability outside dedicated AI labs.',
+          source: 'r/singularity (427 upvotes)'
+        },
+        {
+          rating: 4,
+          headline: 'DeepMind\'s new AI model "just changed science forever" — viral research signal',
+          detail: 'DeepMind published a model that the r/singularity community is framing as a step-change in scientific AI capability — specific domain and paper details pending full announcement, but early coverage is tracking strongly (271 upvotes within hours of posting). Confirmed DeepMind authorship; details emerging.',
+          source: 'r/singularity (271 upvotes)'
+        },
+        {
+          rating: 3,
+          headline: 'AI coding in 2026: babysitting 8 agents is the new norm — developer experience signal',
+          detail: 'The top r/singularity post today describes the cognitive load of managing 8 concurrent AI coding agents as fundamentally different from pre-agent development. The 1,006-upvote thread captures a real inflection in how engineers work — less writing, more orchestration, more QA.',
+          source: 'r/singularity (1,006 upvotes)'
+        },
+        {
+          rating: 3,
+          headline: 'Liquid AI releases LFM2.5-350M: 350M parameter model trained on 28T tokens — efficiency milestone',
+          detail: 'Liquid AI\'s LFM2.5-350M achieves strong performance at 350M parameters after training on 28 trillion tokens using scaled reinforcement. A new efficiency frontier for small models — the result challenges the assumption that capability requires large parameter counts.',
+          source: 'Exa / MarkTechPost'
+        },
+        {
+          rating: 3,
+          headline: 'Alibaba deploys agentic AI in e-commerce at massive scale — largest commercial agent deployment',
+          detail: 'Alibaba is deploying agentic AI models across its e-commerce infrastructure at a scale no Western company has matched publicly. The deployment covers product discovery, pricing optimization, and customer interaction — an early benchmark for what mass commercial agent deployment looks like.',
+          source: 'Exa'
+        }
+      ]
+    }
+  ]
+},
+
+{
+  id: 'ai-2026-04-01-noon',
+  issueNumber: 14,
+  date: 'April 1, 2026',
+  time: 'Noon CT',
+  sections: [
+    {
       icon: '🔓',
       title: 'Anthropic: Claude Leak & New Capabilities',
       signals: [
