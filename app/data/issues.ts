@@ -35,6 +35,105 @@ export const ISSUES: Issue[] = [
   date: 'April 1, 2026',
   time: 'Noon CT',
   btcPrice: '$68,894',
+  btcChange: '+1.0%',
+  btcUp: true,
+  ethPrice: '$2,144',
+  ethChange: '+1.9%',
+  ethUp: true,
+  sections: [
+    {
+      icon: '₿',
+      title: 'Bitcoin',
+      signals: [
+        {
+          rating: 4,
+          headline: 'US Department of Labor proposes rule allowing Bitcoin in 401(k) retirement accounts',
+          detail: 'The DOL filed a proposed rule that would formally permit 401(k) plan administrators to offer Bitcoin exposure to retirement savers — potentially opening trillions in retirement capital to BTC for the first time. A structural demand catalyst if finalized.',
+          source: 'r/Bitcoin (219 upvotes)'
+        },
+        {
+          rating: 3,
+          headline: 'Strategy resumes Bitcoin buying via STRC — MicroStrategy back in accumulation mode',
+          detail: 'MicroStrategy\'s Strategy division resumed Bitcoin purchases using STRC stock proceeds, ending a brief pause that followed the 13-week buying streak break. Analysts flag $80K BTC price target if institutional momentum holds.',
+          source: 'YouSearch / Finance'
+        },
+        {
+          rating: 3,
+          headline: 'Recession historically coincided with every major oil crisis — macro headwind signal',
+          detail: 'A widely-shared analysis documented that every major oil price spike in the past 50 years preceded or coincided with a US recession. With crude currently elevated, crypto risk sentiment remains vulnerable to macro deterioration.',
+          source: 'r/CryptoCurrency (238 upvotes)'
+        },
+        {
+          rating: 3,
+          headline: 'XRP nears national bank status as OCC rule takes effect — institutional crypto legitimacy expands',
+          detail: 'Ripple\'s XRP is positioned to benefit as an OCC rule change takes effect, potentially enabling XRP to be used in national bank custody and settlement frameworks — the first altcoin to approach this regulatory milestone.',
+          source: 'YouSearch / Finance'
+        },
+        {
+          rating: 2,
+          headline: 'Bitcoin on track for best monthly performance of 2026 in April',
+          detail: 'Multiple analysts note April 2026 is tracking to be Bitcoin\'s strongest monthly performance of the year so far. Historical seasonality, ETF inflow reversal, and institutional demand normalization cited as key drivers.',
+          source: 'YouSearch'
+        },
+        {
+          rating: 2,
+          headline: 'Plan B warns BTC could fall below $54K — bearish pattern still in play',
+          detail: 'Analyst Plan B flagged a potential bull trap forming in current BTC price action, warning that a bearish technical pattern could send prices below $54K before resuming an uptrend. Contrarian signal given current bullish narrative.',
+          source: 'YouSearch / Finance'
+        }
+      ]
+    },
+    {
+      icon: 'Ξ',
+      title: 'Ethereum',
+      signals: [
+        {
+          rating: 4,
+          headline: 'Ethereum\'s top 1,000 wallets face 20.5M ETH at risk without quantum-resistant upgrade by 2029',
+          detail: 'A new research report quantifies the quantum threat: ETH\'s top 1,000 wallets hold ~20.5M ETH exposed to quantum attacks if pre-quantum cryptographic upgrades aren\'t deployed before Google\'s estimated 2029 risk window. Ethereum\'s post-quantum migration roadmap is active; the timeline is tight.',
+          source: 'YouSearch / Finbold'
+        },
+        {
+          rating: 3,
+          headline: 'Ethereum and Solana weekend rally signals rotation into new crypto protocols',
+          detail: 'Both ETH and SOL staged notable weekend rallies interpreted by analysts as an early altcoin season rotation signal. ETH broke above $2,100 intraday; SOL gained on renewed DeFi activity. Analysts frame this as institutional diversification beyond BTC.',
+          source: 'YouSearch'
+        },
+        {
+          rating: 3,
+          headline: 'Ethereum outperforms Bitcoin — altcoin season indicators emerging',
+          detail: 'ETH/BTC ratio improved for the third consecutive session, with multiple technical analysts flagging early altcoin season indicators. ETH\'s 1.9% gain vs BTC\'s 1.0% midday reinforces the trend.',
+          source: 'YouSearch / Finance'
+        },
+        {
+          rating: 3,
+          headline: '$13.5B Ethereum options expire — Pectra upgrade anchors bullish case',
+          detail: 'A record-scale $13.5B ETH options expiry is approaching, with the bullish case tied directly to Pectra upgrade momentum. Options data shows max pain around $2,000 with call-heavy positioning above $2,200 if Pectra timing firms up.',
+          source: 'YouSearch'
+        },
+        {
+          rating: 2,
+          headline: 'ETH price prediction: $4,000 bull case vs $1,500 bear case — technical split',
+          detail: 'Ethereum analysts are split: bulls target a post-Pectra $4,000 scenario based on institutional ETF momentum; bears see a risk of sub-$1,500 if macro deterioration hits and ETF outflows resume. Near-term range: $2,100–$2,300.',
+          source: 'YouSearch'
+        },
+        {
+          rating: 2,
+          headline: 'Ethereum Foundation total staking reaches $50M — yield strategy scales',
+          detail: 'Follow-up coverage confirms the Ethereum Foundation\'s total staked ETH has reached $50M, up from the initial $46.2M announcement. The foundation is building a staking yield stream as part of a formal treasury management pivot.',
+          source: 'Exa / Coinspeaker'
+        }
+      ]
+    }
+  ]
+},
+
+{
+  id: 'issue-2026-04-01-noon',
+  issueNumber: 45,
+  date: 'April 1, 2026',
+  time: 'Noon CT',
+  btcPrice: '$68,894',
   btcChange: '+1.5%',
   btcUp: true,
   ethPrice: '$2,145',
