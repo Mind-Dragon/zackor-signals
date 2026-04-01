@@ -9,8 +9,8 @@ const BASE_URL = "https://zackor.news";
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
   title: {
-    default: "Zackor Signals — AI Crypto Intelligence",
-    template: "%s | Zackor Signals",
+    default: "Zackor Signals: Powered by Sure Thing — AI Crypto Intelligence",
+    template: "%s | Zackor Signals: Powered by Sure Thing",
   },
   description:
     "AI-powered crypto and market intelligence newsletter. Twice-daily signal reports with impact ratings (⚡ to ⚡⚡⚡⚡). Bitcoin, Ethereum, AI agents. Noise filtered.",
@@ -24,28 +24,28 @@ export const metadata: Metadata = {
     "OpenClaw",
     "autonomous agents",
     "crypto briefing",
-    "Zackor Signals",
+    "Zackor Signals: Powered by Sure Thing",
   ],
   authors: [{ name: "Jefferson Nunn", url: "https://x.com/mindragon" }],
   creator: "Jefferson Nunn",
-  publisher: "Zackor Signals",
+  publisher: "Zackor Signals: Powered by Sure Thing",
   category: "Finance",
   alternates: {
     canonical: BASE_URL,
   },
   openGraph: {
-    title: "Zackor Signals",
+    title: "Zackor Signals: Powered by Sure Thing",
     description: "AI · Crypto · Market Intelligence — twice daily, 8am & noon CT",
     type: "website",
     url: BASE_URL,
-    siteName: "Zackor Signals",
+    siteName: "Zackor Signals: Powered by Sure Thing",
     locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
     site: "@mindragon",
     creator: "@mindragon",
-    title: "Zackor Signals — AI Crypto Intelligence",
+    title: "Zackor Signals: Powered by Sure Thing — AI Crypto Intelligence",
     description: "AI · Crypto · Market Intelligence — twice daily, 8am & noon CT",
   },
   robots: {
@@ -74,7 +74,7 @@ const websiteJsonLd = {
       "@type": "WebSite",
       "@id": `${BASE_URL}/#website`,
       url: BASE_URL,
-      name: "Zackor Signals",
+      name: "Zackor Signals: Powered by Sure Thing",
       description: "AI Crypto Intelligence — twice-daily signal reports",
       inLanguage: "en-US",
       potentialAction: {
@@ -86,7 +86,7 @@ const websiteJsonLd = {
     {
       "@type": "NewsMediaOrganization",
       "@id": `${BASE_URL}/#organization`,
-      name: "Zackor Signals",
+      name: "Zackor Signals: Powered by Sure Thing",
       url: BASE_URL,
       logo: {
         "@type": "ImageObject",
