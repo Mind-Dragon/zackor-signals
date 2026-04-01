@@ -30,6 +30,99 @@ export interface Issue {
 export const ISSUES: Issue[] = [
 
 {
+  id: 'issue-2026-04-01-8am',
+  issueNumber: 44,
+  date: 'April 1, 2026',
+  time: '8AM CT',
+  btcPrice: '$68,326',
+  btcChange: '+1.1%',
+  btcUp: true,
+  ethPrice: '$2,140',
+  ethChange: '+4.4%',
+  ethUp: true,
+  sections: [
+    {
+      icon: '₿',
+      title: 'Bitcoin',
+      signals: [
+        {
+          rating: 4,
+          headline: 'Morgan Stanley launches low-fee Bitcoin ETF at $67K — IBIT records $69M inflows',
+          detail: 'Morgan Stanley officially launches a low-fee Bitcoin ETF as institutional momentum builds. IBIT snaps a 4-month outflow streak with $69.44M single-day inflows — total March flows hit $1.2B, confirming the trend reversal from Q1 weakness.',
+          source: 'Independent Reserve / TradingNews / Exa'
+        },
+        {
+          rating: 3,
+          headline: 'March ETF reversal: $1.2B in BTC ETF flows after 4-month outflow streak ends',
+          detail: 'Bitcoin and Ethereum spot ETFs recorded mixed but net-positive inflows on March 31, marking the end of a prolonged outflow cycle. BlackRock institutional buying pacing ahead of other issuers; net March total $1.2B signals durable Q2 demand floor.',
+          source: 'ainvest / OpenPR / Exa'
+        },
+        {
+          rating: 3,
+          headline: "92% of Bitcoin holders in loss — CryptoQuant flags rare contrarian buy signal",
+          detail: "CryptoQuant data shows 92% of BTC holders are currently underwater, a level historically associated with market bottoms and capitulation exhaustion. Last seen during 2022 bear market floor. Analysts treating as accumulation signal, not panic indicator.",
+          source: 'CryptoQuant / r/CryptoCurrency'
+        },
+        {
+          rating: 3,
+          headline: "Bitcoin, stocks rally as US and Iran consider ending war — macro peace catalyst",
+          detail: 'BTC and equities both spiked on reports that the US and Iran are in active ceasefire negotiations, reducing a major geopolitical risk premium that had been suppressing risk assets. BTC added 1%+ on the news, back to $68K range.',
+          source: 'CoinTelegraph'
+        },
+        {
+          rating: 2,
+          headline: "BTC closer to its 'buy zone' than in 3 years — price analysis",
+          detail: 'Multiple technical analysts note BTC is trading near a historically significant buy zone not seen since early 2023. On-chain cost basis models and miner break-even levels converging around the $65K–$68K range, limiting downside risk.',
+          source: 'r/CryptoCurrency'
+        },
+        {
+          rating: 2,
+          headline: "Trump declares 'Crypto Revolution' — Elon Musk sparks wild BTC speculation",
+          detail: 'President Trump publicly declared a "Crypto Revolution" and Elon Musk followed with cryptic BTC comments, briefly moving sentiment. Market treated as noise after a brief spike — no policy announcement confirmed.',
+          source: 'r/CryptoCurrency'
+        }
+      ]
+    },
+    {
+      icon: 'Ξ',
+      title: 'Ethereum',
+      signals: [
+        {
+          rating: 4,
+          headline: "Ethereum Foundation stakes $46.2M ETH — record treasury shift signals long-term conviction",
+          detail: "The Ethereum Foundation made its largest-ever staking move, deploying $46.2M–$50M worth of ETH to validators. The move signals a formal treasury strategy shift toward staking yield rather than pure treasury holding, with downstream implications for validator growth and ETH supply dynamics.",
+          source: 'CryptoNewsFlash / TradingView / ainvest / Exa'
+        },
+        {
+          rating: 3,
+          headline: 'ETH ETF inflows break 8-day outflow streak — ETH jumps past $2,100',
+          detail: 'Ethereum ETF products reversed a consecutive 8-day outflow streak as $50M+ in net inflows returned, pushing ETH past $2,100 and confirming renewed institutional demand. Fidelity separately reports rising on-chain ETH staking demand from institutional clients.',
+          source: 'CryptoNewsZ / Fidelity Digital Assets / OpenPR'
+        },
+        {
+          rating: 3,
+          headline: 'Pectra upgrade timeline confirmed — ETH price prediction improves',
+          detail: 'The Ethereum Pectra upgrade has had its timeline officially confirmed, removing a key uncertainty overhang. Analysts revised ETH price targets upward, with $2,400–$2,650 CME gap fill cited as near-term technical targets post-upgrade.',
+          source: 'OpenPR / CryptoNews'
+        },
+        {
+          rating: 3,
+          headline: 'Google sets 2029 quantum deadline — Ethereum has a plan, Bitcoin has a culture war',
+          detail: "Google's latest quantum computing report accelerated its projected timeline to cryptographically relevant quantum to 2029. The ETH community is advancing post-quantum wallet migration pathways while the Bitcoin community remains divided on how to respond — a growing ecosystem differentiation signal.",
+          source: 'r/ethereum / r/CryptoCurrency / Finbold'
+        },
+        {
+          rating: 2,
+          headline: "Ethereum marks 10 years of zero downtime — outperforms all L1 competitors",
+          detail: "Ethereum celebrates a decade of operation with zero network downtime — a milestone no competing L1 blockchain has matched. The anniversary sparked renewed coverage of Ethereum's infrastructure reliability vs. newer competitors.",
+          source: 'r/CryptoCurrency'
+        }
+      ]
+    }
+  ]
+},
+
+{
   id: 'issue-2026-03-30-noon',
   issueNumber: 43,
   date: 'March 30, 2026',
