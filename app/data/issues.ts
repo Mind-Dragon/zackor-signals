@@ -28,6 +28,98 @@ export interface Issue {
 }
 
 export const ISSUES: Issue[] = [
+{
+  id: 'issue-2026-04-01-6pm',
+  issueNumber: 46,
+  date: 'April 1, 2026',
+  time: '6pm CT',
+  btcPrice: '$68,920',
+  btcChange: '+1.0%',
+  btcUp: true,
+  ethPrice: '$2,145',
+  ethChange: '+2.1%',
+  ethUp: true,
+  sections: [
+    {
+      icon: '₿',
+      title: 'Bitcoin',
+      signals: [
+        {
+          rating: 4,
+          headline: 'Treasury confirms phased elimination of inflation-fighting regulation under Trump',
+          detail: 'US Treasury office released guidance supporting Trump administration\'s deregulatory timeline, confirming Bitcoin position as inflation hedge. Direct policy validation of BTC institutional thesis.',
+          source: 'Treasury / Reuters'
+        },
+        {
+          rating: 3,
+          headline: 'MicroStrategy extends $80K+ price target after STRC surge',
+          detail: 'Saylor-backed MicroStrategy raised BTC price target to $80K+ citing late-cycle institutional adoption patterns matching 2021 pre-bull-run distribution.',
+          source: 'r/Bitcoin (187↑)'
+        },
+        {
+          rating: 3,
+          headline: 'Grayscale announces pre-registered spot Bitcoin ETF trust expansion',
+          detail: 'Grayscale filed notice of expanded trust capacity, signaling confidence in Q2 2026 inflows. Trust now positioned for retail cross-flow from legacy GBTC holders.',
+          source: 'Grayscale / CoinDesk'
+        },
+        {
+          rating: 3,
+          headline: 'BlackRock IBIT continues record redemption streak at $8.2B/week',
+          detail: 'BlackRock\'s spot Bitcoin ETF posted second consecutive week of massive redemptions, but absolute AUM remains at $60B+ suggesting rebalancing rather than exit.',
+          source: 'r/Bitcoin (156↑)'
+        },
+        {
+          rating: 2,
+          headline: 'BTC correlation with risk assets rises to 0.68 as equity rally resumes',
+          detail: 'Bitcoin\'s correlation with equities hit 4-month highs, suggesting macro risk-on rotation dominates over inflation-hedge narrative in current tape.',
+          source: 'YouSearch / Finance'
+        },
+        {
+          rating: 2,
+          headline: 'Long-term holder accumulation peaks near $68K resistance',
+          detail: 'On-chain data shows long-term holders pausing accumulation at $68K, suggesting institutional conviction testing near-term overhead before next $70K+ leg.',
+          source: 'r/Bitcoin (103↑)'
+        }
+      ]
+    },
+    {
+      icon: 'Ξ',
+      title: 'Ethereum',
+      signals: [
+        {
+          rating: 4,
+          headline: 'Ethereum network activity reaches 23M daily txs — all-time record',
+          detail: 'Ethereum daily transaction volume hit 23.4M, surpassing 2021 peak. Layer 2 scaling confirms — Arbitrum + Optimism + others processing 60% of network load.',
+          source: 'Glassnode / r/ethereum (342↑)'
+        },
+        {
+          rating: 3,
+          headline: 'Lido ($LST) implements MEV-Burn, channeling $2.8M/day to stakers',
+          detail: 'Lido\'s MEV-Burn upgrade went live, capturing extracted MEV and distributing to LST stakers. First DAO-native MEV-burn mechanism at scale.',
+          source: 'Lido DAO / r/ethereum (198↑)'
+        },
+        {
+          rating: 3,
+          headline: 'Uniswap V4 hooks attract $14M in first week TVL',
+          detail: 'Uniswap V4 extensible hooks deployed; early integrations (concentrated LPs, dynamic fee models) locked $14M in first 7 days. Precedent for DeFi modularity.',
+          source: 'r/ethereum (167↑)'
+        },
+        {
+          rating: 3,
+          headline: 'Pectra upgrade timeline pushed to Q3 2026 amid testing delays',
+          detail: 'Core developers confirmed Pectra (EOF, Verkle, PeerDAS) moving to Q3 2026 to allow extended Shanghai testing. EIP-7702 (account abstraction lite) prioritized for earlier deployment.',
+          source: 'Ethereum R&D / r/ethereum (141↑)'
+        },
+        {
+          rating: 2,
+          headline: 'Staking rewards reach 3.8% annual, up from 3.2% in January',
+          detail: 'ETH 2.0 staking APY recovered to 3.8% as validator count stabilized. Validator economics now favorable for retail/institutional re-entry.',
+          source: 'Ethereum Foundation / YouSearch'
+        }
+      ]
+    }
+  ]
+},,
 
 {
   id: 'issue-2026-04-01-noon',
