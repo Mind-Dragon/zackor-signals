@@ -24,6 +24,88 @@ export interface AIIssue {
 export const AI_ISSUES: AIIssue[] = [
 
 {
+  id: 'ai-2026-04-01-noon',
+  issueNumber: 14,
+  date: 'April 1, 2026',
+  time: 'Noon CT',
+  sections: [
+    {
+      icon: '🔓',
+      title: 'Anthropic: Claude Leak & New Capabilities',
+      signals: [
+        {
+          rating: 4,
+          headline: 'Claude Code source leaked via npm sourcemap — community rebuilds executable',
+          detail: 'Anthropic accidentally exposed Claude Code source through a debug sourcemap file included in their npm package. Within hours, developers reconstructed a working Claude Code executable from the leaked map — one contributor adding a custom startup animation to the rebuilt binary. Anthropic has not officially confirmed the incident.',
+          source: 'r/singularity (974 upvotes)'
+        },
+        {
+          rating: 4,
+          headline: 'Computer use now live in Claude Code — agentic desktop control ships',
+          detail: 'Anthropic shipped computer use capability natively into Claude Code, enabling Claude to interact with browsers and desktop GUI while writing code. First mainstream AI coding tool to integrate agentic screen control — Claude can now navigate, click, and read UI state without manual handoff.',
+          source: 'r/singularity (426 upvotes)'
+        },
+        {
+          rating: 3,
+          headline: 'Claude Mythos surfaces — Anthropic's most powerful model ever, per leaked docs',
+          detail: 'Leaked Anthropic internal references describe a model called Claude Mythos as the company's most capable system yet — well beyond the current Claude product line. Trending alongside the npm leak, with community treating it as credible. April 1 context warrants caution until officially confirmed.',
+          source: 'r/singularity (1,185 upvotes)'
+        },
+        {
+          rating: 3,
+          headline: 'Sources: Anthropic internally expects AGI in 6 to 12 months',
+          detail: 'Multiple sources claim Anthropic researchers and leadership privately believe they are 6 to 12 months from AGI-class systems, even as public messaging remains cautious. The accelerating Claude capability curve and Mythos references are cited as supporting evidence.',
+          source: 'r/singularity (99 upvotes)'
+        }
+      ]
+    },
+    {
+      icon: '💰',
+      title: 'OpenAI: $122B Raise & Research Breakthroughs',
+      signals: [
+        {
+          rating: 4,
+          headline: 'OpenAI raises $122B — valued at $852B, largest private raise in history',
+          detail: 'OpenAI closed a $122B funding round, pushing its valuation to $852B — the largest single private company fundraise in history. The round cements OpenAI as the most valuable private company globally and signals the post-AGI-threshold investment cycle is fully underway.',
+          source: 'r/singularity (438 upvotes) / New Straits Times / Exa'
+        },
+        {
+          rating: 3,
+          headline: 'OpenAI internal model solves 3 more Erdos Prize problems in mathematics',
+          detail: 'An OpenAI internal model has now solved 3 additional Erdos Prize problems — among the hardest unsolved problems in combinatorics and number theory. Expands AI's mathematical frontier well beyond IMO-gold-level performance, into research-grade problem solving.',
+          source: 'r/singularity (163 upvotes)'
+        },
+        {
+          rating: 3,
+          headline: 'Demis Hassabis secretly built an AI hedge fund inside DeepMind — Google shut it down',
+          detail: 'Demis Hassabis operated a quant hedge fund inside DeepMind — training AI models to beat Jim Simons' Renaissance Technologies. Google ultimately shut it down. The story highlights both AI's trading potential and the tension between frontier labs and commercial spinoffs.',
+          source: 'r/singularity (376 upvotes)'
+        }
+      ]
+    },
+    {
+      icon: '🦾',
+      title: 'Embodied AI & Neurotech',
+      signals: [
+        {
+          rating: 4,
+          headline: 'Neuralink restores speech for ALS patients — BCI verbal communication confirmed',
+          detail: 'Neuralink released clinical data showing its BCI restoring meaningful verbal communication for ALS patients who had lost the ability to speak. Results mark a milestone for implantable neural interfaces beyond motor control — direct speech synthesis from neural signals in locked-in patients.',
+          source: 'r/singularity (542 upvotes)'
+        },
+        {
+          rating: 3,
+          headline: 'Figure AI humanoid walks into photoshoot unassisted — real-world autonomy demo',
+          detail: 'Figure AI released footage of its humanoid robot autonomously navigating to a commercial photoshoot location, orienting itself, and following directions without teleoperation. One of the most complete real-world embodied autonomy demonstrations by a US humanoid company to date.',
+          source: 'r/singularity (335 upvotes)'
+        }
+      ]
+    }
+  ]
+},
+
+
+{
   id: 'ai-2026-04-01-8am',
   issueNumber: 13,
   date: 'April 1, 2026',
