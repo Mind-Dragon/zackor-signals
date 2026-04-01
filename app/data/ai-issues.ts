@@ -24,6 +24,63 @@ export interface AIIssue {
 export const AI_ISSUES: AIIssue[] = [
 
 {
+  id: 'ai-2026-04-01-8am',
+  issueNumber: 13,
+  date: 'April 1, 2026',
+  time: '8AM CT',
+  sections: [
+    {
+      icon: '🤖',
+      title: 'OpenClaw & AI Agents',
+      signals: [
+        {
+          rating: 4,
+          headline: "OpenClaw creator tells AFP: '2026 could be the year of general AI agents'",
+          detail: "OpenClaw's CEO told AFP in a widely-syndicated interview that 2026 is on track to be the breakout year for general-purpose AI agents — capable of autonomously handling complex, multi-step tasks without human handholding. Picked up by CNN, Yahoo Tech, Economic Times, The Star, Digitimes, and Enterprise AI.",
+          source: 'AFP / CNN Business / Economic Times / Exa'
+        },
+        {
+          rating: 4,
+          headline: "OpenClaw signals strategic shift to self-evolving AI agents — agentic future accelerating",
+          detail: "OpenClaw is explicitly pivoting its public messaging around self-evolving agents that adapt and improve through use — a shift from tool-use assistants to autonomous agents with persistent memory and self-modification. Digitimes coverage confirms this as a formal product direction, not just marketing.",
+          source: 'Digitimes / Exa'
+        },
+        {
+          rating: 3,
+          headline: "CNN Business: China's OpenClaw obsession could be a game changer for global AI",
+          detail: "CNN Business profiles the explosive OpenClaw adoption wave in China — from enterprise deployments to consumer skill-building communities. The piece frames Chinese user innovation (Scrapling, Bilibili-CLI, OpenClaw Manager) as a wild card that could reshape the global AI agent ecosystem.",
+          source: 'CNN Business / Exa'
+        }
+      ]
+    },
+    {
+      icon: '🧠',
+      title: 'AI Infrastructure & Ecosystem',
+      signals: [
+        {
+          rating: 3,
+          headline: 'Deeplumen launches Open Commerce Protocol (OCP) for agentic commerce full-stack',
+          detail: 'Deeplumen launched the Open Commerce Protocol (OCP), completing a full-stack infrastructure layer enabling AI agents to participate in commerce autonomously — discovery, negotiation, transaction, and fulfillment. Positions as the agentic equivalent of HTTP for commerce flows.',
+          source: 'PR Newswire / Exa'
+        },
+        {
+          rating: 3,
+          headline: 'hey.eth: public identity layer for AI agents — ENS in <10s, State Channel payments',
+          detail: 'A developer is building hey.eth as an open, free identity layer where AI agents can claim ENS names in under 10 seconds and transact via State Channels. Open-source infrastructure targeting agentic payments without centralized coordination — posted to r/ethereum with active discussion.',
+          source: 'r/ethereum'
+        },
+        {
+          rating: 3,
+          headline: "Google warns Quantum Armageddon is drawing closer — 2029 threat window tightens",
+          detail: "Google's latest quantum computing progress report tightens the projected timeline to cryptographically relevant quantum attacks to as early as 2029. Ethereum has an active post-quantum migration roadmap; Bitcoin community response remains fragmented. Signal for both AI security and crypto infrastructure.",
+          source: 'r/CryptoCurrency / Finbold'
+        }
+      ]
+    }
+  ]
+},
+
+{
   id: 'ai-2026-03-30-noon',
   issueNumber: 12,
   date: 'March 30, 2026',
