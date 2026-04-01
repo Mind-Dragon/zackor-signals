@@ -2,7 +2,7 @@ import { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Zackor Signals",
+    name: "Zackor Signals: Powered by Sure Thing",
     short_name: "Zackor",
     description: "AI Crypto Intelligence — twice-daily signal reports with impact ratings",
     start_url: "/",
