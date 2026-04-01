@@ -1,4 +1,4 @@
-# Zackor Signals
+# Zackor Signals: Powered by Sure Thing
 
 AI · Crypto · Market Intelligence newsletter site.
 
