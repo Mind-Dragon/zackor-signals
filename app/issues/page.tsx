@@ -3,8 +3,8 @@ import { ISSUES } from "../data/issues";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Issues Archive — Zackor Signals",
-  description: "Browse all Zackor Signals newsletter issues. AI, crypto, and market intelligence — twice daily.",
+  title: "Issues Archive — Zackor Signals: Powered by Sure Thing",
+  description: "Browse all Zackor Signals: Powered by Sure Thing newsletter issues. AI, crypto, and market intelligence — twice daily.",
 };
 
 const SOCIAL = {
