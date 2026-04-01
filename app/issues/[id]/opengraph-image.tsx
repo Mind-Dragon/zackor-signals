@@ -12,8 +12,8 @@ export function generateImageMetadata({ params }: { params: { id: string } }) {
     {
       id: params.id,
       alt: issue
-        ? `Zackor Signals Issue #${issue.issueNumber} \u2014 ${issue.date}`
-        : "Zackor Signals",
+        ? `Zackor Signals: Powered by Sure Thing Issue #${issue.issueNumber} \u2014 ${issue.date}`
+        : "Zackor Signals: Powered by Sure Thing",
     },
   ];
 }
