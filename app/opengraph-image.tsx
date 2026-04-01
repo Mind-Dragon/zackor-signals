@@ -2,7 +2,7 @@
 import { ImageResponse } from "next/og";
 
 export const runtime = "edge";
-export const alt = "Zackor Signals — AI Crypto Intelligence";
+export const alt = "Zackor Signals: Powered by Sure Thing — AI Crypto Intelligence";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
