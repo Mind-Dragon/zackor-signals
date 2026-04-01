@@ -1,10 +1,10 @@
-# Zackor Signals — AI Crypto Intelligence
+# Zackor Signals: Powered by Sure Thing — AI Crypto Intelligence
 
 > Twice-daily signal newsletter covering Bitcoin, Ethereum, crypto markets, AI agents, and autonomous agent technology. Every signal rated by market impact. Noise filtered.
 
 ## About
 
-Zackor Signals is an AI-curated intelligence briefing delivered twice daily (8am & noon CT). Publisher: Jefferson Nunn / @mindragon. Brand AI agent name: Zackor.
+Zackor Signals: Powered by Sure Thing is an AI-curated intelligence briefing delivered twice daily (8am & noon CT). Publisher: Jefferson Nunn / @mindragon. Brand AI agent name: Zackor.
 
 ## URLs
 
@@ -20,7 +20,7 @@ Zackor Signals is an AI-curated intelligence briefing delivered twice daily (8am
 
 ## Content Coverage
 
-Zackor Signals covers five signal categories, each rated ⚡ to ⚡⚡⚡⚡ by market impact:
+Zackor Signals: Powered by Sure Thing covers five signal categories, each rated ⚡ to ⚡⚡⚡⚡ by market impact:
 
 1. **Bitcoin** — BTC price action, ETF flows, on-chain activity, miner behavior, halving signals
 2. **Ethereum** — ETH staking, DeFi TVL, L2 ecosystem (Arbitrum, Base, Optimism), developer activity
