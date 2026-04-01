@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: { params: { id: string } }): 
       description: issue.date + " · AI Signals · Foundation Models · Agents · Research",
       url,
       type: "article",
-      siteName: "Zackor Signals",
+      siteName: "Zackor Signals: Powered by Sure Thing",
     },
     twitter: {
       card: "summary_large_image",
