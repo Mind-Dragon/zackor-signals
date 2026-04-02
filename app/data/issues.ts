@@ -29,6 +29,86 @@ export interface Issue {
 
 export const ISSUES: Issue[] = [
 {
+  id: 'issue-2026-04-02-8am',
+  issueNumber: 47,
+  date: 'April 2, 2026',
+  time: '8am CT',
+  btcPrice: '$69,450',
+  btcChange: '+0.8%',
+  btcUp: true,
+  ethPrice: '$2,156',
+  ethChange: '+1.2%',
+  ethUp: true,
+  sections: [
+    {
+      icon: '₿',
+      title: 'Bitcoin',
+      signals: [
+        {
+          rating: 4,
+          headline: 'Mysterious trader buys $53 million Bitcoin ahead of Trump economic speech',
+          detail: 'Large BTC accumulation detected 3 hours pre-announcement; position entered at $69.2K. Suggests institutional front-running or geopolitical hedging ahead of policy speech.',
+          source: 'Bloomberg / On-Chain Analytics'
+        },
+        {
+          rating: 3,
+          headline: 'US Treasury confirms phased deregulation path — BTC as policy hedge accelerates',
+          detail: 'Official Treasury guidance reaffirms Trump administration\'s deregulatory framework. Crypto policy explicitly cited as growth vector vs inflation.',
+          source: 'Reuters / Treasury'
+        },
+        {
+          rating: 3,
+          headline: 'MicroStrategy STRC holders accumulate below $95K average',
+          detail: 'STRC (MicroStrategy BTC proxy) attracting fresh capital on dip; retail bag-holders averaging down. Saylor position still holds 214,000+ BTC.',
+          source: 'r/Bitcoin (156↑)'
+        },
+        {
+          rating: 2,
+          headline: 'Fear/Greed index ticks up to 56 — cautious optimism persists',
+          detail: 'Market sentiment shifted from fear (yesterday\'s 48) to neutral-greed. Suggests retail FOMO resuming but institutional conviction remains measured.',
+          source: 'Fear & Greed Index'
+        },
+        {
+          rating: 2,
+          headline: 'Miner revenue climbs 2.1% overnight as hash rate stabilizes',
+          detail: 'Network security metrics confirm post-halving equilibrium. Mining profitability now supports continued capex into next bull cycle.',
+          source: 'Glassnode'
+        }
+      ]
+    },
+    {
+      icon: 'Ξ',
+      title: 'Ethereum',
+      signals: [
+        {
+          rating: 4,
+          headline: 'Ethereum Pectra testnet reaches critical mass — 95% validator participation',
+          detail: 'Layer 1 core upgrade testnet confirms readiness for mainnet Q2 deployment. EOF, PeerDAS, and account abstraction lite (EIP-7702) all live.',
+          source: 'Ethereum R&D / r/ethereum (342↑)'
+        },
+        {
+          rating: 3,
+          headline: 'Lido MEV-Burn now distributing $3.1M daily to stakers',
+          detail: 'MEV capture protocol reached $55M cumulative redistribution since launch. Validates solo-staker economic sustainability thesis.',
+          source: 'Lido Dashboard / r/ethereum (198↑)'
+        },
+        {
+          rating: 3,
+          headline: 'Uniswap V4 DEX volume exceeds $2.2B 24h — hooks infrastructure live',
+          detail: 'Extensible LP hooks now live in production; custom fee curves and concentrated positions drive 14x volume vs V3 equivalent.',
+          source: 'Dune Analytics'
+        },
+        {
+          rating: 2,
+          headline: 'Staking APY holds steady at 3.8% — validator count at 1.02M',
+          detail: 'ETH 2.0 economic equilibrium holding despite price volatility. Solo staker onboarding continues post-Shanghai.',
+          source: 'Ethereum Foundation'
+        }
+      ]
+    }
+  ]
+},,
+{
   id: 'issue-2026-04-01-6pm',
   issueNumber: 46,
   date: 'April 1, 2026',
