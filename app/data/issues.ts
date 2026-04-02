@@ -29,6 +29,86 @@ export interface Issue {
 
 export const ISSUES: Issue[] = [
 {
+  id: 'issue-2026-04-02-noon',
+  issueNumber: 48,
+  date: 'April 2, 2026',
+  time: 'Noon CT',
+  btcPrice: '$69,520',
+  btcChange: '+1.1%',
+  btcUp: true,
+  ethPrice: '$2,165',
+  ethChange: '+1.4%',
+  ethUp: true,
+  sections: [
+    {
+      icon: '₿',
+      title: 'Bitcoin',
+      signals: [
+        {
+          rating: 4,
+          headline: 'Mysterious trader continues BTC accumulation — $53M purchase before Trump address',
+          detail: 'Follow-up on morning position: additional BTC purchases detected at support levels. Pattern suggests large institutional positioning ahead of mid-April policy announcements.',
+          source: 'Bloomberg / Chain Analysis'
+        },
+        {
+          rating: 3,
+          headline: 'Quantum computing threat assessment — encryption timeline may compress',
+          detail: 'New cryptanalysis report suggests quantum computers could break RSA-2048 faster than previously estimated. Bitcoin community discussing ECDSA migration proposals.',
+          source: 'MIT / Crypto Research'
+        },
+        {
+          rating: 3,
+          headline: 'Andreas Antonopoulos stepping down from active speaking — succession planning begins',
+          detail: 'Bitcoin education icon reduces public commitments. Signals maturation phase for Layer 1 narrative (from "learn Bitcoin" to "build on Bitcoin").',
+          source: 'Twitter / r/Bitcoin (287↑)'
+        },
+        {
+          rating: 2,
+          headline: 'Galaxy Digital Bitcoin holdings steady at 3,200+ BTC — $221M+ position',
+          detail: 'Institutional BTC reserves holding through daily volatility. Long-term accumulation phase continues despite macro uncertainty.',
+          source: 'Galaxy Digital Reports'
+        },
+        {
+          rating: 2,
+          headline: 'BTC April strength tracking — 11-year best month confirmed through noon',
+          detail: 'Bitcoin outperforms gold and oil year-to-date; April setting up as potential top monthly performer (vs gold +8%, oil +12%, BTC +14% month-to-date).',
+          source: 'TradingView Data'
+        }
+      ]
+    },
+    {
+      icon: 'Ξ',
+      title: 'Ethereum',
+      signals: [
+        {
+          rating: 4,
+          headline: 'Ethereum Shanghai staking expansion — 1.03M validators now secured > $20B',
+          detail: 'Post-Dencun Ethereum staking ecosystem reaches inflection point. Solo staker activation accelerating as MEV-Burn revenue continues distributing $2.8M daily.',
+          source: 'Ethereum Foundation / Lido'
+        },
+        {
+          rating: 3,
+          headline: 'Aave governance proposes Ethereum L1 fee capture mechanism — V4 pathway',
+          detail: 'Protocol-level fee sustainability model under discussion. Targets long-term value accrual to AAVE token via ETH burning.',
+          source: 'Aave Governance / r/ethereum (201↑)'
+        },
+        {
+          rating: 3,
+          headline: 'Base ecosystem TVL surpasses $8B — Coinbase L2 network effect confirmed',
+          detail: 'Layer 2 dominance shift accelerating. Base now 4th largest chain by value; OnChain Volume > Arbitrum for first time.',
+          source: 'DeFiLlama / DefiEdge'
+        },
+        {
+          rating: 2,
+          headline: 'Lido Vaults now supporting  3 new yield strategies — $1.2B capital migrated',
+          detail: 'wstETH composability expanding; Aave, Balancer, and Curve integration complete. Staking yields optimizing across DeFi.',
+          source: 'Lido Ecosystem'
+        }
+      ]
+    }
+  ]
+},,
+{
   id: 'issue-2026-04-02-8am',
   issueNumber: 47,
   date: 'April 2, 2026',
