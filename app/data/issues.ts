@@ -29,6 +29,86 @@ export interface Issue {
 
 export const ISSUES: Issue[] = [
 {
+  id: 'issue-2026-04-02-6pm',
+  issueNumber: 49,
+  date: 'April 2, 2026',
+  time: '6PM CT',
+  btcPrice: '$67,039',
+  btcChange: '+1.52%',
+  btcUp: true,
+  ethPrice: '$2,060',
+  ethChange: '+3.64%',
+  ethUp: true,
+  sections: [
+    {
+      icon: '₿',
+      title: 'Bitcoin',
+      signals: [
+        {
+          rating: 3,
+          headline: 'Evening BTC volatility — institutional buyers remain active post-Trump comments',
+          detail: 'BTC consolidating around $67K resistance level. Earlier Trump remarks regarding cryptocurrency policy supportive; evening trading shows institutional accumulation patterns.',
+          source: 'Trading Analytics / Bloomberg'
+        },
+        {
+          rating: 3,
+          headline: 'Stablecoin flows increase — USDC/USDT volume uptick signals macro positioning',
+          detail: 'Evening stablecoin on-chain volume surge indicates traders preparing for volatility. Total stable TVL approaching $160B across major chains.',
+          source: 'Glassnode / DefiLlama'
+        },
+        {
+          rating: 2,
+          headline: 'Layer 1 efficiency comparisons — Bitcoin settlement dominance continues',
+          detail: 'Daily transaction settlement: Bitcoin $73B, Ethereum $45B, others <$10B. On-chain efficiency metrics show BTC consolidation preference over altcoins.',
+          source: 'Blockchain Data / Chain Analysis'
+        },
+        {
+          rating: 2,
+          headline: 'Mining difficulty adjustment prediction — Q2 shift expected after halving stabilization',
+          detail: 'Current hashrate 650 EH/s holds steady. Next difficulty retarget (2 weeks) may see +2.5-3% increase based on recent block times.',
+          source: 'Mining Data / BitcoinRPC'
+        },
+        {
+          rating: 2,
+          headline: 'ETF flows reversal — end-of-day rebalancing triggered $15M+ exits',
+          detail: 'BlackRock iShares BTC trust rebalancing in final hours; Grayscale GBTC holding steady. Month-end flows manageable within expectations.',
+          source: 'ETF Flow Analytics'
+        }
+      ]
+    },
+    {
+      icon: 'Ξ',
+      title: 'Ethereum',
+      signals: [
+        {
+          rating: 3,
+          headline: 'Dencun upgrade effects mature — MEV infrastructure stabilization observed',
+          detail: 'Post-Dencun MEV-Burn mechanism operating at $2.8-3.1M daily burn rate. Solo staker adoption continues accelerating; 1.03M+ validators now live.',
+          source: 'Ethereum Foundation / Lido Analytics'
+        },
+        {
+          rating: 3,
+          headline: 'Layer 2 cross-chain bridge volume peaks — Arbitrum + Optimism + Base active',
+          detail: 'Total L2 TVL $89B+. Arbitrum maintains 35% dominance; Optimism growth trending +8% week-over-week. Cross-chain messaging successful.',
+          source: 'DeFiLlama / L2Beat'
+        },
+        {
+          rating: 2,
+          headline: 'Smart contract activity surge — Uniswap V4 early adoption in final test phases',
+          detail: 'Goerli testnet Uniswap V4 activity shows 1,200+ test swaps/hour. Mainnet production launch expected within 14 days.',
+          source: 'Uniswap / Ethereum Data'
+        },
+        {
+          rating: 2,
+          headline: 'Gas optimization improvements — Mean block utilization at 75%',
+          detail: 'Evening base fees trending $2-2.50/gwei after morning spike to $8. Bulk transactions (DeFi liquidations) cleared successfully; network stability maintained.',
+          source: 'Etherscan / Gas Data'
+        }
+      ]
+    }
+  ]
+},,
+{
   id: 'issue-2026-04-02-noon',
   issueNumber: 48,
   date: 'April 2, 2026',
