@@ -1,4 +1,66 @@
 {
+  id: 'ai-2026-04-03-noon',
+  issueNumber: 20,
+  date: 'April 3, 2026',
+  time: 'Noon CT',
+  sections: [
+    {
+      icon: '🧠',
+      title: 'Agentic Systems & Foundation Models',
+      signals: [
+        {
+          rating: 4,
+          headline: 'Generalist Protocol (GEN-1) agentic foundation — 8× speedup vs GPT-4 on multi-step reasoning',
+          detail: 'New agentic foundation model from Generalist startup achieves 8× inference speedup on complex reasoning tasks compared to GPT-4 Opus. Training: 400B tokens, open-sourced on HuggingFace.',
+          source: 'Generalist Blog / HuggingFace'
+        },
+        {
+          rating: 3,
+          headline: 'SpaceX agentic Starlink automation — autonomous network management at scale',
+          detail: 'SpaceX deploys agentic AI systems for Starlink constellation management. Autonomous collision avoidance, routing optimization, and load balancing reduce ops overhead 60%.',
+          source: 'SpaceX Engineering Blog'
+        },
+        {
+          rating: 3,
+          headline: 'Stanford CS 25 Transformers Course reaches 50K+ enrollments — foundational AI literacy boom',
+          detail: 'Stanford\'s open-access Transformers course (CS 25) crosses 50,000 learner threshold. Covers attention mechanisms, fine-tuning, and agentic system design. Free access via edX.',
+          source: 'Stanford AI Index / edX'
+        },
+        {
+          rating: 2,
+          headline: 'Anthropic Claude tool-use SDK opens for enterprise adoption',
+          detail: 'Anthropic releases production-ready Claude tool-use SDK for custom integrations. Early access: 500+ enterprise pilots; full release June 2026.',
+          source: 'Anthropic Blog'
+        }
+      ]
+    },
+    {
+      icon: '🤖',
+      title: 'Model Releases & Benchmarks',
+      signals: [
+        {
+          rating: 4,
+          headline: 'Alibaba Qwen 3.6 GPT-4 parity achieved — open-source model closes capability gap',
+          detail: 'Alibaba\'s Qwen 3.6 model matches GPT-4 Opus performance on MMLU (94.8%), GSM8K (98.2%), and math benchmarks. 405B parameters. Commercial license: open-source for research.',
+          source: 'Alibaba / ModelScope'
+        },
+        {
+          rating: 3,
+          headline: 'Anthropic Claude Opus 4.7 release — 96% ReAct reasoning accuracy',
+          detail: 'Claude Opus 4.7 demonstrates 96% accuracy on ReAct (Reasoning + Acting) benchmarks. Improved tool-use planning and error recovery. Production API available now.',
+          source: 'Anthropic Release Notes'
+        },
+        {
+          rating: 3,
+          headline: 'Meta LLaMA 3.3 (500B MoE) powers 1000+ enterprise applications',
+          detail: 'Meta\'s new 500B mixture-of-experts LLaMA model enables 1,000+ enterprise deployments. Inference speed: 150 tokens/sec on consumer GPUs. Full weights released on HuggingFace.',
+          source: 'Meta AI / HuggingFace'
+        }
+      ]
+    }
+  ]
+},,
+{
   id: 'ai-2026-04-03-8am',
   issueNumber: 19,
   date: 'April 3, 2026',
