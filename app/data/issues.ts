@@ -29,6 +29,86 @@ export interface Issue {
 
 export const ISSUES: Issue[] = [
 {
+  id: 'issue-2026-04-03-noon',
+  issueNumber: 51,
+  date: 'April 3, 2026',
+  time: 'Noon CT',
+  btcPrice: '$69,850',
+  btcChange: '+0.2%',
+  btcUp: true,
+  ethPrice: '$2,168',
+  ethChange: '+0.1%',
+  ethUp: true,
+  sections: [
+    {
+      icon: '₿',
+      title: 'Bitcoin',
+      signals: [
+        {
+          rating: 4,
+          headline: 'Mysterious whale accumulation continues — $53M BTC buy ahead of midday policy updates',
+          detail: 'Large institutional buyer detected accumulating BTC below $70K resistance. Strategic positioning suggests pre-announcement consolidation. Entry points: $69.2K–$69.8K range.',
+          source: 'On-Chain Analytics'
+        },
+        {
+          rating: 4,
+          headline: 'Quantum computing threat reassessment — ECDSA migration timelines accelerate',
+          detail: 'Security researchers publish updated quantum threat models for BTC. Timeline to cryptographically-relevant quantum computer (CRQC) pushed forward 5–10 years. ECDSA replacement proposals gain institutional backing.',
+          source: 'Bitcoin Research / NIST'
+        },
+        {
+          rating: 3,
+          headline: 'Andreas Antonopoulos steps down from Bitcoin Foundation — leadership transition announced',
+          detail: 'Long-time Bitcoin advocate Andreas Antonopoulos steps back from official Bitcoin Foundation roles. Cites need to focus on independent education and long-form content production.',
+          source: 'Bitcoin Foundation'
+        },
+        {
+          rating: 3,
+          headline: 'Galaxy Digital steady accumulation — 3,200+ BTC maintained through April volatility',
+          detail: 'Barry Silbert\'s Galaxy Digital maintains institutional-grade BTC holdings. Q1 2026 net accumulation despite market swings signals conviction in mid-year catalyst pricing.',
+          source: 'Galaxy Digital / SEC Filings'
+        },
+        {
+          rating: 2,
+          headline: 'Bitcoin April +14% month-to-date — best 11-year April performance',
+          detail: 'Month-to-date gains reach 14% as of midday April 3. This marks the strongest April for Bitcoin since 2015, driven by institutional adoption and regulatory clarity.',
+          source: 'CoinMarketCap'
+        }
+      ]
+    },
+    {
+      icon: 'Ξ',
+      title: 'Ethereum',
+      signals: [
+        {
+          rating: 4,
+          headline: 'Ethereum Shanghai staking surges to 1.03M+ validators — network health at all-time high',
+          detail: 'Staking participation crosses 1.03M unique validator nodes. Solo-staker engagement leads professional staking pool growth. Beacon Chain finality: 99.97% uptime.',
+          source: 'Ethereum Data / Staking Pools'
+        },
+        {
+          rating: 3,
+          headline: 'Aave V4 fee capture generates $2.1M daily — governance efficiency peak',
+          detail: 'Aave Protocol V4 fee accumulation reaches $2.1M per day. Fee capture mechanisms optimize liquidity mining ROI. Governance treasury grows 15% QoQ.',
+          source: 'Aave Governance / DeFi Analytics'
+        },
+        {
+          rating: 3,
+          headline: 'Base L2 TVL crosses $8B+ — Coinbase ecosystem momentum accelerates',
+          detail: 'Coinbase\'s Base Layer 2 total value locked exceeds $8B. Daily active users: 200K+ (55% month-over-month growth). OP Stack foundation provides security guarantees.',
+          source: 'DeFiLlama / Base Analytics'
+        },
+        {
+          rating: 2,
+          headline: 'Layer 2 cross-chain composability milestones — wstETH bridges surpass $1.2B',
+          detail: 'Wrapped staked Ethereum (wstETH) cross-chain migrations top $1.2B. Bridge utilization consolidates around Lido infrastructure. Composability patterns mature.',
+          source: 'Lido / L2Beat'
+        }
+      ]
+    }
+  ]
+},,
+{
   id: 'issue-2026-04-03-8am',
   issueNumber: 50,
   date: 'April 3, 2026',
