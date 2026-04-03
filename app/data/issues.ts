@@ -29,6 +29,86 @@ export interface Issue {
 
 export const ISSUES: Issue[] = [
 {
+  id: 'issue-2026-04-03-8am',
+  issueNumber: 50,
+  date: 'April 3, 2026',
+  time: '8AM CT',
+  btcPrice: '$69,720',
+  btcChange: '+0.4%',
+  btcUp: true,
+  ethPrice: '$2,165',
+  ethChange: '+0.4%',
+  ethUp: true,
+  sections: [
+    {
+      icon: '₿',
+      title: 'Bitcoin',
+      signals: [
+        {
+          rating: 4,
+          headline: 'Mysterious trader accumulates $53M BTC ahead of Trump policy announcement',
+          detail: 'Large institutional or insider positioning detected 3 hours pre-speech. Entry point $69.2K suggests strategic accumulation during consolidation phase.',
+          source: 'On-Chain Analytics / Bloomberg'
+        },
+        {
+          rating: 4,
+          headline: 'US Treasury official statement confirms crypto deregulation roadmap',
+          detail: 'Treasury Department publishes phased deregulation framework. Bitcoin explicitly positioned as strategic hedge against inflation and capital controls.',
+          source: 'Reuters / Official Statement'
+        },
+        {
+          rating: 3,
+          headline: 'MicroStrategy STRC averaging down — institutional conviction remains high',
+          detail: 'STRC token attracting fresh capital below $95K BTC equivalent. Michael Saylor position now holds 214,500+ BTC, signaling continued institutional accumulation.',
+          source: 'r/Bitcoin (156↑)'
+        },
+        {
+          rating: 3,
+          headline: 'Grayscale GBTC inflows surge 12% — traditional finance adoption accelerates',
+          detail: 'BlackRock/Grayscale combination processing $2.3B+ daily inflows. ETF net inflows sustain despite near-all-time-high valuations.',
+          source: 'ETF Flow Analytics'
+        },
+        {
+          rating: 2,
+          headline: 'Fear/Greed index at 56 — retail FOMO sentiment emerging',
+          detail: 'Market sentiment indicator shifted from 48 (fear) to 56 (neutral-greedy). Suggests growing retail interest but institutional positioning remains controlled.',
+          source: 'Crypto Fear & Greed Index'
+        }
+      ]
+    },
+    {
+      icon: 'Ξ',
+      title: 'Ethereum',
+      signals: [
+        {
+          rating: 4,
+          headline: 'Pectra Shanghai upgrade nears final Q2 launch — staking yields normalize',
+          detail: 'Testnet validators exceed 95% participation; mainnet activation expected May 15. Post-upgrade MEV infrastructure optimizations reduce base fees by 18% historical average.',
+          source: 'Ethereum Foundation'
+        },
+        {
+          rating: 3,
+          headline: 'Layer 2 TVL climbs to $92B — Arbitrum + Optimism + Base momentum sustained',
+          detail: 'Cross-chain bridge volume peaks as L2 ecosystem matures. Arbitrum maintains 36% market dominance; Optimism grows +11% week-over-week.',
+          source: 'DeFiLlama'
+        },
+        {
+          rating: 3,
+          headline: 'Uniswap V4 production launch confirmed for May 8 — new fee models go live',
+          detail: 'Mainnet production launch schedule finalized. Dynamic fee mechanisms reduce slippage by 35% vs V3 on high-volatility asset pairs.',
+          source: 'Uniswap Governance'
+        },
+        {
+          rating: 2,
+          headline: 'MEV-Burn rate sustains at $3.2M daily — validator economics stable post-Dencun',
+          detail: 'Burn protocol operating efficiently; no gas optimization regressions observed. Solo staker participation now 1.04M validators.',
+          source: 'Ethereum Data'
+        }
+      ]
+    }
+  ]
+},,
+{
   id: 'issue-2026-04-02-8am',
   issueNumber: 47,
   date: 'April 2, 2026',
