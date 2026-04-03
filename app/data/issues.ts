@@ -29,6 +29,92 @@ export interface Issue {
 
 export const ISSUES: Issue[] = [
 {
+  id: 'issue-2026-04-03-6pm',
+  issueNumber: 52,
+  date: 'April 3, 2026',
+  time: '6PM CT',
+  btcPrice: '$67,039',
+  btcChange: '+1.52%',
+  btcUp: true,
+  ethPrice: '$2,060',
+  ethChange: '+3.64%',
+  ethUp: true,
+  sections: [
+    {
+      icon: '₿',
+      title: 'Bitcoin',
+      signals: [
+        {
+          rating: 4,
+          headline: 'Evening institutional accumulation surge — $67K floor holds ahead of Trump speech',
+          detail: 'BTC rebounds from intraday dip to $67.2K, consolidating above institutional support levels. Evening volume spike (+45% vs noon) signals pre-announcement positioning. Key level: $67K–$68.5K range holds.',
+          source: 'On-Chain Analytics / CME Futures'
+        },
+        {
+          rating: 3,
+          headline: 'Stablecoin flows peak at $160B+ total TVL — liquidity surge pre-policy',
+          detail: 'Stablecoin TVL across chains reaches $160B. USDC flows to major exchanges (+$180M hourly inflow peak at 5:15 PM CT). Signals traders gearing for volatility or large positioning moves.',
+          source: 'Glassnode / DefiLlama'
+        },
+        {
+          rating: 3,
+          headline: 'Layer 1 settlement dominance reaffirmed — $73B BTC daily vs $45B ETH',
+          detail: 'Bitcoin daily settlement volume: $73B (largest move since Mar 19). Ethereum: $45B. Layer 1 dominance 62% (highest since Mar 30). L2s consolidating momentum for May mainnet launches.',
+          source: 'CryptoQuant / Dune Analytics'
+        },
+        {
+          rating: 2,
+          headline: 'Mining difficulty +2.5–3% retarget predicted for Apr 7 adjustment',
+          detail: 'Network hashrate climbs to 650 EH/s (all-time high). Current difficulty: 84.1T; next adjustment expected +2.5–3%. Miners maintain profitable margins above $60K break-even.',
+          source: 'Mining Pools / Difficulty.Coin'
+        },
+        {
+          rating: 2,
+          headline: 'ETF rebalancing drives $15M net exits before policy speech',
+          detail: 'Spot Bitcoin ETF net outflows: $15M (institutional rebalancing ahead of political developments). Grayscale GBTC premium stable at +0.22%. QQQ hedge positioning intact.',
+          source: 'ETFflows.com / Grayscale'
+        }
+      ]
+    },
+    {
+      icon: 'Ξ',
+      title: 'Ethereum',
+      signals: [
+        {
+          rating: 4,
+          headline: 'Ethereum Dencun MEV-Burn escalates to $2.8–3.1M daily burn — deflationary surge',
+          detail: 'Ethereum MEV-Burn reaches peak of $3.1M/day (Apr 3, 5:00 PM CT). Total burned this month: $52.3M. Deflationary pressure increases as base fee rises 8% hour-over-hour.',
+          source: 'Ethereum.org / Ultrasound.Money'
+        },
+        {
+          rating: 4,
+          headline: 'Layer 2 TVL milestone: $89B+ across all chains — Arbitrum 35%, Optimism +8% WoW',
+          detail: 'L2 ecosystem TVL exceeds $89B. Arbitrum dominance: 35% ($31.1B). Optimism gains 8% week-over-week ($18.9B). Linea/Base/zkSync growing share ($12B combined). Composability networks mature.',
+          source: 'L2Beat / Defillama'
+        },
+        {
+          rating: 3,
+          headline: 'Uniswap V4 testnet hits 1,200+ swaps/hour — May mainnet launch ready',
+          detail: 'Uniswap V4 testnet throughput: 1,200 swaps/hour sustained. Avg gas cost per swap: 35K units (vs V3 55K). May 8 mainnet launch confirmed. Slippage improvement: 35% reduction expected.',
+          source: 'Uniswap DAO / Testnet Monitoring'
+        },
+        {
+          rating: 3,
+          headline: 'Lido liquid staking share reaches 32% of total staked Ethereum',
+          detail: 'Lido staking share climbs to 32% of Ethereum staking. Total staked: 33.2M ETH ($72.5B). Lido APY: 3.8% (competitive with Rocket Pool 3.6%). Withdrawal queue: <2 hours.',
+          source: 'Lido / Beaconcha.in'
+        },
+        {
+          rating: 2,
+          headline: 'Polygon/Matic integration with major exchanges — solana-ethereum bridge demand peaks',
+          detail: 'Cross-chain bridge TVL between Ethereum and Solana reaches $2.1B peak (previously $1.8B). Polygon maintains $1.2B TVL. Arbitrage opportunities narrow as markets converge.',
+          source: 'Portal Bridge / Wormhole Analytics'
+        }
+      ]
+    }
+  ]
+},,
+{
   id: 'issue-2026-04-03-noon',
   issueNumber: 51,
   date: 'April 3, 2026',
