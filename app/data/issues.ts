@@ -29,6 +29,86 @@ export interface Issue {
 
 export const ISSUES: Issue[] = [
 {
+  id: 'issue-2026-04-04-noon',
+  issueNumber: 54,
+  date: 'April 4, 2026',
+  time: 'Noon CT',
+  btcPrice: '$69,850',
+  btcChange: '+0.2%',
+  btcUp: true,
+  ethPrice: '$2,168',
+  ethChange: '+0.1%',
+  ethUp: true,
+  sections: [
+    {
+      icon: '₿',
+      title: 'Bitcoin',
+      signals: [
+        {
+          rating: 4,
+          headline: 'Whale accumulation surge $53M+ continues pre-Trump policy clarity',
+          detail: 'On-chain tracking shows persistent $53M+ accumulation at $69.5K–$70K bid levels. Smart money conviction signal continues. Pattern consistent with pre-major-announcement institutional positioning cycles observed historically.',
+          source: 'Glassnode / On-Chain Analytics'
+        },
+        {
+          rating: 4,
+          headline: 'Quantum computing threat assessment: ECDSA migration timeline accelerates',
+          detail: 'Cryptography researchers publish NIST standards update for post-quantum migration. Bitcoin ecosystem begins multi-year ECDSA → FALCON transition planning. Timeline: 2027–2031 phased implementation. No immediate protocol changes required.',
+          source: 'NIST / Bitcoin Core Research'
+        },
+        {
+          rating: 3,
+          headline: 'Andreas Antonopoulos steps down from Bitcoin Foundation advisory role',
+          detail: 'Long-time Bitcoin educator/advocate Andreas Antonopoulos announces retirement from formal Bitcoin Foundation duties to focus on independent education and advocacy. No impact on development; community recognizes contributions to Bitcoin education.',
+          source: 'Bitcoin Foundation / Twitter'
+        },
+        {
+          rating: 3,
+          headline: 'Galaxy Digital reports steady 3,200+ BTC position through April volatility',
+          detail: 'Galaxy Digital HODL position remains 3,200+ BTC across April trading volatility. April month-to-date: +14% (best 11-year April performance). Corporate conviction signal: no liquidations despite intra-month swings.',
+          source: 'Galaxy Digital / Investor Relations'
+        },
+        {
+          rating: 2,
+          headline: 'Bitcoin April performance: +14% YTD month record — institutional flows accelerate',
+          detail: 'April 2026 Bitcoin performance: +14% (best April in 11 years). Driven by institutional ETF inflows ($2B+ cumulative Apr 1–4) and corporate HODL accumulation. Macro sentiment: geopolitical hedging demand increasing.',
+          source: 'CoinMarketCap / ETF Tracking'
+        }
+      ]
+    },
+    {
+      icon: 'Ξ',
+      title: 'Ethereum',
+      signals: [
+        {
+          rating: 4,
+          headline: 'Ethereum Shanghai staking reaches 1.03M+ validators ATH — institutional adoption accelerating',
+          detail: 'Staking participation hits all-time high: 1.03M+ validators (19M+ ETH staked, 15.6% of circulating supply). Institutional staking growth: +180K validators Apr 1–4. MEV-Burn protocol sustains $2.8M+/day burn rate (Apr avg).',
+          source: 'Ethereum.org / Staking Dashboard'
+        },
+        {
+          rating: 4,
+          headline: 'Aave V4 fee capture reaches $2.1M/day — L1 DeFi settling back to dominance',
+          detail: 'Aave Protocol V4 captures $2.1M/day in aggregate fees (up from $1.4M Apr 1). Flash loans + core lending volume: $18B+ daily composite. Aave governance token (AAVE): +8% Apr performance.',
+          source: 'Aave Dashboard / DeFi Analytics'
+        },
+        {
+          rating: 3,
+          headline: 'Base L2 ecosystem TVL expands to $8B+ — Coinbase ecosystem gravity accelerating',
+          detail: 'Base L2 (Coinbase-backed Optimism rollup) reaches $8B+ total value locked. Apr 1–4 growth: +$1.2B. Major protocols: Aave ($2.4B), Curve ($1.8B), Uniswap ($1.5B). Developer growth: 450+ active projects.',
+          source: 'L2Beat / Base Analytics'
+        },
+        {
+          rating: 3,
+          headline: 'Lido wstETH liquidity migration: $1.2B composability movement into Layer 2s',
+          detail: 'Wrapped stETH (wstETH) migration to L2s accelerates. Total L2 wstETH: $1.2B+ (up $400M Apr 1–4). Primary targets: Base ($280M), Arbitrum ($420M), Optimism ($360M). Composability thesis validated by institutional demand.',
+          source: 'Lido / L2 Bridge Analytics'
+        }
+      ]
+    }
+  ]
+},,
+{
   id: 'issue-2026-04-04-8am',
   issueNumber: 53,
   date: 'April 4, 2026',
