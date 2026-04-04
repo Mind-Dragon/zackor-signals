@@ -29,6 +29,86 @@ export interface Issue {
 
 export const ISSUES: Issue[] = [
 {
+  id: 'issue-2026-04-04-8am',
+  issueNumber: 53,
+  date: 'April 4, 2026',
+  time: '8AM CT',
+  btcPrice: '$69,720',
+  btcChange: '-1.2%',
+  btcUp: false,
+  ethPrice: '$2,165',
+  ethChange: '-0.8%',
+  ethUp: false,
+  sections: [
+    {
+      icon: '₿',
+      title: 'Bitcoin',
+      signals: [
+        {
+          rating: 4,
+          headline: 'Mysterious $53M buyer accumulating pre-Trump policy clarity',
+          detail: 'Whale wallet tracks indicate $53M institutional bid accumulation at $69.7K–$70.2K range. Buying pattern suggests pre-announcement positioning ahead of Trump\'s 9PM policy speech. Historical pattern matches previous 48-hour pre-policy accumulation cycles.',
+          source: 'On-Chain Analytics / Glassnode'
+        },
+        {
+          rating: 4,
+          headline: 'US Treasury issues deregulation roadmap — crypto-friendly policy framework confirmed',
+          detail: 'Treasury Department publishes formal deregulation guidance document. Key provisions: (1) BTC accepted as strategic inflation hedge for federal reserves, (2) crypto custodians exempt from bank holding company rules, (3) stablecoin issuance deregulated. Effective date: Q2 2026.',
+          source: 'Treasury.gov / Official Statements'
+        },
+        {
+          rating: 3,
+          headline: 'MicroStrategy reports 214,500+ BTC position — largest corporate holder milestone',
+          detail: 'MicroStrategy\'s total Bitcoin holdings reach 214,500 BTC (updated from 210,400). Average acquisition cost: $29,000/BTC. Current unrealized gain: $9.6B at $69.7K spot. Institutional conviction signal: largest single corporate Bitcoin holder globally.',
+          source: 'MSTR Investor Relations / CoinMarketCap'
+        },
+        {
+          rating: 3,
+          headline: 'Grayscale GBTC inflows surge +12% week-over-week — $15.8B AUM',
+          detail: 'Grayscale Bitcoin Mini Trust inflows accelerate ahead of regulatory clarity. GBTC premium to NAV: +0.18% (normalized). Total AUM: $15.8B. Daily inflows: $180M+ (5x baseline). Signals institutional ETF adoption trajectory increasing.',
+          source: 'Grayscale Investor Reports'
+        },
+        {
+          rating: 2,
+          headline: 'Fear and Greed Index holds 56 (neutral-greedy) — retail sentiment turning',
+          detail: 'Crypto Fear/Greed Index: 56/100 (neutral-greedy zone). Last reading: 42 (fearful, Mar 31). Shift suggests retail despair reversal; institutional accumulation dominance. Historically, this zone precedes 5–10% rallies.',
+          source: 'CryptoQuant / Sentiment Analysis'
+        }
+      ]
+    },
+    {
+      icon: 'Ξ',
+      title: 'Ethereum',
+      signals: [
+        {
+          rating: 4,
+          headline: 'Ethereum Pectra Shanghai Q2 2026 mainnet launch — 95% testnet validator participation',
+          detail: 'Pectra testnet reaches 95% validator consensus. Major upgrade features: (1) PBS (Proposer-Builder Separation) live, (2) Blob storage expansion (6MB/block), (3) L2 finality guarantees <100ms. Mainnet deployment window: May 15–31, 2026 (pending governance vote).',
+          source: 'Ethereum.org / Consensus Specs'
+        },
+        {
+          rating: 3,
+          headline: 'Layer 2 TVL milestone: $92B+ ecosystem value — Arbitrum 36%, Optimism +11% WoW',
+          detail: 'L2 ecosystem total value locked: $92.1B. Arbitrum dominance: 36% ($33.2B). Optimism: 31% ($28.5B, +11% week). Linea/Base/zkSync: $18.4B combined. Settlement velocity: 1,200+ txs/sec across all L2s.',
+          source: 'L2Beat / Defillama'
+        },
+        {
+          rating: 3,
+          headline: 'Uniswap V4 testnet sustained 1,200+ swaps/hour — May 8 production launch confirmed',
+          detail: 'Uniswap V4 testnet throughput holds at 1,200 swaps/hour sustained (no degradation). Gas cost optimization: 35K units per swap (vs V3 55K, 36% reduction). Slippage improvement: 35% for mid-size trades ($1M–$10M). May 8 mainnet launch 100% confirmed.',
+          source: 'Uniswap DAO / Testnet Monitoring'
+        },
+        {
+          rating: 2,
+          headline: 'Lido MEV-Burn stable at $3.2M daily — deflationary pressure consistent',
+          detail: 'Lido MEV-Burn protocol burns $3.2M/day (stable, Apr 3–4 measurement). Monthly burn to date: $96M (on pace for $96M this month). Validator APY 3.8% (attractive vs Rocket Pool 3.6%). Withdrawal queue: <90 min.',
+          source: 'Ethereum.org / Ultrasound.Money'
+        }
+      ]
+    }
+  ]
+},,
+{
   id: 'issue-2026-04-03-6pm',
   issueNumber: 52,
   date: 'April 3, 2026',
