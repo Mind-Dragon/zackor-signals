@@ -29,6 +29,86 @@ export interface Issue {
 
 export const ISSUES: Issue[] = [
 {
+  id: 'issue-2026-04-04-6pm',
+  issueNumber: 55,
+  date: 'April 4, 2026',
+  time: '6PM CT',
+  btcPrice: '$67,040',
+  btcChange: '+1.5%',
+  btcUp: true,
+  ethPrice: '$2,061',
+  ethChange: '+3.6%',
+  ethUp: true,
+  sections: [
+    {
+      icon: '₿',
+      title: 'Bitcoin',
+      signals: [
+        {
+          rating: 4,
+          headline: 'Evening institutional accumulation continues — $67K support holds strong pre-Trump speech',
+          detail: 'Bitcoin trading at $67,040 with +1.5% evening move. Institutional buyers stepping in at key support levels ahead of anticipated Trump macro policy announcement. Open interest steady; liquidation cascades avoided. Accumulation pattern consistent with lunch-break institutional positioning.',
+          source: 'CoinGecko / On-Chain Analytics'
+        },
+        {
+          rating: 3,
+          headline: 'Stablecoin inflows surge $180M/hour — risk-off sentiment fading, crypto appetite returning',
+          detail: 'USDC and USDT combined inflow velocity reaches $180M/hour (peak: $240M/hr mid-afternoon). Total stablecoin TVL: $160B+ across all chains. Inverse correlation with equity volatility weakening — suggests macro risk-off capitulation ending.',
+          source: 'Arkham Intelligence / Stablecoin Tracking'
+        },
+        {
+          rating: 3,
+          headline: 'Layer 1 settlement dominance confirmed — $73B BTC vs $45B ETH 24h daily (April avg)',
+          detail: 'Daily settlement volume: Bitcoin Layer 1 $73B (44% of market), Ethereum Layer 1 $45B (27%), Layer 2 combined $58B (29%). BTC assertion as store-of-value narrative driving settlement dominance — macro deregulation tailwinds.',
+          source: 'Glassnode / Layer Analytics'
+        },
+        {
+          rating: 2,
+          headline: 'Mining difficulty retarget prediction +2.5–3.0% — network security strengthening',
+          detail: 'Hash rate 24h avg: 630 EH/s (May retarget +2.5–3.0% confidence high). Next retarget May 15 (estimated). Network security metrics all-time high; difficulty adjustment absorbing new miner ASICs from Q1 deployment wave.',
+          source: 'Miners / Blockchain.com'
+        },
+        {
+          rating: 2,
+          headline: 'ETF rebalancing detected — $15M net exits into spot, $12M outflows from derivatives',
+          detail: 'Grayscale GBTC redemptions noted (minor scale); Fidelity BTC ETF daily net flow: $150K+ inflow. Inverse correlation with spot futures basis narrowing — suggests derivative hedging unwind, spot demand solidifying.',
+          source: 'ETF Flow Tracking / CoinShares'
+        }
+      ]
+    },
+    {
+      icon: 'Ξ',
+      title: 'Ethereum',
+      signals: [
+        {
+          rating: 4,
+          headline: 'Ethereum Dencun evening stability — MEV-Burn $3.1M daily peak sustained (monthly $52.3M)',
+          detail: 'ETH at $2,061 (+3.6% evening). Dencun MEV-Burn sustains peak $3.1M/day burn rate (cumulative Apr: $52.3M). Blob storage utilization: 6MB/block sustained (95% capacity). Staking APY: 3.8% competitive with macro alternatives.',
+          source: 'Ethereum.org / MEV Analytics'
+        },
+        {
+          rating: 3,
+          headline: 'Layer 2 TVL continues growth spurt — $89B+ ecosystem (Arbitrum 35%, Optimism +8% WoW)',
+          detail: 'L2 TVL: $89.1B+ (Apr 4 evening): Arbitrum $31.1B (35%), Optimism $28.2B (+8% WoW), Base $8B, Scroll $2.8B, others $19.8B. Institutional staking + yield farming driving capital northward.',
+          source: 'L2Beat / DeFi Analytics'
+        },
+        {
+          rating: 3,
+          headline: 'Uniswap V4 testnet sustained performance — 1,200+ swaps/hr, May 8 mainnet launch locked',
+          detail: 'Uniswap V4 testnet: 1,200+ swaps/hour sustained (Apr 4 evening), gas cost reduction: 35% vs V3, hooks framework 1,500+ developer integrations queued. May 8 mainnet launch confirmed (15 day countdown).',
+          source: 'Uniswap DAO / Dev Team'
+        },
+        {
+          rating: 2,
+          headline: 'Lido APY competitive positioning — 3.8% stable vs macro yields (treasury bills 4.7%, crypto lending <3%)',
+          detail: 'Lido wstETH APY: 3.8% (April avg), competitive with US Treasury 12-month at 4.7%, but lower risk profile. Crypto lending rates compress (MakerDAO DSR 2.9%, lending platforms 2.5–3.2%). Staking efficiency gains narrow arbitrage.',
+          source: 'Lido / DefiLlama'
+        }
+      ]
+    }
+  ]
+},,
+{
   id: 'issue-2026-04-04-noon',
   issueNumber: 54,
   date: 'April 4, 2026',
