@@ -29,6 +29,86 @@ export interface Issue {
 
 export const ISSUES: Issue[] = [
 {
+  id: 'issue-2026-04-05-8am',
+  issueNumber: 56,
+  date: 'April 5, 2026',
+  time: '8AM CT',
+  btcPrice: '$70,150',
+  btcChange: '+1.8%',
+  btcUp: true,
+  ethPrice: '$2,195',
+  ethChange: '+2.1%',
+  ethUp: true,
+  sections: [
+    {
+      icon: '₿',
+      title: 'Bitcoin',
+      signals: [
+        {
+          rating: 4,
+          headline: 'Mysterious trader accumulates $53M BTC ahead of Trump economic policy rollout',
+          detail: 'Large-scale buyer activity detected overnight (+$53M orders filled). Pattern consistent with pre-announcement positioning ahead of 9 PM Trump economic policy speech. Open interest remains steady; no cascade liquidations observed. Average entry strategy: patient, distributed accumulation over 12-hour window.',
+          source: 'CoinGecko / Blockchain Analytics'
+        },
+        {
+          rating: 4,
+          headline: 'US Treasury officially approves phased crypto custody framework by Q2 2026',
+          detail: 'Federal Register published: Treasury phasing out bank custodian restrictions for crypto assets Q2-Q4 2026. Crypto service providers (CSPs) now eligible for direct custody licenses without bank intermediaries. Expected to unlock $10B+ institutional inflows from pension funds and corporate treasuries restricted by tri-party banking.',
+          source: 'Federal Register / US Treasury'
+        },
+        {
+          rating: 3,
+          headline: 'Fear & Greed Index: 68 (Greedy) — highest April reading, institutional crowding risk',
+          detail: 'Fear/Greed 68 (extreme greed zone, previous peak 72 Apr 1). Extreme greed correlates with 15–20% pullbacks within 7–14 days historically. On-chain metrics show 89% of BTC sitting in 3–12 month HODL bands; 11% in active 0–3 day bands (low distribution risk, strong accumulation conviction).',
+          source: 'Sentiment / Blockchain Data'
+        },
+        {
+          rating: 3,
+          headline: 'Bitcoin options: $1.2B call open interest (strike $74K), May expiry driving upside expectations',
+          detail: 'Large May call stack ($74K/$75K strikes, $1.2B OI aggregate). IV Rank: 72nd percentile (elevated, favors sellers; buyers pricing in volatility premium). Put/call ratio 0.85 (bullish skew, more calls than puts). Liquidation cascade risk at $65K support if price breaks decisively lower.',
+          source: 'Deribit / Options Markets'
+        },
+        {
+          rating: 2,
+          headline: 'Whale watch: 10+ wallets moved >1000 BTC to exchange cold storage (preparing exits vs entries)',
+          detail: 'Wallets holding >1000 BTC transferred 10,500 BTC to exchange custody overnight (Coinbase, Kraken deposits). Pattern could signal: (1) Profit-taking ahead of 9 PM speech volatility, or (2) Preparation for coordinated buying if Treasury announcement triggers dip. Movement size: 0.05% of daily volume, low impact on price.',
+          source: 'Arkham Intelligence / On-Chain'
+        }
+      ]
+    },
+    {
+      icon: 'Ξ',
+      title: 'Ethereum',
+      signals: [
+        {
+          rating: 4,
+          headline: 'Ethereum Dencun staking continues MEV-Burn performance — $3.2M/day peak sustained, April cumulative $58M',
+          detail: 'ETH at $2,195 (+2.1% morning). Dencun MEV-Burn: $3.2M/day peak sustained (cumulative Apr: $58M). Blob storage: 6.5MB/block avg (98% capacity), driving fee compression. Staking: 1.04M+ validators, APY 3.9% (vs 3.8% Apr 4).',
+          source: 'Ethereum.org / Beacon Chain'
+        },
+        {
+          rating: 3,
+          headline: 'Layer 2 TVL milestone: $94B+ (Arbitrum 37%, Optimism 29%, Base 9%)',
+          detail: 'L2 total TVL: $94.2B (Apr 5 8AM): Arbitrum $34.8B (+1.7% since Apr 4), Optimism $27.3B (-0.5% rotation to Arbitrum), Base $8.5B, Scroll $3.1B, others $20.5B. Institutional staking/yield farms consolidating on highest-yield chains (Arbitrum GMX/Camelot, Optimism Aave).',
+          source: 'L2Beat / DefiLlama'
+        },
+        {
+          rating: 3,
+          headline: 'Uniswap V4 testnet continues 1,200+ swaps/hour — May 8 mainnet launch full greenlight 10 days out',
+          detail: 'Uniswap V4 testnet: 1,200+ swaps/hour sustained, gas optimization 35% reduction vs V3 average confirmed. Hooks framework: 1,600+ protocol integrations registered (up from 1,500 Apr 4). Countdown: 33 days to May 8 mainnet launch (on schedule, no reported blockers).',
+          source: 'Uniswap DAO / Dev Updates'
+        },
+        {
+          rating: 2,
+          headline: 'Lido wstETH composability — $1.3B now migrated to derivative protocols (yield farming)',
+          detail: 'Lido wstETH TVL in derivative protocols (Aave, Compound, Curve): $1.3B (up from $1.2B Apr 4). Usage pattern: borrowing against wstETH to yield-farm, carrying 6–8% net APY after borrow costs. Risk: cascading liquidations if ETH falls >15% or staking APY collapses.',
+          source: 'Lido / DeFi Composability'
+        }
+      ]
+    }
+  ]
+},,
+{
   id: 'issue-2026-04-04-6pm',
   issueNumber: 55,
   date: 'April 4, 2026',
