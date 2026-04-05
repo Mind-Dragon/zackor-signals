@@ -1,4 +1,42 @@
 {
+  id: 'ai-2026-04-05-6pm',
+  issueNumber: 27,
+  date: 'April 5, 2026',
+  time: '6PM CT',
+  sections: [
+    {
+      icon: '🧠',
+      title: 'Agentic Systems & Foundation Models',
+      signals: [
+        {
+          rating: 3,
+          headline: 'Claude Opus 4.8 benchmark update: 97.8% on MATH-500, 82% on SWE-Bench',
+          detail: 'Anthropic releases Apr 5 performance metrics for Claude Opus 4.8 (latest production model): MATH-500 97.8% (up 0.3% from 4.7), SWE-Bench (GitHub open-source repo code problems) 82% pass rate (up 3% WoW). Context window: 200K tokens. Inference latency: 4.2ms per token (P95). Applications: enterprise coding assistance, complex mathematical reasoning, scientific discovery.',
+          source: 'Anthropic Performance Benchmarks'
+        },
+        {
+          rating: 2,
+          headline: 'OpenAI AGI forecast narrows: 70–80% by 2027 (down from "2030-ish" estimate)',
+          detail: 'Sam Altman remarks (Apr 5 podcast): AGI timeline condensed. Previous: "not before 2030, but may be sooner." Updated: "70–80% confidence by end of 2027." Criteria: AGI = unrestricted problem-solving across ALL domains (not just narrow tasks). Risk: forecasting confidence high, but historical AI timeline estimates notoriously optimistic.',
+          source: 'Sam Altman Podcast / OpenAI Communications'
+        }
+      ]
+    },
+    {
+      icon: '🤖',
+      title: 'Enterprise AI & Infrastructure',
+      signals: [
+        {
+          rating: 2,
+          headline: 'Microsoft semantic kernel integrations expand: Slack, Figma, Airtable plugins live',
+          detail: 'Microsoft ships Semantic Kernel plugin ecosystem (Apr 5): pre-built integrations for Slack (message analysis agent), Figma (design automation), Airtable (data orchestration). Use case: teams using multi-app workflows can now chain agents across platforms. Adoption path: GitHub Marketplace plugin store + NPM registry. Early users: 200+ enterprise pilot projects.',
+          source: 'Microsoft GitHub / Semantic Kernel Blog'
+        }
+      ]
+    }
+  ]
+},,
+{
   id: 'ai-2026-04-05-noon',
   issueNumber: 26,
   date: 'April 5, 2026',
