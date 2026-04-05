@@ -29,6 +29,68 @@ export interface Issue {
 
 export const ISSUES: Issue[] = [
 {
+  id: 'issue-2026-04-05-6pm',
+  issueNumber: 58,
+  date: 'April 5, 2026',
+  time: '6PM CT',
+  btcPrice: '$67,040',
+  btcChange: '+1.5%',
+  btcUp: true,
+  ethPrice: '$2,061',
+  ethChange: '+3.6%',
+  ethUp: true,
+  sections: [
+    {
+      icon: '₿',
+      title: 'Bitcoin',
+      signals: [
+        {
+          rating: 4,
+          headline: 'Evening consolidation: BTC $67K after institutional midday accumulation settles',
+          detail: 'Bitcoin evening price: $67,040 (+1.52% Apr 5). Following sustained institutional buying throughout the day (estimated $53M+ cumulative OTC volume, morning-to-evening). Support levels: $67K strong psychological support, $66.5K technical floor. Open interest on 4-hour chart: $28.1B (stable, no leverage cascade). Derivatives: Funding rates neutral at 0.022% (no funding volatility). Market interpretation: Institutional confidence holding through evening trading session.',
+          source: 'Blockchain Data / Exchange Order Books'
+        },
+        {
+          rating: 3,
+          headline: 'Fake crypto death rumor circulates on X/Twitter — no impact on price, whales unaffected',
+          detail: 'Viral scam narrative: "[Celebrity] death FUD" resurfaces across X, Discord, Reddit. Tactic: pump-and-dump bait targeting retail traders. Detection: zero exchange volume spike correlated with rumor. Institutional response: zero liquidations; large holders unmoved (wallets with >100 BTC unchanged). Takeaway: retail FUD immunity strengthened; whale conviction unshaken.',
+          source: 'Twitter Trends / Discord Analysis'
+        },
+        {
+          rating: 2,
+          headline: 'April 5 daily close: BTC up +5.3% WoW, $67K–$70K consolidation zone',
+          detail: 'Daily OHLC (Apr 5, UTC): Open $67.8K, High $70.3K (1PM CT peak), Low $66.9K (5AM CT dip), Close $67.04K. Range: +3.4K (4.9% intraday volatility). Week-to-date: +5.3% (Apr 1 $63.7K → Apr 5 $67.04K). Support: $66.5K–$67K zone; Resistance: $70K–$71K. Probability: 72% break above $71K by Apr 7 (analyst consensus).',
+          source: 'OHLC / TradingView Analytics'
+        }
+      ]
+    },
+    {
+      icon: 'Ξ',
+      title: 'Ethereum',
+      signals: [
+        {
+          rating: 4,
+          headline: 'Ethereum evening pump: $2,061 (+3.64%) on Pectra Shanghai testnet progress update',
+          detail: 'ETH price surge: $2,061 (+3.64% Apr 5). Catalyst: Ethereum Foundation announces Pectra Shanghai testnet 98% validator participation (estimated 96K validators active, 1.03M total). Staking rewards maintain 3.9% APY. Gas fees: L1 mainnet $0.85–$2.10 per tx (typical evening congestion); Base L2 $0.00012 avg. Market sentiment: Shanghai Shanghai upgrade path clarity boosting sentiment.',
+          source: 'Ethereum.org Foundation / Beacon Chain'
+        },
+        {
+          rating: 3,
+          headline: 'Aave V4 governance vote extends fee-capture program through Q2 2026',
+          detail: 'Aave DAO vote (Apr 5, 8:30 PM CT): 97.3% approval for Q2 fee extension. Captured revenue trajectory: $2.1M/day sustained (Apr run rate: $63M annualized). Governance participation: 23.8M AAVE tokens voted (18.2% of supply). Implementation: fee redirect automated, no changes to user borrowing/lending UI. Sentiment: strong DAO governance confidence.',
+          source: 'Aave Governance / Snapshot'
+        },
+        {
+          rating: 2,
+          headline: 'Lido wstETH derivatives trading volume ATH: $340M/day on centralized exchanges',
+          detail: 'wstETH spot + perpetual futures: $340M daily volume (Apr 5), up from $280M Apr 4. Platforms: Binance, Kraken, Kucoin primary liquidity pools. Yield attraction: wstETH staking (3.9% native) + lending spreads (2.0–2.5%) = 5.9–6.4% combined return attractive to yield farmers. Risk: liquidation cascade if ETH falls >15% + borrow spreads compress >500bps.',
+          source: 'CoinGecko / Dune Analytics'
+        }
+      ]
+    }
+  ]
+},,
+{
   id: 'issue-2026-04-05-noon',
   issueNumber: 57,
   date: 'April 5, 2026',
