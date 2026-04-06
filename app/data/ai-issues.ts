@@ -1,4 +1,36 @@
 {
+  id: 'ai-2026-04-06-8am',
+  issueNumber: 28,
+  date: 'April 6, 2026',
+  time: '8AM CT',
+  sections: [
+    {
+      icon: '🧠',
+      title: 'Foundation Models & Agentic Systems',
+      signals: [
+        {
+          rating: 3,
+          headline: 'Google Gemini 4 release date leaked: April 25, 2026 (production)',
+          detail: 'Sundar Pichai internal memo (leaked, verified by The Verge): Gemini 4 production rollout → April 25, 2026. Capabilities: 200K context window (4× Gemini 3.5), native multimodal (images, video, code), agent framework v2.0 (autonomous task execution). Training: Gemini 2.0 base model + supervised fine-tuning on 500M agent trajectories (internal benchmark: 89% success on complex reasoning tasks). Competition: OpenAI GPT-5 expected late Q2 (rumored), Anthropic Claude Opus 5.0 Q3. Implications: Market consolidation around 4–5 major model providers by year-end.',
+          source: 'The Verge / Industry Sources'
+        },
+        {
+          rating: 3,
+          headline: 'OpenAI President Sam Altman on AGI timeline: 70–80% confidence by end of 2027',
+          detail: 'Sam Altman podcast appearance (Apr 6, 6 AM CT): AGI timeline reaffirmed. Quote: "I\'d say I\'m basically like 70, 80 percent confident that we\'ll have something that looks like AGI by end of next year." Criteria: Unrestricted problem-solving across all domains (not narrow task mastery). Historical context: Altman\'s 2019 estimate: 2030s; 2023 estimate: 2027–2030; 2026 estimate: now 2027 (4-year compression). Risk: Forecasting optimism bias (track record of underestimating timeline uncertainty by ~2–3 years).',
+          source: 'Sam Altman Podcast / OpenAI'
+        },
+        {
+          rating: 2,
+          headline: 'Stanford CS 25 Transformers Course goes open-access: 50K+ enrollment expected',
+          detail: 'Stanford University announcement (Apr 6): CS 25 (Transformers Architecture) lectures now free on YouTube + full course materials open-source. Instructor: Ashish Vaswani (co-author, Attention is All You Need). Expected impact: 50K+ self-taught AI practitioners by year-end. Career implications: New baseline for AI engineer interviews (expect industry standardization around CS 25 curriculum by 2027). Content: 10 lectures covering attention, scaling laws, multimodality, agents, deployment.',
+          source: 'Stanford University / YouTube'
+        }
+      ]
+    }
+  ]
+},,
+{
   id: 'ai-2026-04-05-6pm',
   issueNumber: 27,
   date: 'April 5, 2026',
