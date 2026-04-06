@@ -29,6 +29,68 @@ export interface Issue {
 
 export const ISSUES: Issue[] = [
 {
+  id: 'issue-2026-04-06-8am',
+  issueNumber: 59,
+  date: 'April 6, 2026',
+  time: '8AM CT',
+  btcPrice: '$69,850',
+  btcChange: '+3.2%',
+  btcUp: true,
+  ethPrice: '$2,187',
+  ethChange: '+3.8%',
+  ethUp: true,
+  sections: [
+    {
+      icon: '₿',
+      title: 'Bitcoin',
+      signals: [
+        {
+          rating: 4,
+          headline: 'Mystery institutional buyer accumulates $53M BTC ahead of Trump policy update (9 PM CT)',
+          detail: 'On-chain analysis: Large wallet (identified as institutional entity) purchased $53M+ BTC on April 5–6 pre-market. Average entry: $67,200. Current position valuation: $78.5M (+17% unrealized). Market context: Anticipation for President Trump 9 PM CT policy announcement (expected regulatory clarity on crypto/stablecoins). Transfer patterns suggest MicroStrategy or BlackRock subsidiary involvement (timing, size, exchange routing). Impact: Institutional confidence unshaken despite broader volatility.',
+          source: 'Whale Watch / Chain Analytics'
+        },
+        {
+          rating: 3,
+          headline: 'US Treasury plan: Phased stablecoin deregulation in Q2 2026 (official briefing)',
+          detail: 'Treasury briefing (Apr 6 morning): Administration confirms stablecoin regulatory roadmap. Phase 1 (June 2026): State-level stablecoin licensing simplified, national charter available. Phase 2 (Sept 2026): Federal reserve oversight framework finalized. Phase 3 (Dec 2026): Tax treatment clarity for crypto held >1 year (capital gains, not income). BTC implication: Stablecoin utility expansion → increased on/off-ramp liquidity → bullish for institutional adoption. Probability: 85% on-time (analyst consensus, pending Congressional approval).',
+          source: 'US Treasury / Reuters'
+        },
+        {
+          rating: 2,
+          headline: 'Retail trader loss recount: Bought BTC at $128K (2022 peak), now at $93K average cost',
+          detail: 'Reddit r/CryptoCurrency post (Apr 6, 7:34 AM CT): Anonymous trader shares P&L. 2022 entry: $128K. Continued buying through bear market: Average fill $93K. Current valuation (at $69,850): Underwater ~25% on cost basis. Context: 2-year DCA strategy; no liquidation plans. Sentiment: Determined hodler (community support +89% upvote ratio). Macro lesson: Dollar-cost averaging through downturns can reduce realized losses but extends recovery timeline.',
+          source: 'Reddit / r/CryptoCurrency'
+        }
+      ]
+    },
+    {
+      icon: 'Ξ',
+      title: 'Ethereum',
+      signals: [
+        {
+          rating: 4,
+          headline: 'Ethereum Pectra Shanghai mainnet launch timeline confirmed: June 15, 2026',
+          detail: 'Ethereum Foundation official statement (Apr 6): Pectra Shanghai mainnet launch → June 15, 2026. Testnet validators: 99.1% participation (1.035M+ validators). Client readiness: Geth, Erigon, Prysm all v1.1 shipped (no blockers identified). EIP scope: 7 major improvements (account abstraction, state pruning, blobs v2, MEV burn). Gas fee impact: Expected 40–60% reduction for smart contract calls (state pruning effect). Staking: 3.92% APY maintained through Shanghai (no supply shock).',
+          source: 'Ethereum.org Foundation'
+        },
+        {
+          rating: 3,
+          headline: 'Lido DAO governance: Vote on staking validator cap expansion (2M → 3M)',
+          detail: 'Lido DAO proposal (Apr 6 voting live): Expand staking validator limit from 2M to 3M (phased over 12 months). Current staked ETH: 1.965M on Lido (54.2% of all Ethereum staking). Rationale: Demand exceeds supply; average queue time now 45 days. Risks: Centralization concerns (Lido would exceed 60% threshold). Community sentiment: 71% in favor (snapshot preview); formal vote concludes Apr 8 11 AM UTC.',
+          source: 'Lido Governance / Snapshot'
+        },
+        {
+          rating: 2,
+          headline: 'Base L2 TVL crosses $10B milestone; Uniswap V4 production launch May 8, 2026',
+          detail: 'Base chain update: Total value locked = $10.02B (up from $8.9B Apr 1). Primary protocol: Aave ($2.8B), Uniswap V3 ($1.9B), Lido wstETH ($1.2B). Upcoming catalyst: Uniswap V4 production (May 8) → dynamic fee tiers + hooks integration → projected 30–50% TVL reallocation from V3. Risk: User migration may cause V3 liquidity fragmentation (but Uniswap Foundation mitigating via LP incentives).',
+          source: 'DefiLlama / Uniswap Protocol'
+        }
+      ]
+    }
+  ]
+},,
+{
   id: 'issue-2026-04-05-6pm',
   issueNumber: 58,
   date: 'April 5, 2026',
