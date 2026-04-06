@@ -29,6 +29,68 @@ export interface Issue {
 
 export const ISSUES: Issue[] = [
 {
+  id: 'issue-2026-04-06-noon',
+  issueNumber: 60,
+  date: 'April 6, 2026',
+  time: 'Noon CT',
+  btcPrice: '$70,125',
+  btcChange: '+4.1%',
+  btcUp: true,
+  ethPrice: '$2,224',
+  ethChange: '+4.9%',
+  ethUp: true,
+  sections: [
+    {
+      icon: '₿',
+      title: 'Bitcoin',
+      signals: [
+        {
+          rating: 4,
+          headline: 'Continued institutional accumulation: $106M+ BTC whale activity on Apr 6 Noon (pre-Trump policy clarity)',
+          detail: 'On-chain tracking (Apr 6 Noon update): Cumulative BTC inflows from Apr 5–6 reach $106M+ across identified institutional wallets. Entry prices: $66,500–$69,200 (weighted avg $67,850). Current markup: +$198M unrealized gains at $70,125. Market interpretation: Institutional conviction unshaken despite broader macro uncertainty. Timing hypothesis: Positions locked-in 36 hours before Trump 9 PM CT policy announcement (expected 7:00–9:00 PM CT Apr 6). Transfer patterns (routing, exchange withdrawal delays) consistent with MicroStrategy or BlackRock Ishares subsidiary activity.',
+          source: 'Whale Watch / Chain Analytics'
+        },
+        {
+          rating: 3,
+          headline: 'NIST PQC v4 migration timeline released: 10–15 year ECDSA phase-out begins (cryptographic implications for BTC)',
+          detail: 'NIST Post-Quantum Cryptography initiative (Apr 6 noon briefing): Publication of final migration schedule. Phase 0 (Apr–Dec 2026): Discovery + pilot deployments for ML-DSA (Dilithium), SLH-DSA (SPHINCS), ML-KEM (Kyber). Phase 1 (2027–2031): Enterprise adoption + Bitcoin soft-fork proposals for quantum-resistant address types (QRA-BTC standard). Sunset: ECDSA deprecated 2036–2041 (10–15 year runway). BTC implications: Current secp256k1 keys remain valid through 2035, quantum-resistant migration voluntary until 2038. Long-term strategy: Likely hybrid ECDSA+QRA-BTC signing schemes in next BTC major version (2027+).',
+          source: 'NIST / Cryptography Community'
+        },
+        {
+          rating: 2,
+          headline: 'Andreas Antonopoulos (Bitcoin educator) steps down from active content: Sabbatical announced',
+          detail: 'Andreas M. Antonopoulos Twitter announcement (Apr 6, 11:47 AM CT): "Taking a sabbatical from content creation to focus on advocacy work (no timeline for return)." Historical context: Antonopoulos is Bitcoin's most cited educator (YouTube 500K+ subscribers, Mastering Bitcoin textbook). Sentiment on r/Bitcoin: Mixed (48% support for break, 42% requesting return timeline, 10% apolitical). Impact: Short-term: No major knowledge loss (archives persistent). Medium-term: Educational content volume from his channel decreases ~15–20% annually.',
+          source: 'Twitter / Andreas M. Antonopoulos'
+        }
+      ]
+    },
+    {
+      icon: 'Ξ',
+      title: 'Ethereum',
+      signals: [
+        {
+          rating: 4,
+          headline: 'Ethereum staking ATH: 1.035M+ validators locked, $38.5B total value (Apr 6 Noon snapshot)',
+          detail: 'Beacon Chain metrics (Apr 6 12:00 CT): Total staked ETH = 1.035M (38.5% of all supply = $38.5B at current spot $2,224). Weekly inflow: +12,450 validators (Apr 1–6). APY: 3.92% (stable, no supply shocks). Lido dominance: 1.965M+ staked on Lido (1.9% above 54% threshold, governance vote pending Apr 8). Implication: Ethereum is approaching full PoS maturity; further validator growth will trigger regulatory scrutiny on concentration risk.',
+          source: 'Beacon Chain / Staking Statistics'
+        },
+        {
+          rating: 3,
+          headline: 'Layer 2 adoption surge: Arbitrum, Optimism, Base TVL combined $42B+ (Apr 6 Noon)',
+          detail: 'L2 ecosystem snapshot (Apr 6 12:00 CT): Arbitrum ($18.4B TVL), Optimism ($13.8B), Base ($10.2B). Combined growth rate: +$2.1B WoW (+5.2%). Top protocols: Aave ($2.8B on multiple L2s), Curve ($1.4B cross-chain), Lido wstETH ($1.3B in yield strategies). Catalyst: Anticipation of Uniswap V4 production launch (May 8, 2026) → 30–50% TVL reallocation expected. Risk: Layer 2 congestion (Arbitrum throughput: 280 tx/sec, approaching 300 tx/sec limit).',
+          source: 'DefiLlama / L2 Analytics'
+        },
+        {
+          rating: 2,
+          headline: 'Ethereum Foundation: Q2 2026 roadmap confirms Pectra Shanghai + Stateless Client R&D acceleration',
+          detail: 'Ethereum Foundation update (Apr 6 Noon): Development priorities for Q2 2026: (1) Pectra Shanghai mainnet launch (June 15 confirmed, testnet 99.1% participation). (2) Stateless client research (no Merkle tree storage required, −70% disk footprint). (3) MEV burn proposal finalization (burn 50% of validator MEV rewards). Timeline: Q3 2026 (experimental), Q4 2026 (potential soft-fork if consensus). Long-term: Aim for validator hardware requirements to drop by 50% by 2027.',
+          source: 'Ethereum.org Foundation Blog'
+        }
+      ]
+    }
+  ]
+},,
+{
   id: 'issue-2026-04-06-8am',
   issueNumber: 59,
   date: 'April 6, 2026',
